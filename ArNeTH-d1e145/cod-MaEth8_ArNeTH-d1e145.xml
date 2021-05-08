@@ -1,0 +1,599 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 6</title>
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 6</title>
+          <date when="2021-05-08">May 08, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-MaEth8">Paris 1530</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="95-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ArNeTH-d1e145"><!-- arist-l6 -->
+        <head xml:id="ArNeTH-d1e145-Hd1e106">Liber 6</head>
+        <div xml:id="ArNeTH-d1e145-Dd1e109"><!-- arist-l6c1 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e112">Caput 1</head>
+          <p xml:id="ArNeTH-d1e145-d1e115" ana="#heading">
+            <lb ed="#P" n="26"/>SEXTVS LIBER 
+            <lb ed="#P" n="27"/>TRACTATVS PRIMI. CAPVT PRIMVM.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e122">
+            <lb ed="#P" n="28"/>CVm autem antea dictum sit medium expetendum esse: non 
+            exu<lb ed="#P" n="29" break="no"/>perationem, neque defectionem, &amp; medium perinde sese habeat atque 
+            <lb ed="#P" n="30"/>recta ratio dictat: hoc ipsum deinceps diuidamus oportet. In 
+            e<lb ed="#P" n="31" break="no"/>mnibus enim dictis habitibus (quemadmodum &amp; in caeteris) est 
+            <lb ed="#P" n="32"/>quoddam signum ad quod is inspiciens qui rationem habet 
+            in<lb ed="#P" n="33" break="no"/>tendit atque remittit: estque quidam terminus mediocritatum: 
+            <lb ed="#P" n="34"/>quas inter exuperationem defectionemque dicimus esse: ita sese ha 
+            <lb ed="#P" n="35"/>bentes vt recta ratio statuit. Atque sermo talis est quidem verus, 
+            <lb ed="#P" n="36"/>non tamen dilucidus. Nam &amp; in quauis opera: atque cura circa 
+            <lb ed="#P" n="37"/>quam versatur scientia: verum est dicere: neque nimium, neque 
+            pa<lb ed="#P" n="38" break="no"/>rum esse elaborandum vel quiescendum, sed mediocriter: &amp; vt ratio recta praescribit. At qui 
+            <lb ed="#P" n="39"/>hoc tantum habet, nihil plus scierit: vt si quispiam dixerit ea esse corpori afferenda quae 
+            me<lb ed="#P" n="40" break="no"/>dicina &amp; vt is qui hanc habet scientiam iubet. Quapropter &amp; circa habitus animi non mo 
+            <lb ed="#P" n="41"/>do vere hoc dictum esse oportet: sed etiam determinatum quaenam sit ipsa ratio recta, &amp; 
+            <lb ed="#P" n="42"/>quae eius sit diffinitio. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e157">
+            Virtutes itaque animae superioribus in locis diuisimus: &amp; alias 
+            mo<lb ed="#P" n="43" break="no"/>ris, alias mentis diximus esse: atque de moris quidem virtutibus iam transegimus. De 
+            reli<lb ed="#P" n="44" break="no"/>quis vero dicamus oportet: prius hisce de anima declaratis. Duas igitur esse animae partes 
+            <lb ed="#P" n="45"/>antea diximus: eam quae rationis est particeps, &amp; eam quae eiusdem est expers. Nunc 
+            au<lb ed="#P" n="46" break="no"/>tem identidem pars ea quae rationem habet est diuidenda: atque sit suppositum duas esse 
+            <lb ed="#P" n="47"/>parteis quae sunt participes rationis. Vna qua contemplamur ea quorum principia, vt ali 
+            <lb ed="#P" n="48"/>ter sese habeant, minime fieri potest. Alteram qua perspicimus ea, quae aliter sese habere 
+            pos<lb ed="#P" n="49" break="no"/>sunt. Eae nanque animae partes diuersae sunt genere, quae sunt aptae ad res eas cognoscendas 
+            <lb ed="#P" n="50"/>quae genere differunt. Siquidem ipsis inest rerum cognitio similitudine quadam atque accom 
+            <lb ed="#P" n="51"/>modatione. Atque harum altera vis sciendi. altera vis subducendi rationem vocetur. 
+            Consul<lb ed="#P" n="52" break="no"/>tare nanque rationem quam subducere eadem possunt. Nemo autem de iis rebus consultat quae ali 
+            <lb ed="#P" n="53"/>ter se habere non possunt. Quare vis subducendi rationem, vna pars cius partis est animae 
+            <lb ed="#P" n="54"/>quae rationis est particeps. Sumendum est igitur quisnam vtriusque sit optimus habitus. 
+            <lb ed="#P" n="55"/>Hic enim vtriusque est virtus. Virtus autem est ad proprium opus.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e145-Dd1e189"><!-- arist-l6c2 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e192">Caput 2</head>
+          <p xml:id="ArNeTH-d1e145-d1e195" ana="#heading">
+            <lb ed="#P" n="21"/>Tract. I. Et Lib. VI. Cap. II.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e200">
+            <lb ed="#P" n="22"/>TRia autem sunt in anima quae sunt agendi veritatisque principia. Sensus, in  
+            <lb ed="#P" n="23"/>tellectus, appetitus.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e207">  
+            Atque sensus, nullius est principum actus. Quod quidem 
+            <lb ed="#P" n="24"/>ex eo patet: quia beluae sensum quidem habent, actionis autem sunt 
+            exper<lb ed="#P" n="25" break="no"/>tes.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e214">
+            Est autem id in appetitu persecutio atque fuga, quod est affirmatio 
+            ne<lb ed="#P" n="26" break="no"/>gatioque in mente. Quare cum moris quidem virtus habitus sit electiuus, 
+            <lb ed="#P" n="27"/>electio vero appetitus deliberatiuus: ob haec ipsa &amp; rationem veram &amp; 
+            ap<lb ed="#P" n="28" break="no"/>petitum rectum esse oportet si electio sit studiosa: atque eandem illam quidem dicere: hunc au 
+            <lb ed="#P" n="29"/>tem persequi. Haec igitur mens atque veritas actiua est. Mentis autem eius (qua contemplan 
+            <lb ed="#P" n="30"/>di, non agendi neque faciendi principium est) bonum ac malum verum est atque falsum. Hoc 
+            <lb ed="#P" n="31"/>enim mentis est omnis opus: sed actiuae mentis veritas est consentanea appetitui recto. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e231">
+            <unclear>Fle<lb ed="#P" n="32" break="no"/>ctio</unclear> igitur actus principium est: vnde est motus: sed non id gratia cuius. Appetitus autem, 
+            <lb ed="#P" n="33"/>eaque ratio quae alicuius est gratia: electionis principium est. lccirco neque sine intellectu 
+            men<lb ed="#P" n="34" break="no"/>taeque, neque sine habitu moris est ipsa electio. Sine nanque mente atque more non est actio 
+            bo<lb ed="#P" n="35" break="no"/>na nec item contraria. Mens autem ipsa nihil mouet. Sed ea quae alicuius est gratia &amp; 
+            acti<lb ed="#P" n="36" break="no"/>ua. Haec enim &amp; affectrici menti praeest: nam omnis qui facit gratia huius facit &amp; non est 
+            <lb ed="#P" n="37"/>simpliciter finis sed ad aliquid &amp; alicuius id quod efficitur: sed non id quod agitur. ipsa 
+            nan<lb ed="#P" n="38" break="no"/>quod bona actio finis est. Et huius est appetitus. Quapropter electio vel intellectus est 
+            appe<lb ed="#P" n="39" break="no"/>tiuus: vel appetitus intellectiuus. Et tale principium est homo. nulla autem res facta est 
+            eli<lb ed="#P" n="40" break="no"/>gibilis: nemo enim eligit illum expugnasse: Neque enim de eo consultat quid factum est: 
+            <lb ed="#P" n="41"/>sed de futuro ac contingente, factum autem non contingit non factum esse. Quapropter 
+            re<lb ed="#P" n="42" break="no"/>cte Agatho dixit. 
+            <lb ed="#P" n="43"/>
+            <quote xml:id="ArNeTH-d1e145-Qd1e262">Hoc etiam ipse deus soloque carere videtur: 
+              <lb ed="#P" n="44"/>Infectum vt faciat quod factum est atque peractum.</quote> 
+            <lb ed="#P" n="45"/>Opus igitur vtriusque partis intellectiuae veritas est: quare quibus habitibus maxime pars 
+            <lb ed="#P" n="46"/>vtraque verum dicit: ii sunt ambarum virtutes.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e145-Dd1e273"><!-- arist-l6c3 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e276">Caput 3</head>
+          <p xml:id="ArNeTH-d1e145-d1e279" ana="#heading">
+            <lb ed="#P" n="46"/>Tract. II. Et Lib. VI. Cap. III.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e284">
+            <lb ed="#P" n="47"/>DE ipsis igitur rursus dicamus oportet: altius initio sumpto. Sint itaque ea 
+            <lb ed="#P" n="48"/>lquibus verum anima dicit affirmando, aut negando numero quinque. Haec autem 
+            <lb ed="#P" n="49"/>sunt ars, scientia, prudentia, sapientia, intellectus. Fieri enim potest: vt falsum exi 
+            <lb ed="#P" n="50"/>stimatione opinioneque dicat.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e295">
+            Scientia igitur quidnam sit hinc perspicuum est: si 
+            <lb ed="#P" n="51"/>lexacte dicere oportet: &amp; non similitudines sequi, omnes enim putamus id quid 
+            <lb ed="#P" n="52"/>scimus aliter se se habere non posse: quae vero possunt aliter se habere, post 
+            <lb ed="#P" n="53"/>contemplationem latent si sint an non sint. Ipsum ergo scibile necessario est: ergo est aeternum, quae enim 
+            <lb ed="#P" n="54"/>necessario simpliciter sunt: aeterna sunt omnia. At aeterna ingentita &amp; incorruptibilia sunt, 
+            <lb ed="#P" n="55"/>Praeterea omnis scientia docet: &amp; scibile disci posse videtur. At ex antea notis (vt in solutiuis 
+            <lb ed="#P" n="56"/>etiam diximus) fit omnis doctrina. Nam alia per inductionem, alia per ratiocinationem efficitur, atque 
+            in<lb ed="#P" n="57" break="no"/>ductio quidem principium est ipsius vniuersalis. Ratiocinatio autem est ex vniuersalibus, sunt enim 
+            <lb ed="#P" n="58"/>principia ex quibus ipsa ratiocinatio constat: quorum non est ratiocinatio: ergo inductio. Scientia 
+            <lb ed="#P" n="59"/>ergo demonstratiuus est habitus: &amp; caetera quae in resolutiuis determinauimus. Tum enim quispiam 
+            <lb ed="#P" n="60"/>scit: cum aliquo modo credit &amp; sunt ipsi principia nota: si enim non sint magis quam conclusio nota, 
+            <lb ed="#P" n="61"/>per accidens habebit scientiam.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e321">
+            De scientia igitur sit hoc modo determinatum.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e145-Dd1e325"><!-- arist-l6c4 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e328">Caput 4</head>
+          <p xml:id="ArNeTH-d1e145-d1e331" ana="#heading">
+            <lb ed="#P" n="23"/>Tract. II. Cap. II Et Lib. VI Cap. IIII. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e336">
+            <lb ed="#P" n="24"/>EOrum autem quae aliter sese habere possunt: est &amp; aliquid quod sub 
+            effe<lb ed="#P" n="25" break="no"/>ctionem, &amp; aliquid quod sub actionem cadit. Diuersa vero sunt affectio 
+            <lb ed="#P" n="26"/>atque actus: de his autem ipsis &amp; externis sermonibus credimus. Quare &amp; 
+            <lb ed="#P" n="27"/>habitus qui cum ratione actiuus est: diuersus est ab eo habitu quam cum 
+            ratio<lb ed="#P" n="28" break="no"/>ne est effectiuus: neque alterum ab altero continetur. Neque enim effectio actus 
+            <lb ed="#P" n="29"/>est, neque actus effectio. Atqui cum extruendarum aedium facultas, ars 
+            quae<lb ed="#P" n="30" break="no"/>dam sit ac habitus quidam faciendi cum ratione, nullaque sit ars quae non sit habitus 
+            facien<lb ed="#P" n="31" break="no"/>di cum ratione, nec vllus habitus talis qui non sit ars, fit vt idem sit ars atque habitus 
+            facien<lb ed="#P" n="32" break="no"/>di vera cum ratione. At vero circa generationem ars omnis versatur, &amp; inuentionem 
+            contem<lb ed="#P" n="33" break="no"/>plationemve, quonam pacto fiat eorum aliquid quae &amp; esse &amp; non esse possunt, &amp; quorum 
+            <lb ed="#P" n="34"/>principium non in eo quod efficitur, sed in ipso est faciente. Nam neque eorum quae 
+            necessa<lb ed="#P" n="35" break="no"/>rio sunt vel fiunt, est ars: neque eorum quae sunt secundum naturam. Haec enim in seipsis ha 
+            <lb ed="#P" n="36"/>bent principium ipsum. Cum autem effectio atque actus diuersa sint, artem effectionis esse 
+            <lb ed="#P" n="37"/>non actus necesse est. Atque circa eadem quodammodo versatur ars &amp; fortuna: 
+            quemadmo<lb ed="#P" n="38" break="no"/>dum &amp; Agatho dicit. 
+            <lb ed="#P" n="39"/>
+            <quote xml:id="ArNeTH-d1e145-Qd1e372">Quippe ars, fortunam, fortunaque diligit artem</quote>. 
+            <lb ed="#P" n="40"/>Ars igitur (vt diximus) habitus est quidam faciendi, vera cum ratione. Contrarium autem 
+            <lb ed="#P" n="41"/>artis habitus est faciendi falsa cum ratione circa id quod sese aliter habere potest.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e145-Dd1e383"><!-- arist-l6c5 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e386">Caput 5</head>
+          <p xml:id="ArNeTH-d1e145-d1e389" ana="#heading">
+            <lb ed="#P" n="48"/>Tract. II. Cap. III. Et Lib. VI. Ca. V
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e394">
+            <lb ed="#P" n="49"/>DE prudentia vero quaenam sit hoc perceperimus pacto: si contemplabimur quosnam 
+            <lb ed="#P" n="50"/>ipsos prudentes dicimus esse. Videtur itaque prudentis esse, bene consulere posse 
+            <lb ed="#P" n="51"/>circa ea quae sibi sunt bona, ac prosunt: non aliqua ex parte: vt quaenam ad sanitatem 
+            <lb ed="#P" n="52"/>vel vires: sed quaenam ad bene viuendum omnino conducant. Argumento est id ita 
+            <lb ed="#P" n="53"/>esse: eos etiam qui circa aliquid versantur prudentes dici: cum bene ad finem studio 
+            <lb ed="#P" n="54"/>sum aliquem excogitauerint ea, quorum nulla est ars: quare &amp; omnino 
+            pru<lb ed="#P" n="55" break="no"/>dens is est, qui ad consultandum est aptus. Consultat autem de iis nemo: quae aliter sese habere non possunt:i 
+            <lb ed="#P" n="56"/>aut de iis quae ipses agere nequit. Quare si scientia quidem est cum demonstratione (quorum autem principia 
+            <lb ed="#P" n="57"/>aliter sese habere possunt: eorum non est demonstratio, cuncta enim &amp; aliter sese habere possunt)  
+            <lb ed="#P" n="58"/>neque de iis quae sunt necessatio, consultatio fieri potest. Ipsa prudentia profecto neque 
+            scien<lb ed="#P" n="59" break="no"/>tia: neque ars esse potest. Scientia quidem: quia quod sub actionem cadit aliter sese habere 
+            <lb ed="#P" n="60"/>potest. Ars autem, quod aliud actionis, aliud effectionis est genus. Restat ergo 
+            habi<lb ed="#P" n="61" break="no"/>tum ipsum esse agendi, vera cum ratione, circa ea quae sunt bona hominis atque mala. 
+            <!--209.xml-->
+            <pb ed="#P" n="95-v"/>
+            <lb ed="#P" n="1"/>finis enim affectionis est quid aliud praeter ipsam affectionem: actionis vero non semper. 
+            <lb ed="#P" n="2"/>Est enim ipsa bona actio finis. Quocirca Periclem &amp; viros tales arbitramur esse prudentes: 
+            <lb ed="#P" n="3"/>quia quae sibiipsis &amp; quae caeteris hominibus sunt bona perspicere possunt: esse autem eos ta 
+            <lb ed="#P" n="4"/>les putamus: qui ad rem familiarem atque ad rempublicam administrandam sunt apti. Vnde 
+            <lb ed="#P" n="5"/>&amp; temperantiam conseruatricem prudentiae appellamus. Conseruat autem talem 
+            existima<lb ed="#P" n="6" break="no"/>tionem. Voluptas enim &amp; dolor non omnem existimationem corrumpit atque peruertit: 
+            <lb ed="#P" n="7"/>non enim hanc, triangulum tres angulos aequales duobus rectis habere: sed eas quae circa 
+            <lb ed="#P" n="8"/>id habentur, quod cadit in actionem. Nam principium quidem rerum agendarum: id est gra 
+            <lb ed="#P" n="9"/>tia cuius sunt ipsae: ei vero qui corruptus est ob voluptatem aut dolorem: continuo non vi 
+            <lb ed="#P" n="10"/>detur principium ipsum: nec huius gratia: ac propter hoc ipsum expetenda esse vniuersa 
+            <lb ed="#P" n="11"/>atque agenda. Vitium enim principii corruptiuum est. Quare prudentiam habitum esse agen 
+            <lb ed="#P" n="12"/>di circa humana bona: vera cum ratione, necesse est. At vero artis quidem est virtus: 
+            pru<lb ed="#P" n="13" break="no"/>dentiae vero non est. Et in arte quidem qui sua sponte peccat, magis est expetendus: circa 
+            <lb ed="#P" n="14"/>vero prudentiam minus: quemadmodum &amp; circa virtutes. Patet igitur prudentiam 
+            virtu<lb ed="#P" n="15" break="no"/>tem quandam esse: non artem. Cum autem duae sint animae partes rationem habentes, 
+            alte<lb ed="#P" n="16" break="no"/>rius erit ipsa prudentia virtus: ipsius inquam opinatiuae. CNam opinatio circa id versatur, 
+            <lb ed="#P" n="17"/>quod aliter sese habere potest, &amp; prudentia ipsa) Atqui neque habitus est cum ratione 
+            so<lb ed="#P" n="18" break="no"/>lum: huius autem indicium est, talis quidem habitus obliuionem esse, prudentiae vero non esse.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e145-Dd1e469"><!-- arist-l6c6 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e472">Caput 6</head>
+          <p xml:id="ArNeTH-d1e145-d1e475" ana="#heading">
+            <lb ed="#P" n="36"/>Tract. II. Cap. IIII. Etlib. VI. Cap. VI.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e480">
+            <lb ed="#P" n="37"/>CVm autem scientia existimatio sit de vniuersalibus &amp; iis quae necessario 
+            <lb ed="#P" n="38"/>sunt: sintque demonstrabilium: scientiaeque omnis principia (&amp; enim ipsa scien 
+            <lb ed="#P" n="39"/>tia cum ratione) principii rei scibilis: nec est scientia: nec ars: nec 
+            pruden<lb ed="#P" n="40" break="no"/>tia. Scientia, quia ipsum scibile demonstrabile est: ars &amp; prudentia, quia in  
+            <lb ed="#P" n="41"/>iis versantur, quae sese aliter habere possunt. At neque sapientia est. Est enim 
+            <lb ed="#P" n="42"/>sapientis, de quibusdam demonstrationem habere. Qa si ea quidem quibus 
+            <lb ed="#P" n="43"/>verum dicimus: &amp; nunquam falsum in iis quae possunt aut non possunt aliter sese habere: haec 
+            <lb ed="#P" n="44"/>sunt scientia, prudentia, sapientia. In intellectu, autem trium habituum nullus esse potest: 
+            <lb ed="#P" n="45"/>atque tres dico: prudentiam scientiam sapientiam: restat intellectum esse principiorum.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e145-Dd1e503"><!-- arist-l6c7 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e506">Caput 7</head>
+          <p xml:id="ArNeTH-d1e145-d1e509" ana="#heading">
+            <lb ed="#P" n="18"/>Tract. II. Cap. V. Et Lib. VI. Cap. VII.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e514">
+            <lb ed="#P" n="19"/>SApientiam autem in artibus iis tribuimus qui in ipsis sunt exactissimi: 
+            <lb ed="#P" n="20"/>Phidiam enim sapientem sculptorem lapidum dicimus &amp; Polycletum 
+            <lb ed="#P" n="21"/>statuarium itidem sapientem. Atque hic sapientiam nil aliud 
+            intelligi<lb ed="#P" n="22" break="no"/>mus quam ipsius artis virtutem. At quosdam etiam esse sapientes omnino 
+            <lb ed="#P" n="23"/>non aliqua ex parte nec aliquid aliudquam sapientes arbitramur vt in 
+            mar<lb ed="#P" n="24" break="no"/>aggite dixit Homerus. 
+            <lb ed="#P" n="25"/>
+            <quote xml:id="ArNeTH-d1e145-Qd1e531">Diuum is munere, nec fossor nec durus arator. 
+              <lb ed="#P" n="26"/>Nec sapiens alia: vlla nimirum extitit arte.</quote> 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e537">
+            <lb ed="#P" n="27"/>⁋ Quare constat exactissimam scientiarum ipsam sapientiam esse. Sapientem ergo non 
+            so<lb ed="#P" n="28" break="no"/>lum ea scire quae ex principiis cognoscuntur: sed etiam circa principia dicere vera 
+            opor<lb ed="#P" n="29" break="no"/>tet. Quare sapientia intellectus est &amp; scientia. &amp; (vt caput habens) scientia eorum quae 
+            ho<lb ed="#P" n="30" break="no"/>norabilissima sunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e548">
+            Perabsurdum est autem si quispiam facultatem ciuilem, aut prudentiam 
+            <lb ed="#P" n="31"/>studiosissimam esse putet, si non sit homo eorum optimum quae sunt in mundo. Quod si sa 
+            <lb ed="#P" n="32"/>num quidem ac bonum aliud est hominibus, aliud piscibus: album autem &amp; rectum semper 
+            <lb ed="#P" n="33"/>est idem: &amp; sapiens omnes idem profecto prudens vero diuersum dixerint esse. Singula nam 
+            <lb ed="#P" n="34"/>quod quod suum perspicit bonum id prudens dixerint esse: eique seipsa gubernanda 
+            commise<lb ed="#P" n="35" break="no"/>rint. Quapropter &amp; nonnulla mutorum animalium prudentia dicunt esse: quaecunque sua 
+            <lb ed="#P" n="36"/>in vita prouidendi vim habere videntur. Constiterit autem eandem non esse sapientiam 
+            <lb ed="#P" n="37"/>&amp; facultatem ciuilem. Nam si eam facultatem sapientiam esse dicent quae circa commoda 
+            pro<lb ed="#P" n="38" break="no"/>pria versatur: multae sanae sapientiae erunt. Non enim vna circa omnium animalium 
+            bo<lb ed="#P" n="39" break="no"/>num: sed alia atque alia circa vnumquodque versatur: nisi de omnibus quae sunt, vna sit &amp; facul 
+            <lb ed="#P" n="40"/>tas medendi. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e573">
+            quod si homo praestantissimum esse caeterorum animalium diceretur: nil refert. 
+            <lb ed="#P" n="41"/>Etenim homine sunt alia longe diuiniora natura. Vt haec manifestissima: ex quibus ipse con 
+            <lb ed="#P" n="42"/>sistit mundus. Patet igitur ex iis quae diximus: sapientiam scientiam esse &amp; intellectum eorum quae  
+            <lb ed="#P" n="43"/>honorabilissima sunt natura. Quapropter Anaxagoram, &amp; Thalem, &amp; similes sapientes quidem, 
+            <lb ed="#P" n="44"/>at non prudentes inquiunt esse: cum vident ipsos propria commoda ignorare: &amp; superflua quidem: 
+            <lb ed="#P" n="45"/>&amp; admiranda &amp; difficila cognitu, diuinaque scire ipsos: sed inutilia dicunt quia non quaerunt bona 
+            <lb ed="#P" n="46"/>humana. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e589">
+            Prudentia autem circa humana versatur: &amp; in quibus habet consultatio locum. prudentis enim 
+            <lb ed="#P" n="47"/>hoc maxime opus dicimus esse: bene inquam consulere. Consultat autem de iis nemo, quae aliter se 
+            <lb ed="#P" n="48"/>se habere non possunt, &amp; quorum non est aliquis finis, atque is bonum agendum is autem ad bene consulem 
+            <lb ed="#P" n="49"/>dum est simpliciter aptus: qui communiectura quod est homini optimum eorum quae cadunt in actionem exco 
+            <lb ed="#P" n="50"/>gitando mente capere potest. Neque prudentia est vniuersalium solum, sed singula etiam oportet 
+            co<lb ed="#P" n="51" break="no"/>gnoscere: est enim actiua, &amp; actio circa singula ipsa versatur. Quapropter &amp; nescientes nonnulli ma 
+            <lb ed="#P" n="52"/>gis quam nonnulli scientes: idonei sunt ad agendum: &amp; in caeteris ii qui sunt experti. Nam si quispiam 
+            <lb ed="#P" n="53"/>sciat leues carnes facile concoqui ac esse salubres: quae vero sint leues ignoret: non efficiet 
+            <lb ed="#P" n="54"/>sanitatem. Sed qui scit auium carnes leues esse, atque salubres: is efficiet magis. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e609">
+            Prudentia 
+            au<lb ed="#P" n="55" break="no"/>tem est actiua, quare vtramque cognitionem, aut hanc potius habere oportet. fuerit autem quae  
+            <lb ed="#P" n="56"/>dam &amp; haec architecturae subiens rationem.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e145-Dd1e617"><!-- arist-l6c8 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e620">Caput 8</head>
+          <p xml:id="ArNeTH-d1e145-d1e623" ana="#heading">
+            <lb ed="#P" n="57"/>Tract. II. Cap. VI. Et Lib. VI. Cap. VIII.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e628">
+            <lb ed="#P" n="58"/>ATqui ciuilis facultas, &amp; prudentia idem est habitus, esse tamen ipsarum non idem est. 
+            <lb ed="#P" n="59"/>ius autem quae in ciuitate versatur, ea quidem (quae est vt architectura) prudentia 
+            <lb ed="#P" n="60"/>gum est ferendarum facultas, quae vero in singulis versatur, ciuilis, nomine communi 
+            vo<lb ed="#P" n="61" break="no"/>catur. Haec autem est actiua, &amp; deliberatiaa. decretum enim in actionem venit vt 
+            vl<lb ed="#P" n="62" break="no"/>atimum. Idcirco rem ciuilem hos solos gerere dicunt. Hi namque soli agunt perinde atque 
+            <!--215.xml-->
+            <pb ed="#P" n="98-v"/>
+            <lb ed="#P" n="1"/>ii qui suis manibus artis conficiunt opus. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e648">
+            Videtur autem ea maxime prudentia esse, qua sibi ipsi 
+            quis<lb ed="#P" n="2" break="no"/>piam vni quaerit ac prospicit bona, atque haec ipso communi nomine prudentia nuncupatur. Illarum 
+            <lb ed="#P" n="3"/>autem alia gubernandi rei familiaris, alia ferendarum legum facultas, alia ciuilis vocatur. Atque huius 
+            <lb ed="#P" n="4"/>alia est deliberatiua, alia iudicialis. Cognitionis igitur quaedam species fuerit ea quae bona sunt sibi 
+            <lb ed="#P" n="5"/>scire, sed magnam differentiam habet. Atque qui sciunt ea qui sibiipsis sunt bona in illisque versantur, 
+            <lb ed="#P" n="6"/>prudentes esse videntur: ciuiles autem negociosi. Quapropter &amp; Euripides dixit. 
+            <lb ed="#P" n="7"/>
+            <quote xml:id="ArNeTH-d1e145-Qd1e663">Qui nanque prudens sum, negocio sine, 
+              <lb ed="#P" n="8"/>Licebat inter milites cui viuere. 
+              <lb ed="#P" n="9"/>AEquamque partem habere, cunctis ex bonis?</quote>
+            <lb ed="#P" n="10"/>
+            <pc type="indent"/>Quaerunt enim quod sibiipsis est bonum, &amp; hoc arbitrantur esse agendum. Ex hac igitur 
+            <lb ed="#P" n="11"/>opinione est ortum, prudentes hos esse, &amp; tamen proprium vniuscuiusque bonum non est 
+            for<lb ed="#P" n="12" break="no"/>tasse sine rei familiaris gubernatione, atque ciuilis. Praeterea enim quonam modo sua cuiusque 
+            ad<lb ed="#P" n="13" break="no"/>ministranda sit res, non est manifestum, atque considerandum est.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e682">
+            Indicatur id quod dicitur il 
+            <lb ed="#P" n="14"/>lo signo. Geometrae enim iuuenes, &amp; mathematici, ac sapientes in talibus fiunt: prudentes autem 
+            <lb ed="#P" n="15"/>fieri non videntur. causa autem est, quod &amp; singularium rerum est ipsa prudentia, quae quidem per 
+            <lb ed="#P" n="16"/>experientiam notae fiunt. luuenis autem non est expertus. Experientiam enim temporis 
+            effi<lb ed="#P" n="17" break="no"/>cit longitudo. Nam &amp; hoc quispiam considerauerit: cur puer mathematicus quidem fieri 
+            <lb ed="#P" n="18"/>potest, sapiens autem aut naturalis non potest? An quia mathematica quidem sunt per abstra 
+            <lb ed="#P" n="19"/>ctionem: horum vero principia experientia innotescunt, &amp; haec quidem adolescentes non credunt, sed di 
+            <lb ed="#P" n="20"/>cunt: illorum autem diffinitiones non sunt obscurae. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e701">
+            Propterea peccatum quod fit in 
+            consu<lb ed="#P" n="21" break="no"/>lendo, aut circa vniuersale, aut circa singulare fieri solet. Ignorare nanque quispiam potest, aut  
+            <lb ed="#P" n="22"/>omnes aquas ponderosas esse prauas, aut hanc ponderosam esse. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e708">
+            Prudentiam autem non esse 
+            scienti<lb ed="#P" n="23" break="no"/>am patet, est enim ( vt dictum est) ipsius extremi. Tale enim id, quod cadit in actionem. 
+            <lb ed="#P" n="24"/>Opponitur igitur intellectui, hic enim est terminorum, quorum ratio non est. Haec autem 
+            <lb ed="#P" n="25"/>est vltimi cuius non est scientia, sed sensus: non propriorum quidem, sed qualis est is quo 
+            sen<lb ed="#P" n="26" break="no"/>timus id, quod vltimum in mathematicis est triangulum esse, stabitur enim &amp; ibi, sed hic 
+            <lb ed="#P" n="27"/>prudentia magis est sensus, illius autem est alia species.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e145-Dd1e722"><!-- arist-l6c9 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e725">Caput 9</head>
+          <p xml:id="ArNeTH-d1e145-d1e728" ana="#heading">
+            <!--218.xml-->
+            <pb ed="#P" n="100-r"/>
+            <lb ed="#P" n="1"/>Tractatus. III. Cap. I. &amp; Lib. VI. Cap. IX.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e737">
+            <lb ed="#P" n="2"/>AT vero quaerere, ac consultare differunt. Consultare nanque est aliquid quaere¬ s 
+            <lb ed="#P" n="3"/>re. Oportet autem &amp; de bona consultatione quidnam fit accipere, vtrum l 
+            <lb ed="#P" n="4"/>scientia quaedam sit an opinio. an coniectatio bona an aliquod aliud 
+            ge<lb ed="#P" n="5" break="no"/>nus. Scientia quidem non est. Non enim de iis quaerunt quae sciuut. At 
+            <lb ed="#P" n="6"/>ibona consultatio, quaedam est consultatio: qui vero consultat quaerit 
+            ra<lb ed="#P" n="7" break="no"/>tionemque subducit. Atqui neque bona coniectatio est. Ipsa nanque sine 
+            ratio<lb ed="#P" n="8" break="no"/>ne, &amp; cito fit, ad consultationem vero longum temporis spatium adhibetur, atque aiunt 
+            cele<lb ed="#P" n="9" break="no"/>riter quidem deliberata esse agenda, cum mora autem consulendum. Praeterea diuersa sunt 
+            <lb ed="#P" n="10"/>solertia, &amp; consultatio bona. Solertia vero, bona quaedam est coniectatio. At neque opinio vlla 
+            <lb ed="#P" n="11"/>est. Sed cum is qui male deliberat peccet: qui autem bene consultat recte deliberet, constat 
+            bo<lb ed="#P" n="12" break="no"/>nam consultationem rectitudinem esse quandam. Non autem scientiae, neque opinionis. Scien 
+            <lb ed="#P" n="13"/>tiae nanque non est rectitudo, quippe cum neque peccatum sit, opinionis vero rectitudo, veritas 
+            <lb ed="#P" n="14"/>est. Et insuper determinatum iam est id omne, cuius est opinatio. At vero neque sine ratione 
+            <lb ed="#P" n="15"/>est ipsa consultatio bona, deficit ergo a mente. Haec enim nondum est enunciatio. Etenim 
+            <lb ed="#P" n="16"/>opinatio non inquisitio, sed quaedam iam enunciatio est. Qui vero consultat, siue bene, siue 
+            <lb ed="#P" n="17"/>male consultet, quaerit aliquid rationemque subducit, 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e774">
+            sed ipsa consultatio bona, consilii 
+            quae<lb ed="#P" n="18" break="no"/>dam est rectitudo. Quapropter quaerendum est primum quidnam sit consilium, &amp; circa quid 
+            <lb ed="#P" n="19"/>ipsum versetur. Cum vero multipliciter rectitudo dicatur, constat non omnem rectitudinem, 
+            <lb ed="#P" n="20"/>bonam consultationem esse. Incontinens enim &amp; prauus id quod videre proponit attingent, 
+            <lb ed="#P" n="21"/>cogitando rationemque subducendo, quare recte quidem consultabit: malum autem magnum 
+            <lb ed="#P" n="22"/>existimabit. Bene vero consultasse, bonum quoddam esse videtur. Talis enim rectitudo 
+            con<lb ed="#P" n="23" break="no"/>silii, qua bonum quispiam assequi potest, bona est consultatio. At potest quispiam &amp; hoc 
+            ra<lb ed="#P" n="24" break="no"/>tiocinatione falsa attingere, atque id quidem quod facere oportet assequi, non autem per quod  
+            <lb ed="#P" n="25"/>oportet, sed falsus medius terminus esse potest. Quare nec ipsa bona est consultatio, qua 
+            quis<lb ed="#P" n="26" break="no"/>piam adipiscitur quidem id quod oportet non tamen per quod oportet. Praeterea fieri 
+            po<lb ed="#P" n="27" break="no"/>test vt alius longo deliberans tempore id consequatur, alius cito, igitur nec illa bona est con 
+            <lb ed="#P" n="28"/>sultatio, sed eadem rectitudo bona est consultatio, qua quispiam ratione conducentis assei 
+            <lb ed="#P" n="29"/>quitur, quod oportet, &amp; vt oportet, &amp; cum oportet. Insuper fit vt &amp; absolute quispiam 
+            be<lb ed="#P" n="30" break="no"/>ne consultet, &amp; ad aliquem finem. Atque bona quidem consultatio absolute est ea, qua ad eum 
+            <lb ed="#P" n="31"/>finem qui est absolute finis pergitur recte, quaedam autem ea, qua ad aliquem finem. Quod 
+            <lb ed="#P" n="32"/>si bene consultare prudentium est, consultatio bona rectitudo est ea, qua ratione conferentis 
+            <lb ed="#P" n="33"/>ad aliquem pergitur finem, cuius ipsa prudentia est existimatio veram. 
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e145-Dd1e812"><!-- arist-l6c10 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e815">Caput 10</head>
+          <p xml:id="ArNeTH-d1e145-d1e818" ana="#heading">
+            <lb ed="#P" n="36"/>Tract. III. Lib. VI. Cap. X.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e823">
+            <lb ed="#P" n="37"/>ESt autem &amp; ipsa sagacitas, cui contrarium est hebetudo, quibus sagaces 
+            <lb ed="#P" n="38"/>dicimus, ac hebetes, nec id est omnino quod scientia aut opinio ( omnes 
+            <lb ed="#P" n="39"/>enim scientes vel opinantes sagaces essent) nec vna quaedam scientia 
+            <lb ed="#P" n="40"/>vt aut medicina de sanis, aut geometria circa magnitudines. Neque enim 
+            <lb ed="#P" n="41"/>de iis est quae sunt semper, &amp; non mouentur, neque de iis quae a quouis fiunt, 
+            <lb ed="#P" n="42"/>am) sed de quibus dubitauerit quispiam, aut consultauerit. Quapropter est 
+            <lb ed="#P" n="43"/>quidem de iis circa quae versatur prudentia. Non est autem idem sagacitas, &amp; prudentiam. 
+            <lb ed="#P" n="44"/>Prudentia nanque praeceptiua est, finis enim ipsius est, quidnam sit agendum, aut non 
+            agen<lb ed="#P" n="45" break="no"/>dum praecipere, sagacitas autem iudicatiua est solum. ldem est enim sagacitas &amp; bona 
+            saga<lb ed="#P" n="46" break="no"/>citas, quippe cum sagaces sint &amp; boni sagaces. Neque autem habere, neque accipere prudentiam, 
+            <lb ed="#P" n="47"/>est ipsa sagacitas, sed in opinationis vsu ad ea bene iudicanda de quibus est prudentia, alio 
+            <lb ed="#P" n="48"/>dicente consistit. Fitque hic perinde atque cum discipulus ea discit, ac compraehendit quae a 
+            <lb ed="#P" n="49"/>scientia tradente praecipiuntur.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e145-Dd1e856"><!-- arist-l6c11 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e859">Caput 11</head>
+          <p xml:id="ArNeTH-d1e145-d1e862" ana="#heading">
+            <lb ed="#P" n="35"/>Tract. III. Cap. III. Et Lib. VI. Cap. XI.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e867">
+            <lb ed="#P" n="36"/>EA vero quae vocatur sententia, qua bene sentientes homines dicimus 
+            sen<lb ed="#P" n="37" break="no"/>tentiamque habere: iudicium est rectum aequi &amp; boni viri. Cuius hoc 
+            iu<lb ed="#P" n="38" break="no"/>dicium est. Bonum enim &amp; aequum virum ad ignoscendum procliuem. 
+            <lb ed="#P" n="39"/>dicimus esse. Et veniam in aliquibus dare bonum &amp; aequum esse at 
+            ve<lb ed="#P" n="40" break="no"/>nia sententia est iudicatiua recta aequi &amp; boni viri: recta autem est ea 
+            <lb ed="#P" n="41"/>quae est ipsius veracis. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e883">
+            Omnes autem habitus non sine ratione ad idem 
+            <lb ed="#P" n="42"/>tendunt. Nam sententiam, sagacitatem, prudentiam, &amp; mentem ad eosdem afferentes 
+            pru<lb ed="#P" n="43" break="no"/>dentes illos atque sagaces, &amp; sententiam habere, mentemque dicimus. Omnes enim hae 
+            poten<lb ed="#P" n="44" break="no"/>tiae extremorum sunt, ac singularium. Atque idem ea ratione qua est idoneus ad ea 
+            iudican<lb ed="#P" n="45" break="no"/>da de quibus est prudens sagax est, beneque sentiens: aut ad dandam veniam aptus. Bona 
+            <lb ed="#P" n="46"/>enim &amp; aequa omnibus sunt communia bonis, ea ratione qua ad alium tendunt. Sunt autem 
+            <lb ed="#P" n="47"/>singularia &amp; extrema ea, omnia quae agi possunt &amp; prudentem oportet, ipsa cognoscere, &amp; 
+            <lb ed="#P" n="48"/>sagacitas, &amp; sententia circa haec ipsa versatur, haec autem sunt extrema. Et intellectus 
+            extre<lb ed="#P" n="49" break="no"/>morum est ad partem vtramque. Etenim primorum terminorum, ac extremorum, intellectus. 
+            <lb ed="#P" n="50"/>est &amp; non ratio: is quidem qui ad demonstrationes attinet immobilium terminorum, atque 
+            <lb ed="#P" n="51"/>primorum: is autem qui in agendis rebus versatur, extremi &amp; contingentis, atque alterius 
+            <lb ed="#P" n="52"/>propositionis. Haec enim principia sunt eius, gratia cuius, ex singulis enim emergit ipsum 
+            <lb ed="#P" n="53"/>vniuersale: horum igitur sensum habere oportet. Hic autem est intellectus. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e912">
+            Quapropter &amp; 
+            <lb ed="#P" n="54"/>naturalia haec esse videntur. Atque sapiens quidem natura est nemo: sententiam autem 
+            ha<lb ed="#P" n="55" break="no"/>bet &amp; sagacitatem &amp; intellectum natura. Signum autem est nos haec aetates sequi putare, 
+            <lb ed="#P" n="56"/>atque hanc aetatem intellectum dare sententiamque habere, vt pote quae a natura 
+            proficiscun<lb ed="#P" n="57" break="no"/>tur. Quocirca principium &amp; finis est intellectus. Ex his enim &amp; de his ipsae 
+            demonstratio<lb ed="#P" n="58" break="no"/>nesque efficiuntur. Quare non minus eorum qui sunt experti &amp; seniorum vel prudentium 
+            <!--221.xml-->
+            <pb ed="#P" n="101-v"/>
+            <lb ed="#P" n="1"/>indemonstrabilibus sententiis, opinionibusve, quam ipsis demonstrationibus mentem adhibere 
+            <lb ed="#P" n="2"/>oportet. Quia namque iam experientia visum habent, principia ipsa cernunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e935">
+            Quid igitur 
+            pru<lb ed="#P" n="3" break="no"/>dentia, &amp; sapientia est, &amp; in quibus vtraque versatur, &amp; diuersarum animae partium vtramque 
+            <lb ed="#P" n="4"/>virtutem esse, iam diximus.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e145-Dd1e943"><!-- arist-l6c12 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e946">Caput 12</head>
+          <p xml:id="ArNeTH-d1e145-d1e949" ana="#heading">
+            <!--222.xml-->
+            <pb ed="#P" n="102-r"/>
+            <lb ed="#P" n="1"/>Tract. IIII. Cap. I. Et Lib. VI. Cap. XII.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e958">
+            <lb ed="#P" n="2"/>DVbitauerit autem quispiam ad quidnam habitus hi sunt vtiles? Nam 
+            sa<lb ed="#P" n="3" break="no"/>pientia quidem nihil eorum contemplatur, ex quibus fuerit homo 
+            foeli<lb ed="#P" n="4" break="no"/>nullius enim est generationis. Prudentia autem hoc quidem habet. Sed 
+            cu<lb ed="#P" n="5" break="no"/>liusnam gratia opus est ipsa? Si prudentia quidem est ea quae circa iusta &amp; 
+            <lb ed="#P" n="6"/>honesta bonaque homini versatur, haec autem sunt ea quae viri boni est agere. 
+            <lb ed="#P" n="7"/>atque ipsa sciendo non magis ad agendum nos sumus idonei: siquidem 
+            virtu<lb ed="#P" n="8" break="no"/>tes sunt habitus, quemadmodum nec ea sana, quae non efficiunt bonam corporis habitudinem. 
+            <lb ed="#P" n="9"/>sed ab ipsa proueniunt. Non enim magis apti sumus ad haec agenda, medendi artem, aut  
+            <lb ed="#P" n="10"/>exercendorum corporum facultatem habendo. Quod si non horum gratia sit prudens ponendus, 
+            <lb ed="#P" n="11"/>sed vt studiosi homines fiant, iis non fuerit vtilis sane. qui iam sunt studiosi: at nec etiam 
+            <lb ed="#P" n="12"/>iis qui studiosi non sunt. Nihil enim referat siue ipsi habeant, siue aliis habentibus pareant. 
+            <lb ed="#P" n="13"/>Atque hoc satis est nobis, quemadmodum &amp; in sanitate. Nam &amp; si valere volumus, medicinam 
+            <lb ed="#P" n="14"/>tamen non discimus. Insuper absurdum sane videbitur si prudentia quae quidem est inferior 
+            sa<lb ed="#P" n="15" break="no"/>pientia, sit magis domina quam ipsa magisque principes. Nam ea quae agit, dominatur in singulis 
+            <lb ed="#P" n="16"/>atque iubet. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e993">
+            De his igitur est dicendum. Nunc enim de ipsis dubitauimus tantum. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e996">
+            Primum itaque 
+            di<lb ed="#P" n="17" break="no"/>cimus, has expetendas necessario per seipsas esse: quippe cum sint partium vtrarumque virtutes etiam 
+            <lb ed="#P" n="18"/>si neutra ipsarum quicquam efficiat.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e1004">
+            Deinde &amp; faciunt quidem: at non vt medicina sanitatem, sed vt 
+            <lb ed="#P" n="19"/>sanitas: sic sapientia foelicitatem. Nam cum sit pars totius virtutis foelicem efficit: ex eo quia 
+            ha<lb ed="#P" n="20" break="no"/>betur ac operatur. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e1011">
+            Praeterea opus ipsum &amp; per prudentiam &amp; per virtutem moris efficitur. 
+            <lb ed="#P" n="21"/>Etenim virtus quidem propositum ipsum efficit rectum: prudentia autem ea, quae in illud perducunt. 
+            <lb ed="#P" n="22"/>Quare autem partis animae, quae quidem est principium vegetandi nulla est talis virtus: quippe 
+            <lb ed="#P" n="23"/>cum in ipsa non sit agere, aut non agere situm. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e1020">
+            De eo vero quod dictum est non esse magis aptos 
+            <lb ed="#P" n="24"/>ob prudentiam homines ad honesta iustaque agenda, paulo altius incipiendum est, hoc principio 
+            <lb ed="#P" n="25"/>sumpto. Nam vt &amp; iusta agentes quosdam nondum iustos esse dicimus, vt eos qui faciunt ea 
+            <lb ed="#P" n="26"/>quae legibus sunt instituta inuiti, vel ob ignorationem, vel ob aliquid aliud &amp; non ipsa: etsi 
+            <lb ed="#P" n="27"/>agunt ea quae oportet, &amp; quod virum oportet agere studiosum: sic (vt videtur) agere singula 
+            <lb ed="#P" n="28"/>vnumquemque oportet modo quodam affectum, vt homo bonus, ob electionem inquam, &amp; ipsorum 
+            gra<lb ed="#P" n="29" break="no"/>tia quae aguntur. Electionem igitur rectam efficit virtus. Sed ea quae illius gratia sunt agenda 
+            <lb ed="#P" n="30"/>non sunt ipsius virtutis: sed ad aliam potentiam spectant. Dicendum autem de ipsis dilucidius 
+            <lb ed="#P" n="31"/>est. Est igitur quaedam potentia, quam habilitatem vocant. Haec talis est vt ea possit agere atque 
+            <lb ed="#P" n="32"/>attingere quae ad suppositam intentionem conducunt. Si igitur propositum sit honestum, 
+            <lb ed="#P" n="33"/>laudabilis est: sin improbum, versutia est. Quapropter &amp; ipsos prudentes habiles &amp; versutos 
+            <lb ed="#P" n="34"/>dicimus esse. Ipsa vero prudentia non est quidem haec dicta potentia: non tamen est sine 
+            ipsa<lb ed="#P" n="35" break="no"/>Habitus autem ipse huic oculo imprimitur animae. Neque absque virtute sicut dicimus atque 
+            <lb ed="#P" n="36"/>constat. Ratiocinationes enim agendarum rerum principium habent, cum talis ipse finis, &amp; ipsum 
+            <lb ed="#P" n="37"/>optimum, quicquid tandem sit illud: sit enim (verbi gratia) quicquid contigerit. Hoc autem non 
+            <lb ed="#P" n="38"/>nisi bono viro videtur. Prauitas enim peruertit, facitque vt circa principia rerum agendarum 
+            ho<lb ed="#P" n="39" break="no"/>mo fallatur. Quare patet prudentem neminem esse posse, nisi sit bonus. 
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e145-Dd1e1058"><!-- arist-l6c13 -->
+          <head xml:id="ArNeTH-d1e145-Hd1e1061">Caput 13</head>
+          <p xml:id="ArNeTH-d1e145-d1e1064" ana="#heading">
+            <lb ed="#P" n="57"/>Tract. II. Cap. II. &amp; Lib. VI. Cap. XIII.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e1069">
+            <lb ed="#P" n="58"/>COnsiderandum autem iterum est &amp; de virtute. Etenim vt prudentia sese habet ad 
+            <lb ed="#P" n="59"/>habilitatem, quae non est idem, sed simile: sic &amp; proprie virtus sese habet ad 
+            na<lb ed="#P" n="60" break="no"/>turalem virtutem. Omnibus enim singuli mores inesse quodammodo natura 
+            <lb ed="#P" n="61"/>videntur. Etenim &amp; iusti natura, fortesque atque ad temperantiam nati videmur. 
+            <lb ed="#P" n="62"/>caeteraque continuo habemus ex ipso ortu. Sed esse tamen quaerimus aliquid 
+            <!--225.xml-->
+            <pb ed="#P" n="103-v"/>
+            <lb ed="#P" n="1"/>aliud, quod est propric bonum, &amp; talia nobis alio modo inesse. Pueris enim ac belluis 
+            natura<lb ed="#P" n="2" break="no"/>les habitus insunt. At absque mente nocere videntur. Atque vt robusto fit in corpore sine 
+            <lb ed="#P" n="3"/>oculis se mouent (errat enim vehementer ex eo, quia non habet visum) sic &amp; hic accidit. 
+            <lb ed="#P" n="4"/>Si vero mentem acceperint, in agendo differt, atque habitus ille similis tunc erit proprie virtus. 
+            <lb ed="#P" n="5"/>Quare vt in opinatiuo duae sunt species, habilitas atque prudentia: sic &amp; in morali sunt duae: 
+            <lb ed="#P" n="6"/>vna naturalis virtus, altera proprie virtus. Atque harum ea quae est proprie virtus non fit sine 
+            pru<lb ed="#P" n="7" break="no"/>dentia. Quapropter, inquiunt, virtutes omnes prudentias esse, &amp; Socrates partim recte quaerebat, 
+            <lb ed="#P" n="8"/>partim peccabat. Peccabat, quia virtutes omnes prudentias esse putabat. Benedicebat, quod non  
+            <lb ed="#P" n="9"/>esse sine prudentia ipsas aiebat. Hoc autem huius indicium est, etenim nunc omnes cum virtutem 
+            <lb ed="#P" n="10"/>diffiniunt, dicentes ipsam habitum esse, &amp; afferentes ea circa quae versatur, addunt secundum rectam 
+            <lb ed="#P" n="11"/>rationem. at recta est ea quae est secundum prudentiam. Videntur igitur omnes vaticinari quodam 
+            <lb ed="#P" n="12"/>modo talem habitum esse virtutem qui est secundum prudentiam. oportet autem parumper migrare: est 
+            <lb ed="#P" n="13"/>enim is habitus virtus, qui non solum est secundum rationem rectam, sed cum recta etiam ratione: recta 
+            <lb ed="#P" n="14"/>autem de talibus ratio ipsa est sane prudentia. Socrates igitur virtutes ipsas rationes esse 
+            arbi<lb ed="#P" n="15" break="no"/>trabatur. Omnes enim scientias esse dicebat. At nos cum ratione esse censemus. 
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e1119">
+            Patet igitur 
+            <lb ed="#P" n="16"/>ex dictis fieri non posse, vt sine prudentia fit homo proprie bonus, &amp; absque morum virtute 
+            pru<lb ed="#P" n="17" break="no"/>dens. Atenim &amp; ea ratio qua quispiam disseruerit separari virtutes: hinc solui potest: non enim 
+            <lb ed="#P" n="18"/>idem ad omnes suscipiendas aptissimus est ingenio: quare aliam iam accepit, aliam nondum accepit. 
+            <lb ed="#P" n="19"/>Hoc enim in naturalibus quidem virtutibus fieri potest: at in iis quibus absolute dicitur 
+            <lb ed="#P" n="20"/>homo bonus, fieri nequit. Etenim cum prudentia quae est vna, simul inerunt vniuersae. Constat 
+            <lb ed="#P" n="21"/>autem &amp; prudentia opus esse etiam si non esset actiua, quia partis est virtus, &amp; sine prudentia, 
+            si<lb ed="#P" n="22" break="no"/>neque virtute, electionem rectam non fore. Altera namque finem, altera ea quae sunt ad finem agere facit.
+          </p>
+          <p xml:id="ArNeTH-d1e145-d1e1137">
+            <lb ed="#P" n="23"/>At vero neque sapientiae praeest, neque praestabilioris est partis, sicut neque ars medendi praesidet 
+            <lb ed="#P" n="24"/>sanitati. Non enim vtitur ipsa sed videt vt fiat. Illius igitur gratia (non illi) iubet. Praeterea 
+            <lb ed="#P" n="25"/>simile est ac si quispiam facultatem ciuilem principem esse deorum asserat, propterea quod praecipit 
+            <lb ed="#P" n="26"/>de omnibus quae aguntur in ciuitate.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

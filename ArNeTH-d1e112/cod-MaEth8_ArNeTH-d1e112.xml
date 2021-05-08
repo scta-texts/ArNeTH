@@ -1,0 +1,865 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 3</title>
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 3</title>
+          <date when="2021-05-08">May 08, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-MaEth8">Paris 1530</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="30-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ArNeTH-d1e112"><!-- arist-l3 -->
+        <head xml:id="ArNeTH-d1e112-Hd1e106">Liber 3</head>
+        <div xml:id="ArNeTH-d1e112-Dd1e109"><!-- arist-l3c1 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e112">Caput 1</head>
+          <p xml:id="ArNeTH-d1e112-d1e115" ana="#heading">
+            <lb ed="#P" n="15"/>LIBRI TERTII TRA
+            <lb ed="#P" n="16"/>CTAVS PRIMI CAPVT PRIMVM
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e122">
+            <lb ed="#P" n="17"/>CVM AVTEM VIRTVS CIRCA AFFECTVS 
+            <lb ed="#P" n="18"/>actusque versetur: &amp; in iis quidem quae sua sponte quis agit, laudes i 
+            <lb ed="#P" n="19"/>&amp; vituperationes: in iis autem quae inuitus facit, venia nonnunqua 
+            <lb ed="#P" n="20"/>&amp; misericordia locum habeat: eos forsitam qui de virtute 
+            conside<lb ed="#P" n="21" break="no"/>rant, de eo quod sua sponte quis facit atque inuitus, determinare 
+            <lb ed="#P" n="22"/>inecesse est. Vtilis est etiam legum latoribus haec sane 
+            considera<lb ed="#P" n="23" break="no"/>ltio ad praemia poenasque instituendas. Videtur itaque ea inuitus 
+            <lb ed="#P" n="24"/>facere quispiam, quae violentia vel per ignorationem facit. Id 
+            au<lb ed="#P" n="25" break="no"/>tem est violentum cuius principium est foris, in quod nihil is qui 
+            <lb ed="#P" n="26"/>eglagit aut patitur confert, vt si ventus aliquo tulerit, aut homines 
+            <lb ed="#P" n="27"/>potestatem habentes.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e148">
+            At ea quae ob maiorum metum malorum, aut ob aliquod bonum agun 
+            <lb ed="#P" n="28"/>tur: vt si tyrannus quempiam aliquid agere turpe iuberet, habens in potestate &amp; parentes &amp; 
+            <lb ed="#P" n="29"/>liberos, hac lege: vt si illud agat illi sint incolumes: si non agat, dispereant, controuersiam 
+            ha<lb ed="#P" n="30" break="no"/>bere videntur vtrum haec inuiti an sponte faciant homines. Tale etiam quid accidit &amp; 
+            cir<lb ed="#P" n="31" break="no"/>ca iactus eos qui in tempestatibus fiunt. Simpliciter enim nemo suas fortunas eiicit sponte. 
+            <lb ed="#P" n="32"/>Sed omnes propter suam caeterorumque salutem eiiciunt, modo sint mentis sanae. Tales igitur 
+            <lb ed="#P" n="33"/>actus mixti quidem sunt. lis autem magis sunt similes quos sponte homines agunt. 
+            Expetun<lb ed="#P" n="34" break="no"/>tur tunc enim cum aguntur: atque finis actionis in temporis conditione consistit. Et sponte 
+            <lb ed="#P" n="35"/>igitur &amp; inuitum vnumquemque dicendum est agere cum agit. Agit autem sua sponte. Est 
+            <lb ed="#P" n="36"/>enim in ipso principium mouendi partes eas quae sunt in huiuscemodi actibus 
+            instrumen<lb ed="#P" n="37" break="no"/>ta. At quorum principium est in ipso ea agere vel non agere in ipso est situm. Talia igitur 
+            <lb ed="#P" n="38"/>sua sponte quisque agit. At simpliciter fortassis inuitus. Nemo nanque talium quicquam per se expe 
+            <lb ed="#P" n="39"/>teret vnquam.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e177">
+            In actibus autem huiuscemodi nonnunquam homines &amp; laudantur cum pro magnis 
+            <lb ed="#P" n="40"/>&amp; honestis rebus aliquid turpe ferunt aut molestum: si vero contra faciunt vituperantur. Est 
+            <lb ed="#P" n="41"/>enim improbi pro nulla re honesta vel mediocri, res turpissimas ferre. In quibusdam autem 
+            <lb ed="#P" n="42"/>laus quidem non sit, sed venia locum habet: cum ea quae non agere oportet quispiam egerit 
+            <lb ed="#P" n="43"/>ob huiuscemodi res, quae naturam humanam superant, nemoque perferret. Sunt autem 
+            quae<lb ed="#P" n="44" break="no"/>dam, ad quae forsitan non licet quemquam esse compulsum. Sed potius oportet summa perpessum 
+            <lb ed="#P" n="45"/>tormenta mortem obire. Ridicula nanque videntur ea quae ad necem matris, Alcmeonem 
+            Euri<lb ed="#P" n="46" break="no"/>pidis compulerunt. Est autem interdum difficile quale pro quali sit expetendum, &amp; quid pro 
+            <lb ed="#P" n="47"/>quo sustinendum: discernere. Difficilius etiam est posteaquam cognoueris, in sententia 
+            perma<lb ed="#P" n="48" break="no"/>nere. Fit enim plerumque vt ea quidem quae expetuntur molesta, ea vero ad quae cogimur tur 
+            <lb ed="#P" n="49"/>pia sint: vnde laudantur atque vituperantur ii qui fuerunt aut non fuerunt compulsi. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e202">
+            Quae<lb ed="#P" n="50" break="no"/>nam igitur dicenda sunt violenta? An ea quidem simpliciter inuitus quispiam agit quorum 
+            <lb ed="#P" n="51"/>externa est causa, &amp; ipse agens nihil omnino confert: quae vero per se quidem inuitus facit: 
+            <lb ed="#P" n="52"/>sed nunc &amp; pro his expetuntur, principiumque est in ipso agente: ea per se quidem inuitus 
+            fa<lb ed="#P" n="53" break="no"/>cit, nunc autem &amp; pro his sponte agit. Magis autem his similia sunt quae sua sponte quis agit. 
+            <lb ed="#P" n="54"/>Actus enim sunt circa ipsa singula quae quidem sponte facit. Qualia vero pro qualibus ex¬ 
+            <!--75.xml-->
+            <pb ed="#P" n="30-v"/>
+            <lb ed="#P" n="1"/>petenda sint non facile assignare possumus, quippe cum in ipsis singulis complures sint 
+            dif<lb ed="#P" n="2" break="no"/>ferentiae. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e224">
+            Quia si quispiam ideo iucunda &amp; bona violenta dixerit esse, quia &amp; extra sunt &amp; 
+            con<lb ed="#P" n="3" break="no"/>pellunt: omnia erunt eius sententia violenta: horum enim gratia omnes omnia agunt. Atque 
+            <lb ed="#P" n="4"/>qui violentia, inuitique agunt, il cum dolore: qui ob iucundum, ii cum voluptate agunt. Est 
+            au<lb ed="#P" n="5" break="no"/>tem ridiculum externa quempiam accusare, sed non seipsum, qui quidem ab huiusmodi 
+            re<lb ed="#P" n="6" break="no"/>bus facile capitur. Et honestorum quidem se, turpium autem ea quae afferunt voluptatem con 
+            <lb ed="#P" n="7"/>sere causam esse. Id igitur violentum esse videtur cuius principium est foris, nihil prorsus eo 
+            <lb ed="#P" n="8"/>conferente cui vis est allata. Omne autem quod ob ignorationem est actum, non sponte quidem est actum.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e240">
+            <!--arist-l3c1p2"-->
+            <lb ed="#P" n="39"/>Ab inuito tamen id effectum est omne pro quo dolet qui egit, ipsumque poenitentia subit. 
+            <lb ed="#P" n="40"/>Qui namque ob ignorationem aliquid agit &amp; non fert moleste se illud egisse: sponte quidem sua non 
+            <lb ed="#P" n="41"/>egit quod nesciebat, non tamen erit inuitus: quippe cum non doleat ob idipsum. Qui igitur 
+            <lb ed="#P" n="42"/>ob ignorationem quippiam egit, si ipsum poeniteat, inuitus fecisse videtur: Si non 
+            poenite<lb ed="#P" n="43" break="no"/>at cum is alius sit, non sponte dicatur egisse: cum enim differat: melius est vt proprium 
+            ha<lb ed="#P" n="44" break="no"/>beat nomen. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e258">
+            At enim haec etiam ipsa, ob ignorationem inquam agere, &amp; ignorantem agere, diuersa esse 
+            <lb ed="#P" n="45"/>videntur. Nam ebrius aut iratus non videtur ob ignorationem agere, sed ob aliquid eorum quae dicta 
+            <lb ed="#P" n="46"/>sunt, non sciens, sed ignorans.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e265">
+            Omnis igitur prauus ignorat quae agere oportet: &amp; a quibus est abstinem 
+            <lb ed="#P" n="47"/>dum. Et ob huiuscemodi errorem iniusti homines malique omnino fiunt. Inuitus autem dicitur quispiam agere, non si 
+            <lb ed="#P" n="48"/>ignorat id quod conducit: non enim ea ignoratio quae facta est electione, causa est vt aliquid inuitus quispiam 
+            <lb ed="#P" n="49"/>faciat, sed prauitatis. Nec etiam ea quae est vniuersalis, homines enim propter hanc ipsam reprehenduntur: 
+            <lb ed="#P" n="50"/>sed ea quae est singulorum in quibus, &amp; circa quae est ipsa actio. In his enim &amp; commiseratio locum 
+            ha<lb ed="#P" n="51" break="no"/>bet &amp; venia, qui namque aliquid eorum ignorat inuitus agit.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e278">
+            Forsitam igitur non ab re fuerit: si quae &amp; 
+            <lb ed="#P" n="52"/>quot sunt ipsa determinabimus. Quis itaque, quid, &amp; circa quid, vel in quo agit, nonnunquam &amp; 
+            <lb ed="#P" n="53"/>quo, vt instrumento: &amp; cuius gratia, vt salutis: &amp; quomodo, vt sensim vel vehementer. Vniuersa igi 
+            <lb ed="#P" n="54"/>tur haec nemo ignorauerit, modo non sit insanus. Patet autem, neque enim ipsum agentem, quo 
+            <lb ed="#P" n="55"/>namque pacto se ignorabit: Ignorauerit autem quispiam id quod agit: vt inquiunt dicentes 
+            ex<lb ed="#P" n="56" break="no"/>cidisse sibi aut nescisse arcana esse: quemadmodum Eschylus ipsa arcana caeteris, aut ostende 
+            <lb ed="#P" n="57"/>re volentes immisisse, vt qui telum immisit. Putauerit autem quispiam &amp; filium hostem esse 
+            <lb ed="#P" n="58"/>vt Merope putauit, &amp; hastam cuspidem habentem ea carere, &amp; lapidem, punicem esse. Et in 
+            <lb ed="#P" n="59"/>terfecerit quispiam salutis percussum causa &amp; monstrare volens (vt faciunt qui manibus aeatre. 
+            <!--79.xml-->
+            <pb ed="#P" n="32-v"/>
+            <lb ed="#P" n="1"/>mis luctantur) percusserit. Cum igitur circa haec omnia in quibus est ipse actus sit 
+            ignora<lb ed="#P" n="2" break="no"/>tio, qui horum aliquid ignorauit, is inuitus egisse videtur, &amp; maxime in praecipuis, haec 
+            au<lb ed="#P" n="3" break="no"/>tem ea videntur esse in quibus est ipse actus &amp; id cuius gratia. Fius igitur quod ab inuito 
+            <lb ed="#P" n="4"/>ob ignorationem talem dicitur esse factum: oportet actionem dolorem insuper 
+            poenitenti<lb ed="#P" n="5" break="no"/>amque afferre.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e314">
+            Cum autem id inuitus quispiam agat: quod vi &amp; ob ignorationem agitur, id  
+            <lb ed="#P" n="6"/>sua profecto sponte quispiam videbitur agere: cuius principium est in ipso agente sciente 
+            <lb ed="#P" n="7"/>singula, in quibus est ipse actus. Forsitan enim non recte dicitur, ea fieri ab inuitis, quae per 
+            <lb ed="#P" n="8"/>iram aut cupiditatem aguntur. Primo nanque nulla belua sponte aget, neque pueri. Deinde 
+            <lb ed="#P" n="9"/>vtrum nihil eorum sponte agamus quae cupiditate vel ira agimus: an honesta quidem spon 
+            <lb ed="#P" n="10"/>te, turpia vero inuiti? An ridiculum est: cum vna sit causa? Absurdum est etiam forsitan ea 
+            <lb ed="#P" n="11"/>ab inuitis agi censere, quae oportet: oportet autem &amp; irasci pro quibusdam, &amp; cupere 
+            non<lb ed="#P" n="12" break="no"/>nullas res: vt sanitatem atque disciplinam. Videntur etiam ea quidem quae ab inuitis fiunt, 
+            <lb ed="#P" n="13"/>dolorem: ea vero quae cupiditate aguntur, voluptatem afferre. Praeterea quid interest inter 
+            <lb ed="#P" n="14"/>ea quae per rationem, &amp; quae per iram peccantur, hoc ipso quod ab inuitis agantur, etenim 
+            <lb ed="#P" n="15"/>fugienda quidem sunt ambo. Affectus autem rationis expertes non minus humani esse 
+            vi<lb ed="#P" n="16" break="no"/>dentur, &amp; actus ipsius hominis ab ira cupiditateque fiunt. Absurdum est igitur haec ab 
+            inui<lb ed="#P" n="17" break="no"/>tis agi censere. 
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e112-Dd1e344"><!-- arist-l3c2 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e347">Caput 2</head>
+          <p xml:id="ArNeTH-d1e112-d1e350" ana="#heading">
+            <lb ed="#P" n="47"/>Lib. III. Tractatus. I. Cap. II.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e355">
+            <lb ed="#P" n="48"/>DEterminatis autem his, eo inquam quod sponte, &amp; eo quod inuitus quis 
+            <lb ed="#P" n="49"/>piam agit, consequens est vt de electione dicamus. Ipsa nanque virtuti esse 
+            <lb ed="#P" n="50"/>familiarissima &amp; magis quam ipsi actus diiudicare mores videtur.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e364">
+            Electio 
+            ita<lb ed="#P" n="51" break="no"/>que sponte quidem nostra videtur fieri. Non tamen est idem quod illud  
+            <lb ed="#P" n="52"/>quod sponte fit. Sed quod fit sponte ad plura sese extendit. Est enim cum 
+            <lb ed="#P" n="53"/>pueris &amp; animalibus caeteris nobis commune: electio vero non est 
+            com<lb ed="#P" n="54" break="no"/>munis. Et ea quae a nobis repente fiunt, sponte quidem nostra fieri dicimus, electione vero 
+            <lb ed="#P" n="55"/>non dicimus. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e377">
+            Qui vero dicunt ipsam esse cupiditatem vel iram vel voluptatem, vel 
+            opinio<lb ed="#P" n="56" break="no"/>nem quandam non recte dicere videntur. Etenim electio non est commune homini cum ra 
+            <lb ed="#P" n="57"/>tionis expertibus? At cupiditas est &amp; ira. Et incontinens cupiens quidem, non tamen eligens 
+            <lb ed="#P" n="58"/>agit. Continens autem contra eligens quidem, at non cupiens agit. Et cupiditas quidem ad 
+            <lb ed="#P" n="59"/>uersatur electioni: cupiditati vero cupiditas non repugnat. Cupiditas praeterea iucundi est 
+            <!--84.xml-->
+            <pb ed="#P" n="35-r"/>
+            <lb ed="#P" n="1"/>&amp; molesti, electio vero neque molesti neque iucundi.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e396">
+            Ira etiam minus esse videtur, quippe cum 
+            <lb ed="#P" n="2"/>ea quae fiunt ira, minime per electionem fieri videantur. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e401">
+            At vero neque voluntas est tametsi 
+            <lb ed="#P" n="3"/>finitima haec esse videntur. Electio nanque non est eorum quae fieri nequeunt. Quod si quis 
+            eli<lb ed="#P" n="4" break="no"/>gere dixerit ea: amens esse videbitur. Voluntas autem est vt immortalitatis, &amp; voluntas quidem 
+            <lb ed="#P" n="5"/>est &amp; circa ea quae per ipsum qui vult nequaquam agerentur. Volumus enim histrionem aliquem 
+            <lb ed="#P" n="6"/>vincere certamen: at elegit talia nemo: sed ea quae per seipsum existimat fore posse. Praeterea 
+            <lb ed="#P" n="7"/>voluntas quidem magis est finis ipsius, electio autem eorum quae ferunt ad finem. Vt sani 
+            <lb ed="#P" n="8"/>quidem esse volumus: eligimus autem ea quibus erimus sani. Et foelices quidem esse 
+            volu<lb ed="#P" n="9" break="no"/>mus, atque ita dicimus. Eligimus autem non convenitdicere. Atque omnino circa ea versari 
+            vi<lb ed="#P" n="10" break="no"/>detur electio, quae in nostra sunt potestate.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e421">
+            Opinio quoque non est: opinatio namque circa 
+            vni<lb ed="#P" n="11" break="no"/>uersa videtur esse nec minus circa aeterna &amp; ea quae fieri nequaeunt, quam circa ea quae in nostra 
+            <lb ed="#P" n="12"/>potestate sunt collocata, et falso, veroque diuiditur: non malo bonoque: electio autem hisce 
+            ma<lb ed="#P" n="13" break="no"/>gis. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e430">
+            Electionem igitur idem esse &amp; opinationem omnino, nemo forsitan dicit. At nec etiam 
+            <lb ed="#P" n="14"/>est idem quod opinatio quaedam. Eligendo nanque bona vel mala quales quidem sumus, 
+            opi<lb ed="#P" n="15" break="no"/>nando autem non sumus. Et eligimus quidem capere aliquid aut fugere, aut aliquid talium: 
+            <lb ed="#P" n="16"/>opinamur autem quidnam sit vel cui conferat: vel quo pacto conducat: sed capere aut fuge 
+            <lb ed="#P" n="17"/>re non nimium opinamur. Et electio quidem laudatur ex eo, quia est eius quod oportet 
+            ma<lb ed="#P" n="18" break="no"/>gis: vel quia est recta. Opinio vero ex eo quia est vera. Quia eligimus quidem quae maxime 
+            <lb ed="#P" n="19"/>scimus esse bona: opinamur autem ea quae non nimium scimus. Videntur praeterea non 
+            iis<lb ed="#P" n="20" break="no"/>dem homines eligere optima, atque etiam opinari: sed quidam opinari quidem melius: ob 
+            vi<lb ed="#P" n="21" break="no"/>tium autem non ea quae oportet eligere. Nihil autem refert si antecedat electionem an comi 
+            <lb ed="#P" n="22"/>tetur opinio: non enim idipsum nunc perscrutamur, sed an idem fit electio quod opinatio 
+            <lb ed="#P" n="23"/>quaedam.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e454">
+            Quid igitur aut quale quid sit electio, cum nihil sit eorum quae diximus. Videtur 
+            <lb ed="#P" n="24"/>itaque sponte quidem a nobis fieri: attamen non omne quod sponte agimus est eligibile: sed id  
+            <lb ed="#P" n="25"/>cuius consultatio antecessit. Electio nanque cum ratione est atque mente. Subsignificare autem 
+            <lb ed="#P" n="26"/>id &amp; nomen videtur, innuens ipsum ex aliis legibiles esse.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e112-Dd1e464"><!-- arist-l3c3 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e467">Caput 3</head>
+          <p xml:id="ArNeTH-d1e112-d1e470" ana="#heading">
+            <lb ed="#P" n="6"/>Lib. III. Tractatus. I. Cap. III.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e475">
+            <lb ed="#P" n="7"/>ET est ne de omnibus consultatio: &amp; omne quoduis est consultabile: an de 
+            <lb ed="#P" n="8"/>quibusdam non est consultatio? Atque dicendum est forsitan consultabile 
+            <lb ed="#P" n="9"/>non id esse de quo quispiam insipiens, vel mente captus: sed id de quo 
+            sa<lb ed="#P" n="10" break="no"/>nae mentis quilibet consultaret. De aeternis autem nemo consultat, vt de 
+            <lb ed="#P" n="11"/>mundo: vel de diametri laterisque incommensurabilitate. Sed neque de iis quae 
+            <lb ed="#P" n="12"/>consistunt quidem in motu: semper autem fiunt eodem modo: siue 
+            neces<lb ed="#P" n="13" break="no"/>sitate, siue natura, siue propter aliquam aliam causam: vt de solstitiis atque ortu. Neque de iis 
+            <lb ed="#P" n="14"/>quae alias aliter sese habent, vt de siccitatibus imbribusve, nec item de iis quae eueniunt a 
+            <lb ed="#P" n="15"/>fortuna: vt de thesauri inuentione. sed neque de humanis omnibus rebus, nam quonam pacto 
+            <lb ed="#P" n="16"/>respublica Scytharum optime gubernaretur: nemo Lacedaemoniorum consultat. nihil enim 
+            <lb ed="#P" n="17"/>horum per nosipsos fieri potest. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e501">
+            Consultamus autem de iis rebus agendis, quae in nostra sunt 
+            <lb ed="#P" n="18"/>potestate. hae etenim restant. Causae nanque videntur esse: natura, necessitas, fortuna &amp; mens 
+            in<lb ed="#P" n="19" break="no"/>super, ac omne quod per hominem efficit. Hominum autem quisque de iis consultat quae agi 
+            <lb ed="#P" n="20"/>per ipsum possunt. Atque circa exactas quidem scientias &amp; sufficientes, non est consultatio, 
+            <lb ed="#P" n="21"/>vt de literis, non enim ambigimus quonam pacto literae sint scribendae. Sed de iis 
+            consulta<lb ed="#P" n="22" break="no"/>mus quae fiunt quidem a nobis, non tamen semper eodem modo, vt de agendis per 
+            medici<lb ed="#P" n="23" break="no"/>nam vel pecuniariam artem, &amp; eo magis circa gubernandi facultatem, quam exercendi artem 
+            de<lb ed="#P" n="24" break="no"/>liberamus, quo minus exacta est, &amp; de caeteris simili modo. Atque magis circa artes quam circa 
+            <lb ed="#P" n="25"/>scientias, nam circa ipsas magis ambigimus. Consultatio autem in iis versatur, quae plerumque 
+            <lb ed="#P" n="26"/>quidem fieri possunt, incerta tamen sunt quonam euenient pacto, &amp; in quibus est 
+            indeter<lb ed="#P" n="27" break="no"/>minatio. Atque cum magnis de rebus deliberare volumus, sumimus &amp; alios ad consilium, 
+            diffi<lb ed="#P" n="28" break="no"/>dentes nobisipsis, tamquam non sufficientibus ad discernendum.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e527">
+            Consultamus autem non de finibus, sed de his 
+            <lb ed="#P" n="29"/>quae ad fines ipsos perducunt. Nec enim medicus si sanabit, nec orator si persuadebit, nec reipublicae 
+            <lb ed="#P" n="30"/>gubernator, si bene recteque legibus ciuitatem instituet, nec denique caeterorum quisquam de fine 
+            <lb ed="#P" n="31"/>deliberat. Sed omnes posito quodam fine: quemadmodum &amp; per quae fiet ille, considerant. 
+            <lb ed="#P" n="32"/>atque si per plura posse fieri videntur, per quod illorum facillime, optimeque fiet, perquirunt. 
+            <lb ed="#P" n="33"/>Sin per vnum quonam pacto per illud fiet, &amp; illud item per quid efficietur considerant. 
+            <lb ed="#P" n="34"/>ldque faciunt, donec ad primam perueniunt, causam, quae quidem in inuentione est vltimum. 
+            <lb ed="#P" n="35"/>Qui nanque consultat, is quaerere videtur dictoque modo perinde atque designationem 
+            linea<lb ed="#P" n="36" break="no"/>rum resoluere.
+          </p>
+          <!--alias="arist-l3c3p2"-->
+          <p xml:id="ArNeTH-d1e112-d1e550">
+            <lb ed="#P" n="51"/>Non autem omnis perquisitio consultatio esse videtur. Mathematicae namque 
+            perquisitio<lb ed="#P" n="52" break="no"/>nes, consultationes non sunt. Omnis autem consultatio est continuo perquisitio: idque quod  
+            <lb ed="#P" n="53"/>vltimum est in resolutione, primum esse constat in generatione. Atque si consultantes in 
+            ali<lb ed="#P" n="54" break="no"/>quid inciderint, quod quidem fieri nequeat, desistunt: vt si sit pecuniis opus, has autem 
+            ha<lb ed="#P" n="55" break="no"/>bere non possint: quod si videatur fieri posse, tunc agere aggrediuntur. Ea vero dicimus 
+            <lb ed="#P" n="56"/>fieri posse, quae per nosipsos fieri possunt, nam ea quae per amicos fiunt, per nosipsos 
+            quo<lb ed="#P" n="57" break="no"/>dammodo fiunt, quippe cum principium sit in nobis. Quaeruntur autem quandoque quidem 
+            <lb ed="#P" n="58"/>instrumenta, quandoque autem vsus ipsorum: &amp; in teliquis simili modo. Interdum per quod,  
+            <lb ed="#P" n="59"/>interdum quomodo, aut per quem modum. Videtur igitur (vt dictum est) homo 
+            prin<lb ed="#P" n="60" break="no"/>cipium actuum esse, &amp; de iis esse consilium quae agi ab ipso possunt: &amp; actus aliorum esse 
+            <lb ed="#P" n="61"/>gratia. Finis igitur non erit consultabilis, sed ea quae ducunt ad fines. Nec etiam singula¬ 
+            <!--90.xml-->
+            <pb ed="#P" n="38-r"/>
+            <lb ed="#P" n="1"/>ria, vt si panis sit hoc, vel confectum fit vt oportet: haec enim sensus ipsius sunt. Qa si 
+            sem<lb ed="#P" n="2" break="no"/>per quispiam consultauerit, in infinitum abibit.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e585">
+            Consultabile autem &amp; eligibile idem est: 
+            <lb ed="#P" n="3"/>ipsum tamen eligibile iam definitum est: quod enim caeteris ex consultatione praetulimus 
+            <lb ed="#P" n="4"/>id eligibile est. Desinit enim tunc demum vnusquisque perquirere quonam aget pacto, cum 
+            <lb ed="#P" n="5"/>in seipsum principium redigit, &amp; in id suiipsius quod antecedit: hoc est enim quod eligit. 
+            <lb ed="#P" n="6"/>Patet hoc ita esse &amp; ex vetustissimis rebus publicis, quas imitabatur Homerus: quae namque 
+            <lb ed="#P" n="7"/>reges eligerent, ea populo renunciabant. Cum igitur ipsum eligibile sit consultabile 
+            appe<lb ed="#P" n="8" break="no"/>tibile ex iis quae in nostra sunt potestate: &amp; ipsa electio deliberatiua appetitio rerum erit, 
+            <lb ed="#P" n="9"/>earum quae in nostra sunt potestate. Nam simulatque diiudicauimus ex consultatione: 
+            af<lb ed="#P" n="10" break="no"/>fectamus deliberatione.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e605">
+            Quid est igitur electio, figura sit dictum, &amp; circa quae versatur &amp; 
+            <lb ed="#P" n="11"/>eorum esse quibus ad ipsos fines acceditur. 
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e112-Dd1e611"><!-- arist-l3c4 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e614">Caput 4</head>
+          <p xml:id="ArNeTH-d1e112-d1e617" ana="#heading">
+            <!--92.xml-->
+            <pb ed="#P" n="39-r"/>
+            <lb ed="#P" n="1"/>Lib. III. Tract. I.Cap. IIII. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e626">
+            <lb ed="#P" n="2"/>VOluntatem autem finis quidem ipsius esse, iam paulo antea diximus. Sed 
+            vi<lb ed="#P" n="3" break="no"/>detur aliis quidem esse veri boni, aliis apparentis boni. Atque fit sententia quidem 
+            <lb ed="#P" n="4"/>eorum qui verum bonum id esse censent quod est affectabile voluntate: vt id non 
+            <lb ed="#P" n="5"/>sit affectabile voluntate quod is qui non recte expetit vult. Nam si sit, erit &amp; 
+            <lb ed="#P" n="6"/>continuo bonum, at erat forte malum. Sententia autem eorum qui bonum apparens 
+            in<lb ed="#P" n="7" break="no"/> quiunt esse quod est affectabile voluntate: vt nihil sit prorsus quod suapte 
+            <lb ed="#P" n="8"/>natura sit affectabile voluntate: sed id quod vnicuique videtur. At aliud alii videtur: &amp; 
+            repu<lb ed="#P" n="9" break="no"/>gnantia forte.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e646">
+            Qa si haec non placent, dicendum est simpliciter quidem &amp; reuera verum bonum est 
+            affe<lb ed="#P" n="10" break="no"/>ctabile voluntate, vnicuique vero id quod vnicuique videtur. Studioso igitur id esse affectabile 
+            <lb ed="#P" n="11"/>voluntate, quod vere est bonum, vitioso vero quicqud contigerit. Fitque hoc perinde atque in 
+            corpo<lb ed="#P" n="12" break="no"/>ribus ipsis. His enim quorum corpora bene sese habent, salubria sunt ea quae vere talia sunt: iis 
+            <lb ed="#P" n="13"/>autem quorum corpora sunt aegrota non haec ipsa, sed alia. Similiter &amp; amara ac dulcia, &amp; calida 
+            <lb ed="#P" n="14"/>atque grauia, &amp; singula caeterorum. Studiosus enim homo recte singula iudicat, &amp; singulis in 
+            re<lb ed="#P" n="15" break="no"/>bus idipsi videtur quod vere est tale. In vnoquoque enim habitu sunt propria quaedam honesta 
+            <lb ed="#P" n="16"/>atque iucunda, atque in singulis plurimum fortasse praestat vir studiosus in dignoscendis quae vere 
+            <lb ed="#P" n="17"/>talia sunt, propterea quod est vt norma quaedam atque mensura ipsorum. Multitudo vero decipi 
+            <lb ed="#P" n="18"/>videtur ob voluptatem. Ipsa namque bonum quidem non est: bonum tamen esse videtur. Persequuntur igitur 
+            <lb ed="#P" n="19"/>ipsam tamquam bonum, dolorem autem fugiunt tamquam malum.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e112-Dd1e672"><!-- arist-l3c5 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e675">Caput 5</head>
+          <!--alias="arist-l3c5p1"-->
+          <p xml:id="ArNeTH-d1e112-d1e680">
+            <lb ed="#P" n="45"/>Lib. III. Tract. I.  Cap. V 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e685">
+            <lb ed="#P" n="46"/>CVm igitur finis quidem sit affectibilis voluntate: ea vero quibus itur 
+            <lb ed="#P" n="47"/>ad finem consultabilia sint atque eligibilia, fit vt actus ii qui circa haec 
+            ver<lb ed="#P" n="48" break="no"/>santur ab electione proficiscantur, nostraque sponte efficiantur. At 
+            opera<lb ed="#P" n="49" break="no"/>tiones virtutum circa haec ipsa versantur. nostra igitur potestate ipsae 
+            vir<lb ed="#P" n="50" break="no"/>Fltutes, &amp; identidem vitia collocantur. Quibus enim in rebus nostra, in 
+            po<lb ed="#P" n="51" break="no"/>testate situm est agere: in iis &amp; non agere: &amp; in quibus non agere, in iis est &amp; agere. Quare 
+            <lb ed="#P" n="52"/>si agere bonum, quod honestum est in nobis est situm: &amp; non agere quod est turpe in 
+            no<lb ed="#P" n="53" break="no"/>bis est collocatum. Et si non agere malum quod est honestum, in nostra est potestate: agere 
+            <lb ed="#P" n="54"/>quod est turpe, in nobis est situm. Quod si in nobis est situm tam honesta quam turpia agere. 
+            <lb ed="#P" n="55"/>&amp; simili modo non agere: hoc autem erat bonos &amp; malos esse: in nobis certe est situm nos 
+            <lb ed="#P" n="56"/>probos &amp; improbos esse.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e711">
+            Dicere autem sua sponte neminem prauum, nec inuitum quemquam 
+            bea<lb ed="#P" n="57" break="no"/>tum esse? Alterum falso est simile, alterum vero. Nam beatus quidem nemo est inuitus. Sponte 
+            <lb ed="#P" n="58"/>autem nostra prauitas comparatur. Vel obstandum est iis quae modo sunt dicta, &amp; hominem 
+            <lb ed="#P" n="59"/>non esse principium est dicendum, neque procreatorem actuum perinde ac liberorum. Qa si 
+            <lb ed="#P" n="60"/>haec vera videntur, nec in alia vlla principia actuum quam in ea quae sunt in nobis reducere pos¬ 
+            <!--94.xml-->
+            <pb ed="#P" n="40-r"/>
+            <lb ed="#P" n="1"/>sumus, quorum principia sunt in nobis: ea quoque in nobis sunt sita, sponteque a nobis fiunt.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e730">
+            <lb ed="#P" n="2"/>Haec ita esse testes sunt &amp; priuati singuli homines, &amp; ipsi legumlatores. Nam eos quidem qui 
+            <lb ed="#P" n="3"/>praua faciunt (si modo non vi nec ob ignorationem eam cuius ipsi non fuerint causa: illa 
+            <lb ed="#P" n="4"/>agant) castigant ac puniunt: iis autem qui honesta agunt, honores instituunt, vt homines 
+            <lb ed="#P" n="5"/>partim hortentur, partim prohibeant. At ad ea agenda quae nec in nostra sunt potestate. 
+            <lb ed="#P" n="6"/>nec nostra sponte efficiuntur, nemo prorsus hortatur: quippe cum vanum sit persuasum esse 
+            <lb ed="#P" n="7"/>cuipiam non calere, aut non dolere, aut non esurire, aut quiduis aliud tale: nam 
+            nihilomi<lb ed="#P" n="8" break="no"/>nus haec ipsa patietur. Etenim pro ignoratione etiam ipsa, poenas instituunt, si quispiam 
+            <lb ed="#P" n="9"/>ignorationis esse sibi videretur. Ebrios namque duplici poena afficiendos esse putarunt:. 
+            Prin<lb ed="#P" n="10" break="no"/>cipium enim in ipsis est: quippe cum in ipsarum sit potestate ebrietatem vitare, quae quidem 
+            <lb ed="#P" n="11"/>ignorationis est causa, puniunt autem eos qui aliquid eorum ignorant quae legibus 
+            conti<lb ed="#P" n="12" break="no"/>nentur, quae quidem scire oportet, nec sunt difficilia cognitu: similiter &amp; in aliis quaecunque 
+            <lb ed="#P" n="13"/>per negligentiam homines ignorare videntur: ex eo plane, quia in ipsis est non ignorare. 
+            <lb ed="#P" n="14"/>Est enim in ipsorum potestate diligentiam adhibere. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e761">
+            At fortasse tales sunt quidam vt 
+            di<lb ed="#P" n="15" break="no"/>ligentiam non adhibeant. At vt tales fierent, aut iniusti, aut intemperantes: ipsi sunt sane 
+            <lb ed="#P" n="16"/>causa dissolute viuentes, &amp; res iniustas agentes: &amp; potui &amp; rebus talibus indulgentes. 
+            Ope<lb ed="#P" n="17" break="no"/>rationes enim quae sunt circa singula, tales efficiunt. Quod quidem ex iis patet qui 
+            cui<lb ed="#P" n="18" break="no"/>uis ludo vel actui student: perseuerant enim in operando. Ignorare igitur ex operationibus 
+            <lb ed="#P" n="19"/>quae fiunt circa res singulas, habitus ipsos emergere, nimium hebetis hominis est. Praeterea 
+            me<lb ed="#P" n="20" break="no"/>tas rationis egreditur inurias facientem hominem aut intemperate agentem: nolle se iniustum aut 
+            in<lb ed="#P" n="21" break="no"/>temperatum esse: quod si quis non ignorans agit ea ex quibus erit iniustus, is sua sponte erit iniustus. 
+          </p>
+          <!--alias="arist-l3c5p2"-->
+          <p xml:id="ArNeTH-d1e112-d1e781">
+            <lb ed="#P" n="20"/>Non tamen si vult, cum est iniustus, definit esse talis, ac iustus erit. Nec enim qui 
+            aegro<lb ed="#P" n="21" break="no"/>tat, si vult erit sanus: &amp; forte sua sponte aegrotat, si incontinenter viuebat: &amp; praecepta 
+            medi<lb ed="#P" n="22" break="no"/>corum negligebat. Tunc igitur licebat ipsi non aegrotare: sed posteaquam valitudinem prodidit 
+            <lb ed="#P" n="23"/>suam, non licet. Sicut neque fit vt quisquam resumat lapidem quem proiecit: erat tamen in ipso situ 
+            <lb ed="#P" n="24"/>sumere ipsum atque proiicere: principium enim erat in ipso. Modo eodem, &amp; iniusto, &amp; 
+            intempe<lb ed="#P" n="25" break="no"/>ranti, licebat quidem ab initio talem non fore: quapropter sua sponte est talis: sed postea quam talis 
+            <lb ed="#P" n="26"/>est factus, non licet ipsi non esse talem.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e799">
+            Non solum autem animi vitia nostra sponte fiunt, sed 
+            cor<lb ed="#P" n="27" break="no"/>poris etiam interdum a nonnullis identidem comparantur: quos quidem &amp; increpamus. Pos enim qui 
+            <lb ed="#P" n="28"/>natura sunt turpes, reprehendit profecto nemo: sed eos qui per inertiam tales atque ocium 
+            <lb ed="#P" n="29"/>euaserunt. Idem &amp; circa imbecillitatem eueniri videtur: &amp; cum quispiam membris est captus. Nemo 
+            <lb ed="#P" n="30"/>namque exprobabit cuiquam id ipsum, si sit aut natura, aut aegritudine, aut vulnere caecus: sed 
+            po<lb ed="#P" n="31" break="no"/>tius miserebitur. Qa si ebrietate, vel aliquo alio flagitio captus sit oculis: omnes vtique 
+            car<lb ed="#P" n="32" break="no"/>pent, ac increpabunt. Vitiorum igitur corporis, ea quidem quae in nostra sunt potestate, 
+            repre<lb ed="#P" n="33" break="no"/>henduntur: ea vero quae non sunt, non increpantur. Haec cum ita sint: &amp; in caeteris, ea vitia quae 
+            <lb ed="#P" n="34"/>increpantur, nostra in potestate sunt collocata. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e819">
+            Sed fortasss quispiam dicet vniuersos quidem 
+            ho<lb ed="#P" n="35" break="no"/>mines id affectare semper, quod bonum apparet. ipsius tamen apparentiae dominos ipsos non  
+            <lb ed="#P" n="36"/>esse. Sed qualis tandem vnusquisque est, talem &amp; finem ipsi videri. At si habitus ipsius aliquo 
+            <lb ed="#P" n="37"/>modo sibi quisque est causa, erit &amp; apparentiae ipse sibi quodam modo causa. Sin vero nemo est 
+            <lb ed="#P" n="38"/>sibi mala agendi causa, sed haec ob ignorationem finis ipsius agit, putans per ea se summum 
+            <lb ed="#P" n="39"/>bonum consecuturum, affectatioque finis non in nostra est potestate: sed ita natum esse oportet, vt 
+            <lb ed="#P" n="40"/>habeat quasi visum: quo quidem recte discernet, &amp; id expetet quod vere est bonum, atque is est 
+            <lb ed="#P" n="41"/>ingenio bono, cui idipsum bene sese habet natura (id enim quod maximum est atque 
+            pulcher<lb ed="#P" n="42" break="no"/>rimum: &amp; quod fieri non potest vt ab alio accipiat atque discat, quale est ortum natura: tale 
+            ha<lb ed="#P" n="43" break="no"/>bebit) atque hoc recte natura beneque ortum esse ipsa est habilitas perfecta, veraque naturae. Si 
+            igi<lb ed="#P" n="44" break="no"/>tur haec vera sunt, cur magis virtus sponte nostra quam vitium comparabitur. Ambobus enim 
+            <lb ed="#P" n="45"/>similiter tam bono quam malo finis ipse natura, aut quouis modo videtur ac ponitur: caetera autem 
+            <lb ed="#P" n="46"/>agunt, quouis modo, ea ipsa referentes ad illum.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e849">
+            Siue igitur finis non natura talis vnicuique 
+            videa<lb ed="#P" n="47" break="no"/>tur, sed sit aliquid etiam apud ipsum: fuit quidem finis sic naturalis: quia vero sua sponte vir 
+            <lb ed="#P" n="48"/>studiosus caetera agit, virtus sponte comparetur ac acquiratur: vitium quoque non minus 
+            compa<lb ed="#P" n="49" break="no"/>rabitur sponte. Et homini namque malo eadem competunt, &amp; actuum, &amp; finis respectu. Si igitur (vt 
+            <lb ed="#P" n="50"/>dicitur) nostra sponte comparantur virtutes (ipsorum enim habituum nos ipsi concausae quodam 
+            <lb ed="#P" n="51"/>modo sumus: finemque talem ex eo ponimus, quia nos tales sumus) vitia quoque sponte ab 
+            homi<lb ed="#P" n="52" break="no"/>nibus acquirentur: similes enim subeant modos. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e865">
+            Communiter igitur dictum est de virtutibus 
+            <lb ed="#P" n="53"/>&amp; genus ipsum figura: mediocritates inquam ipsas esse ac habitus. Et a quibus fiunt &amp; 
+            prin<lb ed="#P" n="54" break="no"/>cipia esse illa per se agendi: nostraque in potestate collocatas esse &amp; nostra fieri sponte: atque  
+            <lb ed="#P" n="55"/>ita vt ipsa recta ratio iubet. Verum non similiter nostra sponte actus ac habitus fiunt. Actuum 
+            <lb ed="#P" n="56"/>enim a principio vsque ad finem domini sumus, ipsa singula cognoscentes: habituum vero 
+            <!--98.xml-->
+            <pb ed="#P" n="42-r"/>
+            <lb ed="#P" n="1"/>principii. Singulorum autem additio non est nota: quemadmodum in aduersa fit valetudine: 
+            <lb ed="#P" n="2"/>sed nostra sponte ideo fiunt, quia nostra erat in potestate sic aut non sic agere atque vti.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e885">
+            At 
+            <lb ed="#P" n="3"/>nunc repetentes de singulis dicamus virtutibus, quaenam sint, &amp; circa quae versentur, &amp; 
+            <lb ed="#P" n="4"/>quo etiam modo. Ex quibus &amp; illud simul emerget quot sunt ipsae virtutes, atque de 
+            fortitu<lb ed="#P" n="5" break="no"/>dine primo dicamus.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e112-Dd1e895"><!-- arist-l3c6 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e898">Caput 6</head>
+          <!--arist-l3c6c1-->
+          <p xml:id="ArNeTH-d1e112-d1e903" ana="#heading">
+            <!--100.xml-->
+            <pb ed="#P" n="43-r"/>
+            <lb ed="#P" n="1"/>Tract. II. Cap. I. &amp; Lib. III. Cap. VI.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e912">
+            <lb ed="#P" n="2"/>FOrtitudinem itaque circa metus mediocritatem esse fidutiasque perspicuum iam 
+            <lb ed="#P" n="3"/>euasit. Metuimus autem ea quae terribilia sunt. Atque haec simpliciter dicendo 
+            <lb ed="#P" n="4"/>sunt mala. Quapropter &amp; veteres metum diffinientes, expectationem 
+            in<lb ed="#P" n="5" break="no"/>quiunt metus esse mali. Metuimus igitur omnia mala, vt infamiam, 
+            pau<lb ed="#P" n="6" break="no"/>pertatem, morbos, inimicitias, mortem. At non circa haec omnia vir fortis esse 
+            <lb ed="#P" n="7"/>lvidetur. Sunt etenim nonnulla mala, quae quidem metuere oportet &amp; 
+            ho<lb ed="#P" n="8" break="no"/>nestum est, &amp; non metuere turpe. Infamia namque qui timet est probus &amp; verecundus: qui non 
+            ti<lb ed="#P" n="9" break="no"/>met impudens. Fortis tamen translatione dicitur a quibusdam: quippe cum aliquid simile 
+            videa<lb ed="#P" n="10" break="no"/>tur habere. Est enim &amp; ipse fortis interritus quidem, paupertatem autem metuere forsitan non 
+            <lb ed="#P" n="11"/>oportet: nec morbum, nec omnino quicquam eorum quae nec vitio, nec a nobisipsis proueniunt. Nec 
+            <lb ed="#P" n="12"/>tamen is est fortis qui haec non metuit: sed hunc etiam fortem similitudine quadam vocamus: nonnulli 
+            <lb ed="#P" n="13"/>enim homines in bellicis quidem periculis meticulosi sunt. Liberales autem sunt, &amp; ad erogandas 
+            <lb ed="#P" n="14"/>pecunias animose se habent. At neque siquis pro filiorum atque vxoris pudicitia timet, aut inuidiam 
+            <lb ed="#P" n="15"/>metuit, aut aliquid tale, timidus est. Neque etiam fortis, si cum est verberibus caedendus, confidit.
+          </p>
+          <!--alias="arist-l3c6p2"-->
+          <p xml:id="ArNeTH-d1e112-d1e948">
+            <lb ed="#P" n="49"/>Circa quae igitur terribilia vir fortis versatur. An circa ea quae sunt maxima: letenim 
+            <lb ed="#P" n="50"/>nemo tolerantior est malorum homine forti. Mors autem maxime omnium est terribile. Est 
+            <lb ed="#P" n="51"/>enim vltimum vitae: &amp; nihil post homini mortuo, aut bonum, aut malum esse videtur. Atenim 
+            <lb ed="#P" n="52"/>neque circa omne genus mortis, vir fortis esse videtur. Non enim circa mortem eam quae fit 
+            <lb ed="#P" n="53"/>in mari, aut euenit morbis. Circa quam ergo mortem vir fortis erit? An circa eam quae est 
+            pul<lb ed="#P" n="54" break="no"/>cherrima? Talis autem est ea quae fit in bello: in maximo namque fit &amp; pulcherrimo profecto 
+            <lb ed="#P" n="55"/>periculo. Eodem accedunt &amp; ipsi honores, qui tum a ciuitatibus, tum a regibus sunt instituti. 
+            <lb ed="#P" n="56"/>Is igitur homo fortis proprie dicitur, qui circa honestam mortem, &amp; ea omnia quae repente 
+            <lb ed="#P" n="57"/>eueniunt atque afferunt ipsam, interritus est. Huiusmodi vero sunt ea quae in bello contingunt. 
+            <lb ed="#P" n="58"/>Quinetiam &amp; in mari, &amp; in ipsis morbis vir fortis timore vacat: non tamen ita vt nautae: 
+            <lb ed="#P" n="59"/>fortes enim &amp; de salute sua desperant &amp; genus tale mortis moleste ferunt: illi vero spe propter 
+            <lb ed="#P" n="60"/>experientiam sunt freti. Simul autem &amp; viriliter fortiterque agunt in quibus vires habent locum, 
+            <lb ed="#P" n="61"/>aut honestum est mori quorum neutrum est in tali genere mortis. 
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e112-Dd1e980"><!-- arist-l3c7 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e983">Caput 7</head>
+          <p xml:id="ArNeTH-d1e112-d1e986" ana="#heading">
+            <lb ed="#P" n="52"/>Tract. II. Cap. II. &amp; Lib. III. Cap. VII.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e991">
+            <lb ed="#P" n="53"/>NOn est autem idem vniuersis terribile. Et dicimus etiam aliquid esse quod  
+            <lb ed="#P" n="54"/>facultatem superat hominis: id igitur vnicuique terribile est homini sanae 
+            <lb ed="#P" n="55"/>mentis. At ea quae metas facultatis non egrediuntur humanae, 
+            magnitu<lb ed="#P" n="56" break="no"/>ldine differunt, &amp; intentione remissioneque. Similiter autem &amp; ea quibus 
+            <lb ed="#P" n="57"/>confidimus. Fortis itaque impauidus est vt homo, atque timebit quidem &amp; 
+            hu<lb ed="#P" n="58" break="no"/>aeliuscemodi res formidolosas, verum vt oportet: &amp; vt dictat ratio tolerabit, 
+            <lb ed="#P" n="59"/>honestatis causa. Haec enim ipsius virtutis est finis. Fit autem vt haec &amp; magis &amp; minus 
+            ti<lb ed="#P" n="60" break="no"/>meant homines, &amp; etiam vt ea quae non terribilia sunt, vt terribilia metuant, atque delinquitur. 
+            <lb ed="#P" n="61"/>cum metuunt aut ea quae non oportet metuere, aut non quemadmodum oportet, aut non  
+            <!--106.xml-->
+            <pb ed="#P" n="45-r"/>
+            <lb ed="#P" n="1"/>quando oportet, aut aliquid talium. Similiter peccatur &amp; circa ea quibus confidimus. Qui 
+            <lb ed="#P" n="2"/>igitur &amp; ea quae oportet, &amp; gratia cuius oportet, &amp; vt oportet, &amp; quando oportet: fert &amp; 
+            me<lb ed="#P" n="3" break="no"/>tuit (&amp; identidem confidit) is homo est fortis. Fortis enim pro dignitate, &amp; vt ipsa ratio 
+            <lb ed="#P" n="4"/>iubet, tam patitur quam etiam agit. Finis autem operationis omnis est, qui accommodatur 
+            ha<lb ed="#P" n="5" break="no"/>bitui, &amp; viro etiam forti honestum est ipsa fortitudo. Talis igitur &amp; ipsius est finis. Singula 
+            <lb ed="#P" n="6"/>nanque suo fine definiuntur. Fortis igitur honesti causa subit &amp; agit ea quae ad ipsam fortitu 
+            <lb ed="#P" n="7"/>dinem pertinent. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1033">
+            Exuperantium autem is quidem qui in non metuendo exuperat, nomine 
+            <lb ed="#P" n="8"/>caret: atque dictum est antea nominibus complura vacare. At vocari potest insanus quidem 
+            <lb ed="#P" n="9"/>vel stupidus: si nihil omnino neque motus terrae, neque fiuctus (vt de Celtis dicitur) metuat. 
+            <lb ed="#P" n="10"/>Sed is qui circa res formidolosas exuperat confidendo, audax est. Videtur autem 
+            ip<lb ed="#P" n="11" break="no"/>se audax &amp; arrogans esse &amp; fortitudinis simulator. Qualis igitur est fortis circa res 
+            <lb ed="#P" n="12"/>ipsas formidolosas: talis &amp; ipse videri vult. ltaque imitatur illum in quibus potest. 
+            Qua<lb ed="#P" n="13" break="no"/>propter &amp; complures impsorum audaces sunt simul &amp; timidi. In his enim audentes, res 
+            <lb ed="#P" n="14"/>formidolosas non sustinent. Is autem qui metuendo exuperat, timidus est. Nam timet ea 
+            <lb ed="#P" n="15"/>quae non oportet: &amp; non vt oportet. &amp; omnia talia ipsum sequuntur. Deficit autem &amp; in  
+            <lb ed="#P" n="16"/>consulendo. Sed in doloribus exuperans magis est manifestus. Meticulosus ingitur male sese 
+            <lb ed="#P" n="17"/>habet circa spem quippe cum vniuersa metuat: fortis vero contra sese habet. Confidere namque 
+            <lb ed="#P" n="18"/>bene sperantis hominis est. Circa igitur haec versatur &amp; audax, &amp; meticulosus, &amp; fortis. Sed  
+            <lb ed="#P" n="19"/>diuerso modo ad haec sese habent. Illi namque exuperant &amp; deficiunt: at hic mediocriter sese 
+            <lb ed="#P" n="20"/>habet &amp; vt oportet. Et audaces quidem praecipites sunt ante ipsa pericula &amp; volunt ea, sed  
+            <lb ed="#P" n="21"/>cum in ipsis sunt tergiuersantur. Fortes autem in ipsis quidem operibus feruidi sunt: 
+            an<lb ed="#P" n="22" break="no"/>tea vero quieti.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1068">
+            Vt igitur dictum est. fortitudo mediocritas est circa ea quibus confidimus, 
+            <lb ed="#P" n="23"/>&amp; ea quae terribilia sunt in iis quae diximus: &amp; eligit atque fert ipsa: quia est honestum, &amp; quia 
+            <lb ed="#P" n="24"/>est turpe non subire atque perferre. Mortem autem sibi consciscere ob fugiendam paupertatem, 
+            <lb ed="#P" n="25"/>aut amorem, aut molestum aliquid non fortis est hominis, sed potius timidi. Est enim 
+            mol<lb ed="#P" n="26" break="no"/>litudinis laboriosa fugere, atque non quia res est honesta appetit mortem, sed quia malum fu 
+            <lb ed="#P" n="27"/>git. Fortitudo igitur tale aliquid est.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e112-Dd1e1082"><!-- arist-l3c8 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e1085">Caput 8</head>
+          <p xml:id="ArNeTH-d1e112-d1e1088" ana="#heading">
+            <lb ed="#P" n="14"/>Tractatus. II. Cap. III. &amp; Lib. III. Cap. VIII.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1093">
+            <lb ed="#P" n="15"/>DIcuntur autem &amp; aliae fortitudines quinque modis.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1098">
+            Atque prima est ipsa 
+            ci<lb ed="#P" n="16" break="no"/>uilis, maxime autem similis est. Ciues enim ob increpationes quae sunt 
+            <lb ed="#P" n="17"/>lex legibus, &amp; opprobria honoresue, pericula subire videntur, &amp; propterea 
+            <lb ed="#P" n="18"/>fortissimi videntur esse: apud quos timidi quidem infames sunt, fortes 
+            <lb ed="#P" n="19"/>lautem afficiuntur honore. Tales &amp; Homerus affert, vt Diomedem ac 
+            <lb ed="#P" n="20"/>Hectorem: dicit enim Hector. 
+            <lb ed="#P" n="21"/>
+            <quote xml:id="ArNeTH-d1e112-Qd1e1113">Nam me Polydamas ante omnes ipse reprendet. Et Diomedes. 
+              <lb ed="#P" n="22"/>Inter enim dicet Troianos optimus Hector. 
+              <lb ed="#P" n="23"/>Tvtides metuens puppes confugit ad altas.</quote> Haec autem ex eo maxime similis est ei de qua 
+            <lb ed="#P" n="24"/>supra diximus, quae fit ob virtutem. Ob pudorem enim &amp; appetitionem honestae rei: 
+            hono<lb ed="#P" n="25" break="no"/>ris inquam, &amp; ob fugiendam repraehensionem, quae quidem est turpis. In eodem posuerit 
+            <lb ed="#P" n="26"/>quispiam &amp; cos qui compelluntur a magistratibus. Verum deteriores eo sunt, quod non ob pu per 
+            <lb ed="#P" n="27"/>dorem, sed ob metum id faciunt, &amp; fugiunt non rem turpem, sed rem molestam, cogunt enim o 
+            <lb ed="#P" n="28"/>ii qui potestatem habent. vt Hector. 
+            <lb ed="#P" n="29"/>
+            <quote xml:id="ArNeTH-d1e112-Qd1e1133">Quem procul a pugna trepidantem forte videbo, 
+              <lb ed="#P" n="30"/>Ille canum fiet, fiet quoque vulturis esca.</quote>
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1139">
+            <lb ed="#P" n="31"/>Idem faciunt &amp; qui aliis imperant &amp; si recedunt, verberibus afficiunt: &amp; qui an muros, fossas &amp; 
+            hu<lb ed="#P" n="32" break="no"/>iuscemodi construunt aciem, omnes enim cogunt. At non necessitate, sed quia res est honesta, fortem esse 
+            <lb ed="#P" n="33"/>oportet.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1149">
+            Videtur etiam &amp; ipsa singularum rerum peritia fortitudo esse. Quapropter &amp; Socrates for 
+            <lb ed="#P" n="34"/>titudinem scientiam esse putauit. Tales autem alii quidem in aliis sunt, in rebus autem bellicis milites, 
+            <lb ed="#P" n="35"/>sunt enim in bello complures res vanae, quae quidem maxime ipsis sunt notae atque ideo fortes videntur: 
+            <lb ed="#P" n="36"/>quia quales sunt illae, alii nesciunt. Deinde &amp; aduersarios offendere, &amp; seipsos tueri maxime ex 
+            <lb ed="#P" n="37"/>perientia possunt, &amp; euitare hostis conatus, &amp; illum percutere, cum armis vti possint, &amp; talia 
+            habe<lb ed="#P" n="38" break="no"/>ant, vt &amp; ad faciendum sint &amp; ad non patiendum aptissima: quibus efficitur, vt ipsi tamquam aduersus 
+            in<lb ed="#P" n="39" break="no"/>ermes armati, &amp; tanquam aduersus rudes ludi magistri decertent. Etenim in huiuscemodi 
+            certa<lb ed="#P" n="40" break="no"/>minibus non ii sunt pugnacissimi, qui fortissimi sunt, sed ii qui vires amplissimas habent, &amp; optime 
+            <lb ed="#P" n="41"/>sese habent corporibus. At vero milites tunc timidi fiunt cum excrescit periculum, &amp; inferiores sunt 
+            <lb ed="#P" n="42"/>copiis ac apparatu. Primi namque fugam arripiunt, vrbanae vero copiae manent, atque intereunt, quod quidem E 
+            <lb ed="#P" n="43"/>&amp; in Hermeo accidit. Hae namque turpe fugere, &amp; mortem tali saluti praeferendam esse censent. illi vero 
+            <lb ed="#P" n="44"/>vt superiores ab initio sese obiectant periculis: re autem intellecta, fugam arripiunt, mortem magis quam dede 
+            <lb ed="#P" n="45"/>cus formidantes. Sed vir fortis non est talis. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1178">
+            Atqui iram etiam ad fortitudinem referunt. Fortes enim &amp; C 
+            <lb ed="#P" n="46"/>ii videntur qui ob iram feruntur perinde atque ferae, in eos qui ipsos vulnere affecerunt, quia &amp; fortes concitantur 
+            <lb ed="#P" n="47"/>ita. Et enim ira res impetuosissima ad aggredienda pericula. Quapropter &amp; Homerus dixit. Vi¬ I 
+            <lb ed="#P" n="48"/>res iniecit irae &amp; animum ira concitauit. &amp; acuta per nares vis, &amp; efferbuit sanguis. Haec enim 
+            vni<lb ed="#P" n="49" break="no"/>uersa irae concitationem impetumve significare videntur. Fortes igitur ob honestatem agunt, &amp; ipsa ira 
+            <lb ed="#P" n="50"/>subministrat. Ferae autem ob dolorem, quia namque vulnus acceperunt, vel quia timent, nam si su 
+            <lb ed="#P" n="51"/>is in lustris sint non inuadunt: non igitur sunt fortes. Propterea quod a dolore concitati ac ira 
+            <lb ed="#P" n="52"/>ad periculum irruunt, nihil praeuidentes malorum. Nam hoc pacto &amp; ipsi asini cum esuriunt 
+            <lb ed="#P" n="53"/>fortes essent. Non enim a pabulo verberibus dimouentur. Adulteri quoque propter libidinem e 
+            <lb ed="#P" n="54"/>multa audent. Non igitur fortes sunt qui ob dolorem ac iram ad pericula compelluntur. Maxime 
+            <lb ed="#P" n="55"/>autem naturalis ea esse videtur, quae est obiram &amp; esse fortitudo electione sumpta, fineque: 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1202">
+            <!--111.xml-->
+            <pb ed="#P" n="47-v"/>
+            <lb ed="#P" n="1"/>&amp; ipsi etiam homines cum irascuntur dolent, cum vlciscuntur capiunt voluptatem. Qui au 
+            <lb ed="#P" n="2"/>tem propter haec agunt pugnaces quidem sunt, at non fortes: non enim ob honestatem agunt 
+            <lb ed="#P" n="3"/>nec vt ratio praecipit, sed ob ipsum affectum: aliqua tamen ex parte sunt similes fortibus.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1215">
+            <lb ed="#P" n="4"/>Nec etiam ii qui sunt spe freti, sunt fortes: nam ex eo quod saepe multosque vicerunt, fiduciam in 
+            <lb ed="#P" n="5"/>periculis habent. Sunt autem similes fortibus, quia vtrique confidunt: sed fortes quidem ob 
+            <lb ed="#P" n="6"/>eas res quas paulo antea diximus: illi vero quia se superiores esse putant, &amp; nihil vicissim 
+            sus<lb ed="#P" n="7" break="no"/>cepturos mali. Tale &amp; ipsi ebrii faciunt: sperant enim omnia sibi prospere euenire, cum vero 
+            <lb ed="#P" n="8"/>non eueniunt ipsis talia: fugam arripiunt. At viri fortis erat, res eas quae sunt hominibus &amp; 
+            <lb ed="#P" n="9"/>videntur formidolosae, ferre: quia honestum est ferre, &amp; turpe est non ferre. Quamobrem &amp; 
+            <lb ed="#P" n="10"/>magis fortis esse videtur subitis potius in terroribus interritum esse ac sine turbatione: quam 
+            <lb ed="#P" n="11"/>in praeuisis. Est enim ab habitu magis aut minus ex apparatu. Nam antea visa cogitatione 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1235">
+            <lb ed="#P" n="12"/>&amp; ratione quispiam eliget: at ea quae repente eueniunt, habitu.
+            Fortes etiam esse videntur &amp; 
+            <lb ed="#P" n="13"/>qui ignorant. Et sunt non longe ab iis, qui spe freti confidunt. deteriores autem sunt, 
+            quo<lb ed="#P" n="14" break="no"/>niam dignitatis nihil habent: illi autem habent. Quapropter &amp; aliquo tempore manent, hi 
+            <lb ed="#P" n="15"/>vero decepti, si cognouerint vel suspicati fuerint aliud esse quam putabant: fugiunt. Quod 
+            qui<lb ed="#P" n="16" break="no"/>dem argiuis contigit, cum in Lacedaemonios tanquam in Sicyonios incidissent.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1248">
+            Dictum est 
+            igi<lb ed="#P" n="17" break="no"/>tur qualesnam sint ipsi fortes: &amp; ii rursus qui fortes esse videntur. 
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e112-Dd1e1254"><!-- arist-l3c9 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e1257">Caput 9</head>
+          <p xml:id="ArNeTH-d1e112-d1e1260" ana="#heading">
+            <lb ed="#P" n="33"/>Tract. II. CAb. IIII. LIb. III. CAb. IX.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1265">
+            <lb ed="#P" n="34"/>QVamquam autem circa fidutias metusque fortitudo versatur: tamen non simili 
+            <lb ed="#P" n="35"/>modo circa vtrunque, sed magis circa res formidolosas versatur. Qui namque 
+            <lb ed="#P" n="36"/>in hisce non turbatur, atque se habet circa has vt oportet, magis est fortis quam 
+            <lb ed="#P" n="37"/>is qui circa ea in quibus confiditur, se habet vt oportet. Fortes igitur ex eo 
+            <lb ed="#P" n="38"/>dicuntur, quod res (vt dictum est) inferentes dolores tolerant. ldcirco 
+            fortitu<lb ed="#P" n="39" break="no"/>do dolores affert, &amp; non iniuria laudatur. Difficilius enim est dolores ferre 
+            <lb ed="#P" n="40"/>quam a voluptatibus abstinere.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1283">
+            Enimuero fortitudinis finis iucundus esse videtur. verum ab eue 
+            <lb ed="#P" n="41"/>nientibus doloribus obfuscatur, vt &amp; in certaminibus fieri solet, nam pugilibus finis quidem 
+            <lb ed="#P" n="42"/>ipse iucundus est, gratia cuius certant: coronae inquam atque honores: sed caedi molestum est cum 
+            <lb ed="#P" n="43"/>sint e carne: doloresque affert, &amp; omnis omnino labor. Atque quia haec sunt multa, ideo id 
+            gra<lb ed="#P" n="44" break="no"/>tia cuius certant, cum sit res parua, nihil iucundi videtur habere. Qa si tale &amp; circa 
+            fortitu<lb ed="#P" n="45" break="no"/>dinem est: mors quidem atque vulnera forti viro molesta erunt, atque inuito. Feret tamen quod ho 
+            <lb ed="#P" n="46"/>nestum est ea ferre: vel turpe non ferre. Atque quo omni virtute pollet magis &amp; foelicior est, eo 
+            <lb ed="#P" n="47"/>magis ob mortem sane dolebit. Vit enim talis maxime dignus est vita, maximisque bonis pri 
+            <lb ed="#P" n="48"/>uatur, id ipsum sciens, quod quidem dolorem affert: verum nihilominus est fortis. Et eo ma 
+            <lb ed="#P" n="49"/>gis fortasse quod honestatem quae est in bello his anteponit. Nec fit vt omnibus in virtutibus 
+            <lb ed="#P" n="50"/>cum voluptate operemur nisi quoad attingitur finis. Nihil autem fortasse vetat non eos qui 
+            <lb ed="#P" n="51"/>tales sunt praestantissimos milites esse, sed eos qui minus quidem sunt fortes, nullum autem 
+            <lb ed="#P" n="52"/>aliud bonum habent. Hi nanque parati sunt sese periculis obiectare, vitamque pro paruo 
+            emo<lb ed="#P" n="53" break="no"/>lumento perdunt. De fortitudine igitur hactenus dixisse sufficiat.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1314">
+            Quid autem est, ex iis quae  
+            <lb ed="#P" n="54"/>diximus non est difficile compraehendere ac assignare figura. 
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e112-Dd1e1320"><!-- arist-l3c10 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e1323">Caput 10</head>
+          <!--arist-l3c10p1-->
+          <p xml:id="ArNeTH-d1e112-d1e1328" ana="#heading">
+            <lb ed="#P" n="43"/>Tract. III. CAb. I. &amp; Lib. III. CAb. X.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1333">
+            <lb ed="#P" n="44"/>POst hanc autem de temperantia dicamus. Hae namque virtutes partium 
+            ea<lb ed="#P" n="45" break="no"/>rum esse videntur quae sunt rationis expertes: atque temperantiam circa 
+            vo<lb ed="#P" n="46" break="no"/>luptates mediocritatem esse iam antea diximus. Minus enim &amp; non simi 
+            <lb ed="#P" n="47"/>liter circa dolores versatur. In eisdem autem &amp; intemperantia esse videtur: 
+            <lb ed="#P" n="48"/>sed nunc circa quas est voluptates determinemus oportet. Diuidantur igi 
+            <lb ed="#P" n="49"/>tur animae atque corporis voluptates, vt honoris cupiditas, &amp; auiditas disci 
+            <lb ed="#P" n="50"/>plinae. Nam tam ambitiosus quam auidus disciplinae eo gaudet cuius est auidus, &amp; corpus nihil, 
+            <lb ed="#P" n="51"/>sed mens potius patitur, atque ii qui voluptatibus huiuscemodi alliciuntur: nec temperantes, 
+            <lb ed="#P" n="52"/>nec intemperantes dicuntur. Pari modo neque qui circa caeteras voluptates, quae non 
+            attribu<lb ed="#P" n="53" break="no"/>untur corpori occupantur, eos enim qui fabulis &amp; narrationibus delectantur, &amp; circa talia 
+            <lb ed="#P" n="54"/>dies consumunt verbosos quidem atque deliros: intemperantes autem non consueuimus 
+            ap<lb ed="#P" n="55" break="no"/>pellare. Nec eos etiam, qui pecuniarum vel amicorum causa dolent.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1362">
+            Temperantia igitur non 
+            <lb ed="#P" n="56"/>circa animae, sed circa corporis voluptates versatur. Non tamen &amp; circa has ipsas omnes. Qui 
+            <lb ed="#P" n="57"/>namque rebus iis gaudent quae visu percipiuntur: vt coloribus, figuris, pictura, nec temperantes 
+            <lb ed="#P" n="58"/>nec intemperantes dicuntur. &amp; si videntur &amp; his homines &amp; vt oportet, &amp; magis quam oportet. 
+            <!--117.xml-->
+            <pb ed="#P" n="50-v"/>
+            <lb ed="#P" n="1"/>&amp; minus etiam gaudere. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1379">
+            Simili modo, neque qui rebus iis gaudent quae auditu percipiuntur. 
+            <lb ed="#P" n="2"/>Nemo enim aut eos qui cantu vel histrionis gaudent voce plusquam oportet, intemperantes, 
+            <lb ed="#P" n="3"/>aut eos qui vt oportet eisdem gaudent, temperantes appellat.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1386">
+            Nec etiam ii qui circa odores 
+            <lb ed="#P" n="4"/>gaudent, nisi per accidens, non enim eos qui malorum aut rosarum aut vaporum, sed eos 
+            po<lb ed="#P" n="5" break="no"/>tius qui vnguentorum aut epularum odoribus delectantur, intemperantes dicimus esse 
+            <lb ed="#P" n="6"/>his enim intemperantes ex eo gaudent, quia per hos ipsis rerum earum quas cupiunt 
+            recor<lb ed="#P" n="7" break="no"/>datio fit. Videre etiam licet &amp; caeteros, cum esuriunt: epularum gaudentes odore. at his 
+            de<lb ed="#P" n="8" break="no"/>lectari intemperantis est, quippe cum eius haec obiiciantur cupiditati.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1399">
+            Atqui neque caetera 
+            <lb ed="#P" n="9"/>animalia voluptatem, nisi per accidens, per hosce capiunt sensus. Neque enim odore leporum, 
+            <lb ed="#P" n="10"/>sed esu gaudent canes, odor autem sensum ferit. Neque voce bouis leo, sed esu. Per vocem 
+            au<lb ed="#P" n="11" break="no"/>tem sensit illum esse propinquum, atque hoc ipso gaudere videtur. Pari modo neque si vidit aut  
+            <lb ed="#P" n="12"/>inuenit ceruum, aut feram capram, hoc ipso gaudet, sed quia cibum habebit.
+          </p>
+          <!--alias="arist-l3c10p2-->
+          <p xml:id="ArNeTH-d1e112-d1e1412">
+            <lb ed="#P" n="48"/>⁋ Circa voluptates igitur tales temperantia intemperantiaque versatur, quae quidem &amp; 
+            caete<lb ed="#P" n="49" break="no"/>ris animalibus sunt communes. Quocirca seruiles &amp; ferales esse videntur, hae autem sunt quae  
+            <lb ed="#P" n="50"/>tactu gustuque suscipiuntur. At enim &amp; gustu intemperantes parum, vel minime vti 
+            viden<lb ed="#P" n="51" break="no"/>tur. Gustus enim officium, saporum iudicium est. Quod quidem ii faciunt qui vina probant, 
+            <lb ed="#P" n="52"/>&amp; epulas condiunt. Non nimium autem hisce gaudent intemperantes, sed voluptate, quae  
+            <lb ed="#P" n="53"/>fit omnis per tactum, &amp; in aesculentis ac poculentis, &amp; in iisce quae venerea nuncupantur 
+            <lb ed="#P" n="54"/>Quapropter &amp; quidem voluptatibus deditus epularum (Philoxenus quidam Erycius) pre 
+            <lb ed="#P" n="55"/>catus est, vt longius sibi guttur quam gruis fieret, propterea quod tactu delectabatur. Sensuum igi 
+            <lb ed="#P" n="56"/>tur maxime communis est is, circa quem intemperantia versatur. Atque propterea iure 
+            vitupe<lb ed="#P" n="57" break="no"/>randa esse videtur, quod hominibus non ratione qua homines sunt, sed qua animalia, accidit. 
+            <lb ed="#P" n="58"/>Talibus igitur gaudere, maximeque talia amare, ferale est. Etenim liberalissimae voluptates quae 
+            <lb ed="#P" n="59"/>per tactum proueniunt, exceptae sunt. Vt ea quae in ludis ac certaminibus per fricationem calo 
+            <lb ed="#P" n="60"/>remque fiunt. Non enim intemperans tactus circa vniuersum est corpus, sed circa quasdam corperis partes. 
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e112-Dd1e1445"><!-- arist-l3c11 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e1448">Caput 11</head>
+          <p xml:id="ArNeTH-d1e112-d1e1451" ana="#heading">
+            <!--119.xml-->
+            <pb ed="#P" n="51-v"/>
+            <lb ed="#P" n="26"/>Tract. III. Cap. II. &amp; Lib. III. Cap. XI.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1460">
+            <lb ed="#P" n="27"/>CVpiditatum autem aliae communes esse videntur, aliae propriae atque adiunctae. Alimenti 
+            <lb ed="#P" n="28"/>namque cupiditas, naturalis est: omnes enim cum indigent nutrimento, siccum aut humi 
+            <lb ed="#P" n="29"/>dum alimentum, &amp; nonnunquam vtrumque cupiunt, cubile etiam cupit (vt inquit Homerus)  
+            <lb ed="#P" n="30"/>iuuenis atque vigens. Non autem omnes tale vel tale, vel eadem cupiunt: quocirca nostrum 
+            <lb ed="#P" n="31"/>idipsum esse videtur: habet tamen &amp; aliquid naturale. Alios enim alia dele 
+            <lb ed="#P" n="32"/>lctant, &amp; quaedam quibusdam magis (quam alia quaecunque) sunt voluptati. Haec cum 
+            <lb ed="#P" n="33"/>ita sint, in naturalibus quidem cupiditatibus pauci peccant, &amp; ad vnum, ad ipsum inquam plus. 
+            <lb ed="#P" n="34"/>Cum enim quispiam quaeuis comedit, aut bibit donec impleatur, superfluo fit tum rei natu 
+            <lb ed="#P" n="35"/>ralis exuperatio multitudine. ipsa namque naturalis cupiditas, indigentiae est repletio. 
+            Quapro<lb ed="#P" n="36" break="no"/>pter hi furentes circa ventrem dicuntur, quia vltra quam oportet ipsum implent atque refarciunt. 
+            Ta<lb ed="#P" n="37" break="no"/>les autem ii fiunt qui mancipiis sunt persimiles. At circa proprias cupiditates, complures hominum, 
+            <lb ed="#P" n="38"/>multisque modis delinquunt. Nam cum talium amatores ex eo dicantur, quia vel gaudent quod 
+            <lb ed="#P" n="39"/>bus non oportet, vel magis quam vt ipsi multi vel non vt oportet: in vniuersis intemperantes exce 
+            <lb ed="#P" n="40"/>dunt. Gaudent enim quibusdam quibus non oportet gaudere, quippe cum sint odio digna, &amp; si 
+            <lb ed="#P" n="41"/>talium quibusdam oporteat gaudere: magis illis gaudent quam oportet: &amp; quam vt ipsa gaudet 
+            mul<lb ed="#P" n="42" break="no"/>titudo. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1497">
+            Eam igitur exuperationem quae est circa voluptates, intemperantiam esse &amp; vituperabilem, 
+            <lb ed="#P" n="43"/>constat. CCirca vero dolores: non vt in fortitudine, sic in ipsa temperantia fit, vt temperans 
+            <lb ed="#P" n="44"/>quidem dicatur quispiam ferendo dolores, intemperans autem non ferendo. Sed intemperans 
+            <lb ed="#P" n="45"/>quidem ex eo dicitur, quia dolet magis quam oportet, cum voluptate non potitur, atque ipsum 
+            do<lb ed="#P" n="46" break="no"/>lorem affert ei ipsa voluptas. temperans autem ex eo, quia absentia rerum earum quae efficiunt 
+            <lb ed="#P" n="47"/>voluptatem non dolet, illisque abstinet. 
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1510">
+            Intemperatus igitur ea omnia quae afferunt voluptatem, 
+            <lb ed="#P" n="48"/>vel ea quae maxime concupiscit, &amp; a cupiditate adeo ducitur, vt illa caeteris omnibus antepo 
+            <lb ed="#P" n="49"/>nat, quapropter &amp; non adipiscens &amp; cupiens dolet, cupiditas enim est cum dolore. Absurdo au 
+            <lb ed="#P" n="50"/>tem est persimile ob voluptatem dolere. Atqui deficientes in voluptatibus &amp; minus 
+            gauden<lb ed="#P" n="51" break="no"/>tes homines quam oportet, non nimium fiunt. Non est enim insensibilitas talis humana: etenim 
+            <lb ed="#P" n="52"/>animalia caetera cibos discernunt, &amp; quibusdam quidem gaudent, a quibusdam vero abhor 
+            <lb ed="#P" n="53"/>rent. Qa si quis sit cui nullus prorsus est voluptati, nec vllus ab alio differt, is longe ab homi 
+            <lb ed="#P" n="54"/>ne distat. Nomen autem non habuit talis, quia non facile sit. Vir autem temperans in his 
+            me<lb ed="#P" n="55" break="no"/>diocriter sese habet. Nec enim iis gaudet, quibus intemperans maxime delectatur, sed 
+            poti<lb ed="#P" n="56" break="no"/>us moleste fert. Nec iis omnino quibus delectari non decet, nec vehementer vllis rebus hu¬ 
+            <!--121.xml-->
+            <pb ed="#P" n="52-v"/>
+            <lb ed="#P" n="1"/>iuscemodi delectatur: neque si absint, dolet, neque cupit: nisi mediocriter semper, nec magis quam opor 
+            <lb ed="#P" n="2"/>tet, nec quando non oportet: vlla res omnino talis ipsum delectat. Mediocriter autem &amp; vt 
+            <lb ed="#P" n="3"/>oportet, eas res appetit, quae voluptate quidem afficiunt, ad sanitatem autem &amp; bonam 
+            cor<lb ed="#P" n="4" break="no"/>poris habitudinem conferunt, &amp; res caeteras voluptatis effectrices identidem, si nec 
+            impedi<lb ed="#P" n="5" break="no"/>mento sint dictis habitibus corporis, nec honestatis cancellos, nec facultatum metas 
+            egre<lb ed="#P" n="6" break="no"/>diantur. Nam qui ita sese habet magis quam dignum est, eiusmodi voluptates amare videtur. 
+            <lb ed="#P" n="7"/>at temperans non est talis, sed ita sese habet, vt ipsa ratio recta praescribit.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e112-Dd1e1553"><!-- arist-l3c12 -->
+          <head xml:id="ArNeTH-d1e112-Hd1e1556">Caput 12</head>
+          <p xml:id="ArNeTH-d1e112-d1e1559" ana="#heading">
+            <lb ed="#P" n="52"/>Tract. III. Cap. III. &amp; Lib. III. Cap. XII.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1564">
+            <lb ed="#P" n="53"/>NOstra autem sponte, magis intemperantia, quam timiditas comparatur. Haec 
+            <lb ed="#P" n="54"/>nim ob voluptatem, timiditas fit ob dolorem: quorum alterum expetimus, 
+            <lb ed="#P" n="55"/>alterum fugimus. Et dolor quidem distrahit atque corrumpit naturam eius 
+            <lb ed="#P" n="56"/>qui habet ipsum: voluptas autem nil tale facit. Magis igitur 
+            intemperan<lb ed="#P" n="57" break="no"/>tia nostra sponte, quam timiditas comparatur: quapropter &amp; reprehensione 
+            <lb ed="#P" n="58"/>gimagis esse digna: Nam ad res afficientes voluptate facilius est assuescere. 
+            <lb ed="#P" n="59"/>Sunt enim complures tales in vita: &amp; assuefactio fit sine periculo. In rebus autem 
+            formi<lb ed="#P" n="60" break="no"/>midolosis, contra. Videbitur etiam timiditas non perinde atque singula sponte agendi 
+            prin<lb ed="#P" n="61" break="no"/>cipio subiici. Haec enim non affert dolorem: sed illa adeo dolore distrahunt, vt &amp; arma proii¬ 
+            <!--124.xml-->
+            <pb ed="#P" n="54-r"/>
+            <lb ed="#P" n="1"/>cere, &amp; caetera contra decus agere compellant: quapropter &amp; violenta esse videntur. At 
+            in<lb ed="#P" n="2" break="no"/>temperantia fit contra. Singula namque sponte agendi principio magis subiiciuntur: quippe 
+            <lb ed="#P" n="3"/>cum intemperans ea percupiat atque affectet. Totum autem minus, nemo enim cupit 
+            inten<lb ed="#P" n="4" break="no"/>perans esse.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1599">
+            Nomen autem intemperantiae, &amp; ad puerilia delicta ferre solemus: habent enim 
+            <lb ed="#P" n="5"/>similitudinem quandam. Vtrum autem ab vtro dicatur, nihil ad praesentem refert 
+            sermo<lb ed="#P" n="6" break="no"/>nem: constat tamen a priore, posterius dici: atque non absurde videtur esse translatum. Est enim 
+            <lb ed="#P" n="7"/>castigandum &amp; temperandum id omne, quod turpia concupiscit, &amp; incrementum suscipit 
+            <lb ed="#P" n="8"/>magnum atque luxuriat. Talis autem est ipsa cupiditas maxime, atque puer. Nam &amp; pueri 
+            cu<lb ed="#P" n="9" break="no"/>piditate viuunt: &amp; in hisipsis maxime viget appetitio rerum earum, quae voluptate afficiunt. 
+            <lb ed="#P" n="10"/>Si igitur non obtemperet, neque subiici patiatur, nimium efferetur: est enim voluptatum 
+            appe<lb ed="#P" n="11" break="no"/>titio insatiabilis, &amp; operatio cupiditatis omni ex parte ipsi amenti, id quod est sibi affine 
+            <lb ed="#P" n="12"/>exauget: quod si magnae sint, vehementesque cupiditates: rationem quoque extrudunt, atque eiiciunt. 
+            <lb ed="#P" n="13"/>Quamobrem mediocres sint ipsae &amp; perpaucae, &amp; rationi non aduersentur oportet. Atque id  
+            <lb ed="#P" n="14"/>quod est tale, obediens &amp; temperatum, castigatumque vocamus. Vt viuere autem peruerum sub 
+            <lb ed="#P" n="15"/>paedagogi praeceptis opertet: sic &amp; cupiendi vis cupere debet, perinde atque ratio iubet. Iccirco 
+            <lb ed="#P" n="16"/>temperati vim cupiendi, concordem esse cum ratione oportet. Nam vtriusque propositum est 
+            <lb ed="#P" n="17"/>honestas. Atque vir temperans ea cupit quae cupere oportet, &amp; vt oportet, &amp; quando oportet. 
+            <lb ed="#P" n="18"/>Hoc autem pacto, &amp; ipsa ratio dictat.
+          </p>
+          <p xml:id="ArNeTH-d1e112-d1e1632">
+            Haec igitur sunt de temperantia dicta.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 5</title>
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 5</title>
+          <date when="2021-05-08">May 08, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-MaEth8">Paris 1530</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="71-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ArNeTH-d1e125"><!-- arist-l5 -->
+        <head xml:id="ArNeTH-d1e125-Hd1e106">Liber 5</head>
+        <div xml:id="ArNeTH-d1e125-Dd1e109"><!-- arist-l5c1 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e112">Caput 1</head>
+          <p xml:id="ArNeTH-d1e125-d1e115" ana="#heading">
+            <!--160.xml-->
+            <pb ed="#P" n="72-r"/>
+            <lb ed="#P" n="1"/>eSLIRERQVIMTVSxe 
+            <lb ed="#P" n="2"/>TRAC TAT Vs PRIMVs. CAp. I. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e126">
+            <lb ed="#P" n="3"/>DE iustitia autem &amp; iniustitia consideremus oportet, circa quales 
+            <lb ed="#P" n="4"/>actus versentur: &amp; qualis nam mediocritas sit ipsa iustitia: &amp; 
+            <lb ed="#P" n="5"/>linter quae iustum ipsum medium est. atque haec consideratio eundem 
+            <lb ed="#P" n="6"/>seruet modum doctrinae quo antea dicta considerauimus.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e137">
+            Vide<lb ed="#P" n="7" break="no"/>mus itaque omnes talem habitum dicere iustitiam velle, quo 
+            ho<lb ed="#P" n="8" break="no"/>mines apti sunt ad res iustas agendas. &amp; quo iusta agunt, &amp; 
+            vo<lb ed="#P" n="9" break="no"/>lsunt iusta. Fodem modo talem habitum &amp; ipsam iniustitiam 
+            di<lb ed="#P" n="10" break="no"/>llcere, quo iniurias agunt homines, resque volunt iniustas. 
+            Qua<lb ed="#P" n="11" break="no"/>propter &amp; nobis haec primum vt in figura subiiciantur. Non enim 
+            <lb ed="#P" n="12"/>in scientiis &amp; potentiis atque habitibus res sese habet eodem modo.  
+            <lb ed="#P" n="13"/>Eadem namque potentia scientiaque contrariorum esse videtur. Sed contrarius habitus non est 
+            <lb ed="#P" n="14"/>contrariorum: nempe a sanitate sana duntaxat, &amp; non contraria fiunt. dicimus enim quempiam 
+            <lb ed="#P" n="15"/>ambulare sane, cum perinde ambulat atque sanus. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e159">
+            Saepe igitur contrarius habitus ex contrario 
+            <lb ed="#P" n="16"/>cognoscitur: saepe etiam habitus ex subiectis. Nam si bona corporis habitudo sit nota, &amp; ipsa 
+            <lb ed="#P" n="17"/>mala corporis habitudo fit manifesta. Ex iis quae bonam habitudinem efficiunt corporis 
+            <lb ed="#P" n="18"/>ipsa bona habitudo fit nota, &amp; ex ipsa rursus ea quae faciunt ipsam. Si enim habitudo 
+            bo<lb ed="#P" n="19" break="no"/>na sit spissitas carnis, &amp; malam habitudinem raritatem esse carnis, &amp; id quod efficit 
+            habi<lb ed="#P" n="20" break="no"/>tudinem bonam, efficere spissitatem in carne, necesse est.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e173">
+            <pc type="pilcrow">¶</pc> At vero plerumque sequitur si 
+            alte<lb ed="#P" n="21" break="no"/>rum pluribus modis dicatur, &amp; alterum pluribus dici, vt si iustum, &amp; ipsum iniustum. 
+            Vi<lb ed="#P" n="22" break="no"/>detur autem tam iustitia quam iniustitia pluribus modis dici: sed quia propinqua est ipsarum 
+            <lb ed="#P" n="23"/>aequiuocatio, latet: &amp; non ita vt in iis quae longe distant, est manifesta. Multum enim talia 
+            <lb ed="#P" n="24"/>differunt forma. Patet enim clauem aequiuoce dici &amp; eam quae sub collo est animalium. &amp; eam 
+            <lb ed="#P" n="25"/>qua ostia clauduntur. Sumatur igitur quot iniustus dicitur modis. Atque videtur iniustus 
+            <lb ed="#P" n="26"/>esse &amp; qui a legibus exorbitat, &amp; qui plus capit, atque iniquos. Quare patet &amp; iustum esse eum 
+            <lb ed="#P" n="27"/>qui legitime facit: &amp; eum qui aequus est. lustum ergo est quod legitimum, &amp; quod est aequum. 
+            <lb ed="#P" n="28"/>Iniustum vero quod est contra leges, &amp; quod est iniquum. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e196">
+            Cum autem iniustus, &amp; pluris fit 
+            <lb ed="#P" n="29"/>auidus: non erit ipse circa omnia bona: sed circa ea duntaxat in quibus consistit prospera 
+            <lb ed="#P" n="30"/>fortuna, atque aduersa, quae simpliciter quidem semper sunt bona: alicui vero non semper: 
+            <lb ed="#P" n="31"/>homines autem illa sibi optant, atque persequuntur: at non oportet. Sed optare quidem ea quae 
+            <lb ed="#P" n="32"/>sunt simpliciter bona, &amp; sibiipsis esse bona: expetere autem ea quae sibiipsis sunt bona 
+            opor<lb ed="#P" n="33" break="no"/>tet. Iniustus autem non semper plus, sed minus etiam expetit in iis quae sunt simpliciter 
+            <lb ed="#P" n="34"/>mala. Sed quia videtur &amp; minus malum quodam modo bonum esse, &amp; plus habendi 
+            cupi<lb ed="#P" n="35" break="no"/>ditas ipsius est boni, fit vt pluris ob idipsum videatur auidus esse. Est autem iniquus Choc 
+            <lb ed="#P" n="36"/>enim continet, &amp; est commune) &amp; legum transgressor: hoc enim, legum inquam transgressio. 
+            i<lb ed="#P" n="37" break="no"/>iniquitas, omnem iniustitiam continet. Et est ad iniustitiam omnem commune.
+          </p>
+          <!--alias="arist-l5c1p2" -->
+          <p xml:id="ArNeTH-d1e125-d1e220">
+            <lb ed="#P" n="24"/>Cum autem legum transgressor sit iniustus, qui vero legitime facit iustus: constat omnia 
+            <lb ed="#P" n="25"/>legitima esse quodam modo iusta. Ea nanque quae a facultate ferendarum legum sunt de fini 
+            <lb ed="#P" n="26"/>ta: legitima sunt. Et horum vnumquodque iustum dicimus esse. Ipsae autem leges de 
+            omni<lb ed="#P" n="27" break="no"/>bus dictant, coniectantes aut communem omnium vtilitatem, aut optimorum, aut principumn, 
+            <lb ed="#P" n="28"/>vel virtute, vel aliquo alio tali modo. Quare vno modo dicimus iusta ea quae foelicitatem. 
+            <lb ed="#P" n="29"/>eiusque partes societati ciuili efficiunt &amp; conseruant. Praecipit autem lex &amp; ea agere, quae ad 
+            <lb ed="#P" n="30"/>virum pertinent fortem: vt non deserere locum in acie, non fugere, non abiicere arma. Et 
+            <lb ed="#P" n="31"/>item ea quae sunt temperantis: vt non committere adulterium, non libidine vti. Et etiam 
+            <lb ed="#P" n="32"/>ea quae sunt mansueti: vt non pulsare: non conuicia dicere. Et in caeteris identidem 
+            virtuti<lb ed="#P" n="33" break="no"/>bus atque vitiis: alia iubens alia vetans: recte quidem ea quae recte posita est. deterius autem 
+            <lb ed="#P" n="34"/>ea quae inconsulte est exarata. Haec igitur iustitia perfecta quidem est virtus: at non 
+            absolu<lb ed="#P" n="35" break="no"/>te, sed ad alium: Atque ob idipsum iustitia praeclarissima persaepe virtutum esse videtur. Et 
+            <lb ed="#P" n="36"/>neque est hesperus ita, neque lucifer admirabilis. Et prouerbio dicere consueuimus. 
+            <lb ed="#P" n="37"/>lustitia in sese virtutes continet omnes.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e253">
+            <lb ed="#P" n="38"/>
+            <pc type="indent"/>Atque perfecta maxime virtus est: quia perfectae virtutis est vsus: idque ex eo quia non ad se 
+            <lb ed="#P" n="39"/>solum, sed ad alium etiam is qui ipsam habet, vti virtute potest. Complures enim in propriis 
+            <lb ed="#P" n="40"/>quidem vti possunt: sed in iis quae sunt ad alium nequeunt. Et propterea sententia Biantis 
+            <lb ed="#P" n="41"/>illa bene sese habere videtur: magistratus virum ostendit. Ad alium enim est: &amp; in 
+            societa<lb ed="#P" n="42" break="no"/>te iam ipse magistratus consistit. Ob id autem ipsum &amp; alienum bonum ipsa iustitia sola 
+            <lb ed="#P" n="43"/>virtutum esse vid etur: quia ad alium est. Agit enim ea quae alii vel principi, vel reipublicae 
+            <lb ed="#P" n="44"/>conferunt. Pessimus igitur est qui ad seipsum &amp; ad amicos vtitur prauitate. Optimus 
+            au<lb ed="#P" n="45" break="no"/>tem non qui ad seipsum, sed qui ad alium vtitur ipsa virtute. Hoc enim est opus difficile. 
+            <lb ed="#P" n="46"/>Haec igitur iustitia non pars virtutis: sed tota est virtus. Similiter &amp; iniustitia huic contra 
+            <lb ed="#P" n="47"/>ria non vitii pars sed totum vitium est. Quid autem interest inter hanc iustitiam &amp; virtu 
+            <lb ed="#P" n="48"/>tem ex iis quae diximus, innotescit: sunt enim idem: esse autem non est idem, sed quo quidem 
+            <lb ed="#P" n="49"/>est ad alium, est iustitia: quo vero talis est habitus, simpliciter virtus. 
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e125-Dd1e285"><!-- arist-l5c2 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e288">Caput 2</head>
+          <p xml:id="ArNeTH-d1e125-d1e291" ana="#heading">
+            <lb ed="#P" n="52"/>Lib. V. TTACTI. Cap. II. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e296">
+            <lb ed="#P" n="53"/>QVaerimus autem eam iustitiam quae virtutis est pars, est enim quaedam, vt. I 
+            <lb ed="#P" n="54"/>diximus. Et item iniustitiam eam quae pars vitii quaedam est. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e303">
+            Esse autem hanc per 
+            <lb ed="#P" n="55"/>giniustitiam, hoc indicat signum. Qui nanque caeteris vitiis operatur, 
+            iniu<lb ed="#P" n="56" break="no"/>Friam quidem facit: at non plus capit: vt qui clypeum timiditate proiecit. 
+            <lb ed="#P" n="57"/>aut qui conuicia ob iracundiam dixit, aut qui non attulit ob 
+            illiberalita<lb ed="#P" n="58" break="no"/> 
+            <lb ed="#P" n="59"/>ixx. Facans. vxi. AXtem per pecunias opem. At cum quispiam saepe plus capit: nullo tum eiusmo 
+            <lb ed="#P" n="60"/>di vitiorum is operatur, nec etiam vniuersis, aliqua autem prauitate. Vituperamus enim il 
+            <lb ed="#P" n="61"/>lum, atque ob iniustitiam. Est ergo alia quaedam iniustitia, vt pars totius iniustitia quaedam. 
+            <lb ed="#P" n="62"/>Et iniustum itidem quoddam vt pars totius iniusti quod quidem est praeter legem. Praeterea 
+            <!--165.xml-->
+            <pb ed="#P" n="74-v"/>
+            <lb ed="#P" n="1"/>si quidam lucrandi causa facit adulterium, atque pecunias accipit: quidam erogat, damnumque 
+            <lb ed="#P" n="2"/>patitur ob cupiditatem: hic quidem intemperans potius quam pluris auidus, ille autem 
+            iniu<lb ed="#P" n="3" break="no"/>stus sed non intemperans esse videbitur. Patet ergo talem illum videri, quia lucratur. 
+            Insu<lb ed="#P" n="4" break="no"/>per aliae quidem omnes iniuriae ad aliquod semper vitium rediguntur: vt si commiserit 
+            quis<lb ed="#P" n="5" break="no"/>piam adulterium, ad intemperantiam, si deseruerit in acie socium, ad timiditatem: si 
+            pulsa<lb ed="#P" n="6" break="no"/>uerit quempiam, ad iracundiam: sed si auare lucratus fuerit, ad nullam aliam prauitatem, quam 
+            <lb ed="#P" n="7"/>ad iniustitiam ipsam refertur. Quare perspicuum est praeter totam, aliam esse quandam 
+            in<lb ed="#P" n="8" break="no"/>iustitiam vt partem vniuocam quia diffinitio genere est in eodem: ambae namque id possunt, 
+            <lb ed="#P" n="9"/>vt sint ad alium. Verum haec quidem circa honorem versatur, vel pecunias: vel salutem: si 
+            <lb ed="#P" n="10"/>quo vno nomine complecti haec vniuersa possumus, &amp; ob voluptatem quae fit a lucro. Illa ve 
+            <lb ed="#P" n="11"/>ro circa omnia ea, in quibus studiosus versatur. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e351">
+            Iustitias igitur esse plures, &amp; aliam quandam 
+            <lb ed="#P" n="12"/>esse praeter ipsam totam virtutem perspicuum iam euasit. Sed quaenam sit, &amp; qualis finiamus 
+            <lb ed="#P" n="13"/>deinceps oportet. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e359">
+            Determinatum est itaque iniustum quidem esse quod est contra leges, &amp; 
+            <lb ed="#P" n="14"/>quod est iniquum. lustum autem quod est legitimum, &amp; quod est aequum. Iniustitia igitur 
+            <lb ed="#P" n="15"/>antea dicta est: a qua proficiscitur id iniustum, quod contra leges dicimus esse. At cum 
+            ini<lb ed="#P" n="16" break="no"/>quum &amp; iniustum, quod contra leges est, non idem sit, sed alterum ad alterum sese habeat 
+            <lb ed="#P" n="17"/>vt pars ad totum, nam iniquum omne, iniustum quod contra leges: iniustum autem quod  
+            <lb ed="#P" n="18"/>contra leges non omne iniquum: plus nanque omne iniquum, iniquum autem non omne. 
+            <lb ed="#P" n="19"/>plus: iniustum etiam &amp; iniustitia, non eadem sunt, sed diuersa ab illis, &amp; haec sunt vt partes 
+            <lb ed="#P" n="20"/>illa vt tota. Haec enim iniustitia, totius est iniustitiae pars: &amp; iustitia, iustitiae simili modo.  
+            <lb ed="#P" n="21"/>Quare de iustitia quae quidem est pars, &amp; de iniustitia similiter est dicendum, &amp; de iusto 
+            <lb ed="#P" n="22"/>etiam &amp; iniusto. Ea igitur iustitia quae perinde atque tota virtus est ordinata: &amp; ea iniustitia 
+            <lb ed="#P" n="23"/>quae aduersatur illi, quarum altera virtutis: altera vitii totius ad alium vsus est, omittatur. 
+            <lb ed="#P" n="24"/>Et iustum id &amp; iniustum quod ad has attinet, patet quonam sit modo diffiniendum. 
+            Et<lb ed="#P" n="25" break="no"/>enim pleraque legitimorum ea fere sunt, quae a tota virtute aguntur. Lex enim iubet vniuscu 
+            <lb ed="#P" n="26"/>iusque virtutis viuere ratione &amp; vetat vitii cuiusuis viuere modo. Atque legitimorum ea quae  
+            <lb ed="#P" n="27"/>ad publicam pertinent disciplinam, ea sunt quae virtutem totam efficere possunt. Sed de sin  
+            <lb ed="#P" n="28"/>gulorum disciplina, qua quidem vir bonus est absolute, vtrum sit ciuilis, an ad aliam 
+            facul<lb ed="#P" n="29" break="no"/>tatem pertineat, determinandum posterius est. Non est enim idem fortasse virum esse 
+            bo<lb ed="#P" n="30" break="no"/>num, &amp; ciuem bonum. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e398">
+            Iustitia autem eius quae est pars, &amp; eius quod ad ipsam attinet iusti. 
+            <lb ed="#P" n="31"/>vna quidem species est, ea quae in distributione consistit, aut honoris, aut pecuniarum, aut  
+            <lb ed="#P" n="32"/>caeterarum rerum: quae inter eos diuidi possunt, qui in eadem ciuili societate versantur. In his 
+            <lb ed="#P" n="33"/>enim fit, vt quispiam &amp; non aequum habeat ad alium &amp; etiam aequum. Alia autem ea, quae in 
+            <lb ed="#P" n="34"/>commerciis est hominum emendandis, cuius sunt duae partes. Commerciorum nanque 
+            quae<lb ed="#P" n="35" break="no"/>dam sua sponte faciunt homines, quaedam inuitis ipsis efficiuntur. Et ea quidem quae 
+            spon<lb ed="#P" n="36" break="no"/>re faciunt, talia sunt, venditio, emptio, mutuatio, vadimonium, locatio, depositio, mercede 
+            <lb ed="#P" n="37"/>conductio. atque propterea sponte haec fieri dicuntur quod principium ipsorum sponte 
+            proce<lb ed="#P" n="38" break="no"/>dit ac agitur. Eorum autem quae inuitis fiunt quaedam clandestina sunt, vt furtum, adulterium. 
+            <lb ed="#P" n="39"/>veneficium, lenocinium, seruorum seductio, caedes cum dolo, falsum testimonium. Quaedam 
+            <lb ed="#P" n="40"/>violenta: vt verberatio, vincula, mors, rapinae, membrorum captio, conuicium, contumelia.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e125-Dd1e423"><!-- arist-l5c3 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e426">Caput 3</head>
+          <p xml:id="ArNeTH-d1e125-d1e429" ana="#heading">
+            <lb ed="#P" n="21"/>Lib. V. Tracta. I. Cap. III.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e434">
+            <lb ed="#P" n="22"/>CVm autem iniustus sit iniquus, &amp; iniustum iniquum, constat &amp; aliquod  
+            <lb ed="#P" n="23"/>medium esse iniqui: atque hoc est ipsum aequum. Quo enim in actu. plus 
+            <lb ed="#P" n="24"/>est &amp; minus, in eodem est etiam aequum. Si igitur iniustum iniquum est, iustum est 
+            <lb ed="#P" n="25"/>aequum. Quod quidem &amp; absque ratione cunctis ita esse videtur. At cum 
+            <lb ed="#P" n="26"/>aequum sit medium, iustum medium quoddam erit: ipsum autem aequum 
+            <lb ed="#P" n="27"/>SSSRRin minimis est duobus. Necesse est igitur ipsum iustum, &amp; medium esse, 
+            <lb ed="#P" n="28"/>&amp; aequum: &amp; ad aliquid, &amp; quibusdam. Atque quo medium quidem est, hoc aliquorum est, 
+            <lb ed="#P" n="29"/>quae quidem plus sunt &amp; minus: quo autem aequum est, duobus est: at quo iustum est 
+            qui<lb ed="#P" n="30" break="no"/>busdam est. Ipsum ergo iustum in minimis quatuor consistat necesse est. Quibus enim est 
+            iu<lb ed="#P" n="31" break="no"/>stum duo sunt: &amp; res in quibus &amp; ipsae duae sunt. Atque eadem est aequitas quibus atque in 
+            qui<lb ed="#P" n="32" break="no"/>bus. Nam vt sese habent ea in quibus: sic sese habent &amp; illa. Si enim non sunt aequi, non  
+            <lb ed="#P" n="33"/>aequa habebunt: sed hinc pugnae nascuntur &amp; incusationes atque querelae: cum aequi non aequa, 
+            <lb ed="#P" n="34"/>aut aequa non aequi habent ac potiuntur. ld ita esse ex eo quod pro dignitate fit, constat. 
+            lu<lb ed="#P" n="35" break="no"/>stum enim quod in distributionibus est, omnes vno ore pro dignitate quadam oportere esse 
+            <lb ed="#P" n="36"/>dicunt. Ipsam tamen dignitatem non eandem omnes inquiunt esse: sed populares quidem 
+            <lb ed="#P" n="37"/>libertatem, pauci vero potentes opulentiam, nonnulli nobilitatem, optimates vero virtutem.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e471">
+            <lb ed="#P" n="38"/>lustum ergo rationum quandam comparationem subit. Comparationem namque rationum 
+            <lb ed="#P" n="39"/>subire: non absoluti numeri solum, sed numerabilis etiam omnino proprium est. Etenim con 
+            <lb ed="#P" n="40"/>paratio rationum aequalitas est rationum &amp; in quatuor minimis est: &amp; seiunctam quidem 
+            <lb ed="#P" n="41"/>in quatuor esse constat. An non &amp; continua in quatuor est? Vno nanque termino vtitur vt 
+            <lb ed="#P" n="42"/>duobus, &amp; bis illum sumit. Hoc pacto, vt A. sese habet ad R. sic R. sese habet ad C.
+            <!-- Graphic here -->
+            <lb ed="#P" n="43"/>xii.vi.iii. 
+            <lb ed="#P" n="44"/>ARqu
+            <!-- Graphic here -->
+            <lb ed="#P" n="45"/>Bis igitur dictum est ipsum E, quare si Rbis positum fuerit quatuor erunt ea quae 
+            com<lb ed="#P" n="46" break="no"/>parationem subeunt rationum. Est autem &amp; ipsum iustum in quatuor minimis: &amp; ratio 
+            ea<lb ed="#P" n="47" break="no"/>dem est. Sunt enim seiuncta similiter &amp; quibus &amp; quae. Erit ergo vt est A terminus ad H 
+            <lb ed="#P" n="48"/>terminum: sic C terminus ad terminum D. Et mutato ergo ordine vt A sese habet ad 
+            C<lb ed="#P" n="49" break="no"/>ita Rsese habebit ad A. Quare &amp; totum ad totum, quod quidem distributio ipsa 
+            coniun<lb ed="#P" n="50" break="no"/>git. Et si ita compositum fuerit, iuste coniungit. Coniunctio igitur Atermini eum C, &amp; R 
+            <lb ed="#P" n="51"/>cum D:iustum est id, quod ad distributionem a ccommodatur: &amp; est medium eius quod con 
+            <lb ed="#P" n="52"/>parationem rationum non subit. Quod enim subit ipsam, medium est. lustum autem subit.
+            <!-- Graphic ? -->
+            <lb ed="#P" n="53"/>xiiviviiiiiii. 
+            <lb ed="#P" n="54"/>Achilles Aiax Munus Achillis. Munus Aiacis 
+            <lb ed="#P" n="55"/>ARAD¬
+            <!-- Graphic ? -->
+            <!--170.xml-->
+            <pb ed="#P" n="77-r"/>
+            <lb ed="#P" n="1"/>
+            <pc type="indent"/>Talem autem rationum comparationem, mathematici genomentricam vocant. In 
+            geno<lb ed="#P" n="2" break="no"/>metria nanque fit, vt &amp; totum ad totum perinde se se habeat, atque ad vtrunque se habet 
+            <lb ed="#P" n="3"/>vtrunque. Non est autem continua haec comparatio rationum: non enim fit terminus vnus 
+            <lb ed="#P" n="4"/>numero, cui, &amp; quod. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e536">
+            Iustum igitur hoc, in comparatione rationum consistit. Iniustum 
+            au<lb ed="#P" n="5" break="no"/>tem est id, quod a comparatione ratione exorbitat. Fit igitur aliud plus: aliud minus. Quod 
+            <lb ed="#P" n="6"/>quidem &amp; in ipsis operibus accidit. In bonis enim qui iniuriam facit. plus habet: qui 
+            in<lb ed="#P" n="7" break="no"/>iuriam patitur, minus. In malis autem contra. Boni nanque rationem subit minus malum 
+            <lb ed="#P" n="8"/>maius malum. Minus enim malum: magis quam maius est expetibile. At quod expetitur bonum 
+            <lb ed="#P" n="9"/>est: &amp; quod magis: maius. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e550">
+            Haec est igitur vna species iusti.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e125-Dd1e554"><!-- arist-l5c4 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e557">Caput 4</head>
+          <!-- seems like c. 4 heading is not present, because the pager header is sort used as a substitute -->
+          <p xml:id="ArNeTH-d1e125-d1e562">
+            <!--172.xml-->
+            <pb ed="#P" n="78-r"/>
+            <lb ed="#P" n="1"/>REstat autem id iustum, quod fit in emendis commerciis: tam iis quae  
+            <lb ed="#P" n="2"/>sua sponte faciunt homines, quam iis quae inuitis ipsis efficiuntur. Hoc autem 
+            <lb ed="#P" n="3"/>laliam habet speciem a priore. lustum enim distributiuum communium, 
+            <lb ed="#P" n="4"/>in dicta semper comparatione rationum consistit. Nam si e pecuniis 
+            pu<lb ed="#P" n="5" break="no"/>lblicis distributio fiat: eadem fuerit ratione quam habent inter sese ea quae 
+            <lb ed="#P" n="6"/>in rempublicam sunt collata: &amp; iniustum quod huic opponitur, id est quod  
+            <lb ed="#P" n="7"/>a comparatione rationum exorbitat. lustum autem quod est in commerciis, est quidem 
+            <lb ed="#P" n="8"/>aequum quoddam: &amp; iniustum, iniquum. Sed non illa comparatione rationum, sed arithme 
+            <lb ed="#P" n="9"/>tica. Nihil enim refert, si probus prauo detraxerit: an prauus probo: neque si adulterium 
+            pro<lb ed="#P" n="10" break="no"/>bus, an prauus commiserit: sed ad differentiam nocumenti, lex respicit tantum: &amp; vtitur vt 
+            <lb ed="#P" n="11"/>aequalibus: si hic iuiuriam facit, ille patitur: &amp; si hic nocuit, ille est laesus. Quare iniustum hoc 
+            <lb ed="#P" n="12"/>cum sit iniquum, iudex aequare conatur. Nam cum hic quidem percussus est, aut occisus: il 
+            <lb ed="#P" n="13"/>le vero percussit, aut occidit: passio atque actio diuisa est in partes non aequas: sed ad aequalita 
+            <lb ed="#P" n="14"/>tem auferendo lucrum respectu damni, redigere nitetur iudex. Dicuntur enim haec in 
+            tali<lb ed="#P" n="15" break="no"/>bus, absolute dicendo: atque quamquam haec nomina quibusdam accommodata non esse videntur: vt 
+            <lb ed="#P" n="16"/>ei qui percussit, lucrum, &amp; ei qui passus est, damnum, cum tamen mensurata fuerit passio, 
+            <lb ed="#P" n="17"/>hoc damnum: illud lucrum vocatur. Quare aequum quidem inter plus &amp; minus medium 
+            <lb ed="#P" n="18"/>est. Lucrum autem atque damnum plus sunt &amp; minus: contrario modo: plus boni &amp; minus 
+            <lb ed="#P" n="19"/>mali lucrum: contrarium autem damnum: quorum medium est ipsum aequum, quod 
+            qui<lb ed="#P" n="20" break="no"/>dem dicimus esse iustum. Quare iustum emendatiuum medium est inter damnum &amp; lucrum. 
+            <lb ed="#P" n="21"/>Quapropter &amp; quum controuersiam habent, ad iudicem ipsum confugiunt. Ire autem ad  
+            <lb ed="#P" n="22"/>iudicem, &amp; ire ad ipsum iustum: iudex enim vt iustum est animatum suaptae natura. Et 
+            quae<lb ed="#P" n="23" break="no"/>runt iudicem medium. Et vocant nonnulli mediatorem: vt ipsum iustum assecuturi: si me 
+            <lb ed="#P" n="24"/>dium iustum consequatur. Medium ergo quoddam est ipsum iustum: siquidem &amp; iudex me 
+            <lb ed="#P" n="25"/>dium est. ludex autem ad aequalitatem redigit. Et perinde atque si linea in duas inaequales 
+            par<lb ed="#P" n="26" break="no"/>tis diuisa, id quo maior pars dimidium excedit abstulerit: minorique addiderit parti cum etiam 
+            <lb ed="#P" n="27"/>totum diuisum fuerit duas in partis inaequales: tum suum aiunt habere cum aequum 
+            acce<lb ed="#P" n="28" break="no"/>perint. Aequum autem medium est inter maius &amp; minus: in arithmetica comparatione ra 
+            <lb ed="#P" n="29"/>tionum. Nam si sint duo aequalia, &amp; ablatam ab altero quamtamuis partem addideris alteri. 
+            <lb ed="#P" n="30"/>talibus duabus excedit partibus alterum: si enim ablata fuisset, &amp; non addita, vna sola 
+            par<lb ed="#P" n="31" break="no"/>te excederet. Excedit ergo medium vna. &amp; ipsum medium excedit id a quo est ablatio facta. 
+            <lb ed="#P" n="32"/>vna. Hoc ergo cognoscemus &amp; quidnam auferendum ab eo sit qui plus habet: &amp; quid 
+            ad<lb ed="#P" n="33" break="no"/>dendum sit ei qui minus habet. Id autem auferendum a maximo est, quo exceditur medium. 
+            <lb ed="#P" n="34"/>Sint aequales lineae tres. A. b. C. d. Ecili, atque ab Ab pars auferatur Ag: &amp; addatur ipsi linea 
+            <lb ed="#P" n="35"/>Et: sitque illa He: quare tota linea he fexcedit g b lineam parte he, &amp; parte ae &amp;. Excedit ergo 
+            <lb ed="#P" n="36"/>mediam c dlineam he parte. 
+            <!-- Graphic here?  -->
+            <lb ed="#P" n="37"/>AAR 
+            <lb ed="#P" n="38"/>⁋u. 
+            <lb ed="#P" n="39"/>RI. 
+            <lb ed="#P" n="40"/>R 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e658">
+            <lb ed="#P" n="41"/>
+            <pc type="indent"/>Est autem hoc &amp; in caeteris artibus. Etenim e medio tollerentur: nisi agens ageret, &amp; 
+            quan<lb ed="#P" n="42" break="no"/>tum: &amp; quale: &amp; patiens pateretur hoc: &amp; tantum &amp; tale. Nomina autem haec ( damnum in 
+            <lb ed="#P" n="43"/>quam &amp; lucrum ex iis contractibus quos sua sponte faciunt homines tracta sunt. Qui enim 
+            emen<lb ed="#P" n="44" break="no"/>do, vendendo, caeteraque agendo quae lege concessa sunt, plus habent quam suum, lucrari, qui 
+            mi<lb ed="#P" n="45" break="no"/>nus quam in principio, ii damnum pati dicuntur. sed qui neque plus neque minus habent sed sua per 
+            <lb ed="#P" n="46"/>seipsa sunt facta, ii se sua inquiunt habere &amp; neque dannum pati, ne lucrari.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e676">
+            Quare iustum me<lb ed="#P" n="47"/>dium 
+            est: inter lucrum quoddam &amp; dannum (quod fit inuitis hominibus) aequale inquam &amp; 
+            <lb ed="#P" n="48"/>prius, &amp; posterius habendo.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e125-Dd1e685"><!-- arist-l5c5 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e688">Caput 5</head>
+          <p xml:id="ArNeTH-d1e125-d1e691" ana="#heading">
+            <lb ed="#P" n="56"/>Lib. V Tract. I. Cap. V.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e696">
+            <lb ed="#P" n="57"/>VIdetur autem nonnullis &amp; ipsa repassio simpliciter esse iustum, vt Pytha 
+            <lb ed="#P" n="58"/>gorici censuerunt. Qui quidem absolute diffinientes iustum, repassionem 
+            <lb ed="#P" n="59"/>T esse dicebant: verum repassio nec ad distributiuum iustum, nec ad emen 
+            <lb ed="#P" n="60"/>datiuum a ccommodatur. Qamquam eamipsam &amp; Rhadamanti ipsius iustum asse 
+            <lb ed="#P" n="61"/>runt esse.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e709">
+            <lb ed="#P" n="62"/>
+            <!-- possible quote -->Si quae fecerit, haec etiam patietur &amp; ipse. 
+            <!--176.xml-->
+            <pb ed="#P" n="80-r"/>
+            <lb ed="#P" n="1"/>Iudicium fuerit perrectum, atque exitus aequus. <!-- possibl end quote -->
+            <lb ed="#P" n="2"/>⁋ Persaepe enim discrepat, nam si qui magistratum gerens percusserit quempiam: non 
+            de<lb ed="#P" n="3" break="no"/>cet eum repercuri. Et si quispiam eum qui magistratum gerit percusserit: is non solum 
+            reper<lb ed="#P" n="4" break="no"/>cutiendus est, verum etiam supplicio afficiendus. Praeterea multum inter se differunt, id 
+            <lb ed="#P" n="5"/>quod sponte: &amp; id quod inuitus quispiam fecit. Sed in societatibus commerciorum, tale iu 
+            <lb ed="#P" n="6"/>stum Crepassio inquam) per comparationem rationum, &amp; non per aequalitatem continet ci 
+            <lb ed="#P" n="7"/>uitatem. Ciuitas enim tum conseruatur: cum retributio fit vt comparatio flagitat 
+            ratio<lb ed="#P" n="8" break="no"/>num. Nam homines aut reddere malum quaerunt, quod ni faciant seruitus esse videtur: aut 
+            <lb ed="#P" n="9"/>retribui sibi bonum, quod nisi fiat, actus dandi, beneficiumque non fit. At ciuitates his 
+            con<lb ed="#P" n="10" break="no"/>seruantur. Quamobrem &amp; Gratiarum templum in ciuitate media condunt, vt retributio 
+            <lb ed="#P" n="11"/>sit: hoc enim gratiae proprium est. Nam is qui suscepit, subministret vicissim: &amp; qui minus 
+            <lb ed="#P" n="12"/>contulit, &amp; ipse rursus incipiat conferre oportet. Coniunctio autem quae per diametium est. 
+            <lb ed="#P" n="13"/>facit eam retributionem quae per comparationem rationum efficitur: hoc pacto. Sit aedificator qui 
+            <lb ed="#P" n="14"/>dem a, sutor autem b. domus in c, &amp; calceus collocetur in di 
+          </p>
+          <!-- Graphic here -->
+          <p xml:id="ArNeTH-d1e125-d1e756">
+            <lb ed="#P" n="15"/>⁋ Aedificatorem igitur ab sutore accipere opus illius, &amp; 
+            <lb ed="#P" n="16"/>ipsum illi suum dare oportet. Si igitur primum sit id 
+            iu<lb ed="#P" n="17" break="no"/>stum quod comparatione rationum est aequum: deinde re 
+            <lb ed="#P" n="18"/>passio fuerit: erit quod dicitur, sin minus, non erit aequum: 
+            <lb ed="#P" n="19"/>neque constabit societas. Nihil enim prohibet vnius opus 
+            <lb ed="#P" n="20"/>alterius opere praestabilius esse: haec igitur ad aequalitatem 
+            <lb ed="#P" n="21"/>redigantur oportet. Est autem hoc &amp; in caeteris artibus. 
+            <lb ed="#P" n="22"/>Etenim e medio tollerentur, nisi agens ageret, &amp; quantum 
+            <lb ed="#P" n="23"/>&amp; quale: &amp; patiens pateretur hoc &amp; tantum, &amp; tale. Non 
+            <lb ed="#P" n="24"/>enim duobus ex medicis fit societas, sed ex medico atque 
+            <lb ed="#P" n="25"/>agricola: &amp; ex diuersis omnino, ac inae quabilibus. Verum 
+            <lb ed="#P" n="26"/>hi redigantur ad aequalitatem oportet. Quapropter ea vni 
+            <lb ed="#P" n="27"/>uersa quorum est permutatio inter sese comparabilia quo 
+            <lb ed="#P" n="28"/>dammodo esse oportet. Pro quo nummus in vsum hominum 
+            <lb ed="#P" n="29"/>venit. &amp; fit quodammodo medium. metitur enim cuncta: quare &amp; excessionem atque 
+            defe<lb ed="#P" n="30" break="no"/>ctionem: quotnam calcei domui vel victui sunt aequales. Oportet igitur quot est 
+            aedifica<lb ed="#P" n="31" break="no"/>tor ad sutorem: tot pro domo, vel alimento calceos esse. Qua si hoc non fuerit, non erit 
+            per<lb ed="#P" n="32" break="no"/>mutatio, neque societas. Hoc autem non erit, si non aequa quodammodo fuerint, oportet er 
+            <lb ed="#P" n="33"/>go aliquo vno mensurari cuncta: sicut &amp; ea antea diximus. Hoc autem est reuera quidem 
+            <lb ed="#P" n="34"/>indigentia ipsa: quae omnia continet. Nam si non indigeant, aut non similiter: non erit per 
+            <lb ed="#P" n="35"/>mutatio: aut non eadem erit. Nummus autem ex instituto factus est: vt pro indigentia sit &amp; 
+            <lb ed="#P" n="36"/>propterea nomen hoc habet, quod non natura constat: sed lege. Et in nobis est situm ipsum 
+            <lb ed="#P" n="37"/>mutare atque inutilem facere. Erit igitur tunc repassio: cum redacta fuerint in aequalitatem: 
+            <lb ed="#P" n="38"/>vt quod est ad sutorem agricola, id sit opus sutoris ad agricolae opus. Oportet autem in 
+            fi<lb ed="#P" n="39" break="no"/>guram comparationis rationum ducere, cum permutare voluerint: sin minus alterum 
+            extre<lb ed="#P" n="40" break="no"/>mum excessus habebit vtrosque. Sed cum habent sua, sic aequales &amp; socii sunt: quia haec 
+            aequa<lb ed="#P" n="41" break="no"/>litas in ipsis fieri potest. Atque sit agricola quidem a, &amp; alimentum c. Sutor autem b. &amp; opus 
+            <lb ed="#P" n="42"/>ipsius quod in aequalitatem iam est redactum dquod si hoc pacto non esset repassio, non esset 
+            <lb ed="#P" n="43"/>sane societas. 
+            <!-- graphic -->
+            <lb ed="#P" n="44"/>p 
+            <lb ed="#P" n="45"/>Agricola 
+            <lb ed="#P" n="46"/>Sutor 
+            <lb ed="#P" n="47"/>A 
+            <lb ed="#P" n="48"/>Alimentum. 
+            <lb ed="#P" n="49"/>Calcei 
+            <lb ed="#P" n="50"/>C 
+            <!-- end graphic -->
+            <lb ed="#P" n="51"/>⁋ Ipsam autem indigentiam continere, vt quiddam vnum, hoc sane declarat. Cum enim 
+            <lb ed="#P" n="52"/>aut ambo sese non indigent mutuo, aut alter: non fit permutatio, sicut fit, cum eius 
+            quis<lb ed="#P" n="53" break="no"/>piam indiget quod habet ipse: vt vini, pro quo dat ille triticum exportandum. 
+            Opor<lb ed="#P" n="54" break="no"/>tet igitur haec redigi ad qualitatem. quod si nunc non indigeat: nummus quasi vas 
+            interce<lb ed="#P" n="55" break="no"/>dit pro permuratione futura: eam si ipsa indiguerit fore. Liceat enim oportet hunc afferen 
+            <lb ed="#P" n="56"/>ti accipere. Patitur igitur idem &amp; ipse. Non enim semper aequale potest: attamen magis 
+            ip<lb ed="#P" n="57" break="no"/>se persistere solet. Iccirco diffinitae sint precio res omnes oportet: sic enim erit permutatio 
+            <lb ed="#P" n="58"/>semper: quae si si erit, societas erit. Numus igitur (vt mensura) res ipsas metiendo, redigit ad p 
+            <!--177.xml-->
+            <pb ed="#P" n="80-v"/>
+            <lb ed="#P" n="1"/>aequalitatem. Et enim neque societas fuerit sine permutatione: neque permutatio sine aequalita 
+            <lb ed="#P" n="2"/>te: neque aequalitas sine communi mensura. Atque re quidem vera fieri nequit vt ea quae ad 
+            <lb ed="#P" n="3"/>eam differunt, conueniant communi mensura: attamen ratione indigentia satis fieri potest. 
+            <lb ed="#P" n="4"/>vnum quid igitur esse oportet atque hoc ex suppositione. Quapropter nummus vocatur. Hic 
+            <lb ed="#P" n="5"/>enim facit vt omnia mensura conueniant, mensurantur enim omnia nummo. Sit domus 
+            <lb ed="#P" n="6"/>quidem a, vnciae autem decem b: &amp; lectica collocetur in c. Atque a quidem dimidium sit 
+            ip<lb ed="#P" n="7" break="no"/>sius b: vt precium domus quinque vnciae sint: aut aequale: c autem id est lectica sit pars 
+            deci<lb ed="#P" n="8" break="no"/>ma ipsius b. Patet igitur quod lecticae domui sunt aequales, sunt enim quinque. 
+            <!-- graphic -->
+            <lb ed="#P" n="9"/>ADomus RVnciae decem CTectica. 
+            <lb ed="#P" n="10"/>Vnciae. VVncia. i. 
+            <!-- graphic -->
+            <lb ed="#P" n="11"/>Hoc autem modo permutatio erat, anteaquam esset nummus. Nihil enim interest siue 
+            lecti<lb ed="#P" n="12" break="no"/>cae quinque, siue precium quinque lecticarum detur pro domo.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e893">
+            <pc type="pilcrow">¶</pc> Dictum est igitur quidnam 
+            <lb ed="#P" n="13"/>sit iustum atque iniustum. His autem determinatis: constat iuris actionem medium inter 
+            <lb ed="#P" n="14"/>haec esse: agere inquam ac pati iniuriam. Alterum enim est plus habere: alterum minus. lusti 
+            <lb ed="#P" n="15"/>tia autem non eodem modo quo priores virtutes mediocritas est: sed quia medii est: hoc est 
+            <lb ed="#P" n="16"/>aequi. In iustitia autem extremorum. Et iustitia quidem est qua iustus dicitur electione actiuus 
+            <lb ed="#P" n="17"/>iusti: atque distributiuus: &amp; sibiipsi ad alium: ac alii ad alium: non hoc pacto vt commodi quidem 
+            <lb ed="#P" n="18"/>plus sibi tribuat &amp; proximo minus: in commodi autem contra: sed aequi, quod ex comparatione 
+            <lb ed="#P" n="19"/>rationum emergit: &amp; alii simili modo ad alium. lustitia autem contraria iniusti. Hoc autem est exu 
+            <lb ed="#P" n="20"/>peratio &amp; defectio commodi vel incommodi contra comparationem rationum. Quapropter iniu 
+            <lb ed="#P" n="21"/>stitia exuperatio est &amp; defectio, quia est exuperationis &amp; defectionis: in se quidem exupera 
+            <lb ed="#P" n="22"/>tionis eius quod est incommodum: in aliis autem in toto quidem similiter: eius profecto quod  
+            <lb ed="#P" n="23"/>a comparatione rationum exorbitat: vt contigerit. Iniuria autem minor quidem est iniuriam pa 
+            <lb ed="#P" n="24"/>ti: maior autem iniuriam facere. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e925">
+            De iustitia igitur ac iniustitia: quaenam sit vtriusque 
+            natu<lb ed="#P" n="25" break="no"/>ra, sit dictum hoc modo. Similiter &amp; de iusto vniuersaliter atque iniusto.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e125-Dd1e931"><!-- arist-l5c6 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e934">Caput 6</head>
+          <p xml:id="ArNeTH-d1e125-d1e937" ana="#heading">
+            <lb ed="#P" n="20"/>Tract. II. Cap. I. &amp; Lib. V. Cap. VI.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e942">
+            <lb ed="#P" n="21"/>CVm autem fieri possit, vt iniuriam quispiam faciat, &amp; nondum sit ipse iniustus: 
+            <lb ed="#P" n="22"/>qualesnam iniurias quispiam faciens vnaquaque iniustitia iam est iniustus: 
+            <lb ed="#P" n="23"/>tur inquam vel adulter, vel latro. An hoc modo nihil interfuerit. Etenim 
+            <lb ed="#P" n="24"/>fieri potest vt quispiam coeat cum muliere sciens cum qua coit. sed non ob 
+            ele<lb ed="#P" n="25" break="no"/>ctionis principium: sed ob affectum. Atque iniuriam quidem agit, sed iniustus non 
+            <lb ed="#P" n="26"/>est: veluti neque fur, furatus est tamen: neque adulter, adulterium tamen fecit: &amp; eodem de caeteris 
+            <lb ed="#P" n="27"/>modo. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e960">
+            Quomodo igitur sese habet ad ipsum iustum repassio: dictum est antea. Oportet autem 
+            <lb ed="#P" n="28"/>non latere: iustum quod nunc quaeritur, id esse quod est simpliciter iustum: ipsum inquam iustum 
+            <lb ed="#P" n="29"/>ciuile. Hoc autem est inter socios vitae, vt sit sufficientia liberorum, atque aequalium, aut in 
+            compa<lb ed="#P" n="30" break="no"/>ratione, ratione consistens aut in numero. Quare in quibus hoc non est inter eos ciuile iustum 
+            <lb ed="#P" n="31"/>non est: sed quoddam iustum &amp; per similitudinem quandam. In iis enim est iustum, quibus inter se 
+            po<lb ed="#P" n="32" break="no"/>nitur lex. Lex autem iis poni solet, in quibus est iniustitia. ludicium enim diiudicatio est iusti atque 
+            <lb ed="#P" n="33"/>iniusti. In quibus vero est iniustitia in iis est etiam iniuriam facere. Sed non in omnibus est 
+            in<lb ed="#P" n="34" break="no"/>iustitia, in quibus est iniuriam facere. Hoc autem est plus quidem ex fimpliciter bonis: minus autem 
+            <lb ed="#P" n="35"/>ex simpliciter malis, sibi tribuere. Iccirco non finimus hominem dominari, sed rationem: quia sibi 
+            <lb ed="#P" n="36"/>ipsi id facit: &amp; fit tyrannus. Magistratus autem custos est iusti, &amp; si iusti, &amp; aequi. Atque quia 
+            <lb ed="#P" n="37"/>nihil sibi ipsi plus tribuendum esse censet, si est iustus Cex simpliciter enim bono plus sibi non 
+            <lb ed="#P" n="38"/>tribuit nisi comparatione rationum sit ad ipsum accommodatum) ideo alii non sibi ipsi laborat. 
+            <lb ed="#P" n="39"/>Atque ob idipsum: alienum bonum inquiunt iustitiam esse, sicut &amp; antea diximus. Merces ergo quaedam 
+            <lb ed="#P" n="40"/>tribuenda est ipsi honos inquam &amp; praemium. Sed quibus haec non sufficiunt, ii fiunt tyranni.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e991">
+            Herile 
+            <lb ed="#P" n="41"/>autem paternumque iustum non idem, sed his est simile. Non est enim iniustitia ad sua simpliciter: id 
+            <lb ed="#P" n="42"/>autem quod possidetur, &amp; filius quandiu sit tantillus &amp; non separatus, vt pars ipsius est patris, 
+            <lb ed="#P" n="43"/>Se vero nemo vult laedere: quapropter non est ad seipsum iniustitia. Neque ergo iustum, neque 
+            <lb ed="#P" n="44"/>iniustum ciuile. Est enim lege atque in iis est, in quibus lex esse potest. Qui quidem ii sunt quibus 
+            <lb ed="#P" n="45"/>inest aequalitas imperandi atque parendi. Iccirco magis ad vxorem iustum esse videtur quam ad filios, 
+            <lb ed="#P" n="46"/>&amp; ea quae possidentur. Hoc enim est rei familiaris iustum: verum &amp; hoc aliud est a ciuili.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e125-Dd1e1008"><!-- arist-l5c7 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e1011">Caput 7</head>
+          <p xml:id="ArNeTH-d1e125-d1e1014" ana="#heading">
+            <lb ed="#P" n="52"/>Tract. II. Cap. II. &amp; Lib. V. Cap. VII
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1019">. 
+            <lb ed="#P" n="53"/>CIuilis autem iusti aliud est naturale, aliud legitimum. Et naturale quidem 
+            <lb ed="#P" n="54"/>est quod vbique vim habet eandem: &amp; non quia videtur, vel non videtur. 
+            Legi<lb ed="#P" n="55" break="no"/>timum autem quod a principio quidem nihil refert, sic se an aliter habeat, cum vero 
+            <lb ed="#P" n="56"/>positum fuerit, refert. Quale est, mina captiuos redimi, vel capram diis, sed  
+            <lb ed="#P" n="57"/>non duas oues mactare: &amp; etiam ea quae de singulis lege iubentur, vt sacra 
+            <lb ed="#P" n="58"/>iBrasidae facere, &amp; quae publicis decretis instituuntur. Videntur autem 
+            qui<lb ed="#P" n="59" break="no"/>busdam omnia talia esse. Propterea quod omne quod natura constat immobile est, &amp; vim eandem 
+            <lb ed="#P" n="60"/>habet vbique. Sicut ignis hic &amp; apud Persas vrit: iusta autem moueri vident. Verum hoc non ita 
+            <lb ed="#P" n="61"/>sese habet: sed aliquo modo. Atque apud deos quidem, nihil vllo modo for sitan est quod ita 
+            <!--183.xml-->
+            <pb ed="#P" n="83-v"/>
+            <lb ed="#P" n="1"/>sese habet: apud nos autem est quidem aliquid, etiam natura constans mutabile, verum non omnem. 
+            <lb ed="#P" n="2"/>Attamen aliud est natura aliud non natura. Patet autem quidnam eorum quae possunt &amp; aliter se 
+            <lb ed="#P" n="3"/>hambere, natura constat, &amp; quid non: sed lege ac instituto: si ambo mutari similiter possunt &amp; 
+            <lb ed="#P" n="4"/>ad caetera, eadem accommodabitur diffinitio. Dextera namque manus validior est laeua, natura. Et 
+            <lb ed="#P" n="5"/>tamen fieri potest, vt omnes euadant apti ad vtendum manu sinistra perinde ac dextera. lustorum 
+            <lb ed="#P" n="6"/>autem ea quae ex instituto sunt &amp; ob vtilitatem, similia sunt mensuris. Non enim omnibus in locis 
+            <lb ed="#P" n="7"/>aequales sunt vini triticique mensurae: sed vbi quidem emunt maiores sunt, vbi autem vaendunt, 
+            mi<lb ed="#P" n="8" break="no"/>nores. Simili modo &amp; ea quae non naturalia sunt sed humana iusta: non eadem sunt vbique. Nam 
+            <lb ed="#P" n="9"/>neque respublicae, sed vna tantum vbique secundum naturam est ipsa optima. Vnumquodque autem iustorum, 
+            <lb ed="#P" n="10"/>&amp; legitimorum vt vniuersale sese habet ad singula: etenim ea quae aguntur sunt multa. 
+            Vnun<lb ed="#P" n="11" break="no"/>quodque autem illorum est vnum: est enim vniuersale. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1069">
+            Interest autem inter iniuriam &amp; iniustum, &amp; inter 
+            <lb ed="#P" n="12"/>ius &amp; iustum. Iniustum enim est natura vel instituto. Id autem ipsum cum actum fuerit iniuria est: 
+            <lb ed="#P" n="13"/>antea vero quam sit actum, nullo modo est iniuria, sed iniustum: pari modo &amp; ius. Vocatur autem 
+            <lb ed="#P" n="14"/>magis iusti actio ipsum commune: ius autem iniuriae emendatio. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1078">
+            Quae vero, &amp; quot species 
+            <lb ed="#P" n="15"/>vniuscuiusque ipsorum sunt, &amp; circa quae versantur considerandum est postea.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e125-Dd1e1084"><!-- arist-l5c8 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e1087">Caput 8</head>
+          <p xml:id="ArNeTH-d1e125-d1e1090" ana="#heading">
+            <lb ed="#P" n="16"/>Tract. II. Cap. III. &amp; Lib. V. Cap. VIII. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1095">
+            <lb ed="#P" n="17"/>CVm autem iusta sint &amp; iniusta ea quae diximus: iniuriam quidem quispiam 
+            <lb ed="#P" n="18"/>facit, &amp; ius agit cum ea sua sponte agit: sed cum inuitus, non iniuriam 
+            <lb ed="#P" n="19"/>facit, neque ius agit. Agit enim ea quibus accidit vt sint iusta aut iniusta. 
+            <lb ed="#P" n="20"/>Iniuria autem atque iuris actio tunc est, cum a sponte agente fit: tunc enim 
+            <lb ed="#P" n="21"/>vituperatur: &amp; simul tunc iniuria est. Quare erit quid iniustum quidem. 
+            <lb ed="#P" n="22"/>sed nondum iniuria: si non a sponte agente sit factum. Equidem id a sponte 
+            <lb ed="#P" n="23"/>agente fieri dico (quemadmodum &amp; prius est dictum) quod quispiam in se situm sciens 
+            <lb ed="#P" n="24"/>agit, &amp; non ignorans, neque quem, neque quo, neque gratia cuius, vt quem pulsat &amp; quo: &amp; 
+            gra<lb ed="#P" n="25" break="no"/>tia cuius, &amp; vnum quodque illorum, neque per accidens, neque vi: vt si quispiam vi mouens manum 
+            <lb ed="#P" n="26"/>alterius ipsum pulset. Sponte enim ipse tum sua non pulsat: quippe cum non sit in ipso situm. 
+            <lb ed="#P" n="27"/>Fieri etiam potest, vt qui pulsatur sit pater: ipse autem sciat quidem illum hominem esse, 
+            <lb ed="#P" n="28"/>vel aliquem eorum qui assunt: ignoret autem esse patrem. Idem dicendum est &amp; de eo 
+            gra<lb ed="#P" n="29" break="no"/>tia cuius agitur, &amp; circa totum etiam actum. Quod igitur ignoratur, aut non ignoratur 
+            <lb ed="#P" n="30"/>quidem, non est autem in ipso situm. sed vi fit: id omne agitur ab inuito. Et eorum enim 
+            <lb ed="#P" n="31"/>quae nobis natura competunt complura scientes agimus, atque patimur quorum nihil aut  
+            <lb ed="#P" n="32"/>nostra sponte, aut inuitis fit nobis, vt senescere, aut mori. Est autem in iniustis ac iustis 
+            si<lb ed="#P" n="33" break="no"/>militer id quod per accidens dicimus. Nam si quispiam depositum inuitus, &amp; ob timorem 
+            <lb ed="#P" n="34"/>reddiderit: non est dicendum hunc iustum, aut ius agere, nisi per accidens. Similiter est 
+            di<lb ed="#P" n="35" break="no"/>cendum &amp; eum iniuriam facere atque iniusta per accidens agere, qui cogitur, atque inuitus non 
+            <lb ed="#P" n="36"/>reddit depositum. Eorum autem quae sponte agimus, alia cum electione agimus, alia sine 
+            <lb ed="#P" n="37"/>electione. Et cum electione agimus, quae antecessit deliberatio. Ea sine electione, quae non 
+            an<lb ed="#P" n="38" break="no"/>tecessit deliberatio. Cum igitur laesio sit in societatibus triplex: tunc sunt cum ignoratione 
+            <lb ed="#P" n="39"/>peccata, cum quispiam egerit aut circa quem, aut quod, aut quo, aut gratia cuius agere non 
+            <lb ed="#P" n="40"/>putauit. Nam aut non percutere, aut non hoc, aut non hunc, aut non gratia huiusce 
+            puta<lb ed="#P" n="41" break="no"/>uit: sed accidit id cuius gratia non putauit: vt non vulneraret, sed vt pugnaret, aut non quem. 
+            <lb ed="#P" n="42"/>aut non hoc modo. Atque cum extra rationem fit laesio, infortunium est: cum non extra rationem, 
+            <lb ed="#P" n="43"/>fine tamen vitio, peccatum. Etenim peccat quidem quispiam cum in ipso est principium 
+            <lb ed="#P" n="44"/>causae, aduersa vero fortuna vtitur, cum est foris. Cum autem sciens quidem sed non 
+            deli<lb ed="#P" n="45" break="no"/>beratione praemissa quispiam laedit, iniuria est: cuius generis ea sunt vniuersa quae per iram 
+            <lb ed="#P" n="46"/>efficiuntur, aliasque animi perturbationes, quaecumque necessatio, vel natura hominibus accidunt. 
+            <lb ed="#P" n="47"/>Haec enim iniuria sunt. Atque ii qui ob haec nocent ac peccant, iniuriam quidem faciunt: 
+            <lb ed="#P" n="48"/>tamen nondum ob haec ipsa sunt iniusti vel praui. Non enim nocent ob prauitatem: sed cum 
+            <lb ed="#P" n="49"/>nocet quis electione, iniustus est atque prauus. Quapropter perrecte ea quae proficiscuntur ab 
+            <lb ed="#P" n="50"/>ira, non diiudicantur ex prouidentia fieri. Non enim is incipit qui facit ira, sed is qui 
+            prouo<lb ed="#P" n="51" break="no"/>cauit ad iram. Praeterea non fit in talibus controuersia, si factum sit nec ne: sed si iure sit factum. 
+            <lb ed="#P" n="52"/>Ita namque ob apparentem oriri iniustitiam solet. Non enim de facto perinde atque in commerciis 
+            <lb ed="#P" n="53"/>contendunt: vbi necesse est alterum improbum esse si non id faciat obliuione: sed de re 
+            conue<lb ed="#P" n="54" break="no"/>nientes, iure an iniuria sit facta disceptant. Qui autem facit insidias, non ignorat. Quare alter 
+            <lb ed="#P" n="55"/>putat iniuriam pati, alter non putat:
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1182">
+            quod si electione nouerit, iniuriam facit. Atque his iam 
+            iniu<lb ed="#P" n="56" break="no"/>riis est iniustus qui iniuriam facit, cum comparationem rationum, aut aequalitatem transgreditur,
+            <!--186.xml-->
+            <pb ed="#P" n="85-r"/>
+            <lb ed="#P" n="1"/>Pari modo iustus etiam est cum ius agit electione. ius autem agit si solum sua sponte agit.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1193">
+            <lb ed="#P" n="2"/>Eorum autem quae ab inuitis fiunt alia sunt venia digna, alia non sunt venia digna. Nan 
+            <lb ed="#P" n="3"/>ea quae non solum ignorantes, sed ob ignorantiam etiam faciunt, ignoscenda sunt. Sed ea qua 
+            <lb ed="#P" n="4"/>faciunt non ob ignorationem, sed ignorantes quidem ob affectum autem non naturalen 
+            <lb ed="#P" n="5"/>neque humanum, non sunt venia digna.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e125-Dd1e1205"><!-- arist-l5c9 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e1208">Caput 9</head>
+          <p xml:id="ArNeTH-d1e125-d1e1211" ana="#heading">
+            <!--188.xml-->
+            <pb ed="#P" n="86-r"/>
+            <lb ed="#P" n="1"/>Tractatus Secundus. Cap. IIII. et Lib. V. Cap. IX.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1220">
+            <lb ed="#P" n="2"/>AMbiget autem quispiam si determinatum sit satis, de faciendo patiendoque 
+            <lb ed="#P" n="3"/>iniuriam, atque si ita sit vt Euripides inquit, absurde dicens, 
+            <lb ed="#P" n="4"/>
+            <quote xml:id="ArNeTH-d1e125-Qd1e1228">Quaeris parentem, quomodo occidi meam. 
+              <lb ed="#P" n="5"/>Sermo est breuis, non exitus longos habet. 
+              <lb ed="#P" n="6"/>Volens volentem, vel volentem non volens. </quote>
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1236">
+            <lb ed="#P" n="7"/>Vtrum enim reuera sua sponte quispiam iniuriam patiatur an nemo, 
+            <lb ed="#P" n="8"/>sed omnes inuiti, quemadmodum &amp; omnes qui iniuriam agunt, sua faciunt sponte. Et vtrum 
+            <lb ed="#P" n="9"/>omnes hoc modo an quidam inuiti, similiter &amp; cum patiuntur homines ius? Nam omnes 
+            <lb ed="#P" n="10"/>cum ius agunt, sua faciunt sponte. Quare consentaneum est rationi similiter opponi eos qui 
+            <lb ed="#P" n="11"/>iniuriam, &amp; qui ius patiuntur, vt aut sponte patiantur, aut inuiti. At absurdum videbitur 
+            <lb ed="#P" n="12"/>si omnes etiam ius pati sua sponte dixerimus. Nonnulli nanque non sua sponte ius 
+            patiun<lb ed="#P" n="13" break="no"/>tur. Enimuero de hoc quoque quispiam dubitauerit si omnis qui passus est iniustum, 
+            iniuri<lb ed="#P" n="14" break="no"/>am patiatur. An vt in agendo sic &amp; in patiendo res sese habet: Etenim fit vt ad vtrunque per 
+            <lb ed="#P" n="15"/>accidens, ipsa iusta accommodentur, &amp; eodem modo iniusta. Non enim est idem iniusta age 
+            <lb ed="#P" n="16"/>re, &amp; iniurias agere. Neque iniusta pati, &amp; iniurias pati. Similiter &amp; in agendo patiendoque 
+            <lb ed="#P" n="17"/>ius. Fieri enim non potest vt patiatur quisquam iniuriam nisi quis iniuriam faciat, aut ius 
+            pa<lb ed="#P" n="18" break="no"/>tiatur, nisi ius quispiam agat. Quod si simpliciter iniuriam facere, sit sua sponte quempiam 
+            <lb ed="#P" n="19"/>laedere, &amp; ipsum, sponte inquam laedere, sit laedere scientem, &amp; quem, &amp; quo, atque quomodo, 
+            in<lb ed="#P" n="20" break="no"/>continens autem ipse sibi sua noceat sponte, ipse nimirum iniuriam patitur sua sponte, 
+            fie<lb ed="#P" n="21" break="no"/>rique potest vt sibi ipsi iniuriam faciat atque hoc etiam ipsum, vnum quid est eorum quae dubi 
+            <lb ed="#P" n="22"/>tantur, si fieri inquam possit, vt sibi ipsi quispiam iniuriam faciat. Praeterea fit vt sua sponte 
+            <lb ed="#P" n="23"/>quispiam ob incontinentiam ab alio sponte nocente laedatur. Quare fit, vt sua sponte quispi 
+            <lb ed="#P" n="24"/>am iniuriam patiatur. An diffinitio dicta non recte sese habet, sed huic, laedere inquam scien 
+            <lb ed="#P" n="25"/>tem quem, &amp; quo, atque quomodo, hoc est addendum praeter illius voluntatem? Laeditur 
+            igi<lb ed="#P" n="26" break="no"/>tur sua quispiam sponte, patiturque iniusta. Sed iniuriam sua sponte patitur nemo, nemo 
+            <lb ed="#P" n="27"/>namque vult. Neque incontinens ipse, sed praeter voluntatem agit. Neque enim vllus id vult quod 
+            <lb ed="#P" n="28"/>non existimat esse bonum, incontinens autem id agit quod non putat esse agendum. Qui 
+            <lb ed="#P" n="29"/>vero dat sua, quemadmodum arma sua Diomedi Glaucus dedit, vt dicit Homerus. 
+            <lb ed="#P" n="30"/>
+            <quote xml:id="ArNeTH-d1e125-Qd1e1290">Proque nouem, centum, pro ferro tradidit aurum: 
+              <lb ed="#P" n="31"/>Is iniuriam non patitur, dare namque est collocatum in ipso. 
+              <lb ed="#P" n="32"/>Sed vt iniuriam patiatur non est in potestate ipsius situm, sed is sit qui iniuriam agat 
+              <lb ed="#P" n="33"/>oportet. Patet igitur sua sponte neminem iniuriam pati.</quote>
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1300">
+            <lb ed="#P" n="34"/>Insuper ex iis quae praeposuimus, haec duo restant deinceps dicenda, vter iniuriam faciat, 
+            <lb ed="#P" n="35"/>vtrum is qui plus praeter dignitatem tribuit, an is qui illud habet: Et si fieri possit vt sibi ipsi 
+            <lb ed="#P" n="36"/>quispiam iniuriam faciat. Etenim si sit illud quod prius est dictum &amp; qui distribuit non qui 
+            <lb ed="#P" n="37"/>plus habet, iniuriam faciat si quispiam plus alii, quam sibi tribuat sciens, sponteque, quod quidem 
+            <lb ed="#P" n="38"/>moderati homines facere videntur (bonus enim &amp; aequus, minora sibi tribuere solet) is pro 
+            <lb ed="#P" n="39"/>fecto sibi ipsi iniuriam facit. An neque hoc simplex est: Ex alio nanque bono plus forte 
+            consequi<lb ed="#P" n="40" break="no"/>tur, vt gloriam, aut absolute honestum. Soluitur praeterea &amp; per diffinitionem agendi 
+            iniu<lb ed="#P" n="41" break="no"/>tiam, nihil enim ipse praeter suam patitur voluntatem. Quare non iniuriam patitur ob 
+            id<lb ed="#P" n="42" break="no"/>ipsum, sed si minus capit, laeditur tantum. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1323">
+            Patet autem &amp; distribuentem iniuriam agere, sed non 
+            <lb ed="#P" n="43"/>eum semper qui plus habet. Non enim is iniuriam facit cui inest iniustum, sed is cui 
+            pote<lb ed="#P" n="44" break="no"/>stas inest id faciendi sponte. Haec autem est vnde est principium actus. Quod quidem in ipso 
+            <lb ed="#P" n="45"/>est distribuente, non in accipiente. Praeterea cum facere multis dicatur modis, &amp; modo 
+            quo<lb ed="#P" n="46" break="no"/>dam expertia animae, &amp; manus, &amp; seruus occidat hero iubente, iniuriam quidem non egit, 
+            <lb ed="#P" n="47"/>iniusta autem facit. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1336">
+            Insuper si iudicauit ignorans, non iniuriam facit legitimo iusto: nec est 
+            <lb ed="#P" n="48"/>iniustum iudicium, est tamen aliquo modo iniustum. Aliud enim est legitimum iustum, 
+            <lb ed="#P" n="49"/>aliud primum. Sin vero cognoscens iudicauit iniuste: plus habet &amp; ipse, vel gratiam vel vin  
+            <lb ed="#P" n="50"/>dictam: perinde igitur &amp; is, qui ob haec iudicauit iniuste, plus habet, atque si quispiam 
+            acce<lb ed="#P" n="51" break="no"/>perit iniuriae partem. Nam in illis is qui fundum peruerso iudicio tribuit, non fundum 
+            ce<lb ed="#P" n="52" break="no"/>pit, sed argentum. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1349">
+            Atqui putant homines in seipsis esse situm iniurias facere. Quapropter 
+            <lb ed="#P" n="53"/>&amp; iniustum esse facile arbitrantur, hoc autem non ita sese habet. Coire nanque cum vxore vi 
+            <lb ed="#P" n="54"/>cini, &amp; pulsare proximum, dareque argentum manu facile est, &amp; collocatur in ipsis, sed haec age¬ 
+            <!--189.xml-->
+            <pb ed="#P" n="86-v"/>
+            <lb ed="#P" n="1"/>re sic se habentes, neque facile est, neque in ipsis est situm. Simili modo cognoscere iusta atque iniu 
+            <lb ed="#P" n="2"/>sta nullam sapientiam esse putant, propterea quod non est difficile, ea de quibus leges dictitant 
+            <lb ed="#P" n="3"/>intelligere: at non haec sunt ipsa iusta, nisi per accidens. Sed tunc sunt iusta, cum quodam 
+            <lb ed="#P" n="4"/>aguntur modo, &amp; quodam distribuuntur modo: id autem difficilius est, quam ea quae sanitatem 
+            <lb ed="#P" n="5"/>efficiunt scire. Et ibi nanque mel, vinum, veratrum, adustionem, incisionemve scire, perfacile 
+            <lb ed="#P" n="6"/>sane est, sed quonam modo ad sanitatem efficiendam, &amp; cui &amp; quando sint tribuenda, tanta 
+            <lb ed="#P" n="7"/>est difficultas scire, quanta est medicum esse. Obid autem ipsum &amp; iusti non minus esse pu 
+            <lb ed="#P" n="8"/>tant iniuriam facere, quia vir iustus non minus, sed etiam magis horum singula facere 
+            po<lb ed="#P" n="9" break="no"/>test, viciare inquam vxorem cuiuspiam, &amp; pulsare aliquem, &amp; vir fortis in acie proiicere 
+            cly<lb ed="#P" n="10" break="no"/>peum, tergisque versis fugam surripere. At timide agere &amp; iniuriam facere non est haec facere. 
+            <lb ed="#P" n="11"/>nisi per accidens, sed sic se habentem haec facere. Quemadmodum &amp; mederi, atque curare non 
+            <lb ed="#P" n="12"/>est incidere, vel non incidere, aut medicamenta dare, aut non dare, sed hoc modo sese 
+            haben<lb ed="#P" n="13" break="no"/>tem haec agere. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1388">
+            Iusta autem in iis sunt qui participes sunt eorum, quae sunt simpliciter 
+            bo<lb ed="#P" n="14" break="no"/>na. Habent autem &amp; exuperationem in his &amp; defectionem. Nam quibusdam non est 
+            ipso<lb ed="#P" n="15" break="no"/>rum exuperatio, vt diis fortasse, quibusdam vero nulla pars est vtilis, incurabilibus inquam 
+            <lb ed="#P" n="16"/>malis, sed omnia nocent: quibusdam autem vsque ad aliquem terminum, atque hoc est humanum.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e125-Dd1e1398"><!-- arist-l5c10 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e1401">Caput 10</head>
+          <p xml:id="ArNeTH-d1e125-d1e1404" ana="#heading">
+            <lb ed="#P" n="35"/>Tract. III. Cap. I.? &amp; Lib. V. Cap. X
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1409">
+            <lb ed="#P" n="36"/>DEinceps autem dicendum est de aequitate &amp; bonitate atque aequo &amp; bonos 
+            <lb ed="#P" n="37"/>quonam modo sese habet aequitas quidem &amp; bonitas ad iustitiam: aequum 
+            <lb ed="#P" n="38"/>lautem &amp; bonum ad iustum. Nam considerantibus, neque simpliciter idem. 
+            <lb ed="#P" n="39"/>neque genere diuersum esse videtur: atque interdum laudamus aequum &amp; 
+            bo<lb ed="#P" n="40" break="no"/>num, virumque talem. Quare &amp; alia laudantes transferimus pro bono 
+            ip<lb ed="#P" n="41" break="no"/>sum, aequius declarantes melius essc. Interdum rationem sequentibus 
+            absur<lb ed="#P" n="42" break="no"/>dum videtur: si aequum &amp; bonum (si sit quid praeter iustum) laudabile sit. Nam aut iustum non 
+            <lb ed="#P" n="43"/>est studiosum, aut aequum &amp; bonum, si aliud sit a iusto: aut idem sunt, si vtrunque est studiosum.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1429">
+            <lb ed="#P" n="44"/>Haec igitur dubitatio ob ea fere quae dicta sunt, emergit de ipso aequo &amp; bono. Recte autem 
+            <lb ed="#P" n="45"/>aliquo modo sese habent omnia: &amp; nihil prorsus ipsis aduersatur. Nam aequum &amp; bonum iustum 
+            <lb ed="#P" n="46"/>est: &amp; est aliquo iustomelius: &amp; non vt aliquod aliud genus: melius est ipso iusto. ldem est 
+            er<lb ed="#P" n="47" break="no"/>go iustum, atque aequum &amp; bonum. Et vtrunque quidem est studiosum, praestabilius autem est ipsum 
+            <lb ed="#P" n="48"/>aequum &amp; bonum. Fit autem haec dubitatio quia aequum &amp; bonum iustum quidem est, non au 
+            <lb ed="#P" n="49"/>tem lex est sed emendatio legitimi iusti. Causa autem est quia lex quidem omnis vniuersalis 
+            <lb ed="#P" n="50"/>est: fieri autem non potest: vt de quibusdam vniuersaliter recte dicatur. In quibus igitur vni 
+            <lb ed="#P" n="51"/>uersaliter quidem dicere necesse est: fieri autem non potest vt recte dicatur, in iis lex id 
+            acci<lb ed="#P" n="52" break="no"/>pit quod fit plerunque haud ignorans peccatum. Et est nihilominus recta, peccatum enim non est 
+            <lb ed="#P" n="53"/>in lege: nec in legislatore: sed in ipsa rei natura. Continuo nanque rerum earum quae sub 
+            actio<lb ed="#P" n="54" break="no"/>nem cadunt, materia talis est. Quum igitur lex quidem vniuersaliter loquitur: in iis autem 
+            prae<lb ed="#P" n="55" break="no"/>ter vniuersale quippiam accidit, tum recte sese habet: vt ea parte qua legistator omisit atque 
+            <lb ed="#P" n="56"/>peccauit absolutelocutus: emendetur defectus: quod &amp; ipse legistator si adesset, hoc modo  
+            <lb ed="#P" n="57"/>dixisset: &amp; si sciuisset, iubentem legem tulisset. Quapropter iustum quidem est &amp; praestabilius 
+            <lb ed="#P" n="58"/>aliquo iusto non tamen simpliciter iusto, sed eo quod peccat propterea quod simpliciter di 
+            <lb ed="#P" n="59"/>ctum est. Atque haec est natura ipsius aequi &amp; boni: emendatio legis ex ea parte, qua deficit 
+            <!--195.xml-->
+            <pb ed="#P" n="89-v"/>
+            <!-- duplicate page of 88v -->
+            <!--196.xml-->
+            <pb ed="#P" n="89-r"/>
+            <!-- duplicate page of 89r -->
+            <!--197.xml-->
+            <pb ed="#P" n="89-v"/>
+            <lb ed="#P" n="1"/>ob vniuersale. Haec enim est causa, vt non omnia sint lege: quia de quibusdam impossibile est 
+            <lb ed="#P" n="2"/>ponere legem. Quare decreto est opus. Indefinitae nanque rei, indefinita &amp; regula est, sicut &amp; 
+            <lb ed="#P" n="3"/>aedificationis Lesbiae plumbea norma. Ad lapidis enim figuram mutatur: &amp; non manet. &amp; 
+            <lb ed="#P" n="4"/>decretum ad res ipsas simili modo.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1492">
+            Patet igitur quid est aequum &amp; bonum: &amp; esse iustum &amp; 
+            <lb ed="#P" n="5"/>quo iusto praestabilius est. Ex quo etiam emergit: quisnam sit homo bonus &amp; aequus. Est enim 
+            <lb ed="#P" n="6"/>is qui talia eligit atque agit: &amp; qui non exacte iustum in deteriorem exequitur partem: sed  
+            <lb ed="#P" n="7"/>imminuit tametsi legem adiutricem ad illud habet &amp; habitus hic aequitas &amp; bonitas est. 
+            <lb ed="#P" n="8"/>quae quidem iustitia quaedam: &amp; non alius quisquam habitus est.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e125-Dd1e1505"><!-- arist-l5c11 -->
+          <head xml:id="ArNeTH-d1e125-Hd1e1508">Caput 11</head>
+          <p xml:id="ArNeTH-d1e125-d1e1511" ana="#heading">
+            <!-- title line coord missing -->
+            Tract. III. Cap. II. Et Lib. V. Cap XI.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1516">
+            <lb ed="#P" n="51"/>PAtet autem ex iis quae diximus si fieri possit vt sibi ipsi quispiam 
+            iniu<lb ed="#P" n="52" break="no"/>riam faciat necne. Iustorum enim quaedam ex omni virtute a lege sunt 
+            <lb ed="#P" n="53"/>lordinata vt lex non iubet quemquam seipsum occidere: quae vero non iubet. 
+            <lb ed="#P" n="54"/>vetat. Praeterea cum quispiam contra legem laedit non lacessiturus: tum 
+            <lb ed="#P" n="55"/>is iniuriam sponte facit, sponte autem is iniuriam facit: qui scit, &amp; eum 
+            <lb ed="#P" n="56"/>Icui facit, &amp; modum quo facit. At qui seipsum ob iram occidit: sponte id 
+            <lb ed="#P" n="57"/>quod lex non permittit, contra legem efficit rectam. iniuriam ergo facit. Sed cuinam 
+            quae<lb ed="#P" n="58" break="no"/>so? An sibiipsi, an ciuitati: non sibi ipsi? Nam sua patitur sponte. Nemo vero sponte iniuriam 
+            <lb ed="#P" n="59"/>patitur. Quapropter ciuitati: &amp; ciuitas mulctat. &amp; instituta est ignominia quaedam aduer¬ 
+            <!--199.xml-->
+            <pb ed="#P" n="90-v"/>
+            <lb ed="#P" n="1"/>sus eum qui sibi mortem consciuit: vt ciuitati iniuriam facientem. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1545">
+            Praeterea fieri non 
+            po<lb ed="#P" n="2" break="no"/>test vt sibi ipsi quisquam iniuriam faciat ea ratione, qua iniustus est: qui solum iniuriam facit: &amp; 
+            <lb ed="#P" n="3"/>non omnino est vitiosus. Hic enim differt ab illo. homo nanque iniustus est quodam modo  
+            <lb ed="#P" n="4"/>sic prauus: vt ipse timidus: non vt totam habens prauitatem. Quare nec hac iniustitia 
+            sibi<lb ed="#P" n="5" break="no"/>ipsi quisquam iniuriam facit. Nam idem simul ablatum ab aliquo ac eidem additum esset: quod  
+            <lb ed="#P" n="6"/>fieri nequit. Sed semper inter plures inustum atque iniustum esse necesse est. Praeterea qui 
+            in<lb ed="#P" n="7" break="no"/>iuriam facit: sponte agit, &amp; electione, &amp; prior. Qui nanque laesus indem vicissim facit, iniuriam 
+            <lb ed="#P" n="8"/>facere non videtur. Ipse autem simul eadem patitur sibique facit. Praeterea sua sponte 
+            quis<lb ed="#P" n="9" break="no"/>piam iniuriam pateretur. Insuper sine singulis iniuriis: iniuriam facit nemo. At nemo adul 
+            <lb ed="#P" n="10"/>terium sua cum vxore committit. Nemo parietem confodit suum, nemo res suas furatur.
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1567">
+            <lb ed="#P" n="11"/>Omnino autem hoc (sibi inquam iniuriam facere) soluitur diffinitione iniuriam patiendi. sua 
+            <lb ed="#P" n="12"/>nanque sponte patitur iniuriam nemo. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1575">
+            At vero constat vtrunque prauum esse facere inquam 
+            <lb ed="#P" n="13"/>iniuriam atque pati. Alterum enim est plus, alterum minus habere medio. quod quidem 
+            per<lb ed="#P" n="14" break="no"/>inde sese habet atque in medicina quidem quod ad sanitatem: in exercitandi autem arte: quod  
+            <lb ed="#P" n="15"/>ad habitudinem corporis bonam conducit. Peius tamen est iniuriam facere. Hoc enim cum 
+            <lb ed="#P" n="16"/>vitio est, atque vituperatur. Et vitio vel perfecto &amp; simpliciter: vel prope. Non enim omne 
+            <lb ed="#P" n="17"/>quod sponte fit, cum iniustitia est. sed pati iniuriam sine vitio, &amp; iniustitia est. Pati igitur 
+            <lb ed="#P" n="18"/>iniuriam per se quidem minus est malum: per accidens autem nihil prohibet maius esse 
+            ma<lb ed="#P" n="19" break="no"/>lum. At non curae est arti: sed dolorem lateris maiorem morbum quam pedis offensionem dicit. 
+            <lb ed="#P" n="20"/>quamquam fieri potest nonnunquam contra per accidens: si euenerit vt quispiam offenso pede 
+            capere<lb ed="#P" n="21" break="no"/>tur ab hoste: &amp; trucidaretur. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1597">
+            Atqui per translationem atque similitudinem est iustum non 
+            si<lb ed="#P" n="22" break="no"/>bi ad seipsum: sed suorum quibusdam. Non omne autem iustum sed herile vel rei 
+            familia<lb ed="#P" n="23" break="no"/>ris. His enim rationibus distat ea pars animae quae rationem habet: ab ea parte quae 
+            ratio<lb ed="#P" n="24" break="no"/>nis est expers. Ad quas inspicientibus ad seipsum iniustitia esse videtur: propterea quod in his 
+            <lb ed="#P" n="25"/>est pati aliquid contra suas appetitiones. Vt igitur est quid iustum magistratum gerenti: 
+            <lb ed="#P" n="26"/>&amp; quibus ipse praeest: sic &amp; his etiam esse videtur. 
+          </p>
+          <p xml:id="ArNeTH-d1e125-d1e1610">
+            Sed de iustitia quidem caeterisque morum 
+            <lb ed="#P" n="27"/>virtutibus, hoc sit modo determinatum.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

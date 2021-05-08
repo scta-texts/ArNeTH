@@ -1,0 +1,858 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 7</title>
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 7</title>
+          <date when="2021-05-08">May 08, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-MaEth8">Paris 1530</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="105-v"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ArNeTH-d1e150"><!-- arist-l7 -->
+        <head xml:id="ArNeTH-d1e150-Hd1e106">Liber 7</head>
+        <div xml:id="ArNeTH-d1e150-Dd1e109"><!-- arist-l7c1 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e112">Caput 1</head>
+          <p xml:id="ArNeTH-d1e150-d1e115" ana="#heading">
+            <!--230.xml-->
+            <pb ed="#P" n="106-r"/>
+            <lb ed="#P" n="1"/>LIBER SEPTIMVS 
+            <lb ed="#P" n="2"/>TRACTATVS PRIMI CAPVT PRIMVM
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e126">
+            <lb ed="#P" n="3"/>POst haec dicendum est alio sumpto principio, tres esse species 
+            eo<lb ed="#P" n="4" break="no"/>rum quae circa mores sunt fugienda: vitium, incontinentiam, 
+            fe<lb ed="#P" n="5" break="no"/>ritatem. Atque contraria quidem duobus manifesta sunt: aliud enim 
+            <lb ed="#P" n="6"/>virtutem, aliud continentiam appellamus. Ad feritatem autem 
+            <lb ed="#P" n="7"/>&amp; immanitatem. maxime virtutem eam conuenit dicere, quae est 
+            <lb ed="#P" n="8"/>supra nos, heroicam inquam quandam atque diuinam. vt 
+            Home<lb ed="#P" n="9" break="no"/>rus de Hectore: propterea quod eximia bonitate praestabat, dicentem 
+            <lb ed="#P" n="10"/>Priamum introduxit. 
+            <lb ed="#P" n="11"/>
+            <quote xml:id="ArNeTH-d1e150-Qd1e147">Nec iam hominis sane mortalis filius ille 
+              <lb ed="#P" n="12"/>Esse videbatur: sed dio semine natus.</quote> 
+            <lb ed="#P" n="13"/>Quare si ex hominibus ob virtutis exuperationem dii fiunt (vt aiunt) talis quidem is 
+            ha<lb ed="#P" n="14" break="no"/>bitus fuerit, qui feritati opponitur. Etenim vt ferae neque vitium est neque virtus, sic neque dei: 
+            <lb ed="#P" n="15"/>sed hoc quidem praestabilius est virtute, illud autem diuersum est, a vitio genus.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e160">
+            Atque vt ra<lb ed="#P" n="16" break="no"/>ro fit virum esse diuum: vt appellare Lacones consueuere cum valde aliquem admiranturr 
+            <lb ed="#P" n="17"/>(dicunt enim vir diuus hic est) sic &amp; ferus atque immanis est inter homines raro. Maxime ve 
+            <lb ed="#P" n="18"/>ro inter nationes barbaras est, fiunt autem quidem tales &amp; ob morbos, laesionesque principii. 
+            <lb ed="#P" n="19"/>Et eos etiam homines qui in vitiis exuperant: hac infami consueuimus appellatione notare. 
+            <lb ed="#P" n="20"/>Sed de tali quidem dispositione mentio aliqua posterius fiet. De vitio vero prius est dictum. Nunc 
+            <lb ed="#P" n="21"/>de incontinentia, mollitudine luxuria &amp; de continentia atque constantia est dicendum. Neque enim vt idem 
+            <lb ed="#P" n="22"/>quid virtus &amp; vitium: neque vt diuersum genus haec sunt putanda. Atque vt in caeteris egimus: 
+            affer<lb ed="#P" n="23" break="no"/>re ea quae videntur oportet, &amp; dubitare primum. Deinde omnia quae probabilia sunt aut 
+            sal<lb ed="#P" n="24" break="no"/>tem plurima: maximeque praecipua circa hos affectus: ostendere. Nam si soluantur quidem ea quae  
+            <lb ed="#P" n="25"/>difficultatem afferunt: relinquantur autem ea quae probabilia sunt: satis sane fuerit demonstra 
+            <lb ed="#P" n="26"/>tum. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e186">
+            Videtur itaque continentia quidem, constantiaque, studiosa esse ac laudabilis. Incontinentia 
+            <lb ed="#P" n="27"/>vero &amp; mollitudo praua atque vituperabilis. Et idem esse continens, &amp; persistens in ratione 
+            <lb ed="#P" n="28"/>&amp; idem etiam incontinens &amp; rationem egrediens. Et incontinens quidem improba sciens 
+            im<lb ed="#P" n="29" break="no"/>proba esse, agit ob perturbationem. Continens autem cupiditates sciens prauas esse, non sequi 
+            <lb ed="#P" n="30"/>tur ob rationem. Et temperantem quidem continentem esse aiunt atque constantem. Talem autem 
+            <lb ed="#P" n="31"/>alii temperantem esse omnem, alii nullum dicunt. Et item intemperantem incontinentem esse: &amp; incontinentem 
+            <lb ed="#P" n="32"/>intemperantem confuse, nonnumquam diuersos inquiunt esse. Interdum etiam ipsum prudentem incontinentem esse 
+            <lb ed="#P" n="33"/>nomposse. Interdum nonnullos homines qui prudentes, ac habiles sunt incontinentes esse dicunt. 
+            <lb ed="#P" n="34"/>Praeterea incontinentes &amp; irae, &amp; honoris, &amp; lucri dicuntur. Ea igitur quae dicuntur, haec sunt.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e150-Dd1e207"><!-- arist-l7c2 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e210">Caput 2</head>
+          <p xml:id="ArNeTH-d1e150-d1e213" ana="#heading">
+            <lb ed="#P" n="14"/>Tract. I. Cap. II. Et Lib. VII. Cap. II.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e218">
+            <lb ed="#P" n="15"/>DVbitauerit autem quispiam qui fit, vt recte quispiam existimans agat ince 
+            <lb ed="#P" n="16"/>tinenter? Scientem igitur inquiunt quidam, impossibile esse. Nam absurdum 
+            <lb ed="#P" n="17"/>est (vt arbitrabatur Socrates) si scientia insit, aliud quippiam vincere, &amp; 
+            <lb ed="#P" n="18"/>ipsum perinde atque mancipium trahere. Socrates enim omnino contra 
+            ra<lb ed="#P" n="19" break="no"/>tionem ipsam pugnabat: incontinentiamque exterminabat, neminem enim 
+            <lb ed="#P" n="20"/>lexistimantem, praeter id quod est optimum agere, sed ob ignorationem 
+            dice<lb ed="#P" n="21" break="no"/>bat. Haec igitur sententia iis aduersatur: quae manifeste apparent. Atque quaerere oportet quisnam 
+            <lb ed="#P" n="22"/>in ipsa perturbatione si ob ignorationem agit, ignorationis sit modus: Constat enim 
+            incon<lb ed="#P" n="23" break="no"/>tinentem non putare illud esse bonum, antequam in perturbatione sit constitutus. Sunt autem qui 
+            <lb ed="#P" n="24"/>haec partim concedunt, partim non concedunt: etenim scientia quidem nihil esse validius confi 
+            <lb ed="#P" n="25"/>tentur. At huic non assentiuntur, neminem agere praeter id quod visum est melius. Quapro 
+            <lb ed="#P" n="26"/>pter, inquiunt, incontinentem a voluptatibus superari, non scientiam quidem, sed opinionem 
+            ha<lb ed="#P" n="27" break="no"/>bentem. At vero si opinio sit non scientia, neque vehemens existimatio quae resistit: sed remissa 
+            <lb ed="#P" n="28"/>(sicut in ambigentibus) venia danda est: si non in his persistit aduersus vehementes 
+            cupidi<lb ed="#P" n="29" break="no"/>tates. At prauitati non est venia danda: nec aliorum cuiquam quae vituperabilia sunt. Est ne igitur 
+            <lb ed="#P" n="30"/>id quod resistit prudentia: Haec enim est validissima. At est absurdum. Erit enim item prudens 
+            <lb ed="#P" n="31"/>atque incontinens simul. Nemo dixerit prudentis esse ea sponte agere, quae prauissima sunt. 
+            <lb ed="#P" n="32"/>Et insuper demonstratum est antea prudentem aptum ad agendum esse (est enim quidem extre 
+            <lb ed="#P" n="33"/>morum) &amp; caeteras virtutes habere.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e262">
+            Praeterea si continens est ex eo, quia vehementes ac 
+            pra<lb ed="#P" n="34" break="no"/>uas habet cupiditates: neque temperatus continens erit, neque continens temperatus. Etenim 
+            <lb ed="#P" n="35"/>neque vehementes habere cupiditates neque prauas, est temperati. At oportet, nam si 
+            cupidita<lb ed="#P" n="36" break="no"/>tes sint bonae, prauus est habitus ille, qui prohibet non sequi. Quare non omnis continentia 
+            <lb ed="#P" n="37"/>est studiosa: sin imbecilles &amp; non prauae, non est quid egregium nec etiam magnum, quid si sint 
+            <lb ed="#P" n="38"/>prauae ac imbecilles? 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e275">
+            Praeterea si continentia in quauis opinione facit per sistere, praua est: 
+            <lb ed="#P" n="39"/>vt si &amp; in falsa. Et si incontinentia a quauis opinione dimouet erit aliqua incontinentia 
+            stu<lb ed="#P" n="40" break="no"/>diosa: quale fecit Neoptolemus apud Sophoclem in Philoctete: est enim laudabile, quia non 
+            <lb ed="#P" n="41"/>persistit in iis quae suaserat Vlysses ob mentiendi dolorem. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e285">
+            Praeterea captio mentiens dubitatio 
+            <lb ed="#P" n="42"/>est. Quia namque admirabilia, praeterque opinionem sophistae inferre volunt redarguendo, vt cum attige 
+            <lb ed="#P" n="43"/>rint: videantur acuti, ratiocinatio facta dubitatio fit: ligatur enim mens cum manere quidem 
+            <lb ed="#P" n="44"/>non vult: quia conclusio non placet: procedere autem non potest: quia rationem soluere nequit. 
+            <lb ed="#P" n="45"/>Fit autem aliqua ratione vt imprudentia cum incontinentia sit virtus. Qui namque habet vtrumque, 
+            con<lb ed="#P" n="46" break="no"/>traria iis quae existimat ob incontinentiam aget. Existimat autem bona esse mala: &amp; agere non 
+            <lb ed="#P" n="47"/>oportere. Quare bona aget: &amp; non mala. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e301">
+            Praeterea qui persuasus agit: voluptatesque sequitur atque 
+            <lb ed="#P" n="48"/>eligit: melior eo videbitur esse: qui non ob rationem: sed ob incontinentiam agit. Nam facilius 
+            <lb ed="#P" n="49"/>curari potest: quippe cum possit illi dissuaderi. At incontinens obnoxius est ei prouerbio 
+            <lb ed="#P" n="50"/>quo dicimus quid insuper bibere opus est: cum strangulat aqua? Etenim si non persuasum 
+            <lb ed="#P" n="51"/>esset ipsi ea non agenda esse quae agit: dissuasus tandem cessasset, nunc vero persuasum est ei: &amp; 
+            ni<lb ed="#P" n="52" break="no"/>hilominus talia agit.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e314">
+            Insuper si circa vniuersa continentia fit atque incontinentia: quisnam sit il 
+            <lb ed="#P" n="53"/>le qui est incontinens absolute? Nemo enim habet incontinentias omnes. Dicimus autem 
+            <lb ed="#P" n="54"/>quosdam simpliciter incontinentes esse. Tales igitur quaedam hac in materia dubitationes emer 
+            <lb ed="#P" n="55"/>gunt. Horum autem alia tollere, alia relinquere oportet: dubitationis enim solutio inuentio est
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e150-Dd1e324"><!-- arist-l7c3 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e327">Caput 3</head>
+          <p xml:id="ArNeTH-d1e150-d1e330" ana="#heading">
+            <!--235.xml-->
+            <pb ed="#P" n="108-v"/>
+            <lb ed="#P" n="1"/>Tract. I. Cap. III. Et Lib. VII.  Cap. III.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e339">
+            <lb ed="#P" n="2"/>PRrimum itaque considerandum est: si incontinentes, scientes agant nec ne: 
+            <lb ed="#P" n="3"/>&amp; quonam modo scientes. Deinde circa quae sit incontinens ponendus, 
+            <lb ed="#P" n="4"/>&amp; continens. Vtrum circa voluptatem omnem atque dolorem: an circa 
+            de<lb ed="#P" n="5" break="no"/>finitas quasdam voluptates atque dolores. Et vtrum idem sit an diuersus: 
+            <lb ed="#P" n="6"/>continens atque constans. Similter &amp; de cetaeris quae ad hanc attinent con 
+            <lb ed="#P" n="7"/>Itemplationem. Est autem considerationis initium: vtrum continens &amp; 
+            <lb ed="#P" n="8"/>incontinens, iis circa quae versantur, differant an modo. Dico autem hoc pacto vtrum incontinens 
+            <lb ed="#P" n="9"/>ex eo solum sit incontinens, quia circa haec versantur: an non sed ipso modo: an vtrisque. De 
+            <lb ed="#P" n="10"/>inde si continentia, et incontinentia sint circa vniuersa, necne. Neque enim circa omnia ver 
+            <lb ed="#P" n="11"/>satur is, qui est incontinens absolute: sed circa ea circa quae est intemperans: neque 
+            simplici<lb ed="#P" n="12" break="no"/>ter sese habet ad illa: essent enim incontinentia ac intemperantia idem: sed hoc modo. Nam 
+            <lb ed="#P" n="13"/>ille quidem eligens dicitur: putans semper oportere persequi voluptatem praesentem. 
+            In<lb ed="#P" n="14" break="no"/>continens autem non putat quidem, persequitur tamen. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e370">
+            Si itaque vere est opinio, sed non  
+            <lb ed="#P" n="15"/>scientia qua transgredientes incontinenter homines agunt: nihil refert ad rationem. Non 
+            <lb ed="#P" n="16"/>nulli nanque eorum qui opinantur non ambigunt, sed arbitrantur exacte se scire. Si igitur opi 
+            <lb ed="#P" n="17"/>nantes ex eo quia remisse credunt, magis quam scientes, contra suam agent existimationem: 
+            <lb ed="#P" n="18"/>nihil differet ab opinione scientia. Sunt enim qui non minus opinioni suae, quam alii suae scien 
+            <lb ed="#P" n="19"/>tiae credunt: vt ex Heraclito patet. Sed cum dupliciter dicatur scire (Nam &amp; is qui scien 
+            <lb ed="#P" n="20"/>tiam quidem habet, non autem vtitur ipsa: &amp; is qui vtitur dicitur scire) haec inter sese dif 
+            <lb ed="#P" n="21"/>ferent: habentem inquam scientiam, at non contemplantem: &amp; habentem ac 
+            contemplan<lb ed="#P" n="22" break="no"/>tem, agere ea quae agere non oportet. Hoc enim videtur absurdum sed non si non agat con 
+            <lb ed="#P" n="23"/>templando. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e392">
+            Praeterea cum propositionum duo sint modi: nihil prohibet vt quispiam agat 
+            <lb ed="#P" n="24"/>contrarium eius quod scit: si habeat quidem vtrasque: vniuersali tamen &amp; non particulari 
+            <lb ed="#P" n="25"/>propositione vtatur. Nam ea quae aguntur singularia sunt. Differt autem &amp; ipsum vniuer 
+            <lb ed="#P" n="26"/>sale: nam aliud est in ipso aliud in re. Vt omni homini sicca conducunt: &amp; hic est homo: 
+            <lb ed="#P" n="27"/>vel siccum est quod est tale: sed si hoc sit tale, aut non habet, aut non operatur. Magna igitur 
+            <lb ed="#P" n="28"/>per hos emerget vtique differentia modos: atque adeo vt hoc quidem modo non absurdum esse: 
+            <lb ed="#P" n="29"/>alio vero modo mirabile videatur. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e409">
+            Praeterea vt homines scientiam habent, alio modo quam nu 
+            <lb ed="#P" n="30"/>per diximus. Nam in habendo quidem sed non vtendo differentem cernimus habitum: 
+            <lb ed="#P" n="31"/>vt quispiam &amp; habeat quodammodo &amp; non habeat ipsum: qualis est dormiens &amp; furens: ac 
+            <lb ed="#P" n="32"/>ebrius. At hoc modo disponuntur ii qui sunt in perturbationibus constituti. Nam ira &amp; 
+            <lb ed="#P" n="33"/>cupiditate venereae: caeteraque similia, corpus etiam manifeste permutant. atque nonnullos &amp; 
+            <lb ed="#P" n="34"/>in furorem ac insaniam adigunt. Patet igitur dicendum esse incontinentes perinde sese ha 
+            <lb ed="#P" n="35"/>bere atque hi sunt affecti. Dicere autem eas sententias quae a scientia proficiscuntur, nullum 
+            <lb ed="#P" n="36"/>est signum: etenim ii qui sunt in hisce perturbationibus constituti, demonstrationes &amp; car 
+            <lb ed="#P" n="37"/>mina dicunt Empedoclis. Et qui primum discunt: nectunt quidem orationes, sed nondum sciunt. 
+            <lb ed="#P" n="38"/>Oportet enim ipsorum insideant menti, ad quod tempore opus est. Quare putandum est, vt 
+            <lb ed="#P" n="39"/>histriones poemata recitant: sic &amp; incontinenter agentes sententias dicere. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e433">
+            Insuper &amp; hoc modo  
+            <lb ed="#P" n="40"/>quispiam naturaliter inspexerit causam. Opinionum enim alia est vniuersalis: alia de 
+            sin<lb ed="#P" n="41" break="no"/>gularibus est: quibus iam ipse praesidet sensus. Atque cum ex ipsis ratio fuerit vna anima con 
+            <lb ed="#P" n="42"/>clusum ipsum in contemplandis quidem dicat, in agendis autem rebus continuo agat necesse est. 
+            <lb ed="#P" n="43"/>Nam si omne dulce gustare oportet, &amp; hoc est dulce, vt vnum quid singularium, is hoc simul 
+            <lb ed="#P" n="44"/>&amp; agat qui potest nec prohibetur necesse est. Cum igitur vna quidem vniuersalis inest opinio 
+            <lb ed="#P" n="45"/>gustare vetans: alia vero dicit omne dulce voluptatem afferre, &amp; haec insuper hoc esse dulce 
+            <lb ed="#P" n="46"/>haec operatur, atque inest forte cupiditas. Illa quidem hoc fugere dicit, cupiditas autem ducit, 
+            mo<lb ed="#P" n="47" break="no"/>uere enim partes singulas potest. Quare fit vt ratione quodammodo &amp; opinatione incontinen 
+            <lb ed="#P" n="48"/>ter agatur, non tamen per se contrarie: sed per accidens. Cupiditas enim rectae rationi, sed non  
+            <lb ed="#P" n="49"/>ppinatio aduersatur. Quare &amp; propter hoc, beluae non sunt incontinentes, quia non 
+            vniuersa<lb ed="#P" n="50" break="no"/>lem existimationem sed singularium imaginationem atque memoriam habent. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e459">
+            Quomodo autem 
+            <lb ed="#P" n="51"/>soluitur ignoratio ac rursus fit incontinens sciens, eadem est ratio, &amp; de ebrio &amp; dormiente. 
+            <lb ed="#P" n="52"/>&amp; non huius est propria perturbationis, quam quidem a naturalibus audire oportet. Cum autem 
+            <lb ed="#P" n="53"/>vltima propositio re sit sensibilis opinatio, atque actuum domina, hanc incontinens aut ha 
+            <lb ed="#P" n="54"/>bet dum est in perturbatione, aut sic habet vt in habendo non sit scire, sed dicere, perinde 
+            <!--236.xml-->
+            <pb ed="#P" n="109-r"/>
+            <lb ed="#P" n="1"/>atque temulentus Empedoclis carmina profert. Et quia terminus extremus non est 
+            vniuer<lb ed="#P" n="2" break="no"/>salis nec ad scientiam vt vniuersalis attinere videtur: atque id accidere videtur quod 
+            Socra<lb ed="#P" n="3" break="no"/>tes quaerebat. Non enim ea (quae proprie scientia videtur esse) praesente fit perturbatio neque 
+            <lb ed="#P" n="4"/>ipsa ob perturbationem distrahitur: sed sensitiua. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e483">
+            De his igitur si sciens inquam incontinens, an non 
+            <lb ed="#P" n="5"/>sciens &amp; quonam modo sciens incontinenter agat: tot a nobis sint dicta.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e150-Dd1e489"><!-- arist-l7c4 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e492">Caput 4</head>
+          <p xml:id="ArNeTH-d1e150-d1e495" ana="#heading">
+            <lb ed="#P" n="33"/>Tract. IIII. Et lib. VII. Cap. IIII.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e500">
+            <lb ed="#P" n="34"/>VTrum autem sit aliquis incontinens absolute, an aliqua ex parte sint omnes: &amp; 
+            <lb ed="#P" n="35"/>si sit, in quibusnam sit, dicendum deinceps est. Patet igitur continentes atque 
+            con<lb ed="#P" n="36" break="no"/>stantes, &amp; incontinentes ac moles circa voluptates doloresque versari. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e509">
+            Quoniam 
+            <lb ed="#P" n="37"/>autem eorum quae voluptatem efficiunt alia sunt necessaria, alia per se quidem expe 
+            <lb ed="#P" n="38"/>tibilia sunt, exuperationem autem habent: atque necessaria quidem dico, quae ad ipsum 
+            <lb ed="#P" n="39"/>pertinent corpus: alimentum inquam, veneris vsum, &amp; huiusmodi caetera: circa quae 
+            <lb ed="#P" n="40"/>temperantiam intemperantiamque posuimus. Non necessaria vero: per se autem expetibilia victoriam 
+            ho<lb ed="#P" n="41" break="no"/>norem diuitias: &amp; quae sunt similis generis: quae bona sunt, &amp; delectant. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e522">
+            Eos quidem qui in his 
+            prae<lb ed="#P" n="42" break="no"/>ter rectam rationem quae est in ipsis, exuperant absolute quidem incontinentes non dicimus: sed haec 
+            ad<lb ed="#P" n="43" break="no"/>dentes, pecuniarum incontinentes, &amp; lucri, &amp; honoris, &amp; irae dicimus: vt diuersos &amp; similitudine 
+            <lb ed="#P" n="44"/>nomen idem habentes, vt homo qui ludo in olympico vicit. Communis enim ratio parum ab illius 
+            <lb ed="#P" n="45"/>ratione propria differebat. Attamen erat diuersa: atque huius signum est illud. Nam incontinentia 
+            <lb ed="#P" n="46"/>quidem non solum vt delictum sed etiam vt quoddam aut simpliciter, aut aliqua ex parte vitium vitu 
+            <lb ed="#P" n="47"/>peratur. At horum nemo. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e539">
+            Eorum autem qui circa corporis voluptates versantur, in quibus temperan 
+            <lb ed="#P" n="48"/>tem intemperantemque ponimus, qui non eligendo, sed praeter electionem ac mentem efficientium quidem 
+            <lb ed="#P" n="49"/>voluptatem exuperationes persequitur, dolorem autem inferentium fugit: famis, sitis, aestus, frigoris: 
+            <lb ed="#P" n="50"/>&amp; omnium quae ad tactum gustumque pertinent: is non additione circa haec inquam (vt circa iram) sed 
+            ab<lb ed="#P" n="51" break="no"/>solute solum incontinens dicitur. Cuius hoc indicium est: circa namque has voluptates &amp; non circa vllam 
+            <lb ed="#P" n="52"/>illarum intemperantes dicuntur. Et propterea in eodem incontinentem ponimus &amp; intemperantem: &amp; 
+            conti<lb ed="#P" n="53" break="no"/>nentem ac temperantem. Sed illorum neminem quod circa voluptates easdem quodammodo doloresque 
+            ver<lb ed="#P" n="54" break="no"/>santur. Atque sunt quidem hi circa haec eadem sed non eodem modo: sed illi quidem eligunt: hi vero non  
+            <lb ed="#P" n="55"/>eligunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e559">
+            Quapropter potius eum intemperantem dixerimus qui non cupiens: aut remisse etiam exupe 
+            <lb ed="#P" n="56"/>rationes voluptatum persequitur: ac mediocres fugit dolores: quam hunc qui ob vehementes cupidita 
+            <lb ed="#P" n="57"/>tes eadem agit. Quid enim faceret ille si cupiditas adueniret ingens, &amp; circa rerum necessariarum 
+            <!--240.xml-->
+            <pb ed="#P" n="111-r"/>
+            <lb ed="#P" n="1"/>indigentiam vehemens dolor. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e572">
+            Cum autem cupiditatum ac voluptatum aliae genere sint honestae stu 
+            <lb ed="#P" n="2"/>diosaeque: aliae non sint (eorum enim quae voluptatem efficiunt, quaedam expetibilia sunt natura: 
+            quae<lb ed="#P" n="3" break="no"/>dam hisce contraria: quaedam media: quemadmodum prius distinximus: vt pecuniae, lucrum, honor, 
+            <lb ed="#P" n="4"/>victoria) in omnibus talibus atque mediis ex eo vituperantur homines, quia his afficiuntur, haec 
+            <lb ed="#P" n="5"/>cupiunt atque amant: sed ob modum, &amp; quia exuperant. Quapropter qui praeter rationem: aut vincun 
+            <lb ed="#P" n="6"/>tur, aut sequuntur quippiam eorum quae natura sunt honesta &amp; bona, non laudantur: vt ii qui 
+            <lb ed="#P" n="7"/>circa honorem magis quam oporteat student: aut erga filios, &amp; parentes. Etenim bona sunt haec: &amp; 
+            <lb ed="#P" n="8"/>laudantur qui circa haec student. Attamen est &amp; in iis exuperatio quaedam: si quispiam (vt Nio 
+            <lb ed="#P" n="9"/>be) &amp; aduersus deos contenderet: aut sic erga patrem efficeretur: vt Satyrus ille qui patris 
+            ama<lb ed="#P" n="10" break="no"/>tor appellabatur. insanire nanque nimium videbatur. Circa igitur haec nulla est grauitas: 
+            pro<lb ed="#P" n="11" break="no"/>pterea quod vnuumquodque per se (vt diximus) natura est expetibile. exuperationes tamen ipsorum 
+            <lb ed="#P" n="12"/>improbae sunt ac fugiendae. Similiter nec incontinentia. Etenim incontinentia non solum est fugi 
+            <lb ed="#P" n="13"/>enda, sed etiam vituperanda. Ob perturbationis autem similitudinem adiungentes singula 
+            incontinen<lb ed="#P" n="14" break="no"/>tiam circa vnumquodque dicunt: vt malum medicum, aut malum histrionem, quem absolute non dicerent 
+            <lb ed="#P" n="15"/>malum. Vtitur neque hic absolute dicitur malus, quia non est vitium quicquam ipsorum: sed rationum 
+            con<lb ed="#P" n="16" break="no"/>paratione simile: sic &amp; illic solam existimandum est incontinentiam &amp; continentiam esse quae in iis 
+            <lb ed="#P" n="17"/>est circa quae temperantia intemperantiaque versatur: circa autem iram per similitudinem dicimus. 
+            <lb ed="#P" n="18"/>Quapropter &amp; ipsam addentes: incontinentem dicimus irae quemadmodum &amp; honoris &amp; lucri.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e150-Dd1e613"><!-- arist-l7c5 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e616">Caput 5</head>
+          <p xml:id="ArNeTH-d1e150-d1e619" ana="#heading">
+            <lb ed="#P" n="38"/>Tract. I. Lib. VII. <sic>Cap. VII.<!-- but it seeems like this should be 5; text seems to mach chapter 5--></sic>
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e628">
+            <lb ed="#P" n="39"/>CVM autem quaedam natura voluptatem efficiant: quorum alia simpliciter, alia generi 
+            <lb ed="#P" n="40"/>bus animalium voluptatem, atque hominum afferunt: quaedam non natura, sed partim 
+            <lb ed="#P" n="41"/>ob morbos, prtim ob consuetudinem, partim ob naturas prauas delectent licet &amp; 
+            <lb ed="#P" n="42"/>circa horum singula similes habitus cernere. Dico autem ipsos immanes: vt 
+            mu<lb ed="#P" n="43" break="no"/>Rlierem illam quam grauidas rescindentem, foetus deuorare aiut: aut qualibus ferunt 
+            <lb ed="#P" n="44"/>Fgaa nonnullos circa pontum efferatos homines delectari. Quorum alios inquiunt crudis 
+            <lb ed="#P" n="45"/>alios humanis carnibus gaudere, alios suos filios in conuiuiis comedendos mutuo dare: aut id  
+            <lb ed="#P" n="46"/>quod de Phalaride dicitur. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e648">
+            Atque quidem sunt habitus ferales. Alii autem quibusdam ob morbos, &amp; ob insaniam 
+            <lb ed="#P" n="47"/>fiunt: vt qui mactauit matrem, atque conedit: quique conserui iecur, item comedit. Alii sunt ex morbo: vel ex 
+            <lb ed="#P" n="48"/>consuetudine, vt euulsiones pilorum, &amp; vnguium esus: &amp; carbonum, &amp; terrae, &amp; insuper venereorum ha 
+            <lb ed="#P" n="49"/>bitus maribus. Aliis enim natura, aliis ex consuetudine accidunt: vt iis qui a pueritia consuescunt.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e657">
+            <lb ed="#P" n="50"/>Quibus igitur causa est natura, eos nemo dixerit incontinentes, quemadmodum neque mulieres quod vene 
+            <lb ed="#P" n="51"/>rem non agant, sed patiantur. Pari mon neque eos qui ob consuetudinem, morbosve se habent. Igitur singula 
+            <lb ed="#P" n="52"/>quidem horum habere extra fines est vitii: quema dmodum &amp; ipsa feritas. Habentem autem vincere aut vin  
+            <lb ed="#P" n="53"/>ci, non est ea quae absoluta est continentia aut incontinentia: sed ea quae per similitudinem dicitur. Quenadmo 
+            <lb ed="#P" n="54"/>dum &amp; is qui circa iram sic se habet: dicendus est cum affectu, &amp; non incontinens absolute. Ome namque 
+            vi<lb ed="#P" n="55" break="no"/>tium exuperans &amp; dementia, &amp; timiditas, &amp; intemperantia, &amp; acerbitas, aut est ferale, aut ex mor 
+            <lb ed="#P" n="56"/>bo. Nam qui talis est natura vt vniuersa formidet etiam si obstrepuerit sorex: timidus est 
+            timi<lb ed="#P" n="57" break="no"/>ditate ferali: quidam etiam muscipulam ob morbum pertimescebat. Et dementium qui natura 
+            <lb ed="#P" n="58"/>quidem ratione carent, sensuque tantummodo viuunt, inmanes sunt: quales nonnullae 
+            natio<lb ed="#P" n="59" break="no"/>nes sunt longe habitantium barbarorum. Qui vero non natura, sed ob morbos vt comiti¬ 
+            <!--242.xml-->
+            <pb ed="#P" n="112-r"/>
+            <!-- fol says 112r; previous folio marking was 110r; seems like 111r-v is missing; doesn't look like any text is missing but its hard to tell -->
+            <lb ed="#P" n="1"/>alem, aut insaniam, ii sunt morbosi: fieri autem potest vt horum aliqua quispiam interdum 
+            <lb ed="#P" n="2"/>habeat tantum. sed non superetur: vt si Phalaris peruerum percutiens comedere sese retineret, aut  
+            <lb ed="#P" n="3"/>ab nefanda libidine abstineret. Fit etiam vt non solum habeat, verum etiam superetur. Vt 
+            <lb ed="#P" n="4"/>igitur &amp; prauitatum ea quidem quae est humana absolute dicitur prauitas, alia vero cum 
+            <lb ed="#P" n="5"/>additione (feralis inquam aut ex morbo) &amp; non absolute: sic &amp; incontinentia alia est feralis, alia 
+            <lb ed="#P" n="6"/>ex morbo. Absolute autem ea est sola quae intemperantiae humanae non egreditur fines.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e702">
+            <lb ed="#P" n="7"/>Perspicuum igitur est incontinentiam &amp; continentiam in iis esse duntaxat, circa quae 
+            in<lb ed="#P" n="8" break="no"/>temperantia, temperantiaque versatur: &amp; in caeteris speciem aliam incontinentiae esse quae 
+            qui<lb ed="#P" n="9" break="no"/>dem non absolute, sed per translationem incontinentia dici solet.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e150-Dd1e712"><!-- arist-l7c6 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e715">Caput 6</head>
+          <p xml:id="ArNeTH-d1e150-d1e718" ana="#heading">
+            <lb ed="#P" n="28"/>Tract. I. Cap. VI. Lib. VII. Cap. VI.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e723">
+            <lb ed="#P" n="29"/>POst haec autem &amp; minus esse turpem irae, quam cupiditatum incontinentiam 
+            <lb ed="#P" n="30"/>ostendamus. Ira nanque aliqua ex parte &amp; non perfecte rationem audire 
+            vi<lb ed="#P" n="31" break="no"/>detur: perinde atque veloces ministri, qui quidem antea quam totum id 
+            audie<lb ed="#P" n="32" break="no"/>rint quod dicitur, excurrunt: deinde in agendo aberrant. Canes etiam 
+            an<lb ed="#P" n="33" break="no"/>tequam considerent, si sit amicus: si tantum pulsauerit ostium, latrant. Sic &amp; 
+            <lb ed="#P" n="34"/>qu ira propter caliditatem celeritatemque naturae, audita quidem ratione, non  
+            <lb ed="#P" n="35"/>praecepto autem audito, ad ipsam properat vltionem. Ratio nanque vel imaginatio contume 
+            <lb ed="#P" n="36"/>liam, aut paruipensionem esse ostendit. Illa autem ac si ratiocinatione facta concluserit, opor 
+            <lb ed="#P" n="37"/>tet tali bellum inferre, statim insurgit. At cupiditas, si solum dixerit ratio aut sensus hoc af 
+            <lb ed="#P" n="38"/>ferre voluptatem: pergit ad fruendum. Quare ira quidem sequitur quodammodo rationem: 
+            <lb ed="#P" n="39"/>cupiditas autem non sequitur: turpior igitur est. Nam incontinens quidem irae, a 
+            ra<lb ed="#P" n="40" break="no"/>tione quodammodo quidem vincitur. Cupiditatis autem non a ratione sed cupiditate.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e752">
+            <lb ed="#P" n="41"/>Praeterea magis est ignoscendum, si quispiam naturales appetitiones sequatur. 
+            Quip<lb ed="#P" n="42" break="no"/>pe cum &amp; cupiditates tales sequenti, quae sunt omnibus communes, &amp; quo ad 
+            com<lb ed="#P" n="43" break="no"/>munes sunt, venia magis detur. At ira atque acerbitas magis est naturalis, quam eae cupiditates 
+            <lb ed="#P" n="44"/>quae exuperant, quae non sunt necessariae. Vt qui se excusabat quod patrem pulsaret, &amp; hic enim, 
+            <lb ed="#P" n="45"/>dixit, suum patrem pulsabat &amp; ille suum: &amp; hic etiam Costenso puero) cum vir fuerit, me pul 
+            <lb ed="#P" n="46"/>sabit: est enim nobis gentile. Et qui trahebatur a filio: sistere iubebat in ostio: &amp; se enim 
+            pa<lb ed="#P" n="47" break="no"/>trem eousque traxisse dicebat. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e770">
+            Praeterea iniusti magis sunt ii qui magis occulte procedunt 
+            <lb ed="#P" n="48"/>ac insidias faciunt. lracundus igitur non insidias facit, nec ira, sed est manifesta. Cupiditas 
+            <lb ed="#P" n="49"/>autem contra quemadmodum venerem aiunt. Nam ipsam dolos nectere dicunt, &amp; 
+            Home<lb ed="#P" n="50" break="no"/>rus baltheum ipsi tribuit in quo fraudem etiam inesse dicit. 
+            <lb ed="#P" n="51"/>
+            <quote xml:id="ArNeTH-d1e150-Qd1e780">Eraus quoque inest: quae prudentem persaepe fefellit. 
+              <lb ed="#P" n="52"/>Quare si cupiditas magis sit iniusta quam ira: &amp; incontinentia quae est circa ipsam, turpior erit 
+              <lb ed="#P" n="53"/>ea quae est circa iram: &amp; absolute incontinentia: atque quodammodo vitium.</quote> 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e789">
+            Insuper nemo 
+            <lb ed="#P" n="54"/>vtitur libidine dolens: sed qui facit per iram, dolens omnis facit qui vero exequitur 
+            libidi<lb ed="#P" n="55" break="no"/>nem, id facit cum voluptate. Sic igitur ea sunt magis iniusta quibus irasci magis iustum. 
+            <lb ed="#P" n="56"/>Et incontinentia profecto quae fit ob cupiditatem, magis erit iniusta: non est enim in ira libido.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e798">
+            <!--244.xml-->
+            <pb ed="#P" n="113-r"/>
+            <lb ed="#P" n="1"/>Incontinentiam igitur circa cupiditates, turpiorem esse incontinentia circa iram: &amp; 
+            continen<lb ed="#P" n="2" break="no"/>tiam atque incontinentiam circa corporis cupiditates voluptatesque versari: ex iis quae 
+            dixi<lb ed="#P" n="3" break="no"/>mus perspicuum iam euasit. Harum autem ipsarum differentiae sunt sumendae: Nam (vt ab initio 
+            <lb ed="#P" n="4"/>diximus) aliae sunt humanae ac naturalis &amp; genere &amp; magnitudine, aliae ferales, aliae ob 
+            la<lb ed="#P" n="5" break="no"/>befactatum principium atque morbos emergunt. Circa autem harum tantummodo primas, temperantia 
+            <lb ed="#P" n="6"/>intemperantiaque versatur. Quapropter &amp; feras nec temperatas nec intemperatas, nisi per 
+            trans<lb ed="#P" n="7" break="no"/>lationem, dicimus, &amp; si quod omnino aliud genus animalium ab alio differt petulantia coitu 
+            <lb ed="#P" n="8"/>voracitateque. Non enim habent electionem nec rationem, sed dimotae sunt a natura, perinde 
+            <lb ed="#P" n="9"/>atque homines ii qui sunt mente capti atque insani. Feritas autem minus est malum quam vitium 
+            <lb ed="#P" n="10"/>sed terribilius est. Non enim corruptum est id quod est optimum, vt in homine: sed non habet. 
+            <lb ed="#P" n="11"/>Fit igitur perinde atque si quispiam inanimatum cum animo compararet vtrum sit peius. Semper 
+            <lb ed="#P" n="12"/>enim prauitas eius quod non habet principium minus nocere potest. At mens principium. 
+            <lb ed="#P" n="13"/>Perinde est igitur atque si quispiam in iustitiam ad iniustum hominem compararet: est enim vtrumque 
+            <lb ed="#P" n="14"/>aliquo modo peius. Homo namque malus milies plura mala, quam fera facere potest.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e150-Dd1e836"><!-- arist-l7c7 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e839">Caput 7</head>
+          <p xml:id="ArNeTH-d1e150-d1e842" ana="#heading">
+            <lb ed="#P" n="22"/>Tract. I. Et Lib. VII. Cap. VII. <!-- confirms that earlier instance which says VII, should be V-->
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e849">
+            <lb ed="#P" n="23"/>FIt autem vt circa voluptates doloresque per tactum gustumque &amp; cupiditates ac 
+            <lb ed="#P" n="24"/>fugas, circa quae versari temperantiam &amp; intemperantiam prius est definitum, 
+            <lb ed="#P" n="25"/>ita sese habeat quispiam, vt aut superetur ab iisipsis quae plerique superant 
+            <lb ed="#P" n="26"/>homines, aut superet ea ipsa a quibus plerique vincuntur. Atque si circa 
+            vo<lb ed="#P" n="27" break="no"/>luptates ita sese habeat. Primo quidem modo incontinens est, secundo autem 
+            <lb ed="#P" n="28"/>continens. Sin circa dolores, primo quidem modo mollis est, secundo autem constans. In horum 
+            <lb ed="#P" n="29"/>autem medio plurimorum hominum habitus collocantur, &amp; si ad deteriores magis declinant:.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e867">
+            <lb ed="#P" n="30"/>Quoniam autem quaedam voluptatum sunt necessariae, quaedam non necessariae, &amp; vsque ad quendam 
+            <lb ed="#P" n="31"/>terminum: exuperationes vero defectionesve non sunt necessariae. Et simili modo res sese 
+            ha<lb ed="#P" n="32" break="no"/>bet &amp; in cupiditatibus atque doloribus, qui voluptatum exuperationes, aut exuperantes 
+            volu<lb ed="#P" n="33" break="no"/>ptates ob electionem atque ob ipsas, &amp; ob nullam rem aliam inde prouenientem persequitur, 
+            in<lb ed="#P" n="34" break="no"/>temperans est. Hunc enim non poenitere necesse est: quare est incurabilis, quem enim non 
+            poe<lb ed="#P" n="35" break="no"/>nitet is est incurabilis. Qui vero deficit, oppositus est. Atqui qui inter hos medius 
+            collo<lb ed="#P" n="36" break="no"/>catur, temperans est. Similiter intemperans est: &amp; qui (non quia vincitur, sed ob electionem)  
+            <lb ed="#P" n="37"/>dolores corporis fugit. Eorum autem qui non eligunt, alius ob voluptatem, alius ob eius fugam 
+            <lb ed="#P" n="38"/>doloris, qui a cupiditate prouenit, ducitur. Quare inter sese differunt. Cuilibet enim 
+            dete<lb ed="#P" n="39" break="no"/>rior esse videbitur, si quis non cupiens: aut remisse quippiam ageret turpe, quam vehementer 
+            cu<lb ed="#P" n="40" break="no"/>piens, &amp; si non iratus pulsaret, quam concitatus ita. Quid enim ageret, si esset in perturbatione? 
+            <lb ed="#P" n="41"/>Quapropter intemperans incontinente deterior est. At eorum quos diximus alter 
+            mollitu<lb ed="#P" n="42" break="no"/>dinis magis subiicitur speciei, alter est incontinens. Atque incontinenti quidem continens: 
+            <lb ed="#P" n="43"/>molli vero constans opponitur. Constantia namque in resistendo, continentia vero in superando 
+            <lb ed="#P" n="44"/>consistit: suntque diuersa resistere ac superare, sicut haud vinci &amp; vincere. Quapopter &amp; 
+            con<lb ed="#P" n="45" break="no"/>tinentia magis quam constantia est expetenda. Qui autem aduersus, quae plerique resistunt &amp; possunt, 
+            <lb ed="#P" n="46"/>deficit: is mollis est atque deliciis defluens (deliciae namque sunt mollitudines quaedam) quiquidem 
+            <lb ed="#P" n="47"/>vestem trahit, ne subeat laborem tollendi: &amp; cum imitetur aegrotantem, se ne putat miserum esse, qui 
+            <lb ed="#P" n="48"/>misero similis est? 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e911">
+            Similiter res sese habet, &amp; circa continentiam &amp; incontinentiam. Non est enim 
+            <lb ed="#P" n="49"/>mirum si quis a vehementibus exuperantibus aut voluptatibus, aut doloribus vincitur: quin 
+            <lb ed="#P" n="50"/>ignoscendum est si resistens vincitur tandem, vt Theodecti poetae Philoctetes a serpente morsus. 
+            <lb ed="#P" n="51"/>aut Carcino Cercyon in Alope, &amp; vt homines ii qui detinere risum enitentes accumulatum 
+            <lb ed="#P" n="52"/>illum effundunt, vt accidit Aenophanto. Sed si quis iis quibus multitudo resistere potest, 
+            suc<lb ed="#P" n="53" break="no"/>cumbit &amp; non aduersatur dum potest, non ob generis naturam aut ob morbum, qualis est mollitudo 
+            <lb ed="#P" n="54"/>quae regibus Scytharum inest ob genus, &amp; vt foemella a maris distat natura. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e928">
+            Videtur autem &amp; 
+            <lb ed="#P" n="55"/>is quidem ad iocum propensior intemperans, est tamen mollis. Nam iocus relaxatio est: siquidem 
+            <lb ed="#P" n="56"/>requies est. Qui vero ad iocum procliuis est, ex iis est qui in hac exuperant. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e935">
+            Atqui incontinentiae 
+            <!--247.xml-->
+            <pb ed="#P" n="114-v"/>
+            <!-- 144v -->
+            <lb ed="#P" n="1"/>alia est temeritas, alia infirmitas. Quidam enim deliberatione facta non persistunt in iis quae  
+            <lb ed="#P" n="2"/>statuerunt ob perturbationem: quidam ex eo quia non consultarunt, a perturbatione ducuntur. Sunt enim 
+            <lb ed="#P" n="3"/>qui ante sentientes &amp; praeuidentes ac seipsos rationemque excitantes, non superantur a perturbatione 
+            <lb ed="#P" n="4"/>siue voluptatem id quod mouet siue dolorem efficiat: perinde atque praetitillati non titillantur. 
+            Ma<lb ed="#P" n="5" break="no"/>xime autem celeres ac biliosi atra bili temeraria incontinentia sunt incontinentes. Illi em ob 
+            ve<lb ed="#P" n="6" break="no"/>locitatem, hi ob vehementiam, non expectant rationem, ex eo quia ipsius sunt imaginationis sequaces.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e150-Dd1e958"><!-- arist-l7c8 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e961">Caput 8</head>
+          <p xml:id="ArNeTH-d1e150-d1e964" ana="#heading">
+            <lb ed="#P" n="37"/>Tract. I. &amp; Lib. VII. Cap. VIII.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e969">
+            <lb ed="#P" n="38"/>AT vero intemperantem quidem non poenitet, vt est dictum. In electione namque 
+            <lb ed="#P" n="39"/>persistit. Incontinens autem facilis est omnis ad poenitentiam: quocirca non 
+            <lb ed="#P" n="40"/>ita res sese habet, vt dubitauimus. Sed ille quidem incurabilis, hic autem est 
+            <lb ed="#P" n="41"/>curabilis. Vitium enim morbis est hisce persimile, aquae intercuti inquam, &amp; 
+            <lb ed="#P" n="42"/>tabi. Incontinentia vero, morbo comitiali. Etenim illud continua, haec non 
+            <lb ed="#P" n="43"/>continua est improbitas. Atque omnino diuersum est genus incontinentiae atque  
+            <lb ed="#P" n="44"/>vitii. Vitium enim latet, incontinentia vero non latet. Horum autem ipsorum ii qui ante rationem 
+            du<lb ed="#P" n="45" break="no"/>cuntur, meliores iis sunt qui rationem quidem habent: non autem persistunt in ea. Aminore namque 
+            per<lb ed="#P" n="46" break="no"/>turbatione vincuntur: &amp; non absque deliberatione, vt illi. Incontinens enim similis est iis qui cito 
+            <lb ed="#P" n="47"/>fiunt ebrii &amp; pauco vino: &amp; pauciore quam plerique.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e993">
+            Patet igitur incontnentiam vitium non esse, nisi 
+            ali<lb ed="#P" n="48" break="no"/>qua ex parte fortasse. Nam haec quidem est praeter electionem: illud autem cum electione. In 
+            actioni<lb ed="#P" n="49" break="no"/>bus tamen est similitudo, vt Demodocus in Milesios dixit. Milesii namque insipientes quidem non 
+            <lb ed="#P" n="50"/>sunt, ea tamen faciunt quae agunt insipientes, &amp; incontinentes iniusti quidem non sunt, iniuriam 
+            <lb ed="#P" n="51"/>tamen faciunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1004">
+            Cum autem alter sit talis, vt non ex eo quia est ipsi persuasum, exuperantes 
+            corpo<lb ed="#P" n="52" break="no"/>ris voluptates, praeterque rationem rectam sequatur, alteri fit persuasum: propterea quod talis est vt 
+            <lb ed="#P" n="53"/>ipsas sequatur. Illi quidem dissuaderi facile, huic autem haud facile potest. Principium enim 
+            <lb ed="#P" n="54"/>ipsum virtus quidem conseruat: vitium vero corrumpit. Id autem gratia, cuius principium 
+            <lb ed="#P" n="55"/>est in actibus, perinde vt suppositiones ipsae in mathematicis. Neque igitur ibi docendorum 
+            <lb ed="#P" n="56"/>principiorum est ratio, neque hic, sed virtus, aut naturalis, aut assuetudine parta, causa est 
+            <lb ed="#P" n="57"/>opinandi circa principium recte. Talis igitur homo temperans est. at contrarius est 
+            inten<lb ed="#P" n="58" break="no"/>perans. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1023">
+            Est autem quidam alius, ob perturbationem a recta ratione discedens, quem perturbatio, vt 
+            <lb ed="#P" n="59"/>non agat quidem vt recta ratio iubet, superat. Vt sit autem talis, vt ipsi sit persuasum 
+            <!--249.xml-->
+            <pb ed="#P" n="114-v"/>
+            <!-- duplicate of 144v -->
+            <!--250.xml-->
+            <pb ed="#P" n="115-r"/>
+            <!-- duplicate of 145r -->
+            <!--251.xml-->
+            <pb ed="#P" n="115-v"/>
+            <lb ed="#P" n="1"/>oportere persequi voluptates libere, tales non vincit. at hic est incontinens, qui quidem 
+            <lb ed="#P" n="2"/>intemperante melior est. Nec est absolute prauus: conseruatur enim id in ipso, quod est 
+            <lb ed="#P" n="3"/>optimum, principium inquam ipsum. Alius autem est huic contrarius: is qui persistit: 
+            <lb ed="#P" n="4"/>&amp; non ob perturbationem a ratione discedit. Et his igitur patet hunc qui dem studiosum, 
+            <lb ed="#P" n="5"/>illum autem improbum habitum esse.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e150-Dd1e1057"><!-- arist-l7c9 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e1060">Caput 9</head>
+          <p xml:id="ArNeTH-d1e150-d1e1063" ana="#heading">
+            <!--253.xml-->
+            <pb ed="#P" n="116-v"/>
+            <lb ed="#P" n="1"/>Lib. VII. Tract. I. Cap. IX.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1072">
+            <lb ed="#P" n="2"/>QVaerendum est autem. Vtrum is sit continens qui quauis in ratione, 
+            ele<lb ed="#P" n="3" break="no"/>ctione ve perstat, an is qui in recta persistit? Et vtrum is sit incontinens, 
+            <lb ed="#P" n="4"/>qui non permanet in quauis electione rationeue: an is qui persistit in 
+            ra<lb ed="#P" n="5" break="no"/>tione falsa &amp; electione non recta: quemadmodum antea dubitauimus. 
+            <lb ed="#P" n="6"/>An per accidens quidem in quauis, per se autem in ratione vera, rectaque 
+            <lb ed="#P" n="7"/>electione alter perstat, alter non perstat. Nam si quispiam hoc ob hoc 
+            ex<lb ed="#P" n="8" break="no"/>petit, aut sequitur: per se quidem hoc expetit atque sequitur, per accidens autem ipsum prius. 
+            <lb ed="#P" n="9"/>At quod est per se, id simpliciter esse dicimus, quare fit, vt aliquo quidem modo quauis in 
+            <lb ed="#P" n="10"/>opinione, absolute autem in vera, alter persistat, alter non persistat. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1094">
+            Sunt autem quidam in  
+            <lb ed="#P" n="11"/>opinione persistentes, quos pertinaces appellant. hi non nisi cum difficultate dimoueri a sua 
+            <lb ed="#P" n="12"/>sententia possunt. Et simile quidem quid habent cum continente, sicut &amp; prodigus cum 
+            <lb ed="#P" n="13"/>liberali, &amp; audax cum confidente. Sunt autem in multis ab illo diuersi: continens enim non 
+            <lb ed="#P" n="14"/>mutat sententiam ob perturbationem, atque cupiditatem. Nam cum acciderit, facilem sese 
+            <lb ed="#P" n="15"/>offeret recta persuadenti. Illi vero non a ratione mutantur. Nam cupiditates capiunt, atque 
+            <lb ed="#P" n="16"/>a voluptatibus plerique ducuntur. Sunt autem ii pertinaces, qui suae sunt sententiae &amp; qui sunt 
+            <lb ed="#P" n="17"/>indocti, ac rustici, atque suae sententiae homines, ob voluptatem atque dolorem sunt pertinaces: 
+            <lb ed="#P" n="18"/>gaudent enim vincentes si non e sua sententia dissuasione vlla dimoueantur: &amp; dolent, si sua 
+            <lb ed="#P" n="19"/>sint irrita decreta. Quare potius sunt incontinenti, quam continenti similes. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1116">
+            Sunt etiam qui non 
+            <lb ed="#P" n="20"/>ob incontinentiam in sententia non persistunt: vt Neoptolemus apud Sophoclem in Philoctete. 
+            <lb ed="#P" n="21"/>quamquam ob voluptatem non persistit, sed honestum. Erat enim honestum illi vera loqui: ab Vlysse 
+            <lb ed="#P" n="22"/>autem fuerat illi persuasum mentiri. Etenim non omnis qui propter voluptatem quippiam agit 
+            <lb ed="#P" n="23"/>intemperans est, aut prauus aut incontinens: sed qui agit ob turpem. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1128">
+            Cum autem sit &amp; quidam 
+            <lb ed="#P" n="24"/>talis, vt minus quam oporteat corporis gaudeat voluptatibus, non persistens in ratione inter 
+            <lb ed="#P" n="25"/>hunc &amp; incontinentem, medius ipse continens collocatur. Incontinens enim non persistit in 
+            <lb ed="#P" n="26"/>ratione: quia magis quam oportet voluptatibus delectatur, hic vero non permanet. quia minus quam 
+            <lb ed="#P" n="27"/>oportet eisdem gaudet. At continens perstat, &amp; ob neutrum sententiam mutat? Oportet autem 
+            <lb ed="#P" n="28"/>si continentia sit studiosum, habitus hos vtrosque contrarios improbos esse, quemadmodum &amp; 
+            <lb ed="#P" n="29"/>videntur. Sed quia perpaucis alter hominibus inest, raroque admodum fit vt temperantia soli 
+            <lb ed="#P" n="30"/>contrarium intemperantiae esse videtur, sic &amp; continentia soli incontinentiae aduersari putetur.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1146">
+            <lb ed="#P" n="31"/>At vero cum ob similitudinem multa dicantur, factum est vt temperans per similitudinem continens 
+            <lb ed="#P" n="32"/>dicatur. Continens enim talis est, vt nihil praeter rationem ob voluptatem corporis agat, &amp; 
+            <lb ed="#P" n="33"/>temperans etiam talis est, sed ille quidem habet prauas cupiditates, hic autem non habet. Et hic 
+            <lb ed="#P" n="34"/>quidem est talis, vt non delectetur praeter rationem: ille vero talis vt delectetur quidem, sed non 
+            du<lb ed="#P" n="35" break="no"/>catur. Similes etiam sunt incontinens &amp; intemperans, qui quidem diuersi sunt, vterque enim 
+            cor<lb ed="#P" n="36" break="no"/>poris sequitur voluptates, sed alter &amp; oportere putat alter non putat.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e150-Dd1e1163"><!-- arist-l7c10 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e1166">Caput 10</head>
+          <p xml:id="ArNeTH-d1e150-d1e1169" ana="#heading">
+            <!--255.xml-->
+            <pb ed="#P" n="117-v"/>
+            <lb ed="#P" n="1"/>Lib. VII. Tractatus. I. Cap. X.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1178">
+            <lb ed="#P" n="2"/>ATqui neque fieri potest vt idem sit prudens atque incontinens simul. Est enim 
+            <lb ed="#P" n="3"/>demonstratum prudentem simul &amp; more studiosum eundem esse. 
+            Praeter<lb ed="#P" n="4" break="no"/>ea non solum ex eo quia scit, prudens est, sed ex eo etiam quia idoneus est ad agendum. 
+            <lb ed="#P" n="5"/>At incontinens non est idoneus ad agendum. Habilem autem nihil prohibet esse 
+            in<lb ed="#P" n="6" break="no"/>Mcontinentem. Quapropter &amp; interdum nonnulli prudentes esse videntur 
+            <lb ed="#P" n="7"/>atque incontinentes, quia differt habilitas a prudentia, eo modo quem supram diximus, &amp; sunt 
+            <lb ed="#P" n="8"/>ratione quidem propinqua, electione vero diuersa. Nec incontinens sese habet, vt is qui scit. 
+            <lb ed="#P" n="9"/>ac contemplatur: sed vt is qui dormit, aut est vinolentus, &amp; sponte sua quidem agit. Scit enim 
+            <lb ed="#P" n="10"/>quodammodo &amp; quid, &amp; cuius gratia facit. Malignus tamen non est, electio namque est 
+            bo<lb ed="#P" n="11" break="no"/>na. Quare semimalignus est, &amp; non iniustus. Non est enim insidiator. Nam ipsorum alter 
+            <lb ed="#P" n="12"/>quidem non persistit in iis quae statuit consultando. Biliosus autem atra bili, nec ad 
+            consul<lb ed="#P" n="13" break="no"/>tandum omnino est aptus. Et similis est: igitur incontinens quidem ciuitati, quae decernat 
+            <lb ed="#P" n="14"/>quidem omnia quae sunt agenda, &amp; leges habeat bonas, sed non vtatur, vt Anaxandrides 
+            <lb ed="#P" n="15"/>facete dixit. 
+            <lb ed="#P" n="16"/>
+            <quote xml:id="ArNeTH-d1e150-Qd1e1212">Vrbs consultabat, leges quae negligat almas, 
+              <lb ed="#P" n="17"/>Malignus autem ciuitati, quae legibus quidem vtatur, sed prauis</quote>. Est autem continentia 
+            <lb ed="#P" n="18"/>atque incontinentia circa id quod multitudinis exuperat habitum. Alter enim magis alter 
+            <lb ed="#P" n="19"/>minus persistit quam plurimi possunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1223">
+            Facilius autem ea curari potest incontinentia, qua biliosi 
+            <lb ed="#P" n="20"/>atra bili incontinenter agunt: quam eorum qui deliberant quidem, sed non persistunt. Et ii 
+            faci<lb ed="#P" n="21" break="no"/>lius curari possunt, qui per assuetudinem, quam ii qui natura incontinentes sunt. Est enim 
+            faci<lb ed="#P" n="22" break="no"/>lius consuetudinem, quam naturam mutare. ldeo enim &amp; consuetudinem mutare difficile est, 
+            <lb ed="#P" n="23"/>quia similis est naturae, quemadmodum Euenus poeta dixit. 
+            <lb ed="#P" n="24"/>
+            <quote xml:id="ArNeTH-d1e150-Qd1e1236">Est vsus longus mos, ac meditatio crebra: 
+              <lb ed="#P" n="25"/>Hunc tandem assero naturam mortalibus esse.</quote> 
+            <lb ed="#P" n="26"/>Quid igitur continentia sit, &amp; incontinentia: &amp; quid constantia, mollitudoque: &amp; 
+            quomo<lb ed="#P" n="27" break="no"/>do inter sese habeant habitus hi iam diximus.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e150-Dd1e1248"><!-- arist-l7c11 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e1251">Caput 11</head>
+          <p xml:id="ArNeTH-d1e150-d1e1254" ana="#heading">
+            <lb ed="#P" n="35"/>Traciatus. II. Cap. I. quod est VII. Cap. XI.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1259">
+            <lb ed="#P" n="36"/>AD ipsum autem ciuilem philosophum pertinet de voluptate contemplari, atque 
+            dolo<lb ed="#P" n="37" break="no"/>re. Hic enim architectus est finis, ad quem videntes vnumquodque aut malum aut bo 
+            <lb ed="#P" n="38"/>num simpliciter dicimus. Insuper &amp; necessarium est de ipsis considerare: &amp; virtutem 
+            <lb ed="#P" n="39"/>enim morum, &amp; vitium circa dolores voluptatesque posuimus. Et foelicitatem 
+            pluri<lb ed="#P" n="40" break="no"/>mi cum voluptate asserunt esse.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1272">
+            Quibusdam igitur nulla voluptas aut per se aut per 
+            <lb ed="#P" n="41"/>accidens bonum esse videtur. Non enim idem bonum esse putant, ac voluptatem. 
+            Qui<lb ed="#P" n="42" break="no"/>busdam nonnullae quidem bonae, pleraeque autem prauae esse videntur. Sunt &amp; qui tertio censent, etsi omnes sunt 
+            bo<lb ed="#P" n="43" break="no"/>nae, summum tum bonum voluptatem esse non posse. Non bonum igitur omnino esse putatur, quia omnis voluptas, ge 
+            <lb ed="#P" n="44"/>neratio est sensibilis ad naturam. Generatio vero nulla genus idem subit quod fines: nulla enim 
+            aedi<lb ed="#P" n="45" break="no"/>ficatio domus est. Praeterea vir temperans fugit ipsas voluptates. Praeterea prudens persequitur vacuita 
+            <lb ed="#P" n="46"/>tem doloris, non id quod afficit voluptate. Praeterea voluptates impedimento prudentiae sunt atque quo 
+            <lb ed="#P" n="47"/>magis hisce quispiam gaudet, eo magis impeditur vt in venerea fit voluptate. Nemo namque dum est in  
+            <lb ed="#P" n="48"/>illa mente quicquam perspicere potest. Praeterea ars nulla est voluptatis, &amp; tamen omne bonum artis, est opus. In  
+            <lb ed="#P" n="49"/>super &amp; pueri, &amp; ferae, ipsas voluptates sequuntur. Non esse autem omnes studiosas existimatur, quia sunt &amp; 
+            <lb ed="#P" n="50"/>turpes atque infames. Et quia afferunt detrimentum, eorum enim quae voluptatem efficiunt, nonnulla pariunt mor 
+            <lb ed="#P" n="51"/>bos. Ex eo vero voluptas summum bonum non esse putatur, quia non est finis, sed generatio. 
+            <lb ed="#P" n="52"/>Haec igitur fere sunt quae de voluptate dicuntur.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e150-Dd1e1302"><!-- arist-l7c12 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e1305">Caput 12</head>
+          <p xml:id="ArNeTH-d1e150-d1e1308" ana="#heading">
+            <lb ed="#P" n="44"/>Tractatus. II. Cap. II. Quod est Lib. VII. Cap. XII.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1313">
+            <lb ed="#P" n="45"/>NOn effici autem ob ea quae dicta sunt, vt voluptas bonum non sit, nec id quod est opti 
+            <lb ed="#P" n="46"/>mum, ex hisce sane constabit. Primum namque cum bonum sit duplex (est enim aliud ab 
+            <lb ed="#P" n="47"/>solute, aliud alicui bonum) &amp; naturae ipsae &amp; habitus haec sequentur. Quare 
+            se<lb ed="#P" n="48" break="no"/>quentur &amp; motus, &amp; geneationes. Atque earum quae prauae videntur esse, quaedam sunt sim 
+            <lb ed="#P" n="49"/>pliciter prauae, alicui vero non sunt, sed expetibiles huic. Quaedam nec huic, 
+            <lb ed="#P" n="50"/>sed nonnumquam &amp; tempore paruo expetibiles vero non sunt. Quaedam neque volupta 
+            <lb ed="#P" n="51"/>tes sunt, sed videntur quae sunt cum dolore &amp; medicaminis gratia, quales sunt aegrotantium.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1331">
+            Praeter<lb ed="#P" n="52" break="no"/>ea cum bonorum aliud sit operatio, aliud habitus, operationes quae ad naturam constituunt habitum, per 
+            acci<lb ed="#P" n="53" break="no"/>dens afficiunt voluptate. Est igitur operatio in cupiditatibus restantis habitus atque naturae. nam &amp; sine 
+            <lb ed="#P" n="54"/>dolore cupiditateque sunt voluptates, vt operationes contemplandi, non deficiente natura. Signum autem 
+            <lb ed="#P" n="55"/>est quod non eisdem gaudent homines, cum repletur, &amp; cum est constituta natura, sed cum est constitura iis quae sim 
+            <lb ed="#P" n="56"/>pliciter afficiunt voluptate, cum repletur &amp; contrariis. Nam &amp; acribus gaudent &amp; amaris, 
+            quo<lb ed="#P" n="57" break="no"/>rum nihil prorsus aut natura, aut simpliciter afficit voluptate, quare nec voluptates. Nam vt 
+            <lb ed="#P" n="58"/>ea quae voluptatem efficiunt inter sese distant, sic &amp; voluptates eae quae ab illis proueniunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1349">
+            Atqui non 
+            <lb ed="#P" n="59"/>necesse est aliquid aliud esse praestabilius voluptate, vt quidam inquiunt genationes ipsius finem. 
+            <!--259.xml-->
+            <pb ed="#P" n="119-v"/>
+            <lb ed="#P" n="1"/>Non enim generationes, neque cum generatione sunt omnes, sed operationes &amp; finis. Nec 
+            <lb ed="#P" n="2"/>eueniunt dum fiunt, sed cum fit vsus: nec omnium est finis aliud quicquam, sed earum quae  
+            <lb ed="#P" n="3"/>ducunt ad perfectionem naturae. Quapropter &amp; non bene sese habet, voluptatem dicere 
+            <lb ed="#P" n="4"/>generationem esse sensibilem, sed dicendum est potius operationem eius habitus qui est 
+            se<lb ed="#P" n="5" break="no"/>cundum naturam, &amp; pro hoc sensibilem sine impedimento. Videtur autem ex eo 
+            genera<lb ed="#P" n="6" break="no"/>tio quaedam esse, quia est proprie bonum. Operationem enim generationem esse 
+            existi<lb ed="#P" n="7" break="no"/>mant, est autem diuersum. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1374">
+            At vero si voluptates esse prauas ex eo censent, quia 
+            nonnul<lb ed="#P" n="8" break="no"/>lae rerum afferentium voluptatem morbos efficiunt, idem de salubribus rebus censebunt, 
+            <lb ed="#P" n="9"/>Nonnullae nanque obsunt pecuniariae rei. Hoc igitur pacto prauae sunt ambae. at non sunt 
+            <lb ed="#P" n="10"/>ob idipsum prauae. Nam obest interdum ad sanitatem &amp; contemplatio. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1383">
+            impedit autem 
+            <lb ed="#P" n="11"/>neque prudentiam neque habitum vllum voluptas ea quae ab vno quoque prodit sed alienae. 
+            <lb ed="#P" n="12"/>Nam eae voluptates quae ad contemplationem emergunt &amp; disciplinam, conferunt potius 
+            <lb ed="#P" n="13"/>ad contemplandum, atque discendum. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1392">
+            Id praeterea quod dicitur nullam vllius artis opus 
+            vo<lb ed="#P" n="14" break="no"/>luptatem esse cum ratione accidit. Nec enim vlla alia operatio artis est, sed potentiae, quamquam 
+            <lb ed="#P" n="15"/>&amp; vnguentaria ars &amp; coquinaria, voluptatis esse videntur. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1399">
+            Temperantem autem fugere 
+            vo<lb ed="#P" n="16" break="no"/>luptatem, &amp; prudentem sequi vacuitatem doloris, pueros denique persequi beluasque 
+            affici<lb ed="#P" n="17" break="no"/>entes res voluptate, eodem omnia modo soluuntur. Nam cum voluptatum (vt dictum est)  
+            <lb ed="#P" n="18"/>aliae sint absolute bonae, aliae non bonae tales voluptates tam pueri quam beluae persequuntur, &amp; 
+            <lb ed="#P" n="19"/>harum indolentiam prudens quas cupiditates comitatur &amp; dolor, quaeque corporis sunt. Hae 
+            <lb ed="#P" n="20"/>nanque tales sunt, &amp; harum exuperationes, quibus intemperans, intemperans est. Quapropter 
+            <lb ed="#P" n="21"/>has temperans fugit: nam sunt voluptates, &amp; temperantis.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e150-Dd1e1416"><!-- arist-l7c13 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e1419">Caput 13</head>
+          <p xml:id="ArNeTH-d1e150-d1e1422" ana="#heading">
+            <lb ed="#P" n="58"/>Tract. II. Cap. III. Et Lib. VII. Cap. XIII.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1427">
+            <lb ed="#P" n="59"/>ATqui malum &amp; ipsum dolorem esse ac fugiendum conceditur. Alius enim 
+            <lb ed="#P" n="60"/>T est simpliciter malum, alius aliqua ex parte, ex eo quia infert 
+            impedimen<lb ed="#P" n="61" break="no"/>tum. At contrarium fugiendo quo fugiendum quid est atque malum, est 
+            bo<lb ed="#P" n="62" break="no"/>num. Igitur voluptatem bonum quid esse necesse est. Eo namque modo quod  
+            <lb ed="#P" n="63"/>SSpeusippus soluebat non conuenit solutio, vt minori maius est aequali vo 
+            <!--262.xml-->
+            <pb ed="#P" n="121-r"/>
+            <lb ed="#P" n="1"/>luptatem contrarium esse. Non enim sub malo voluptatem ipsam vt speciem dixerit sub 
+            ge<lb ed="#P" n="2" break="no"/>nere collocari. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1449">
+            At vero nihil prohibet, voluptatem aliquam optimum esse, si nonnullae volu 
+            <lb ed="#P" n="3"/>ptates sunt prauae quemadmodum &amp; scientiam aliquam si sunt nonnullae scientiae prauae. Quin 
+            <lb ed="#P" n="4"/>potius forsitan &amp; necessarium est, expetibilem esse aliquam summe, si sunt vniuscuiusque ha 
+            <lb ed="#P" n="5"/>bitus operationes sine impedimento, siue omnis operatio sit foelicitas, siue vnius cuiuspiam 
+            <lb ed="#P" n="6"/>ipsorum, vacans impedimento. Hoc autem est voluptas. Quare fit vt aliqua voluptas, ipsum 
+            <lb ed="#P" n="7"/>sit summum bonum etiam si forte plereque voluptatum sint simpliciter prauae. Atque ob id ipsum 
+            <lb ed="#P" n="8"/>foelicem vitam iucundam esse omnes arbitrantur, nectuntque ipsam voluptatem cum 
+            foelici<lb ed="#P" n="9" break="no"/>tate non absque ratione. Nulla namque operatio perfecta est, si impedietur. At foelicitas operatio est 
+            <lb ed="#P" n="10"/>perfecta. Quapropter foelix indiget bonis, &amp; corporis &amp; externis, ipsaque fortuna, quo non im 
+            <lb ed="#P" n="11"/>pediatur. Qui autem aiunt eum qui rota torquetur &amp; magnis in calamitatibus est 
+            consti<lb ed="#P" n="12" break="no"/>tutus, foelicem esse si modo sit bonus: nihil profecto dicunt aut sua sponte aut inuiti. Quia 
+            <lb ed="#P" n="13"/>vero foelix indiget &amp; fortuna, ideo quibusdam fortunae prosperitas &amp; foelicitas idem esse vi 
+            <lb ed="#P" n="14"/>detur: quod non est ita. Nam &amp; ipsa si exuperet, impedimentum affert, atque fortasse iure tum 
+            <lb ed="#P" n="15"/>non est prosperitas appellanda, diffinitio enim ipsius est ad ipsam foelicitatem, 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1480">
+            illud etiam 
+            <lb ed="#P" n="16"/>beluas hominesque persequi voluptatem, indicat ipsam esse quodammodo summum bonum. 
+            <lb ed="#P" n="17"/>Quam populi celebrant omnino fama perire. 
+            <lb ed="#P" n="18"/>Nulla potest. Sed quoniam eadem natura habitusque optimus neque est neque videtur, nec 
+            vo<lb ed="#P" n="19" break="no"/>luptatem eandem omnes sequuntur. Voluptatem tamen omnes sequuntur: fortasse autem 
+            <lb ed="#P" n="20"/>&amp; persequuntur, non eam quam putant, neque quam dicerent, sed eandem. Omnia namque diuinum 
+            <lb ed="#P" n="21"/>quid habent natura. Sed corporis voluptates ex eo sibi nomen hoc vendicarunt, quia saepis 
+            <lb ed="#P" n="22"/>sime occurrunt, &amp; omnes sunt ipsarum participes. Solas igitur has esse putant, quia solae 
+            <lb ed="#P" n="23"/>sunt notae. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1501">
+            Patet etiam nisi voluptas &amp; operatio sit bonum, foelicem viuere cum voluptate non 
+            <lb ed="#P" n="24"/>posse. Cuius nanque gratia ipsa est opus, si non bonum est? At simul &amp; cum dolore ipsum viuere 
+            <lb ed="#P" n="25"/>contingit. Dolor enim neque malum est neque bonum, si neque voluptas, cur nam itaque fugeret? 
+            <lb ed="#P" n="26"/>Neque igitur studiosi ipsius vita iucunda erit, si non sint &amp; operationes ipsius iucundae.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e150-Dd1e1511"><!-- arist-l7c14 -->
+          <head xml:id="ArNeTH-d1e150-Hd1e1514">Caput 14</head>
+          <p xml:id="ArNeTH-d1e150-d1e1517" ana="#heading">
+            <lb ed="#P" n="12"/>Tract. II. Cap. IIII. Et Lib. VII. Cap. XIIII.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1522">
+            <lb ed="#P" n="13"/>DE corporis autem voluptatibus considerandum est eis qui dicunt 
+            non<lb ed="#P" n="14" break="no"/>nullas voluptates expetibiles esse valde, &amp; honestas, sed non corporis &amp; 
+            <lb ed="#P" n="15"/>in quibus temperans ipse versatur, cur igitur contrarii dolores sunt 
+            pra<lb ed="#P" n="16" break="no"/>suis: Malo namque bonum contrarium est. An necessariae voluptates sic suni 
+            <lb ed="#P" n="17"/>bonae, quia &amp; id quod est non malum est bonum, an vsque ad aliquem termi 
+            <lb ed="#P" n="18"/>num bonae sunt: Habituum enim eorum ac motuum, quorum non est 
+            melio<lb ed="#P" n="19" break="no"/>ris exuperatio, neque voluptatis est. Eorum autem quorum est, est &amp; voluptatis exuperatio. At bo 
+            <lb ed="#P" n="20"/>norum corporis est exuperatio &amp; prauus in persequendo exuperationem, sed non necessarias 
+            <lb ed="#P" n="21"/>voluptates consistit. Omnes enim gaudent quodammodo &amp; epulis, &amp; vino, &amp; venere, sed non  
+            <lb ed="#P" n="22"/>vt oportet. Contra autem in ipso dolore facit. Non enim exuperationem, sed omnino fugit do 
+            <lb ed="#P" n="23"/>lorem. Non est exuperationi dolor contrarius, nisi ipsi persequenti exuperationem. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1548">
+            At enim 
+            <lb ed="#P" n="24"/>cum non solum ipsum verum, sed etiam falsi causam oporteat dicere Choc enim ad faciendam 
+            <lb ed="#P" n="25"/>fidem conducit, nam cum id rationi consentaneum fuerit visum, ob quod verum esse vidi 
+            <lb ed="#P" n="26"/>tur quod non est verum, facit vt ipsi vero magis assentiamur) dicendum est cur corporis 
+            vo<lb ed="#P" n="27" break="no"/>luptates expetibiliores videntur. Primum igitur ex eo quia pellunt dolorem, atque ob 
+            exuperatio<lb ed="#P" n="28" break="no"/>nes doloris, voluptatem exuperantem vti medelam, &amp; omnino voluptatem corporis 
+            persequun<lb ed="#P" n="29" break="no"/>tur, ipsae autem medelae vehementes fiunt. Quapropter &amp; ipsas sequuntur, quia tales videntur 
+            <lb ed="#P" n="30"/>cum contrarium adest. Et propter haec igitur duo (sicut dictum est) voluptas non studiosum esse 
+            <lb ed="#P" n="31"/>videtur, quia aliae prauae naturae sunt operationes, aut ab ortu, quemadmodum ferae: aut ob consue 
+            <lb ed="#P" n="32"/>tudinem, quales prauorum sunt hominum. Aliae sunt medicamenta, quia sunt indigentis, &amp; melius 
+            <lb ed="#P" n="33"/>habere quam fieri. Aliae accidunt dum perficiuntur, per accidens igitur sunt studiosae. Praeterea ipsas quia 
+            <lb ed="#P" n="34"/>sunt vehementes, ii persequuntur qui aliis nequeunt gaudere. Ipsi itaque sitim quandam sibi 
+            compa<lb ed="#P" n="35" break="no"/>rant: quod dum sine nocumento fit, non est increpandum, cum vero cum detrimento, perprauum est. Neque 
+            <lb ed="#P" n="36"/>enim habent alia quibus gaudent, nec aliud habere plerisque permolestum est ob naturam. Nam ani 
+            <lb ed="#P" n="37"/>mal semper laborat (vt naturales etiam sermones testantur) videre ac audire dolorem inferre di 
+            <lb ed="#P" n="38"/>centes, sed consueti iam sumus, vt aiunt. Similiter in iuuenture quidam ob incrementa, perinde 
+            <lb ed="#P" n="39"/>disponuntur ac vinolenti. Et iuuentus ad voluptates propensior est. Biliosi autem atra bili natura sem 
+            <lb ed="#P" n="40"/>per egent medicamento. Continue namque corpus ob complexionem mordetur: &amp; semper in appe 
+            <lb ed="#P" n="41"/>titione sunt vehementi. Voluptas autem contraria, &amp; quouis etiam modo fit vehemens, pellit do 
+            <lb ed="#P" n="42"/>lorem, &amp; propterea intemperantes homines prauique fiunt. Voluptates autem eae quae sine dolo 
+            <lb ed="#P" n="43"/>re sunt, exuperationem non habent. Atque hae proficiscuntur ex iis quae natura, &amp; non per accidens 
+            <lb ed="#P" n="44"/>afficiunt voluptate. Ea vero dico per accidens afficere voluptate, quae medentur: etenim quia fit 
+            <lb ed="#P" n="45"/>vt homini medeatur, eo quod sanum permanet aliquid agente, ideo talia afficere voluptate 
+            vi<lb ed="#P" n="46" break="no"/>dentur, at ea natura voluptate afficiunt, quae faciunt operationem talis naturae. 
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1600">
+            Nulla autem res 
+            ea<lb ed="#P" n="47" break="no"/>dem ex eo nos semper delectat, quia non est simplex nostra natura, sed inest &amp; aliquid aliud, quo 
+            <lb ed="#P" n="48"/>corruptibiles sumus. Quare si quippiam agat alterum, id est alteri naturae praeter naturam, at cum aequa 
+            <lb ed="#P" n="49"/>tur, neque molestum, neque iucundum videtur quod agitur. Qua si alicuius natura sit simplex, semper 
+            <lb ed="#P" n="50"/>ead em operatio iucundissima erit. lccirco deus vna semper simplicique gaudet voluptate, non enim so 
+            <lb ed="#P" n="51"/>lum motionis est operatio sed &amp; immobilitatis. Et voluptas in quiete potius quam in motu consistit. 
+            <lb ed="#P" n="52"/>Mutatio vero omnium dulcissimum est secundum poetam: ob prauitatem quandam. Vt enim homo prauus, fa 
+            <lb ed="#P" n="53"/>cile est mutabilis, sic &amp; natura praua est ea quae indiget mutatione: non enim est simplex nec 
+            bo<lb ed="#P" n="54" break="no"/>na.
+          </p>
+          <p xml:id="ArNeTH-d1e150-d1e1621">
+            Sed de continentia quidematque incontinentia, &amp; de voluptate doloreque, &amp; quid vnum quodque ipsotum 
+            <lb ed="#P" n="55"/>est. &amp; quonam mon alia ipsarum sunt bona alia mala, diximus. Deinceps autem de amicitia dicemus,
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

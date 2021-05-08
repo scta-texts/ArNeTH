@@ -1,0 +1,722 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 4</title>
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 4</title>
+          <date when="2021-05-08">May 08, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-MaEth8">Paris 1530</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="55-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ArNeTH-d1e118"><!-- arist-l4 -->
+        <head xml:id="ArNeTH-d1e118-Hd1e106">Liber 4</head>
+        <div xml:id="ArNeTH-d1e118-Dd1e109"><!-- arist-l4c1 -->
+          <head xml:id="ArNeTH-d1e118-Hd1e112">Caput 1</head>
+          <p xml:id="ArNeTH-d1e118-d1e115" ana="#heading">
+            <lb ed="#P" n="23"/>QVARTVS LIBER 
+            <lb ed="#P" n="24"/>TRACTATVS PRIMI, CAPVT PRIMVM
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e122">
+            <lb ed="#P" n="25"/>DEINCEPS autem de liberalitate dicamus. Videtur autem 
+            me<lb ed="#P" n="26" break="no"/>diocritas circa pecunias esse. Non enim bellicis in rebus ipse vir 
+            <lb ed="#P" n="27"/>liberalis, nec in quibus laudatur vir temperans, nec etiam in 
+            iu<lb ed="#P" n="28" break="no"/>diciis: sed in dandis capiendisve &amp; magis in dandis pecuniis 
+            <lb ed="#P" n="29"/>audatur. Atque pecunias ea dicimus vniuersa quorum aestimatio 
+            <lb ed="#P" n="30"/>mensuratur nummo. Est autem &amp; circa pecunias exuperatio quidem 
+            <lb ed="#P" n="31"/>prodigalitas: defectio autem illiberalitas. Et illiberalitatem quidem 
+            <lb ed="#P" n="32"/>ac auaritiam iis semper accommodamus, qui magis quam oportet 
+            <lb ed="#P" n="33"/>specuniis student. Prodigalitatem autem nectentes nonnumquam 
+            afferi<lb ed="#P" n="34" break="no"/>Ilmus. Nam eos homines qui sunt incontinentes, &amp; ob 
+            intempe<lb ed="#P" n="35" break="no"/>rantiam pecunias profligant: prodigos vocitamus. Quapropter &amp; flagitiosissimi tales homines 
+            <lb ed="#P" n="36"/>esse videntur. Multa namque vitia simul habent. At non proprie tali nomine nuncupantur. Est enim 
+            <lb ed="#P" n="37"/>prodigus qui malum vnum aliquod habet: corrumpere inquam patrimonium. Prodigus enim est qui 
+            <lb ed="#P" n="38"/>ob seipsum perditur. Videtur autem &amp; patrimonii dissipatio interitus quidam ipsius esse: 
+            <lb ed="#P" n="39"/>propterea quod patrimonio ac facultatibus viuitur.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e157">
+            Hoc igitur modo prodigalitatem 
+            accipi<lb ed="#P" n="40" break="no"/>mus. Rebus autem his quarum est aliquis vsus, &amp; bene vti &amp; male etiam possumus. At diuitiae 
+            <lb ed="#P" n="41"/>res sunt tales. Is autem optime re quauis vtitur qui eam virtutem habet quae ad rem illam 
+            accommo<lb ed="#P" n="42" break="no"/>datur. Et diuitiis igitur optime is vtetur qui virtutem eam habet, quae ad pecunias attinet: 
+            <lb ed="#P" n="43"/>hic autem est ipse vir liberalis. Atqui sumptus quidem datioque pecuniarum vsus earum: acceptio 
+            <lb ed="#P" n="44"/>vero conseruatioque possessio potius esse videtur. Quocirca viri liberalis est potius dare 
+            <lb ed="#P" n="45"/>quibus oportet quam capere vnde oportet, &amp; non capere vnde non oportet. Est enim ipsius 
+            vir<lb ed="#P" n="46" break="no"/>turis beneficia potius conferre quam suscipere. Et honesta potius agere quam non agere turpia. Non 
+            <lb ed="#P" n="47"/>est autem obscurum cum das quidem, sequi vt beneficia conferas, honestaque agas: cum capis vero, vt 
+            <lb ed="#P" n="48"/>suscipias, aut non turpia agas. GCratia praeterea sequitur eum qui dat, non eum qui capit. Et laus 
+            <lb ed="#P" n="49"/>etiam magis. Facilius est etiam non accipere, quam dare. Homines enim multo minus erogant sua, quam non 
+            <lb ed="#P" n="50"/>accipiunt aliena. li quoque qui dant, liberales dicuntur: sed qui non accipiunt, non ob liberalitatem, sed ob 
+            <lb ed="#P" n="51"/>iustitiam potius laudantur: qui vero capiunt, non laudantur valde. Liberales insuper homines, 
+            ma<lb ed="#P" n="52" break="no"/>xime omnium fere studiosorum amantur, prosunt enim, at id consistit in dando. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e188">
+            Omnes autem actus 
+            <lb ed="#P" n="53"/>virtutum, honesti sunt, &amp; honestatis causa fiunt. Et liberalis igitur honestatis causa dabit: &amp; 
+            <lb ed="#P" n="54"/>recte. dabit enim quibus oportet, &amp; quot oportet, &amp; cum oportet, caeteraque omnia obseruabit, quae 
+            <!--127.xml-->
+            <pb ed="#P" n="55-v"/>
+            <lb ed="#P" n="1"/>dandi actum rectum sequuntur. Et etiam cum voluptate vel sine vllo dolore. ld enim quod  
+            <lb ed="#P" n="2"/>per virtutem efficitur afficit voluptate: aut fit cum indolentia sane: minime vero affert 
+            do<lb ed="#P" n="3" break="no"/>lorem. At is qui dat quibus non oportet, aut non honestatis gratia, sed ob aliquam aliam 
+            cau<lb ed="#P" n="4" break="no"/>sam: non liberalis, sed alius quidam dicetur. Et itidem is qui dando dolet: honestis enim 
+            acti<lb ed="#P" n="5" break="no"/>bus talis pecunias anteponit: quod quidem non est liberalis. At vero neque capiet vnde non 
+            <lb ed="#P" n="6"/>oportet. Talis enim acceptio non est eius qui pecunias non magnifacit. Nec etiam ad 
+            postu<lb ed="#P" n="7" break="no"/>landum propensus erit: facile namque suscipere beneficia, non est hominis beneficia conferentis. 
+            <lb ed="#P" n="8"/>Verum vnde oportet accipiet: ex propriis inquam rebus: non quia idipsum honestum sit, sed  
+            <lb ed="#P" n="9"/>quod necessarium vt donare possit. At neque res suas negliget: quippe cum per illas quibusdam 
+            affe<lb ed="#P" n="10" break="no"/>ctet opem afferre. Neque quibusuis dabit, vt quibus oportet, &amp; quando, &amp; vbi est honestum, 
+            <lb ed="#P" n="11"/>largiri possit. Attinet etiam nimirum ad hominem liberalem: vt in dando adeo exuperet, vt 
+            <lb ed="#P" n="12"/>sibi ipsi pauciora relinquat. Est enim liberalis non ad seipsum respicere. At enim pro 
+            faculta<lb ed="#P" n="13" break="no"/>tibus ipsa liberalitas dicitur: liberalis enim actio non in multitudine rerum quae dantur, sed  
+            <lb ed="#P" n="14"/>in habitu dantis consistit. hic autem pro facultatibus erogat, nihil igitur prohibet, eum magis 
+            <lb ed="#P" n="15"/>esse liberalem qui pauciora largitur: si modo minores ei sint facultates. Magis autem 
+            illibe<lb ed="#P" n="16" break="no"/>rales esse videntur, qui non compararunt sibi facultates, sed ab aliis acceperunt. Nec enim experti 
+            <lb ed="#P" n="17"/>sunt indigentiam: &amp; opera omnes sua amant, vt parentes atque poetae. At vero facile non est 
+            <lb ed="#P" n="18"/>liberalem diuitem esse. Quippe cum non sit ad capiendum &amp; conseruandum, seu ad erogandum 
+            <lb ed="#P" n="19"/>procliuis, neque magni per se faciat ipsas pecunias: sed causa dandi. Quapropter &amp; accusatur 
+            <lb ed="#P" n="20"/>fortuna, quod homines ii qui maxime sunt digni, minime sunt locupletes. Accidit autem id 
+            <lb ed="#P" n="21"/>ipsum non sine ratione. Fieri enim non potest vt is pecunias habeat, qui non adhibet 
+            diligen<lb ed="#P" n="22" break="no"/>tiam vt habeat ipsas: quemadmodum &amp; caeteris in rebus fieri solet. Attamen non dabit quibus 
+            <lb ed="#P" n="23"/>non oportet, neque quando non oportet, &amp; de caeteris talibus simili modo. Non enim ageret 
+            <lb ed="#P" n="24"/>liberalitatis ipsius lege, &amp; consumptis ad haec ipsa fortunis, ad ea quae oportet, &amp; cum oportet, 
+            <lb ed="#P" n="25"/>sumptus facere, dareque non posset. Etenim is est (vt paulo ante diximus) liberalis qui pro 
+            <lb ed="#P" n="26"/>facultatibus erogat, &amp; in quibus oportet. Qui vero exuperat, prodigus est. Quocirca 
+            ty<lb ed="#P" n="27" break="no"/>rannos prodigos non dicimus: non enim facile videtur esse dando, ac erogando tantam rerum 
+            <lb ed="#P" n="28"/>quas habent copiam exuperare. Cum igitur liberalitas mediocritas sit circa dandas 
+            capien<lb ed="#P" n="29" break="no"/>dasque pecunias, liberalis dabit in quibus oportet, &amp; quod oportet: tam in paruis quam etiam in  
+            <lb ed="#P" n="30"/>magnis: atque cum voluptate: &amp; accipiet vnde oportet, &amp; quod oportet. Nam cum virtus circa 
+            <lb ed="#P" n="31"/>vtrumque sit mediocritas, vtrumque faciet vt oportet: sequitur enim dationem bonam talis 
+            acce<lb ed="#P" n="32" break="no"/>ptio: ea vero quae non est talis, contraria est. Ea igitur quae sequuntur, fiunt in eodem simul, 
+            <lb ed="#P" n="33"/>contraria vero non fiunt. Qa si praeter id quod &amp; bene sese habet, contigerit, ipsum pecunias 
+            <lb ed="#P" n="34"/>erogare, dolebit sane: moderate tamen &amp; vt oportet. Ad virtutem enim pertinet, vt pro 
+            qui<lb ed="#P" n="35" break="no"/>bus oportet, &amp; vt oportet voluptas fiat ac dolor. Est etiam in rebus pecuniariis lenis socius 
+            <lb ed="#P" n="36"/>ipse vir liberalis. Potest enim iniuriam pati quandoquidem pecunias non multifacit: 
+            ma<lb ed="#P" n="37" break="no"/>gisque moleste fert: si quid cum oporteret non erogauerit, quam dolet si quid cum non oporteret. 
+            <lb ed="#P" n="38"/>erogauerit. Simonidisque sententiam non probat.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e283">
+            Prodigus autem &amp; in hisipsis delinquit: 
+            <lb ed="#P" n="39"/>nec enim laetatur nec dolet pro quibus oportet, &amp; vt oportet. Atque hoc magis patebit per 
+            <lb ed="#P" n="40"/>ea quae deinceps dicemus.
+          </p>
+          <!--"arist-l4c1p2"-->
+          <p xml:id="ArNeTH-d1e118-d1e292">
+            <lb ed="#P" n="50"/>Diximus autem exuperationem quidem esse prodigalitatem: Defectum autem 
+            illiberali<lb ed="#P" n="51" break="no"/>tatem: &amp; in his duobus, in datione atque acceptione, &amp; sumptum enim in datione ponimus, 
+            <lb ed="#P" n="52"/>prodigalitas igitur in dando quidem: &amp; non in capiendo exuperat: in capiendo autem 
+            de<lb ed="#P" n="53" break="no"/>ficit. At illiberalitas, ac auaritia, deficit quidem in dando: exuperat autem in capiendo: in  
+            <lb ed="#P" n="54"/>paruis tamen. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e305">
+            Prodigalitatis igitur illa duo non nimium simul persistunt. Non est enim 
+            fa<lb ed="#P" n="55" break="no"/>cile, nulla ex parte capientem, cunctis largiri. Cito namque deficiunt patrimonia priuatorum 
+            <lb ed="#P" n="56"/>hominum erogantium. qui quidem &amp; prodigi esse videntur. Atque talis non paulo melior 
+            videbi<lb ed="#P" n="57" break="no"/>tur esse illiberali. Et ab aetate enim &amp; ab egestate facile curari: &amp; ad mediocritatem accedere 
+            <lb ed="#P" n="58"/>potest. Nam habet ea quae sunt hominis liberalis, dat enim &amp; non accipit: quamquam neutrum 
+            fa<lb ed="#P" n="59" break="no"/>cit vt oportet ac recte. Qa si ad hoc assuescat, vel aliquo alio modo mutetur, euadit vtique 
+            <lb ed="#P" n="60"/>liberalis: etenim dabit quibus oportet: &amp; capiet vnde oportet. Quapropter &amp; videtur non 
+            <lb ed="#P" n="61"/>esse moribus prauus: non est enim improbi nec ingenerosi tam in dando quam in non capiendo  
+            <!--130.xml-->
+            <pb ed="#P" n="57-r"/>
+            <lb ed="#P" n="1"/>exuperare, stolidi tamen. Qui vero hoc modo est prodigus, multo melior videtur esse 
+            illiberal<lb ed="#P" n="2" break="no"/>atque auaro. Cum ob ea quae dicta sunt, tum etiam quia prodigus quidem compluribus prodest: 
+            illi<lb ed="#P" n="3" break="no"/>beralis autem nemini, ne sibi quidem ipsi. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e334">
+            Sed plerique prodigorum (vt dictum est) &amp; accipiunt 
+            <lb ed="#P" n="4"/>vnde non oportet, &amp; sunt hoc ipso liberales: ad capiendum autem proni fiunt, quia cupiunt quidem 
+            <lb ed="#P" n="5"/>erogare: hoc autem facile nequeunt facere, cum cito facultates ipsis deficiunt. ltaque ex alienis dare 
+            <lb ed="#P" n="6"/>coguntur, &amp; simul quia nulla est eis honestatis cura, sine vllo discrimine, &amp; vndique capiunt, 
+            <lb ed="#P" n="7"/>dare namque percupiunt: quonam autem modo, aut vnde nullum est apud ipsos discrimen. 
+            <lb ed="#P" n="8"/>Quapropter nec dationes ipsorum sunt liberales: non enim sunt honestae, nec honestatis 
+            gra<lb ed="#P" n="9" break="no"/>tia, nec vt oportet efficiuntur: se interdum quos oportet esse pauperes, eos diuites 
+            fa<lb ed="#P" n="10" break="no"/>ciunt: &amp; iis quidem qui moderati sunt moribus, nihil dant: adulatoribus autem multa. 
+            <lb ed="#P" n="11"/>aut quampiam aliam afferentibus voluptatem. Quamobrem &amp; plerique ipsorum 
+            intempe<lb ed="#P" n="12" break="no"/>rantes sunt: nam cum facile erogent, proni sunt &amp; ad sumptus in flagitiis faciendos, atque 
+            <lb ed="#P" n="13"/>quia non ad honestatem viuunt, ad voluptates declinant. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e358">
+            Prodigus igitur si nullam 
+            pror<lb ed="#P" n="14" break="no"/>sus babeat emendationem ad haec transgreditur: cura vero diligentiaque adhibita, ad 
+            me<lb ed="#P" n="15" break="no"/>dium &amp; id quod oportet tandem deuenerit. At illiberalitas ac auaritia, incurabilis est. Etenim 
+            <lb ed="#P" n="16"/>&amp; senectus, &amp; imbecillitas omnis, auaros videtur efficere. Estque hominibus insita magis quam 
+            <lb ed="#P" n="17"/>prodigalitas. Plerique namque cupidi sunt magis pecuniarum quam ad dandum procliues. Extenditur 
+            <lb ed="#P" n="18"/>praeterea longe, &amp; plures species subit. Complures enim esse videntur illiberalitatis ac auaritiae 
+            <lb ed="#P" n="19"/>modi. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e375">
+            Nam cum in duobus hisce consistat, in defectione inquam dandi, &amp; exuperatione 
+            acci<lb ed="#P" n="20" break="no"/>piendi, non omnibus inest tota, sed interdum seiungitur. Et quidam in capiendo exuperant: quidam 
+            <lb ed="#P" n="21"/>in dando deficiunt. Qui namque talibus appellationibus nuncupantur parci, tenaces, aridi, omnes 
+            <lb ed="#P" n="22"/>in dando deficiunt: aliena vero non appetunt neque accipere volunt. Quidam enim in dando deficiunt 
+            <lb ed="#P" n="23"/>propter modestiam quandam, turpiumque rerum cautionem. Videntur enim non nulli, vel saltem aiunt: 
+            <lb ed="#P" n="24"/>ob eam rem sua conseruare: ne compellerentur aliquando turpe aliquid agere. Ex iis est &amp; ipse cymini 
+            <lb ed="#P" n="25"/>sector: &amp; quiuis talis: qui quidem ab exuperatione non dandi cuiquam, nomen habuit tale. Quidam 
+            <lb ed="#P" n="26"/>vero ob metum abstinent alienis: quippe cum non facile sit ipsos aliena, &amp; non alios res ipsorum 
+            <lb ed="#P" n="27"/>accipere. Itaque nec accipere ipsis, nec dare placet. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e395">
+            Quidam autem in capiendo exuperant, vndique, 
+            <lb ed="#P" n="28"/>&amp; quiduis capientes. Quales sunt ii qui operationes illiberales exercent, vt lenones, &amp; omnes 
+            <lb ed="#P" n="29"/>tales, &amp; foeneratores, &amp; qui dant parua pro magnis. Hinamque omnes, vnde non oportet &amp; 
+            <lb ed="#P" n="30"/>quantum non oportet, accipiunt. Commune autem ipsis omnibus esse videtur turpis comparatio lucri: 
+            <lb ed="#P" n="31"/>vniuersi namque gratia lucri, &amp; huiusce quidem parui probra sustinent. Eos enim qui grandia 
+            <lb ed="#P" n="32"/>vnde non oportet, &amp; quae non oportet accipiunt, vt tyrannos ciuitates expugnantes &amp; templa 
+            <lb ed="#P" n="33"/>spoliantes, non illiberales, sed perniciosos, sed impios, sed iniustos potius appellamus. 
+            Alca<lb ed="#P" n="34" break="no"/>tores tamen, &amp; fures atque latrones, illiberales sunt. Turpi enim versantur in lucro omnia namque 
+            <lb ed="#P" n="35"/>causa quaestus agunt &amp; sustinent probra. Atque fures quidem capiendi gratia maxima pericula 
+            <lb ed="#P" n="36"/>subeunt. Aleatores autem ab amicis quibus dare oportet, lucrantur: vtrique igitur vnde non 
+            <lb ed="#P" n="37"/>oportet lucrari volentes, turpi in lucro versantur: &amp; omnes tales accipiendi actus, illiberales 
+            <lb ed="#P" n="38"/>sunt.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e421">
+            Merito autem illiberalitas liberalitati contraria dicitur. Nam &amp; maius est malum quam 
+            prodi<lb ed="#P" n="39" break="no"/>galitas, &amp; homines magis hac ipsa peccant, quam ea quam diximus, prodigalitate.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e426">
+            De liberalitate 
+            <lb ed="#P" n="40"/>igitur &amp; vitiis ipsi contrariis haec dicta sufficiant.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e118-Dd1e432"><!-- arist-l4c2 -->
+          <head xml:id="ArNeTH-d1e118-Hd1e435">Caput 2</head>
+          <p xml:id="ArNeTH-d1e118-d1e438" ana="#heading">  
+            <lb ed="#P" n="20"/>Lib. IIII. Tract. I. Cap. II.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e443">
+            <lb ed="#P" n="21"/>COnsequens autem esse videtur &amp; de magnificentia pertractare. Videtur enim 
+            <lb ed="#P" n="22"/>&amp; ipsa virtus quaedam circa pecunias esse: non tamen sese extendit vt 
+            liberali<lb ed="#P" n="23" break="no"/>as ad omnes pecuniarios actus. sed ad sumptus tantum. Atque in hisipsis 
+            libe<lb ed="#P" n="24" break="no"/>ralitatem exuperat magnitudine. Nam vt ipsum nomen subsignificat, decens fit 
+            <lb ed="#P" n="25"/>per ipsam in magnitudine sumptus. Magnitudo autem est ad aliquid. Non 
+            <lb ed="#P" n="26"/>enim idem sumptus triremis, &amp; spectaculorum praefectum decet. Decens igitur est &amp; 
+            <lb ed="#P" n="27"/>ad ipsum, &amp; in quo, &amp; circa quae fit. Qui vero paruis in rebus: aut mediocribus pro dignitate 
+            <lb ed="#P" n="28"/>sumptus facit (qualis est ille qui dicit, Atque ego saepe dedi peregre venientibus vltro) non  
+            <lb ed="#P" n="29"/>dicitur magnificus: sed is qui in magnis. Nam magnificus quidem liberalis est: at liberalis non 
+            <lb ed="#P" n="30"/>continuo magnificus est. Talis autem habitus defectio quidem circa decorum pusillitas nuncupatur: 
+            <lb ed="#P" n="31"/>exuperatio vero sordiditas, &amp; circa decorum ruditas appellatur, &amp; quot sunt tales, non circa 
+            <lb ed="#P" n="32"/>quae oportet exuperantes magnitudine, sed in quibus non oportet &amp; quemadmodum non oportet, 
+            <lb ed="#P" n="33"/>quaerentes sibi splendorem, de quibus posterius dicemus.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e474">
+            Magnificus autem scienti similis est. Non 
+            <lb ed="#P" n="34"/>decorum ipsum contemplari potest &amp; magnos concinne facere sumptus. Vt enim in principio 
+            di<lb ed="#P" n="35" break="no"/>ximus, habitus operationibus, &amp; iis quorum est definitur. Sumptus igitur magnifici magni 
+            <lb ed="#P" n="36"/>sunt &amp; decentes: talia autem &amp; opera sunt, sic enim magnus erit sumptus &amp; decens ad opus. Vt 
+            <lb ed="#P" n="37"/>sumptu quidem opus: opere vero dignus fit sumptus, vel etiam exuperet. Atqui magnificus 
+            ho<lb ed="#P" n="38" break="no"/>nestatis causa tales faciet sumptus. hoc eim omnibus est commune virtutibus. Est etiam cum 
+            vo<lb ed="#P" n="39" break="no"/>luptate, &amp; sine parsimonia erogando. Exacta namque ratio ad pusillitatem nimirum attinet. Atque 
+            <lb ed="#P" n="40"/>potius quonam pacto pulcherrimum, maximeque decens fuerit ipsum opus considerabit: quam quanti 
+            <lb ed="#P" n="41"/>constiterit: &amp; quonam modo confectum fuerit: quam quo per minimos sumptus. Necesse est igitur 
+            <lb ed="#P" n="42"/>ipsum magnificum liberalem etiam esse. Etenim liberalis sumptus faciet quos oportet, &amp; vt opor 
+            <lb ed="#P" n="43"/>tet. In his autem est magnum ipsum magnifici, vt magnitudo circa haec liberalitatis. Et ab 
+            <lb ed="#P" n="44"/>aequali sumptu magnificentius faciet opus. Non enim eadem est virtus rei quae possidetur 
+            <lb ed="#P" n="45"/>&amp; operis. Etenim illa quidem est ea quae quam plurimo precio digna est, &amp; preciosissima, vt 
+            au<lb ed="#P" n="46" break="no"/>tum: opus autem quod magnum est atque pulchrum: talis enim operis aspectus est admirabilis. 
+            <lb ed="#P" n="47"/>At quod est magnificum est admirabile, atque virtus operis est magnificentia in magnitudine. 
+            <lb ed="#P" n="48"/>Sunt autem impensae quas dicimus ipsa honorabilia, vt ea quae deorum, heroumque causa fiunt. 
+            <lb ed="#P" n="49"/>dedicationes inquam &amp; extructiones, ac sacrificia &amp; circa omne diuinum. Et ea quae ad 
+            rempu<lb ed="#P" n="50" break="no"/>blicam liberaliter fiunt, vt si aliquo in loco ludos splendide facere oportere putant, aut 
+            praefe<lb ed="#P" n="51" break="no"/>cturas subire nauium, aut etiam epulum publicum exhibere, atque in vniuersis (vt diximus) &amp; ad 
+            <lb ed="#P" n="52"/>agentem habetur respectus quisnam sit &amp; quas habeat facultates: digna enim his esse oportet &amp; 
+            <lb ed="#P" n="53"/>non solum opus, verum &amp; ipsum facientem decere. Quocirca pauper non erit magnificus: quippe 
+            <lb ed="#P" n="54"/>cum ei non sint ea e quibus multos decore faciat sumptus. Qui vero aggreditur, fatuus est. Nam 
+            <lb ed="#P" n="55"/>praeter dignitatem facit &amp; id quod oportet. ld vero quod recte sese habet a virtute emergit. 
+            <lb ed="#P" n="56"/>Decent autem &amp; eos quibus talia antecedunt aut per seipsos, aut per maiores, aut per eos ad 
+            <lb ed="#P" n="57"/>quos ipsi se referunt: propinquitatis aliqua ratione. Et nobiles etiam, &amp; gloriosos, &amp; quotquot 
+            <!--136.xml-->
+            <pb ed="#P" n="60-r"/>
+            <lb ed="#P" n="1"/>sunt huiuscemodi. Haec enim vniuersa amplitudinem habent &amp; dignitatem. Maxime igitur 
+            <lb ed="#P" n="2"/>talis est ipse magnificus: &amp; in talibus impensis versatur ipsa magnificentia: quemadmodum 
+            <lb ed="#P" n="3"/>diximus, &amp; maximae enim, &amp; honotabilissimae sunt. Priuatarum autem eae pertinent ad magnificum 
+            <lb ed="#P" n="4"/>quae semel fiunt, vt nuptiae &amp; si quid aliud tale. Et si circa aliquid tota ciuitas, aut qui sunt 
+            <lb ed="#P" n="5"/>in dignitatibus studeant, &amp; circa hospitum susceptiones, &amp; missiones, &amp; munera. Non enim ad 
+            <lb ed="#P" n="6"/>seipsum, sed ad publica sumptus facere magnificus solet. Ipsa autem munera simile quid 
+            ha<lb ed="#P" n="7" break="no"/>bent iis quae diis dedicantur. Ad magnificum etiam pertinet &amp; domum a se extructam (vt diuitias) 
+            <lb ed="#P" n="8"/>decenter habere. Est enim quoddam &amp; haec ornamentum. Et item in iis magis operibus sumptus 
+            <lb ed="#P" n="9"/>facere, quae diuturno tempore persistere possunt. Haec enim sunt maxime pulchra. Atque in 
+            sin<lb ed="#P" n="10" break="no"/>gulis decorum ipsum seruare. Non enim eadem diis &amp; hominibus, &amp; ad templum, atque sepulcrum, 
+            <lb ed="#P" n="11"/>accommodantur. Est autem vnusquisque sumptus magnifici suo in genere magnus, &amp; 
+            magni<lb ed="#P" n="12" break="no"/>ficentissimus quidem is est, qui est magnus in magno: hic autem is qui est in his magnus. Et 
+            <lb ed="#P" n="13"/>differt magnum quod est in opere a magno quod est in sumptu. Pila namque pulcherrima aut  
+            <lb ed="#P" n="14"/>pulcherrimus vrceus, puerilis quidem muneris magnificentiam habet: precium autem eius pusillum 
+            <lb ed="#P" n="15"/>est, atque illiberale. Quapropter magnifici est quocumque in genere faciat, magnifice facere. Tale 
+            <lb ed="#P" n="16"/>namque neque facile superari potest: &amp; sese habet vt sumptus dignitas postulat.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e568">
+            Talis est igitur 
+            <lb ed="#P" n="17"/>ipse magnificus. Is autem qui exuperat, atque sordidus, sumptus faciendo vltra id quod oportet. 
+            <lb ed="#P" n="18"/>exuperat, vt dictum est. Nam paruis in rebus multa consumit: &amp; splendorem inconcinne captat: nunc 
+            <lb ed="#P" n="19"/>iis qui pecunias conferunt ad conuiuia sibi paranda nuptiali apparatu epulum praebens: nunc 
+            <lb ed="#P" n="20"/>subministrans comoedis, exhibens in eorum transitu purpuram, vt facere Megarenses 
+            consueue<lb ed="#P" n="21" break="no"/>runt. &amp; alia talia non honestatis, sed ostentationis diuitiarum causa facit: &amp; vt admiratione 
+            pro<lb ed="#P" n="22" break="no"/>pter haec (vt putat) afficiatur. Atque, vbi quidem multos facere sumptus oportet, paruos 
+            fa<lb ed="#P" n="23" break="no"/>cit. Vbi vero opus est paruis, magnos. Pusillus autem in decoro circa vniuersa deficit: &amp; 
+            ma<lb ed="#P" n="24" break="no"/>ximis factis sumptibus in paruo perdit decorum: &amp; quicquid facit, tarde differendoque facit. 
+            <lb ed="#P" n="25"/>Consideratque quonam pacto quam minimos faciat sumptus. Et etiam queritur, cunctaque maiora 
+            <lb ed="#P" n="26"/>oportet, se facere putat.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e593">
+            Sunt igitur hi duo habitus vitia quidem, non tamen afferunt probra: 
+            <lb ed="#P" n="27"/>propterea quod neque detrimento sunt aliis, neque nimium sunt deformes.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e118-Dd1e599"><!-- arist-l4c3 -->
+          <head xml:id="ArNeTH-d1e118-Hd1e602">Caput 3</head>
+          <p xml:id="ArNeTH-d1e118-d1e605" ana="#heading">
+            <!--139.xml-->
+            <pb ed="#P" n="61-v"/>
+            <lb ed="#P" n="1"/>Tract. II. Cap. I. &amp; Lib. IIII. Cap. III.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e614">
+            <lb ed="#P" n="2"/>MAgnanimitas autem circa magna quidem vel ex ipso nomine versari 
+            vi<lb ed="#P" n="3" break="no"/>detur: circa quae vero versatur, primum accipiamus oportet. Atque nihil 
+            <lb ed="#P" n="4"/>refert, siue habitum ipsum, siue eum consideremus qui habitum habet. 
+            <lb ed="#P" n="5"/>Videtur itaque magnanimus is esse, qui magnis est dignus, &amp; dignum 
+            se<lb ed="#P" n="6" break="no"/>se magnis esse censet, qui nanque non pro dignitate hoc facit stolidus est. 
+            <lb ed="#P" n="7"/>At eorum qui praediti sunt virtute: nemo demens, nemo stolidus est. Is 
+            <lb ed="#P" n="8"/>igitur quem diximus, magnanimus est. Qui nanque parua meretur, &amp; 
+            <lb ed="#P" n="9"/>hisce dignum seipsum censet, modestus quidem, at non magnanimus est: magnanimitas enim 
+            <lb ed="#P" n="10"/>in magnitudine, sicut &amp; pulchritudo corpore in magno consistit. Parui vero vrbani 
+            qui<lb ed="#P" n="11" break="no"/>dem sunt, &amp; membris appositi, sed non pulchri. Is autem qui est indignus, &amp; magnis 
+            di<lb ed="#P" n="12" break="no"/>gnum seipsum censet, est lentus. Non est autem omnis lentus, qui maioribus quam meretur, 
+            di<lb ed="#P" n="13" break="no"/>gnum seipsum censet. At is qui se dignum minoribus quam dignum sit censet, pusillanimus est, 
+            <lb ed="#P" n="14"/>siue magna, siue mediocria mereatur: siue parua quidem, minoribus vero seipsum dignum 
+            <lb ed="#P" n="15"/>esse existimet. At maxime videbitur is qui magnis est dignus. Quid enim faceret, si tantis 
+            <lb ed="#P" n="16"/>non esset dignus: Est igitur ipse magnanimus magnitudine quidem extremus, ratione 
+            au<lb ed="#P" n="17" break="no"/>tem eius quod oportet medius. Dignum enim eo seipsum censet, quod ad dignitatem suam 
+            <lb ed="#P" n="18"/>accommodatur: illi vero exuperant, &amp; deficiunt.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e653">
+            Qa si magnis se dignum censeat, &amp; sit dignus, 
+            <lb ed="#P" n="19"/>&amp; maxime maximis: circa vnum maxime versabitur ipse. Dignitas autem ad externa 
+            dici<lb ed="#P" n="20" break="no"/>tur bona, maximum vero id asseuerant omnes esse, quod diis ipsis tribuimus, &amp; quod 
+            maxi<lb ed="#P" n="21" break="no"/>me homines qui sunt in dignitate affectant: quodque dari praemium ob res pulcherrimas 
+            so<lb ed="#P" n="22" break="no"/>let. Tale autem est ipse honor, hoc est enim bonorum maximum, sed externorum. Circa 
+            igi<lb ed="#P" n="23" break="no"/>tur honores &amp; inhonorationes, magnanimus vt oportet versatur. Et sine etiam ratione, 
+            ma<lb ed="#P" n="24" break="no"/>gnanimi circa honores esse videntur. Viri nanque magni, maxime seipsos dignos esse 
+            hono<lb ed="#P" n="25" break="no"/>re pro dignitate censent. Sed pusillanimus deficit tam ad seipsum, quam ad ipsius magnanimi 
+            <lb ed="#P" n="26"/>dignitatem. Tentus autem respectu quidem sui exuperat, non tamen ipsum magnanimum. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e673">
+            <lb ed="#P" n="27"/>Atqui magnanimus ipse, cum fit maximis dignus, fuerit optimus sane. Melior enim 
+            maio<lb ed="#P" n="28" break="no"/>ra semper meretur, &amp; optimus maxima. Eum ergo qui vere magni est animi, bonum esse 
+            <lb ed="#P" n="29"/>oportet. Atque magnanimi videbitur id esse quod est in vnaquaque virtute magnum: nulloque 
+            <lb ed="#P" n="30"/>pacto magnanimo competit aggresso pericula fugam ob timorem arripere, aut iniuriam fa 
+            <lb ed="#P" n="31"/>cere. Gratia nanque cuius is aget turpia, cui nihil est magnum? Singula vero consideranti ma 
+            <lb ed="#P" n="32"/>gnanimus si non fit bonus, ridiculus omnino videbitur. Nec etiam dignus erit honore, si 
+            <lb ed="#P" n="33"/>prauus fit. Quippe cum honor praemium sit virtutis, ac bonis hominibus tribuatur. 
+            Vide<lb ed="#P" n="34" break="no"/>tur igitur ipsa magnitudo animi, tanquam ornamentum quoddam esse virtutum: nam maiores 
+            <lb ed="#P" n="35"/>efficit ipsas, &amp; sine illis ipsa non fit. Quamobrem difficile est vere magnanimum esse, non  
+            <lb ed="#P" n="36"/>enim esse potest, si non omnis probitas assit. Magnitudo igitur animi, maxime circa 
+            hono<lb ed="#P" n="37" break="no"/>res &amp; inhonorationes versatur. Atque magnanimus pro iis quidem honoribus qui &amp; magni 
+            <lb ed="#P" n="38"/>sunt &amp; a studiosis hominibus offeruntur, moderate laetabimur, tanquam accommodatos sibi vel 
+            <lb ed="#P" n="39"/>minores etiam adipiscens. Virtute enim accumulata, nullus dignus honor fieri potest. 
+            Ac<lb ed="#P" n="40" break="no"/>ceptabit tamen, quia maiora nequeunt exhiberi. Sed eos honores quos quiuis homines &amp; 
+            <lb ed="#P" n="41"/>paruis tribuunt parui pendet omnino: non est enim his dignus. Similiter &amp; id quod est 
+            ho<lb ed="#P" n="42" break="no"/>nori contrarium: non enim iure fuerit circa ipsum. Vt igitur dictum est, vir magnanimus, 
+            <lb ed="#P" n="43"/>maxime circa honores versatur. Et circa tamen diuitias, &amp; potestatem &amp; omnem 
+            prosperi<lb ed="#P" n="44" break="no"/>tatem, aduersitatemque fortunae, quocunque euenerit modo, moderate sese habebit. Et naeque 
+            ve<lb ed="#P" n="45" break="no"/>hementer in prosperitate laetabitur, neque nimiam in aduersitate dolebit. Neque enim circa ho 
+            <lb ed="#P" n="46"/>norem ita sese habet, qui quidem maximum bonum est. Potestates enim diuitiaeque propter 
+            <lb ed="#P" n="47"/>honorem expetuntur. Itaque qui haec habent, per ipsa honoribus affici volunt. Cui igitur &amp; 
+            <lb ed="#P" n="48"/>honor est paruum: huic &amp; caetera parua sunt. Quapropter ipsi magnanimi, contemptores 
+            <lb ed="#P" n="49"/>esse videntur.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e726">
+            Videntur autem &amp; prosperitates fortunae, ad magnanimitatem conducere. 
+            <lb ed="#P" n="50"/>Nobiles enim &amp; ii qui sunt in potestatibus constituti, vel diuites, digni censentur honore. 
+            <lb ed="#P" n="51"/>In excellentia nanque consistunt, atque omne bonum quod excellit, dignum est magis honore: 
+            <lb ed="#P" n="52"/>quapropter &amp; talia, magis magnanimos faciunt. Aquibusdam enim honorantur, re autem 
+            <lb ed="#P" n="53"/>vera, solus bonus est honorabilis. Atque ii quidem quibus insunt ambo: digni magis honore 
+            <lb ed="#P" n="54"/>censentur. Qui vero sine virtute talia bona habent, ii non iure seipsos dignos magnis hono  
+            <!--140.xml-->
+            <pb ed="#P" n="62-r"/>
+            <lb ed="#P" n="1"/>ribus censent, neque magnanimi recte dicuntur. Non enim sunt haec, sine accumulata 
+            virtu<lb ed="#P" n="2" break="no"/>te. Contemptores autem petulantesque fiunt. Non est enim facile, sine virtute moderate res fer 
+            <lb ed="#P" n="3"/>re secundas. Atque cum aequabiliter ferre non possint, putentque se caeteris antecellere, illos qui 
+            <lb ed="#P" n="4"/>dem despiciunt: ipsi vere quicquid contigerit, agunt. Imitantur enim, etsi similes ei non 
+            <lb ed="#P" n="5"/>sunt. ldque faciunt in quibus possunt. Ea igitur quae a virtute proficiscuntur, non agunt. 
+            De<lb ed="#P" n="6" break="no"/>spiciunt autem caeteros. Sed magnanimus iure despicit: opinatur enim vere, vulgus autem 
+            <lb ed="#P" n="7"/>si non sit dignum omnino viuere. Est etiam talis, vt beneficia conferat. Et pudeat ipsum, si 
+            <lb ed="#P" n="8"/>vt contingit.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e761">
+            Non autem parua pericula subit, nec periculorum est cupidus, propterea quod res 
+            <lb ed="#P" n="9"/>paucas multifacit. Sed subit magna, atque cum in periculo versatur, vitae suae non parcit: 
+            qua<lb ed="#P" n="10" break="no"/>suscipiat beneficia. Illud enim superioris est, hoc inferioris. Et in retribuendo, maiora 
+            bene<lb ed="#P" n="11" break="no"/>ficia conferat. Hoc enim pacto debitor insuper fiet is, qui pimus contulit, atque suscipiet 
+            be<lb ed="#P" n="12" break="no"/>neficium. Videtur etiam, &amp; eorum quidem meminisse, in quos beneficia contulit: eorum au 
+            <lb ed="#P" n="13"/>tem non meminisse a quibus ipse suscepit. Est enim is qui suscepit, inferior eo qui contulit 
+            <lb ed="#P" n="14"/>beneficium. Ipse vero vult superior esse. Et cum voluptate quidem audit ea quae contulit, 
+            si<lb ed="#P" n="15" break="no"/>ne autem voluptate ea quae ipse accepit. Quapropter &amp; Thetis non enarrat beneficia loui: 
+            <lb ed="#P" n="16"/>nec Atheniensibus Lacedaemonii quae contulerunt in illos, sed quae susceperunt ab illis. Est 
+            <lb ed="#P" n="17"/>etiam magnanimi, neminis, aut vix indigere: subministrare autem prompte. Et ad eos 
+            qui<lb ed="#P" n="18" break="no"/>dem homines qui in dignitate sunt constituti prosperitatibusque vtuntur fortunae, magnum 
+            <lb ed="#P" n="19"/>esse, ad medios autem mediocrem. Illos enim superare difficile est, &amp; gloriosum: hos autem 
+            <lb ed="#P" n="20"/>facile. Et inter illos quidem gloriari, non est ingenerosum: inter humiles autem est importu 
+            <lb ed="#P" n="21"/>num: quemadmodum viribus contra imbecillos contendere. Est etiam magnanimi, non 
+            adi<lb ed="#P" n="22" break="no"/>re ea quae afficiuntur honore, &amp; vbi alii primas occupant partes, &amp; ociosum esse ac tardum, 
+            <lb ed="#P" n="23"/>nisi vbi magnus est honos, vel opus: &amp; paucas quidem agendas res aggredi, magnas autem 
+            <lb ed="#P" n="24"/>&amp; praeclaras. Necesse est etiam palam ipsum, tam odisse, quam etiam amare, quippe cum 
+            metu<lb ed="#P" n="25" break="no"/>entis sit occultare. Et magis ipsi curae veritatem quam opinionem esse, &amp; aperta loqui ac age 
+            <lb ed="#P" n="26"/>re, est enim hoc contemptoris: quapropter vtitur libertate, est enim &amp; libertate vtentis 
+            <lb ed="#P" n="27"/>Quapropter contemptor est &amp; etiam verax, nisi dissimulatione vtatur, qua quidem ad 
+            <lb ed="#P" n="28"/>multitudinem vtitur. Et non posse ad alium viuere nisi ad solum amicum: est enim 
+            serui<lb ed="#P" n="29" break="no"/>le. Quapropter &amp; omnes adulatores seruiles sunt &amp; omnes humiles adulatores. Nec est pro 
+            <lb ed="#P" n="30"/>cliuis ad admirandum. Nihil enim apud ipsum est magnum nec est sibi mali memor illati. 
+            <lb ed="#P" n="31"/>Non est enim magnanimi meminisse praesertim mala, sed potius despicere. Nec de 
+            ho<lb ed="#P" n="32" break="no"/>minibus loquitur. Etenim neque de seipso, neque de alio dicet. Nec enim vt laudetur ipse nec 
+            <lb ed="#P" n="33"/>vt alii repraehendantur, est ipsi curae. Nec rursus est laudator. ldcirco nec maledicus, ne in  
+            <lb ed="#P" n="34"/>inimicos quidem nisi ob contumeliam. De necessariis praeterea rebus vel paruis minime 
+            <lb ed="#P" n="35"/>est querulus: &amp; ad precandum procliuis. Est enim studentis circa haec ita sese habere. Est eti 
+            <lb ed="#P" n="36"/>am talis, vt res magis pulchras, sineque fructu, quam fructuosas vtilesque possideat: est enim magis 
+            <lb ed="#P" n="37"/>sufficientis.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e826">
+            Insuper ipsius magnanimi motus tardus esse videtur, &amp; voax grauis, &amp; locutio 
+            <lb ed="#P" n="38"/>tarda. Non enim properat is qui circa pauca studet. Nec est vehemens qui nihil existimat 
+            ma<lb ed="#P" n="39" break="no"/>gnum. Acumen autem vocis &amp; celeritas, propter haec ipsa fieri solent.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e833">
+            Talis est igitur ipse 
+            <lb ed="#P" n="40"/>magnanimus. Is autem qui deficit, pusillanimus est, qui vero exuperat, lentus. Nec igitur hi 
+            <lb ed="#P" n="41"/>mali esse videntur (quippe cum mala non faciant) sed aberrare. Pusillanimus enim meretur 
+            <lb ed="#P" n="42"/>quidem bona, iis tamen seipsum priuat quibus est dignus. Atque malum quoddam habere 
+            <lb ed="#P" n="43"/>videtur: quia bonis seipsum dignum non censet, &amp; seipsum ignorare. Appeteret enim ea 
+            <lb ed="#P" n="44"/>quibus est dignus, cum sint bona. Non tamen stolidi tales homines, sed pigri potius esse 
+            vi<lb ed="#P" n="45" break="no"/>dentur. Talis autem opinatio videtur &amp; deteriores ipsos efficere. Singuli namque appetunt 
+            <lb ed="#P" n="46"/>ea quibus sunt digni. Demouent sese &amp; a praeclaris actibus &amp; officiis quasi sint indigni, &amp; a 
+            <lb ed="#P" n="47"/>bonis externis simili modo. At lenti, stolidi sunt, &amp; seipsos ignorant, &amp; etiam clare. Nam qua 
+            <lb ed="#P" n="48"/>si sint digni res eas aggrediuntur quae honorantur. Deinde redarguuntur. Vestituque se, &amp; 
+            <lb ed="#P" n="49"/>gestu, &amp; similibus ornant, &amp; prosperitates suas manifestas esse volunt. de ipsisque etiam dicunt. 
+            <lb ed="#P" n="50"/>vt ob ipsa afficiantur honore. Magnitudini autem animi pusillanimitas opponitur magis 
+            <lb ed="#P" n="51"/>quam lentitudo. Fit enim magis, &amp; peior est.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e862">
+            Magnitudo igitur animi circa honorem (vt 
+            dixi<lb ed="#P" n="52" break="no"/>mus) magnum versatur.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e118-Dd1e868"><!-- arist-l4c4 -->
+          <head xml:id="ArNeTH-d1e118-Hd1e871">Caput 4</head>
+          <p xml:id="ArNeTH-d1e118-d1e874" ana="#heading">
+            <lb ed="#P" n="47"/>Tractatus. II. Cap. II. &amp; Lib. IIII. Cap. IIII.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e879">
+            <lb ed="#P" n="48"/>VIdetur autem circa honores (vt antea diximus) &amp; alia quaedam esse virtus quae quidem 
+            per<lb ed="#P" n="49" break="no"/>inde sese habere videtur ad animi magnitudinem, atque sese habet ad 
+            ma<lb ed="#P" n="50" break="no"/>gnificentiam liberalitas. Hae nanque virtutes ambae a magnitudine quidem 
+            <lb ed="#P" n="51"/>discedunt. Circa vero mediocria, paruaque nos vt oportet, disponunt. Atque 
+            <lb ed="#P" n="52"/>Svt in capiendis dandisque pecuniis mediocritas est, &amp; exuperatio, &amp; defectio 
+            <lb ed="#P" n="53"/>&amp; sic &amp; in honorum appetitione fit, vt magis quam oportet &amp; minus &amp; vnde 
+            <lb ed="#P" n="54"/>portet, &amp; vt oportet, appetantur honores. Repraehendimus enim ambitiosum hominem, 
+            <lb ed="#P" n="55"/>atque honoris appetitione vacantem. Illum quia plusquam oportet &amp; vnde non oportet honorem 
+            <lb ed="#P" n="56"/>appetit: hunc quia ne ob res quidem honestas honoribus affici vult. Interdum autem illum 
+            <lb ed="#P" n="57"/>tanquam virilem &amp; rei cupidum pulchre. Interdum hunc tanquam moderatum, modestumque lauda 
+            <lb ed="#P" n="58"/>mus, quemadmodum &amp; antea diximus. Constat autem cum pluribus modis quispiam 
+            alicu<lb ed="#P" n="59" break="no"/>ius cupidus rei dicatur, non ad idem nos semper ambitiosum ipsum referre, sed cum lauda¬ 
+            <!--147.xml-->
+            <pb ed="#P" n="65-v"/>
+            <lb ed="#P" n="1"/>mus, ad plerosque: quia magis quam plerique honores cupit, cum reprehendimus, ad id quod oportet, quia magis 
+            <lb ed="#P" n="2"/>quam oportet honores affectat. Cum autem nomine mediocritas careat, contendere de ipsa tanquam 
+            regio<lb ed="#P" n="3" break="no"/>ne vacua, videntur extrema. In quibus vero exuperatio est, &amp; defectio, in iis est &amp; medium. 
+            <lb ed="#P" n="4"/>At honores &amp; magis quam oportet affectantur, &amp; minus. Ergo fit vt affectentur, &amp; vt oportet. 
+            <lb ed="#P" n="5"/>Laudatur igitur hic habitus quo vt oportet affectantur honores: cum sit mediocritas circa 
+            <lb ed="#P" n="6"/>honorem nomine carens. Atque ad ambitionem quidem vacuitas appetitionis honoris, ad  
+            <lb ed="#P" n="7"/>vacuitatem autem appetitionis honoris ambitio, ad vtrumque autem vtrumque 
+            quodammo<lb ed="#P" n="8" break="no"/>do esse videtur. Quod quidem &amp; in caeteris videtur esse virtutibus. Extremi autem hic 
+            op<lb ed="#P" n="9" break="no"/>poni videntur, quia medio nullum est positum nomen.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e118-Dd1e933"><!-- arist-l4c5 -->
+          <head xml:id="ArNeTH-d1e118-Hd1e936">Caput 5</head>
+          <p xml:id="ArNeTH-d1e118-d1e939" ana="#heading">
+            <lb ed="#P" n="58"/>Tractatus tertius. Cap, vnicum quod est Lib. <sic>III.</sic> Cap. V
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e947">
+            <lb ed="#P" n="59"/>MAnsuetudo autem est quidem mediocritas circa iram. At cum medium &amp; extremam 
+            <lb ed="#P" n="60"/>fere nomine careant, ad medium quidem mansuetudinem ipsam adducimus, declinan 
+            <lb ed="#P" n="61"/>Las Sen¬ tem ad defectionem vacantem nomine. Exuperatio vero, quadam iracundia dici potest, 
+            <!--148.xml-->
+            <pb ed="#P" n="66-r"/>
+            <lb ed="#P" n="1"/>Etenim affectus quidam est ita. Ea vero quae ipsam efficiunt, multa sunt, &amp; diuersa. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e963">
+            Is igitur 
+            <lb ed="#P" n="2"/>qui pro quibus &amp; quibus oportet, &amp; vt oportet, &amp; cum oportet, &amp; quanto in tempore oportet 
+            <lb ed="#P" n="3"/>irascitur, laudatur, estque hic mansuetus, siquidem laudatur ipsa mansuetudo. Mansuetus enim ac mitis, peI 
+            <lb ed="#P" n="4"/>turbatione vacare, &amp; non ab affectu duci, sed pro his, &amp; tanto in tempore irasci solet, perinde atqu 
+            <lb ed="#P" n="5"/>ratio iubet. Peccare autem circa defectionem magis videtur. Non est enim vindex ipse mansuetus, sed  
+            <lb ed="#P" n="6"/>potius clemens, &amp; ad veniam dandam propensior. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e976">
+            Defectio autem siue sit quaedam irae vacuitas, siue aliquid ali 
+            <lb ed="#P" n="7"/>ud, vituperatur. Qui namque non irascuntur pro quibus oportet, &amp; vt oportet, &amp; cum oportet, &amp; quibus 
+            <lb ed="#P" n="8"/>oportet, fatui esse videntur. Nam neque sentire, neque dolere videntur. Atque qui non irascitur, non videtur 
+            es<lb ed="#P" n="9" break="no"/>se aptus ad vlsciscendum. Perferre autem contumelias, &amp; suos negligere: seruile est sane.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e986">
+            Exupera<lb ed="#P" n="10" break="no"/>tio vero per omnia quidem fit. Nam fit &amp; in quibus non oportet, &amp; puer quibus non oportet, &amp; magis 
+            <lb ed="#P" n="11"/>&amp; velocius, &amp; maiore in tempore quam oportet. Non tamen vniuersa eidem insunt, quippe cum esse non pos¬ I 
+            <lb ed="#P" n="12"/>sit. Malum enim &amp; seipsum perdit, &amp; si integrum sit, intolerabile fit. lracundi igitur cito quidem 
+            ira<lb ed="#P" n="13" break="no"/>scuntur, &amp; quibus non oportet, &amp; pro quibus non oportet, &amp; magis quam oportet, at cito desistunt: 
+            <lb ed="#P" n="14"/>quod quidem &amp; optimum habent. Hoc autem indeo sit, quia non detinent iram, sed reddunt. Quo pacto &amp; 
+            <lb ed="#P" n="15"/>manifesti sunt ob celeritatem, deinde cessant. Exuperatione autem sunt celeres, &amp; ad quiduis, &amp; pro 
+            <lb ed="#P" n="16"/>quouis iracundi, qui summae sunt bilis. Vnde &amp; summae bilis homines appellantur. Amari autem 
+            <lb ed="#P" n="17"/>cum difficultate placantur, &amp; longo tempore sunt sub ira, detinent enim ipsam. Sed vbi reddiderint, 
+            <lb ed="#P" n="18"/>cessant. Vltio namque ponit irae modum, pro dolore voluptatem efficiens, quod si hoc non fiat, habent ipsum 
+            <lb ed="#P" n="19"/>pondus. Etenim quia non est manifestum, nemo persuadet ipsis. Vt in se autem concoctio fiat irae, 
+            ten<lb ed="#P" n="20" break="no"/>pore opus est. Sunt autem tales homines &amp; sibiipsis, &amp; amicissimis permolesti. Infensos autem 
+            <lb ed="#P" n="21"/>eos dicimus, qui pro quibus non oportet, &amp; magis quam oportet, &amp; longiore tempore irascuntur, sineque 
+            <lb ed="#P" n="22"/>vltione vel poena, non reconciliantur.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1017">
+            Mansuetudini autem magis exuperationem opponimus, fit I 
+            <lb ed="#P" n="23"/>enim magis, quippe cum humanius sit punire: &amp; ipsi infensi, difficiliores sunt ad vitam simul 
+            <lb ed="#P" n="24"/>agendam.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1024">
+            Atenim (quod &amp; antea dictum est, &amp; ex iis quae dicuntur emergit) non est facile determi 
+            <lb ed="#P" n="25"/>nare, quonam mon, &amp; quibus, &amp; puero quibus, &amp; quanto tempore irascendum sit, &amp; quousque iratus recte 
+            <lb ed="#P" n="26"/>faciat quis, aut peccet. Qui namque parum transgreditur, non rephenditur, siue ad 
+            exuperatio<lb ed="#P" n="27" break="no"/>nem, siue ad defectionem se flectat. Nonnunquam enim deficientes, laudamus, mansuetosque vocamus: 
+            <lb ed="#P" n="28"/>&amp; ipsos infensos, tamquam aptos ad dominandum viriles dicimus esse. Facile igitur non est assigna 
+            <lb ed="#P" n="29"/>re ratione, quantum &amp; quomodo quispiam egressus, vituperandus est. In singularibus enim 
+            <lb ed="#P" n="30"/>&amp; sensu iudicium est. Illud tamen est manifestum medium quidem habitum, quo quibus 
+            opor<lb ed="#P" n="31" break="no"/>tet, &amp; pro quibus oportet, &amp; vt oportet irascimur, &amp; simili modo de caeteris, laudabilem esse. 
+            <lb ed="#P" n="32"/>Exuperationes autem defectionesque vituperandas: atque si parum distent a medio, leuiter: si 
+            <lb ed="#P" n="33"/>plus, magis: si nimium, vehementer esse carpendas. Constat igitur habitum medium conse 
+            <lb ed="#P" n="34"/>quendum esse ac amplectendum. Sed de habitibus qui sunt circa iram, satis iam diximus.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e118-Dd1e1049"><!-- arist-l4c6 -->
+          <head xml:id="ArNeTH-d1e118-Hd1e1052">Caput 6</head>
+          <p xml:id="ArNeTH-d1e118-d1e1055" ana="#heading">
+            <lb ed="#P" n="3"/>Tractatus. IIII. Cap. I. &amp; Lib. IIII. Cap. VI.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1060">
+            <lb ed="#P" n="4"/>IN congressionibus autem &amp; conuictu, &amp; vsu communi verborum ac rerum, quidam pla 
+            <lb ed="#P" n="5"/>cidi esse videntur. Qui quidem puer voluptate afferenda, laudant omnia, &amp; nihil aduer 
+            <lb ed="#P" n="6"/>santur, putantes haud quaequam sese molestos cuiquam esse oportere. Quidam contra, in 
+            omni<lb ed="#P" n="7" break="no"/>bus aduersantes, neque curam vllam habentes, si dolorem afferent, difficiles, 
+            contensio<lb ed="#P" n="8" break="no"/>Isique vocantur. Patet igitur hos quidem duos habitus esse vituperandos, medium autem 
+            <lb ed="#P" n="9"/>inter hos laudandum. Quo quidem quispiam ea quae oportet, &amp; vt oportet, 
+            acce<lb ed="#P" n="10" break="no"/>ptabit, &amp; imiliter aegre feret. Verum ipsi nomen nullum est positum. Persimilis autem est amicitiae. Ta 
+            <lb ed="#P" n="11"/>lis est enim is qui medium hunc habet habitum, qualem probum hominem, amicum dicere solemus, sumpta 
+            <lb ed="#P" n="12"/>dilectione. Sed differt ab amicitia, quod est sine affectu, dilectioneque eorum quibuscum is congreditur, qui 
+            <lb ed="#P" n="13"/>hunc habitum habet. Non enim amore, vel odio, sed quia talis est ipse, probat singula vt oportet. Nam 
+            <lb ed="#P" n="14"/>similiter tam ad notos, quam ad ignotos: tam ad familiares, quam ad non familiares indipsum aget, in singu 
+            <lb ed="#P" n="15"/>lis tamen vt convenit. Non enim aeque familiarium &amp; externorum curam habere, neque dolore similiter eos 
+            <lb ed="#P" n="16"/>afficere oportet. Vniuersaliter igitur dictum est, ipsum congredi vt oportet.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1091">
+            <pc type="pilcrow">¶</pc> Respiciens autem ad ho 
+            <lb ed="#P" n="17"/>nestatem, vtilitatemque: coniectabit dolorem non afferre, vel delectare. Videtur enim hic circa voluptates 
+            <lb ed="#P" n="18"/>doloresque eos versari, qui in congressionibus fiunt, atque quibus voluptatibus non est honestum ipsi, vel 
+            <lb ed="#P" n="19"/>affert dannum delectare, eas moleste feret, &amp; eliget dolorem inferre si facienti deformitatem non 
+            par<lb ed="#P" n="20" break="no"/>uam afferat, aut dannum, opposito vero paruum dolorem, non probabit, sed aegre feret. Diuerso autem 
+            <lb ed="#P" n="21"/>modo cum iis qui sunt in dignitatibus &amp; cum priuatis, &amp; cum magis minusve notis, &amp; cum aliarum 
+            <lb ed="#P" n="22"/>identidem differentiarum hominibus congredietur, singulis tribuens id quod decet. Et per se quidem expetens 
+            de<lb ed="#P" n="23" break="no"/>lectare, cauens autem dolorem afferre, &amp; sequens ea quae eueniunt si sint maiora, honestum inquam &amp; id quod 
+            <lb ed="#P" n="24"/>conducit. Atque voluptatis gratia magnae quae eueniet, dolorem affert paruum.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1114">
+            Talis est igitur ipse 
+            me<lb ed="#P" n="25" break="no"/>dius, sed nomen non habet. Is autem qui delectat, si id agit studens esse iucundus, non ob aliud quicquam, 
+            <lb ed="#P" n="26"/>placidus vocatur, sin emolumenti causa sui, vt inde sibi proueniat in pecuniis, &amp; in iis quae pecuniis 
+            <lb ed="#P" n="27"/>comparantur vtilitas: adulator. Eum vero qui moleste fert omnia, difficilem, contensiosumque quendam dicimus 
+            <lb ed="#P" n="28"/>esse. Videntur autem extrema inter sese oppositionem suscipere, quia medium nomine caret.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e118-Dd1e1126"><!-- arist-l4c7 -->
+          <head xml:id="ArNeTH-d1e118-Hd1e1129">Caput 7</head>
+          <p xml:id="ArNeTH-d1e118-d1e1132" ana="#heading">
+            <lb ed="#P" n="41"/>Tract. IIII. Cap. II. &amp; Lib. IIII. Cap. VII.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1137">
+            <lb ed="#P" n="42"/>CIrca eadem fere versatur &amp; arrogantiae mediocritas: quae quidem &amp; ipsa 
+            no<lb ed="#P" n="43" break="no"/>mine caret. Atque non inutile fuerit de iis etiam pertractare. Nam &amp; ea 
+            ma<lb ed="#P" n="44" break="no"/>gis quae ad morem pertinent percipiemus, si de singulis fuerit pertractatum. 
+            <lb ed="#P" n="45"/>Et virtutes etiam ipsas mediocritates esse credemus, si id in omnibus 
+            fue<lb ed="#P" n="46" break="no"/>rit ita sese habere perspectum. De iis igitur qui in conuictu ad 
+            volupta<lb ed="#P" n="47" break="no"/>aetem congrediuntur atque dolorem, iam diximus. Sed nunc de veracibus 
+            <lb ed="#P" n="48"/>mendacibusque similiter &amp; in verbis &amp; in actibus, &amp; in fictione dicamus. Arrogans itaque 
+            prae<lb ed="#P" n="49" break="no"/>clara, &amp; ea quae non insunt, &amp; maiora quam insunt, fingere sibi videtur. Dissimulator autem 
+            con<lb ed="#P" n="50" break="no"/>tra, negare quae sibi insunt, aut imminuere solet. At medius, cum sit talis: vt vnumquodque qua 
+            <lb ed="#P" n="51"/>le est ipsum dicat, atque ostendat, tam vita, quam verbis est verax, ea sibi inesse confitendo quae 
+            in<lb ed="#P" n="52" break="no"/>sunt, &amp; neque maiora neque minora. Fit autem vt horum vnumquodque quispiam &amp; alicuius &amp; 
+            <lb ed="#P" n="53"/>nullius rei causa faciat. Atque qualis est vnusquisque talia tam dicit quam agit, &amp; ita viuit, nisi 
+            ali<lb ed="#P" n="54" break="no"/>cuius gratia agat. Per se autem mendacium improbum est, &amp; vituperabile. Verum autem 
+            <lb ed="#P" n="55"/>probum, ac laudabile. ltaque verax quidem cum sit medius, est laudabilis. Mendaces autem ambo vi 
+            <lb ed="#P" n="56"/>tuperabiles sunt, sed arrogans magis.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1172">
+            At enim de vtroque dicamus oportet: prius autem de 
+            vera<lb ed="#P" n="57" break="no"/>ci. Atque non de illo nunc dicimus, qui in stipulationibus verum dicit, &amp; in iis quae ad iustitiam &amp; 
+            iniu<lb ed="#P" n="58" break="no"/>stitiam pertinent (haec enim ad aliam accommodantur virtutem) sed de eo qui in quibus hoc nihil refert, &amp; 
+            <lb ed="#P" n="59"/>in verbis &amp; in vita ex eo vera dicit, quia habitu talis est, atque talis aequus &amp; bonus esse videbitur. 
+            <lb ed="#P" n="60"/>Qui namque verum amat, &amp; in quibus nil refert, vera dicit, is multo magis vera dicet in quibus ies 
+            <!--153.xml-->
+            <pb ed="#P" n="68-v"/>
+            <lb ed="#P" n="1"/>fert, vt turpe enim mendacium fugiet, quod &amp; per se fugiebat. Talis vero laudabilis est. 
+            <lb ed="#P" n="2"/>⁋ Magis autem ad defectionem veritatis declinat, hoc enim aequabilius esse videtur, 
+            propter<lb ed="#P" n="3" break="no"/>ea quod exuperationes sunt permolestae. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1194">
+            Sed qui res sibi maiores quam insunt fingit, si nullius 
+            cau<lb ed="#P" n="4" break="no"/>sa rei prauo quidem est similis. Non enim mendacio gauderet. Vanus tamen magis, quam malus 
+            <lb ed="#P" n="5"/>esse videtur. Sin alicuius gratia, si gloriae &amp; honoris, non nimium est vituperandus, vt 
+            arro<lb ed="#P" n="6" break="no"/>gans, sin argenti, &amp; eorum quae ad argentum rediguntur, deformior est. Arrogans autem, non  
+            <lb ed="#P" n="7"/>in potentia, sed in electione consistit. habitu nanque, quia talis est, arrogans est, sicut &amp; mendax, 
+            <lb ed="#P" n="8"/>quidam ipso mendacio gaudens, quidam gloriam aut lucrum affectans. Qui igitur gloriae 
+            <lb ed="#P" n="9"/>causa sunt arrogantes, ea simulant pro quibus homines laudantur aut beati esse dicuntur. Qui vero gra 
+            <lb ed="#P" n="10"/>tia lucri, ea quorum vsus ad proximos transit, &amp; quae non inesse latere possunt. Fingunt enim 
+            <lb ed="#P" n="11"/>se medicos, vel vates egregios. Quapropter plurimi hominum talia simulant, &amp; arroganter si 
+            <lb ed="#P" n="12"/>bi assumunt. Sunt enim in ipsis ea quae dicta sunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1217">
+            At dissimulatores, attenuantes sua, 
+            elegantio<lb ed="#P" n="13" break="no"/>res moribus esse videntur. Non enim id lucri causa facere videntur, sed fugientes tumidita 
+            <lb ed="#P" n="14"/>tem. Maxime autem hi negant ea quae sunt praeclara, vt &amp; Socrates faciebat. Sed qui parua, 
+            <lb ed="#P" n="15"/>manifestaque dissimulant, ii delicati simul, maliciosique dicuntur, &amp; facile sperni possunt. Atque 
+            <lb ed="#P" n="16"/>idipsum arrogantia videtur interdum, qualis est Lacedemoniorum vestitus. Nam &amp; exuperatio, &amp; 
+            ni<lb ed="#P" n="17" break="no"/>mia defectio, ad arrogantiam pertinet. Sed qui moderate dissimulatione vtuntur, nec ea dis 
+            <lb ed="#P" n="18"/>simulant quae minus ante oculos sunt &amp; extant, gratiosi esse videntur. Aduersari autem arro 
+            <lb ed="#P" n="19"/>gans ipsi veraci videtur: est enim dissimulatore deterior.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e118-Dd1e1236"><!-- arist-l4c8 -->
+          <head xml:id="ArNeTH-d1e118-Hd1e1239">Caput 8</head>
+          <p xml:id="ArNeTH-d1e118-d1e1242" ana="#heading">
+            <lb ed="#P" n="55"/>Tract. IIII. Cap. III. &amp; Lib. IIII. Cap. VIII.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1247">
+            <lb ed="#P" n="56"/>Cvm autem sit &amp; requies in vita, atque in hac ipsa, ioco sese recreent 
+            homi<lb ed="#P" n="57" break="no"/>nes: videntur &amp; hic esse quaedam aequabilis congressio &amp; dicendo, &amp; 
+            au<lb ed="#P" n="58" break="no"/>lldiendo ea quae oportet, &amp; vt oportet. Differt autem &amp; dicendo inter 
+            ta<lb ed="#P" n="59" break="no"/>geles, &amp; audiendo tales. Atque patet &amp; in his exuperationem esse medii, &amp; 
+            <lb ed="#P" n="60"/>Euldefectionem. Qui igitur in ridiculis exuperant, scurrae videntur esse ac 
+            <lb ed="#P" n="61"/>importuni, affectantes omnino ridiculum, &amp; magis coniectantes facere risum, quam honestae 
+            <!--156.xml-->
+            <pb ed="#P" n="70-r"/>
+            <lb ed="#P" n="1"/>loqui, &amp; non afficere eum dolore, in quem facete dicunt. Qui vero neque dicerent quicquam 
+            ridi<lb ed="#P" n="2" break="no"/>culi, neque alios dicere paterentur: rustici, durique esse videntur. At is qui cum moderatione 
+            ioca<lb ed="#P" n="3" break="no"/>tur, comis atque vrbanus vocatur: talem sane moris iam habitum assecutus: vt ad bene recteque 
+            <lb ed="#P" n="4"/>iocundum sese flectere possit. Huiuscemodi namque motiones, mores ipsius esse videntur. Atque vti 
+            <lb ed="#P" n="5"/>corpora, sic &amp; ipsi mores, motionibus discernuntur. Cum autem exundet ipsum ridiculum, 
+            pluri<lb ed="#P" n="6" break="no"/>mique ioco salibusve magis quam oportet gaudeant: scurrae quoque eodem nomine nuncupantur, vt 
+            <lb ed="#P" n="7"/>gratiosi elegantes. Sed eos differre, atque non parum: ex iis quae diximus constat. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1282">
+            Accommodatur 
+            <lb ed="#P" n="8"/>autem huic habitui medio, &amp; ipsa dexteritas. Atque ipsius est dexteri ea dicere &amp; audire, quae 
+            <lb ed="#P" n="9"/>ad modestum virum liberalemque accommodantur. Sunt enim quaedam, quae ioco dicere &amp; audire. 
+            <lb ed="#P" n="10"/>talem hominem decet. Atque ipsius liberalis iocus &amp; eruditi a seruilis ioco rudisque differt. 
+            <lb ed="#P" n="11"/>Licet hoc tam in antiquis, quam in nouis comoediis intueri, quibusdam enim verborum obscoenitas, 
+            <lb ed="#P" n="12"/>quibusdam potius subintellectio, ridiculum erat: atque haec non parum honestatis differunt ratione. 
+            <lb ed="#P" n="13"/>Is ne igitur dicendus est recte facetiis vti, qui dicit ea quae liberum hominem decet: an is qui eum 
+            <lb ed="#P" n="14"/>qui audit dolore non afficit, vel etiam delectat? An &amp; hoc indefinitum esse videtur? Est enim 
+            <lb ed="#P" n="15"/>aliud alii odio &amp; iucundum. Talia autem &amp; audiet, quae namque fert audiendo, ea videtur &amp; facere. 
+            <lb ed="#P" n="16"/>At non quiduis faciet: etenim facetiae conuicia quaedam sunt. Et legumlatores nonnulla conuicia di 
+            <lb ed="#P" n="17"/>cere vetant. Fortasse autem illos nonnulla prohibere facete dicere oporteret. Vir itaque gratiosus 
+            <lb ed="#P" n="18"/>ac liber: ita sese habebit quasi sibi ipsi lex sit in ioco.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1308">
+            Talis est igitur ipse medius siue dexter 
+            <lb ed="#P" n="19"/>siue vrbanus, siue comis dicatur. Scurra autem ridiculo superatur. Et neque sibi neque aliis 
+            par<lb ed="#P" n="20" break="no"/>cit, modo moueat risum, eaque dicit, quorum nihil prorsus gratiosus ipse diceret: &amp; aliqua quae  
+            <lb ed="#P" n="21"/>ne audire quidem perferret. Sed rusticus ad tales congressiones inutilis est. Quippe cum nec ipse 
+            <lb ed="#P" n="22"/>quicquam afferat salis, &amp; cum afferunt alii, aegre molestaeque ferat. Requies autem &amp; iocus, in vita 
+            ne<lb ed="#P" n="23" break="no"/>cessaria esse videntur. Tres igitur eae sunt quas diximus mediocritates in vita. Sunt autem 
+            <lb ed="#P" n="24"/>omnes circa verborum quorundam actuumve communem vsum. Sed differunt, quod vna circa 
+            <lb ed="#P" n="25"/>veritatem, caeterae circa voluptatem versantur. Atque harum altera quidem est in ioco, altera 
+            <lb ed="#P" n="26"/>autem in congressionibus reliquae vitae consistit.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e118-Dd1e1329"><!-- arist-l4c9 -->
+          <head xml:id="ArNeTH-d1e118-Hd1e1332">Caput 9</head>
+          <p xml:id="ArNeTH-d1e118-d1e1335" ana="#heading">
+            <lb ed="#P" n="40"/>Tract. V. Cap, vnicum. &amp; Lib. IIII. Cap. IX.
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1340">
+            <lb ed="#P" n="41"/>DE verecundia autem vt de aliqua virtute dicere non oportet. Est enim 
+            <lb ed="#P" n="42"/>laffectui magis quam habitui similis. ltaque diffinitur timore, timorque dicitur 
+            <lb ed="#P" n="43"/>ldedecoris quidam, &amp; fit perinde atque circa res formidolosas timor fieri 
+            <lb ed="#P" n="44"/>lsclet: nam qui verecundantur erubescunt, qui timent mortem, pallescunt. 
+            <lb ed="#P" n="45"/>Vtrumque igitur ad corpus quodammodo accommodatum esse videtur, quod 
+            <lb ed="#P" n="46"/>Aquidem magis ad affectum videtur, quam ad habitum pertinere. 
+          </p>
+          <p xml:id="ArNeTH-d1e118-d1e1356">
+            Non autem ad 
+            quan<lb ed="#P" n="47" break="no"/>uis aetatem hic affectus, sed ad iuuenilem accommodatur. Censemus enim eos, qui huius 
+            aeta<lb ed="#P" n="48" break="no"/>tis sunt, verecundos esse oportere, vt cum non sine perturbatione viuant, multumque ob hoc peccent 
+            <lb ed="#P" n="49"/>a verecundia prohibeantur delinquere. Atque laudamus quidem iuuenum eos qui sunt verecundi: 
+            <lb ed="#P" n="50"/>sed nemo ex eo seniorem hominem laudabit, quia est verecundus. Nihil enim eorum ipsum 
+            opor<lb ed="#P" n="51" break="no"/>tere censemus agere, pro quibus emergere verecundia solet. Neque enim homini probo 
+            vere<lb ed="#P" n="52" break="no"/>cundia competit: quippe cum pro rebus improbis fiat. Non enim sunt res tales agendae: quod si quaedam 
+            <lb ed="#P" n="53"/>reuera, quaedam operatione sunt turpes. Si nihil refert, neutrae namque sunt agendae: quare non est 
+            <lb ed="#P" n="54"/>verecundandum. Sed improbi est &amp; talem esse, vt aliquid turpe agat: probum autem ideo quempiam esse 
+            <lb ed="#P" n="55"/>putare, quia ita se habet, vt si turpe quid egerit verecundetur: absurdum est sane. Verecundia 
+            <lb ed="#P" n="56"/>namque fit pro iis quae sua sponte quispiam facit: sed numquam sua sponte vir bonus res aget turpens. 
+            <lb ed="#P" n="57"/>Euerit autem verecundia probum ex suppositione: nam si egerit verecundabitur. Hoc autem 
+            <lb ed="#P" n="58"/>in ipsis virtutibus non est. Qua si impudentia, &amp; quempiam non res pudere turpes agentem 
+            <!--159.xml-->
+            <pb ed="#P" n="71-v"/>
+            <lb ed="#P" n="1"/>improbum est: nihilo magis ob idipsum probum erit quempiam res turpes agentem 
+            vere<lb ed="#P" n="2" break="no"/>cundari. At vero neque continentia virtus est, sed est quaedam permixta. Ostendetur autem 
+            <lb ed="#P" n="3"/>de ipsa posterius. Nunc de iustitia dicamus oportet.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

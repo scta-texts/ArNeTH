@@ -1,0 +1,678 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 9</title>
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 9</title>
+          <date when="2021-05-08">May 08, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-MaEth8">Paris 1530</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="139-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ArNeTH-d1e398"><!-- arist-l9 -->
+        <head xml:id="ArNeTH-d1e398-Hd1e106">Liber 9</head>
+        <div xml:id="ArNeTH-d1e398-Dd1e109"><!-- arist-l9c1 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e112">Caput 1</head>
+          <p xml:id="ArNeTH-d1e398-d1e115" ana="#heading">
+            <!--299.xml-->
+            <pb ed="#P" n="139-v"/>
+            <lb ed="#P" n="1"/>LIBER NONVS 
+            <lb ed="#P" n="2"/>TRACATVS PRIMI CAPVT PRIMVM
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e126">
+            <lb ed="#P" n="3"/>IN omnibus autem amicitiis, quae sunt dissimiles specie, compa 
+            <lb ed="#P" n="4"/>ratio rationum aequat atque conseruat amicitiam, vt est dictum, 
+            <lb ed="#P" n="5"/>vt &amp; in ciuili societate sutori pro calceamentis, &amp; textori, &amp; cae 
+            <lb ed="#P" n="6"/>teris pro dignitate permutatio fit. Atque hic quidem communis 
+            <lb ed="#P" n="7"/>habetur mensura, nummus ipse ad quem omnia referuntur, &amp; 
+            <lb ed="#P" n="8"/>quo mensurantur. In amatoria autem amicitia, interdum 
+            ama<lb ed="#P" n="9" break="no"/>tor queritur quod supra modum amans, non vicissim amatur, 
+            ni<lb ed="#P" n="10" break="no"/>hil habens forte amabile, interdum is qui adamatur quod cum prius 
+            <lb ed="#P" n="11"/>cuncta polliceretur nunc nihil facit. Fiunt autem talia, cum 
+            il<lb ed="#P" n="12" break="no"/>le quidem ob voluptatem adamatum, hinc autem ob vtilitatem 
+            <lb ed="#P" n="13"/>diligit amatorem, &amp; haec non assunt vtrisque. Nam cum propter 
+            <lb ed="#P" n="14"/>haec sit amicitia, fit dissolutio cum ea non fiunt gratia quorum amabant. Non enim se mu 
+            <lb ed="#P" n="15"/>tuo amabant, sed ea quae inerant, quae non permanent. Quapropter tales &amp; amicitiae sunt. 
+            <lb ed="#P" n="16"/>Morum vero amicitia, cum per se sit, permanet vt est dictum. Differunt autem, &amp; cum alia 
+            <lb ed="#P" n="17"/>fiunt ipsis &amp; non ea quae appetunt. Est enim simile ac si nihil fieret, cum id assequitur, quod  
+            <lb ed="#P" n="18"/>affectat. Quale fecit &amp; qui citharoedo pollicebatur, quanto melius cantaret tanto se plura 
+            <lb ed="#P" n="19"/>daturum. Postridie vero reposcenti promissa, voluptatem reddidisse dixit pro voluptatem. 
+            <lb ed="#P" n="20"/>Si igitur vterque hoc affectaret, satis vtique haberet. Sin vero ille voluptatem, hic lucrum 
+            affe<lb ed="#P" n="21" break="no"/>ctabat, &amp; alter habet, alter non habet, non bene sese habet ipsa societas. Quorum enim indi 
+            <lb ed="#P" n="22"/>get vnusquisque haec &amp; assequi vult, &amp; horum gratia dabit ea quae habet. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e172">
+            Vtrius autem est 
+            <lb ed="#P" n="23"/>aestimationem facere, eius ne qui dat, an eius qui primo accepit? Nam qui dat videtur illi 
+            <lb ed="#P" n="24"/>permittere, quod quidem &amp; Protagoram fecisse aiunt, cum enim docuisset: ea quae 
+            profite<lb ed="#P" n="25" break="no"/>batur discipulum existimare iubebat: &amp; quanti ipsi viderentur ea quae didicisset: &amp; tantum 
+            <lb ed="#P" n="26"/>accipiebat. Nonnullis autem talibus satis est illud.  
+            <lb ed="#P" n="27"/>Sufficiens socio merces sane est statuenda. 
+            <lb ed="#P" n="28"/>Qui vero prius acceperunt argentum, deinde nihil eorum quae promiserunt ob 
+            exuperatio<lb ed="#P" n="29" break="no"/>nem promissionum efficiunt, merito incusantur, non enim perficiunt ea quae pepigerunt, 
+            <lb ed="#P" n="30"/>hoc fortasse sophistae facere compelluntur, quia nemo daret pro iis quae sciunt argentum, hi 
+            <lb ed="#P" n="31"/>igitur (ea pro quibus acceperunt mercedem non efficientes) merito accusantur. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e194">
+            Eorum au 
+            <lb ed="#P" n="32"/>tem in quibus subministrationis non fit pactio, qui propter seipsos exhibent, 
+            incusationi<lb ed="#P" n="33" break="no"/>bus carent, vt diximus. Talis est enim ea amicitia quae ob virtutem conflatur. 
+            Remunera<lb ed="#P" n="34" break="no"/>tioque facienda est electione: haec enim est amici atque virtutis. Sic est faciendum &amp; in 
+            socie<lb ed="#P" n="35" break="no"/>tate quae fit ob philosophiam. Non enim tantae dignitati rei, pecuniae aequari possunt, nec 
+            <lb ed="#P" n="36"/>honos paris vnquam fiet momenti, sed satis est forsitan, vt ad deos atque parentes, id quod fieri 
+            <lb ed="#P" n="37"/>potest. Quam si datio non sit talis, sed pro aliquo: maxime quidem oportet forsitan retributionem 
+            fie<lb ed="#P" n="38" break="no"/>ri vt vtriusque videtur esse pro dignitate, si vero hoc non accidit, non solum necessarium, vitum etiam 
+            <lb ed="#P" n="39"/>iustum esse videbitur, ipsum praehabentem hanc ipsam statuere. Nam si quantum hic vtilitatis 
+            <lb ed="#P" n="40"/>habuit aut pro quanto voluptatem expetit, tantum ille receperit, dignam de hoc remunerationem 
+            <lb ed="#P" n="41"/>habebit. Etenim in rebus venalibus ita fieri videtur, &amp; quibusdam in locis sunt leges quae  
+            <lb ed="#P" n="42"/>vetant, sponte actarum contractionum iudicia esse, propterea quod oportet vnumquemque ad 
+            <lb ed="#P" n="43"/>eum qui credidit sic dissolutionem facere, vt societatem contraxit. Putant enim eum iustius 
+            <lb ed="#P" n="44"/>esse eum statuere cui permissum est quam eum qui permisit. Etenim plerunque non aeque 
+            aesti<lb ed="#P" n="45" break="no"/>mant qui habent &amp; qui accipere volunt. Sua enim cuique, &amp; ea quae dat, multo videntur pre 
+            <lb ed="#P" n="46"/>cio digna, attamen retributio fit ea (quam statuunt ii qui capiunt) quantitate. Oportet au 
+            <lb ed="#P" n="47"/>tem fortasse, non tanti aestimare, quanti videtur dignum habenti, sed quanti aestimabat an  
+            <lb ed="#P" n="48"/>tea quam haberet.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e398-Dd1e234"><!-- arist-l9c2 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e237">Caput 2</head>
+          <p xml:id="ArNeTH-d1e398-d1e240" ana="#heading">
+            <lb ed="#P" n="26"/>Lib. IX.  Tract. I. Cap. II.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e245">
+            <lb ed="#P" n="27"/>HAbent autem &amp; talia dubitationem: vtrum oporteat omnia patri 
+            tribue<lb ed="#P" n="28" break="no"/>re, in omnibusque obtemperare, an aegrotanti quidem parendum sit medico, 
+            de<lb ed="#P" n="29" break="no"/>ligenti vero ducem exercitus, deligendus sit rei militaris peritissimus ho 
+            <lb ed="#P" n="30"/>mo? Simili modo, vtrum amico sit potius, an studioso subministrandum. 
+            <lb ed="#P" n="31"/>Et benefactori reddenda sit gratia, an sodali potius dandum, si vtrunque fieri 
+            <lb ed="#P" n="32"/>RRfes? neque at. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e261">
+            Omnia igitur talia, exacte determinare, non est facile. multas enim 
+            <lb ed="#P" n="33"/>ac varias habent differentias, &amp; magnitudine, &amp; prauitate, &amp; honestate, atque necessitate. 
+            Ve<lb ed="#P" n="34" break="no"/>rum non omnia eidem esse tribuenda, non est obscurum. Atque beneficia plerumque reddenda sunt po 
+            <lb ed="#P" n="35"/>tius quam est largiendum amicis, sicut &amp; mutuum reddendum: est potius cui debeas, quam dandum sodali. 
+            <lb ed="#P" n="36"/>Fortasse autem neque hoc agendum est semper, vt redemptum a praedonibus vtrum eum qui ipse 
+            re<lb ed="#P" n="37" break="no"/>demit, redimere vicissim oporteat quicumque is sit, aut non capto quidem repetenti vero mutuum, 
+            <lb ed="#P" n="38"/>reddere, an redimere patre? Videbitur enim patrem potius quam se etiam redimere illum oportere. 
+            <lb ed="#P" n="39"/>Debitum igitur (vt diximus) simpliciter est reddendum si vero datio honestate, aut 
+            necessi<lb ed="#P" n="40" break="no"/>tate excedat, ad haec ipsa est declinandum. Interdum enim neque est aequum beneficium retribuere, cum 
+            <lb ed="#P" n="41"/>alter quidem in studiosum sciens studiosum esse, contulit beneficium, alter autem illum flagitio 
+            <lb ed="#P" n="42"/>sum esse existimat. Nonnunquam enim nec ei qui mutuauit, vicissim est mutuandum. Nam ille 
+            <lb ed="#P" n="43"/>quidem putans se recepturum bono mutuauit viro, hic autem non sperat a prauo recipere. 
+            Si<lb ed="#P" n="44" break="no"/>ue igitur reuera hoc sic se habeat, non aequalis est dignitas, siue non ita quidem se habeat, puter 
+            <lb ed="#P" n="45"/>autem sic se habere, non videbitur absurde facere. Quod igitur saepe est dictum. sermones qui 
+            <lb ed="#P" n="46"/>de affectibus actibusve fiunt perinde habent definitionem, vt ea circa quae sunt.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e294">
+            Non eadem igitur 
+            <lb ed="#P" n="47"/>vniuersis esse reddenda, nec patri cuncta (quemadmodum neque loui sacra omnia dantur) non est 
+            ob<lb ed="#P" n="48" break="no"/>scurum, quod si diuersa tribuenda sunt parentibus, &amp; fratribus, &amp; sodalibus, &amp; beneficiis tribuen 
+            <lb ed="#P" n="49"/>da sunt singulis sua, quaeque ad quemque accommodantur. Sic autem &amp; facere videntur. nam ad 
+            nu<lb ed="#P" n="50" break="no"/>ptias vocant cognatos. genus enim iis est commune, quare &amp; actus qui circa hoc sunt. &amp; ad 
+            <lb ed="#P" n="51"/>sponsalia etiam maxime cognatos propter idem putant accedere oportere. Videbitur autem parem 
+            <lb ed="#P" n="52"/>tibus maxime alimentis filios vt debentes, opitulari oportere, &amp; honestius esse iis qui 
+            cau<lb ed="#P" n="53" break="no"/>sa sunt essendi, quam sibiipsis subuenire. Honorem etiam vt diis tribuere oportet, non omnem autem 
+            <lb ed="#P" n="54"/>parentibus, neque eundem patri matrique, neque sapienti, aut imperatori, sed patri paternum, &amp; 
+            <lb ed="#P" n="55"/>similiter matri maternum. Omni quoque seniori honor est tribuendus qui ad aetatem accommoda  
+            <lb ed="#P" n="56"/>tur, assurgendo, locumve cedendo &amp; talibus sodalibus autem atque fratribus praestanda est 
+            <lb ed="#P" n="57"/>libertas, omniumque communitas, atque cognatis, &amp; iis qui sunt eiusdem tribus, &amp; ciuibus ac 
+            <!--302.xml-->
+            <pb ed="#P" n="141-r"/>
+            <lb ed="#P" n="1"/>caeteris vniuersis semper est enitendum, id quod accommodatur tribuere, &amp; comparare, quae  
+            <lb ed="#P" n="2"/>insunt singulis ratione familiaritatis, &amp; virtutis, aut vtilitatis. eorum igitur qui generis sunt 
+            <lb ed="#P" n="3"/>eiusdem, facile est iudicium, differentium autem est difficilius, non tamen ob hoc 
+            desisten<lb ed="#P" n="4" break="no"/>dum est, sed vt fieri potest, est ita distinguendum.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e398-Dd1e334"><!-- arist-l9c3 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e337">Caput 3</head>
+          <p xml:id="ArNeTH-d1e398-d1e340" ana="#heading">
+            <lb ed="#P" n="51"/>Tract. I. Lib. IX. Cap. III.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e345">
+            <lb ed="#P" n="52"/>EST etiam dubitatio si dissoluendae sint amicitiae: nec ne ad eos qui non 
+            per<lb ed="#P" n="53" break="no"/>manent. An ad eos qui ob vtilitatem aut voluptatem amici sunt, cum haec non ha 
+            <lb ed="#P" n="54"/>bent: non est absurdum dissolui. Illorum enim erant amici quibus deficientibus, 
+            <lb ed="#P" n="55"/>rationi consonum est non amare. Incusauerit autem quispiam: si ob vtilitatem aut  
+            <lb ed="#P" n="56"/>voluptatem amans: ob mores simulat amare. Quod enim superius diximus: pluri 
+            <lb ed="#P" n="57"/>tagae. I mae fiunt incusationes inter amicos: cum non similiter putant: &amp; sunt amici. Cum I 
+            <lb ed="#P" n="58"/>igitur quispiam sua se opinione fefellerit: putaueritque ob mores amari nihil illo tale agente: tum 
+            <lb ed="#P" n="59"/>seipsum is accusare debet, cum vero a simulatione illius deceptus fuerit: tum eum qui decepit 
+            <lb ed="#P" n="60"/>iustum est accusare: &amp; magis quam eos qui numos adulterinos conficiunt quanto maleficium 
+            <lb ed="#P" n="61"/>ipsum circa praestabilius est. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e369">
+            Quod si acceptat vt bonum, factus est autem prauus: atque videtur 
+            <!--305.xml-->
+            <pb ed="#P" n="142-v"/>
+            <lb ed="#P" n="1"/>est ne amandum: an impossibile est siquidem non omne quoduis est amabile sed bonum: neque 
+            au<lb ed="#P" n="2" break="no"/>tem dignum est prauum amicum habere: neque oportet, non enim amatorem prauorum esse oportet, neque 
+            <lb ed="#P" n="3"/>similem euadere prauo. dictum est autem simile simili esse amicum. Est ne igitur statim 
+            ami<lb ed="#P" n="4" break="no"/>citia dissoluenda, an non omnis: sed in qua est incurabilis ob prauitatem. Qui autem emen 
+            <lb ed="#P" n="5"/>dari possunt: iis magis ferendum est in moribus auxilium quam in pecuniis: quanto 
+            praestabili<lb ed="#P" n="6" break="no"/>ores sunt &amp; magis amicitiae proprii. Nihil autem absurdi videbitur facere: qui amicitiam 
+            <lb ed="#P" n="7"/>dissoluit. Non enim huic aut tali amicus erat: cum igitur mutatum ad priores mores 
+            redi<lb ed="#P" n="8" break="no"/>gere nequeat: sese ab illo seiungit. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e393">
+            Quod si alter permaneat, alter magis bonus euadat. 
+            mul<lb ed="#P" n="9" break="no"/>tumque virtute differat, est ne vtendum amico? An fieri nequit? In magna autem distantia 
+            <lb ed="#P" n="10"/>maxime manifestum fit: vt in amicitiis quae a prueritia contrahuntur. Nam si alter mente 
+            per<lb ed="#P" n="11" break="no"/>maneat puer: alter optimum in virum euaserit quonammodo fuerint amici, cum neque eadem 
+            <lb ed="#P" n="12"/>ipsis placeant neque eisdem gaudeant doleantque. Neque enim haec erunt in ipsis &amp; quia sine 
+            ve<lb ed="#P" n="13" break="no"/>ro his esse amici non possunt: simul enim ipsos viuere, impossibile est. Atque de his ante 
+            dixi<lb ed="#P" n="14" break="no"/>mus. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e410">
+            Oportet ne igitur ipsum non secus ad illum sese habere, quam si amicus nunquam fuisset, an 
+            <lb ed="#P" n="15"/>factae memoriam consuetudinis habere oportet? Atque vt amicis potiusquam extraneis 
+            arbitra<lb ed="#P" n="16" break="no"/>mur gratificari oportere: sic &amp; iis qui fuerunt amici: tribuendum est aliquid ob amicitiam 
+            <lb ed="#P" n="17"/>quae antea fuit, cum non ob exuperationem prauitatis est dissolutio facta.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e398-Dd1e420"><!-- arist-l9c4 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e423">Caput 4</head>
+          <p xml:id="ArNeTH-d1e398-d1e426" ana="#heading">
+            <lb ed="#P" n="7"/>Lib. IX. Tract. I. Cap. IIII.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e431">
+            <lb ed="#P" n="8"/>EA vero quae ad amicos attinent, &amp; quibus amicitiae definiuntur: ex iis quae 
+            <lb ed="#P" n="9"/>ad seipsum quisque facit profecta esse videntur. Ponunt enim eum amicum esse: qui 
+            <lb ed="#P" n="10"/>vult &amp; agit bona vel quae videntur: amici gratia aut eum qui vult esse: viuereque 
+            <lb ed="#P" n="11"/>amicum gratia ipsius amici: quod quidem matribus ad suos accidit filios: &amp; iis 
+            <lb ed="#P" n="12"/>amicis qui sunt offensi. Quidam autem eum esse dicunt, qui versatur vna cum amico: &amp; 
+            <lb ed="#P" n="13"/>emax. &amp; eadem expetit. aut eum qui dolet vna atque gaudet cum amico. Maxime autem &amp; hoc 
+            <lb ed="#P" n="14"/>matribus accidit. Horum etiam aliquo &amp; amicitiam ipsam <unclear>deficiunt</unclear>. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e452">
+            Vnumquodque autem horum: viro 
+            <lb ed="#P" n="15"/>competit erga se bono. reliquis vero ea ratione qua tales esse existimat. Videtur autem (vt dictum 
+            <lb ed="#P" n="16"/>est) virtus &amp; studiosus ipse vnicuique esse mensura. Hic enim sibi ipsi consentaneus est: ac eadem 
+            <lb ed="#P" n="17"/>affectat anima omni. Et vult igitur sibi ipsi bona &amp; quae apparent ac agit. Est enim viri 
+            bo<lb ed="#P" n="18" break="no"/>ni, bonum agere. &amp; suiipsius gratia, mentis enim causa: quae quidem vnusquisque esse videtur: 
+            <lb ed="#P" n="19"/>&amp; vult etiam se viuere saluumque esse: atque id maxime quo sapit: est enim bonum homini 
+            stu<lb ed="#P" n="20" break="no"/>dioso esse. Vnuquisque autem sibi vult ipsa bona: factus vero alius nullus expetit cuncta illud quod  
+            <lb ed="#P" n="21"/>est factum habere. Habet enim &amp; nunc deus summum bonum: sed est id quod est ipse: videtur autem 
+            <lb ed="#P" n="22"/>id vnusquisque esse quod intelligit: aut maxime. Atque talis secum degere vult. Libenter enim 
+            <lb ed="#P" n="23"/>hoc: cum voluptateque facit. Nam &amp; actarum rerum recordatio periucunda est: &amp; futurarum 
+            <lb ed="#P" n="24"/>spes bona. Talis autem afficit voluptate. Et insuper contemplationibus mente abundat. 
+            Praeter<lb ed="#P" n="25" break="no"/>ea maxime secum vna dolet atque laetatur. ldem est enim omnino ipsi molestum atque iucundum: 
+            <lb ed="#P" n="26"/>&amp; non alias aliud. Est enim sine poenitentia prorsus. Ex eo igitur quia vnum quodque ipsorum 
+            <lb ed="#P" n="27"/>ad seipsum competit studioso: ad amicum autem sic se habet vt ad seipsum Camicus est enim 
+            <lb ed="#P" n="28"/>alius ipse) &amp; amicitia videtur horum aliquid esse: &amp; quibus haec insunt videntur esse amici. 
+            <lb ed="#P" n="29"/>Quaerere vero vtrum ad seipsum sit an non amicitia, nunc omittamus. Videbitur autem hoc 
+            <lb ed="#P" n="30"/>amicitia esse: quo duo vel plura ex iis est quae sunt dicta: &amp; quod exuperatio amicitiae similis est 
+            <lb ed="#P" n="31"/>ei quae est ad seipsum. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e491">
+            At vero videntur ea quae dicta sunt &amp; ipsis multis inesse: quamuis sint 
+            pra<lb ed="#P" n="32" break="no"/>ui. An hoc participes ipsorum sunt: quo sibiipsis placent: &amp; bonos se esse existimant. Nam 
+            <lb ed="#P" n="33"/>eorum qui vehementer sunt praui atque nefarii: nemini haec insunt: sed nec inesse videntur. 
+            <lb ed="#P" n="34"/>fere autem neque prauis. dissident enim secum &amp; alia quidem cupiunt: alia autem volunt, vt 
+            in<lb ed="#P" n="35" break="no"/>continentes. Nam iis quae bona sibi videntur: anteponunt ea quae voluptate afficiunt atque nocent. 
+            <lb ed="#P" n="36"/>Quidam tursus ob formidinem atque inertiam eas agere res omittunt quas putant sibiipsis opti 
+            <lb ed="#P" n="37"/>mas esse. Qui vero multas res graues atque nefandas egerunt: vitam ob prauitatem odio habent 
+            <lb ed="#P" n="38"/>ac fugiunt, sibique mortem consciscunt. Quaerunt praeterea alios ipsi flagitiosi quibuscum conversen 
+            <lb ed="#P" n="39"/>tur, se vero ipsos fugiunt. Nam si sint secum: recordantur multarum grauiumque rerum: &amp; sperant 
+            ali<lb ed="#P" n="40" break="no"/>as: tales cum aliis autem sint, obliuiscuntur. Atque cum nihil habeant quod sit amabile: nulla 
+            <lb ed="#P" n="41"/>re prorsus afficiuntur ad seipsos quae ad amicitiam attinet, neque igitur vna secum gaudent 
+            <lb ed="#P" n="42"/>atque dolent. est enim eorum anima in seditione. At interdum ob prauitatem dolet: abstinens 
+            <lb ed="#P" n="43"/>a quibusdam interdum laetatur, &amp; haec quidem pars huc: illa autem illuc trahit, vt 
+            diuellen<lb ed="#P" n="44" break="no"/>tes. Quod si fieri nequaeat vt doleat simul atque laetetur: at paulopost dolet, quod laetatus fuerit &amp; nollet 
+            <lb ed="#P" n="45"/>sibi ipsi illa voluptati fuisse. improbi nanque poenitentia sunt referti. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e525">
+            Improbus igitur: nec er 
+            <lb ed="#P" n="46"/>ga se quidem amice affectus esse videtur. propterea quod nihil habet quod sit amabile, quod si ita 
+            <lb ed="#P" n="47"/>sese habere vehementer est miserum, totis viribus fugienda est prauitas, &amp; enitendum est 
+            <lb ed="#P" n="48"/>bonum esse, sic enim &amp; ad seipsum habebit amice: &amp; aliis amicus poterit esse.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e398-Dd1e536"><!-- arist-l9c5 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e539">Caput 5</head>
+          <p xml:id="ArNeTH-d1e398-d1e542" ana="#heading">
+            <lb ed="#P" n="39"/>Lib. IX. Tract. I. Cap. V
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e547">
+            <lb ed="#P" n="40"/>BEneuolentia autem amicitiae quidem est similis: non tamen est amicitia. 
+            <lb ed="#P" n="41"/>Fit enim beneuolentia &amp; ad ignaros: &amp; latens amicitia vero non fit. Haec 
+            <lb ed="#P" n="42"/>autem antea diximus, at nec etiam est amatio. Non enim habet 
+            extentio<lb ed="#P" n="43" break="no"/>nem nec appetitionem, amationem autem haec sequuntur. Et amatio 
+            qui<lb ed="#P" n="44" break="no"/>ldem est cum consuetudine. beneuolentia autem fit repente: vt fit &amp; erga 
+            <lb ed="#P" n="45"/>qaquam certantes. Spectantes enim beneuoli fiunt ipsis &amp; volunt bona. nihil autem 
+            <lb ed="#P" n="46"/>agerent simul. Quod enim diximus: repente fiunt beneuoli: &amp; leuiter diligunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e565">
+            Videtur igitur 
+            <lb ed="#P" n="47"/>beneuolentia principium amicitiae esse, sicut &amp; adamandi: voluptas ea quae per aspectum 
+            effici<lb ed="#P" n="48" break="no"/>tur. Nemo nanque adamat: si non antea delectatus fuerit forma. qui vero gaudet forma: non  
+            <lb ed="#P" n="49"/>continuo &amp; adamat, sed cum absentem desiderat, praesentiamque affectat. Sic igitur &amp; amicos &amp; 
+            im<lb ed="#P" n="50" break="no"/>possibile esse: nisi beneuoli fuerint, beneuoli vero non continuo &amp; amant, volunt enim dumtaxat 
+            <lb ed="#P" n="51"/>iis bona, quibus beneuoli sunt. sed nihil agerent simul: neque pro illis molestiam susciperent vllam. 
+            <lb ed="#P" n="52"/>Quapropter quispiam per translationem principium ipsum amicitiae dicent esse diururnam 
+            fa<lb ed="#P" n="53" break="no"/>ctam: &amp; ad consuetudinem accedentem, amicitiam fieri, non eam quidem quae ob vtilitatem, neque eam 
+            <lb ed="#P" n="54"/>quae ob voluptatem est, neque enim pro hisce beneuolentia fit. Qui namque beneficium accepit: retribuit 
+            <lb ed="#P" n="55"/>pro iis quae accepit beneuolentiam: faciens iusta, qui vero vult aliquam prosperitatem habere, spe 
+            <lb ed="#P" n="56"/>commodi alicuius consequendi per illum non illi sed sibi potius beneuolus esse videtur, quemad 
+            <lb ed="#P" n="57"/>modum nec amicus illi propter aliquem vsum obsequium praestat. Omnino autem beneuolen 
+            <lb ed="#P" n="58"/>tia ob virtutem ac bonitatem aliquam fit, cum cuipiam quispiam pulcher, aut fortis aut  
+            <lb ed="#P" n="59"/>aliquid tale videtur: vt &amp; in certantibus diximus.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e398-Dd1e597"><!-- arist-l9c6 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e600">Caput 6</head>
+          <p xml:id="ArNeTH-d1e398-d1e603" ana="#heading">
+            <lb ed="#P" n="44"/>Tract. I. Lib. IX. Cap. VI.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e608">
+            <lb ed="#P" n="45"/>ATqui concordia etiam ad amicitiam attinere videtur. Quapropter non 
+            <lb ed="#P" n="46"/>est eadem opinatio: haec enim &amp; iis qui sibi mutuo sunt ignoti, inesse 
+            po<lb ed="#P" n="47" break="no"/>test. Nec eos qui de re quauis sunt eiusdem sententiae concordes dicunt, 
+            ve<lb ed="#P" n="48" break="no"/>lut eos qui de caelestibus eadem sentiunt, non enim ad amicitiam 
+            perti<lb ed="#P" n="49" break="no"/>net: de his esse concordes. Sed ciuitates concordes inquiunt esse: cum de 
+            <lb ed="#P" n="50"/>SeXiis quae conferunt eadem sentiunt eliguntque: atque agunt ea quae publice 
+            vi<lb ed="#P" n="51" break="no"/>sa sunt. Circa igitur ea quae in actionem veniunt concordes sunt homines &amp; horum circa 
+            <lb ed="#P" n="52"/>ea quae in magnitudine sunt: possuntque vtrisque vel omnibus inesse. Vt ciuitates concordes 
+            <lb ed="#P" n="53"/>sunt: cum omnibus videtur. magistratus esse diligendos: aut societatem cum 
+            Lacedaemo<lb ed="#P" n="54" break="no"/>niis ineundam esse: aut magistratum gerere Pittacum cum vellet &amp; ipse. At cum vterque 
+            se<lb ed="#P" n="55" break="no"/>ipsum vult (vt ii volunt qui in Phoenissis sunt) seditionem habent. Concordes enim esse: 
+            <lb ed="#P" n="56"/>non est idem vtrunque intelligere quicquid tandem id sit sed in eodem idem: vt cum &amp; po 
+            <lb ed="#P" n="57"/>pulus &amp; boni, rempublicam optimates gerere volunt, sic enim fit omnibus quod exoptant. Ci 
+            <lb ed="#P" n="58"/>uilis autem amicitia videtur ipsa concordia esse: sicut &amp; dicitur. Nam circa commoda &amp; 
+            <lb ed="#P" n="59"/>ea quae pertinent ad vitam versatur. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e643">
+            Est autem talis concordia: in bonis. Nam &amp; secum quisque horum 
+            <!--310.xml-->
+            <pb ed="#P" n="145-r"/>
+            <lb ed="#P" n="1"/>est concors &amp; omnes inter sese sunt concordes: quippe cum eisdem omnino sint. talium 
+            <lb ed="#P" n="2"/>enim voluntates manent: &amp; non refluunt, vt Euripus voluntque semper ea quae iusta sunt 
+            <lb ed="#P" n="3"/>&amp; quae prosunt. Haec autem &amp; communiter affectant. Prauos vero concordes esse 
+            impos<lb ed="#P" n="4" break="no"/>sibile est nisi paruo tempore quemadmodum &amp; amicos esse. In rebus quidem vtilibus plus: 
+            <lb ed="#P" n="5"/>in subeundis vero laboribus, subministrationibusve minus habere percupientes. Vnusquisque 
+            <lb ed="#P" n="6"/>autem haec sibi volens proximum perscrutatur, &amp; prohibet: perit enim res ipsa communis, cum 
+            <lb ed="#P" n="7"/>ab ipsis non conseruetur. Fit igitur vt in seditione versentur, sese quidem vicissim 
+            vrgen<lb ed="#P" n="8" break="no"/>tes: seipsos vero nolentes facere iusta.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e398-Dd1e668"><!-- arist-l9c7 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e671">Caput 7</head>
+          <p xml:id="ArNeTH-d1e398-d1e674" ana="#heading">
+            <lb ed="#P" n="7"/>Lib. IX. Tract. I. Cap. VII. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e679">
+            <lb ed="#P" n="8"/>VIdentur autem ii qui beneficia contulerunt magis eos amare in quos 
+            benen<lb ed="#P" n="9" break="no"/>ficia sunt collata, quam ii qui acceperunt eos qui contulerunt. Atque vt praeter 
+            ra<lb ed="#P" n="10" break="no"/>ationem eueniens quaeritur. Plurimis igitur videtur id ex eo fieri, quia hi quidem 
+            <lb ed="#P" n="11"/>debent illis vero debetur. Vt igitur in mutuis debitores quidem volunt suos 
+            <lb ed="#P" n="12"/>creditores non esse, hi vero de salute quoque debitorum diligentiam adhibent, 
+            <lb ed="#P" n="13"/>a) sic &amp; eos inquiunt qui beneficia contulerunt velle eos esse erga quos fuere 
+            <lb ed="#P" n="14"/>benefici, vt gratias accepturos. Illis vero non esse curam reddendi. Epicharmus igitur fortasse 
+            <lb ed="#P" n="15"/>dixerit haec ipsos dicere aspicientes ad malum. Videtur autem hoc esse humanum. plerique enim 
+            <lb ed="#P" n="16"/>immemores sunt: &amp; suscipere potius, quam conferre beneficia appetunt. Videbitur autem causa 
+            na<lb ed="#P" n="17" break="no"/>turalior esse: &amp; non similis ei quae de creditoribus dicitur. Non est enim erga debitores 
+            ama<lb ed="#P" n="18" break="no"/>tio. Sed voluntas salutis recipiendi causa. Sed qui beneficia contulerunt: diligunt atque amant eos 
+            <lb ed="#P" n="19"/>qui beneficia acceperunt, &amp; si nulla in re sunt vtiles: neque in posterum futuri. Quod quidem 
+            <lb ed="#P" n="20"/>&amp; artificibus accidit. Magis enim vnusquisque proprium amat opus quam ipse ab opere 
+            ama<lb ed="#P" n="21" break="no"/>retur: si animae particeps esset. Maxime vero forsitan hoc circa poetas accidit. Hi namque sua 
+            <lb ed="#P" n="22"/>diligunt poemata supra modum: &amp; perinde atque filios amant. Tali igitur simile est &amp; id quod  
+            <lb ed="#P" n="23"/>faciunt ii qui beneficia contulerunt. Quod enim suscepit beneficium ipsorum est opus. Hoc igitur 
+            <lb ed="#P" n="24"/>&amp; amant magis quam opus eum qui fecit. Huius autem causa est, quod vniuersis est expetibile atque 
+            <lb ed="#P" n="25"/>amabile esse: sumus autem actu. Nam viuendo surnus atque agendo. Qui igitur fecit, est actu suum 
+            <lb ed="#P" n="26"/>quodammodo opus. Diligit itaque ipsum opus, quia amat &amp; esse. Hoc autem est naturale. Quod 
+            <lb ed="#P" n="27"/>enim est potentia, id opus ipsum actu declarat.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e725">
+            Et insuper ei quidem qui contulit beneficium: 
+            <lb ed="#P" n="28"/>honestum est id quod egit. Quare gaudet eo in quo est hoc. At ei qui accepit, nihil est honesti 
+            <lb ed="#P" n="29"/>nisi in eo quod contulit conferens: quod quidem minus est iucundum atque amabile. Est enim praesentis 
+            <lb ed="#P" n="30"/>quidem operatio: futuri autem spes, facti vero memoria iucunda. Sed iucundissimum est quod est 
+            <lb ed="#P" n="31"/>actu, &amp; amabile simili modo: ei igitur qui contulit beneficium permanet ipsum opus. 
+            Diutur<lb ed="#P" n="32" break="no"/>num est enim ipsum honestum. Sed ei qui cepit: transacta est ipsa vtilitas. Memoriaque honestarum 
+            <lb ed="#P" n="33"/>quidem rerum, est periucunda: vtilium autem non nimium aut minus. Expectatio vero contra sese 
+            ha<lb ed="#P" n="34" break="no"/>bere videtur. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e743">
+            Et amare quidem simile est actioni: amari autem passioni. Eos igitur qui circa 
+            <lb ed="#P" n="35"/>actum excellunt, sequitur amare, &amp; ea quae ad amicitiam attinent. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e749">
+            Praeterea quae facta sunt cum labore 
+            <lb ed="#P" n="36"/>ea magis diligunt omnes, &amp; pecunias magis diligunt qui acquisiuerunt, quam qui ab aliis acceperunt. 
+            <lb ed="#P" n="37"/>At beneficium quidem accipere sine labore esse videtur: Beneficium autem conferre difficile. Propter 
+            <lb ed="#P" n="38"/>haec &amp; matres filios magis amant. Ceneratio namque laboriosa est magis: &amp; magis sciunt esse suos 
+            <lb ed="#P" n="39"/>Videbitur autem hoc &amp; iis accommodatum esse qui beneficia contulerunt.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e398-Dd1e761"><!-- arist-l9c8 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e764">Caput 8</head>
+          <p xml:id="ArNeTH-d1e398-d1e767" ana="#heading">
+            <lb ed="#P" n="15"/>Tract. II. Cap. I. &amp; Lib. IX. Cap. VIII.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e772">
+            <lb ed="#P" n="16"/>DVbitatur autem &amp; vtrum oporteat seipsum amare maxime, an aliquem 
+            <lb ed="#P" n="17"/>alium. Increpant enim eos qui se ipsos maxime amant, &amp; vt turpe, sui 
+            <lb ed="#P" n="18"/>amatores appellant. Atque prauus quidem sui gratia agere cuncta videtur. 
+            <lb ed="#P" n="19"/>&amp; tanto magis, quanto prauior est. Incusant igitur ipsum, quia nihil nisi 
+            <lb ed="#P" n="20"/>sibi agit. Probus autem ob honestatem: &amp; tanto magis ob honestatem, 
+            <lb ed="#P" n="21"/>gratiaque amici, quanto praestabilior est, sua vero negligit.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e788">
+            Ab his autem 
+            <lb ed="#P" n="22"/>verbis non sine ratione ipsa opera discrepant. Nam eum inquiunt oportere summe 
+            amare<lb ed="#P" n="23" break="no"/>qui maxime est amicus: iis autem maxime est amicus qui vult bona illius gratia: si nullus 
+            <lb ed="#P" n="24"/>etiam scierit: at haec ipsi ad seipsum maxime competunt: &amp; caetera omnia quibus definitur 
+            <lb ed="#P" n="25"/>amicus. Dictum est enim ab ipso ea omnia quae ad amicitiam attinent, &amp; ad caeteros 
+            perue<lb ed="#P" n="26" break="no"/>nire. Eodem accedunt &amp; prouerbia vniuersa, vt anima vna, &amp; amicorum omnia sunt communia. 
+            <lb ed="#P" n="27"/>&amp; amicitia est aequalitas, &amp; tibiae genu propinquius. Haec enim vniuersa ipsi ad seipsum 
+            <lb ed="#P" n="28"/>maxime competunt. Maxime namque amicus est sibi, &amp; se igitur ipsum maxime amare oportet. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e806">
+            <lb ed="#P" n="29"/>⁋ Dubitatur autem merito, vtris oporteat assentiri, cum vtrisque videatur esse credendum. 
+            For<lb ed="#P" n="30" break="no"/>tasse igitur tales sermones distinguendi, determinamdique sunt, quousque, &amp; quonam modo sint 
+            <lb ed="#P" n="31"/>veri. Si itaque sumpserimus quonam vtrique modo sui amatorem dicunt: suerit forsitan manifestum. 
+            <lb ed="#P" n="32"/>Qui igitur hoc reprehendendum esse existimant, eos amatores sui appellant qui sibi plus 
+            tri<lb ed="#P" n="33" break="no"/>buunt in pecuniis &amp; honoribus &amp; voluptatibus corporis: haec enim ipsa multitudo affectat. 
+            <lb ed="#P" n="34"/>&amp; ipsis vt optimis, emni studio incumbit: quapropter &amp; in certamen veniunt. Qui igitur 
+            <lb ed="#P" n="35"/>in hisce plus habere pergunt: ii cupiditatibus, &amp; omnio affectibus, eique parti animae quae  
+            <lb ed="#P" n="36"/>rationis est expers, gratificantur. Tales autem sunt ipsi multi: iccirco &amp; appellatio orta est ex 
+            <lb ed="#P" n="37"/>multitudine: quae quidem est praua: ergo iuste vituperantur ii, qui ita se amant. Non est 
+            <lb ed="#P" n="38"/>autem obscurum, vulgus eos qui sibiipsis talia tribuunt, sui amatores dicere consueuisse. Nam 
+            <lb ed="#P" n="39"/>si quis semper studeat agere iusta maxime omnium, aut temperata, aut quauis caeterorum quae  
+            <lb ed="#P" n="40"/>a virtutibus proficiscuntur, honestatemque emnino sibi ipsi semper vendicet, atque vsurpet: hunc 
+            <lb ed="#P" n="41"/>nemo dicet amatorem sui, neque vituperabit. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e838">
+            Magis autem videbitur talis homo sui amator. 
+            <lb ed="#P" n="42"/>Nam ea sibi tribuit quae pulcherrima, maximeque bona: &amp; gratificatur ei quod sui ipsius 
+            <lb ed="#P" n="43"/>potissimum, in emnibusque illi obtemperat. Vt autem &amp; ciuitas id esse maxime videtur, quod 
+            <lb ed="#P" n="44"/>est potissimum &amp; aliud omne, conuentus: sic &amp; homo: amator igitur is est maxime sui, qui 
+            <lb ed="#P" n="45"/>illud amat illique gratificatur. Et continens igitur dicitur &amp; incontinens, quia mens vincit. 
+            <lb ed="#P" n="46"/>aut non vincit. propterea quod ipsa est hominum quisque &amp; egisse ipsi &amp; sua sponte ea videntur 
+            <lb ed="#P" n="47"/>quae cum ratione maxime egerunt: non igitur est obscurum, hoc esse maxime vnumquemque,. 
+            <lb ed="#P" n="48"/>&amp; hoc maxime virum bonum amare. Quapropter maxime sui est amator, diuersa specie ab eo 
+            <lb ed="#P" n="49"/>qui reprehenditur, tantumque differt, quantum vita cum ratione differt a vita cum perturbationes 
+            <lb ed="#P" n="50"/>&amp; appetitio aut honesti aut eius quod conferre videtur. Qui si omnes ad consequendam 
+            <lb ed="#P" n="51"/>honestatem &amp; ad res agendas pulcherrimas decertarent, atque contenderent: &amp; omnibus publice 
+            <lb ed="#P" n="52"/>ea quae oportet &amp; vnicuique priuatim maxima bonorum inessent: si quidem virtus est tale.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e864">
+            <lb ed="#P" n="53"/>Quare bonum quidem hominem amatorem esse sui oportet, nam &amp; sibi ipse &amp; caeteris proderit, 
+            agen<lb ed="#P" n="54" break="no"/>do honeste. Prauum autem non oportet: &amp; sibi namque nocebit, &amp; propinquis, affectus prauos 
+            se<lb ed="#P" n="55" break="no"/>quendo. Ea igitur quae vir improbus agit ab iis discrepant, quae agere oportet. At probus quae  
+            <!--314.xml-->
+            <pb ed="#P" n="147-r"/>
+            <lb ed="#P" n="1"/>oportetur ea &amp; agit: mens enim omnis id expetit, quod est optimum sibi, &amp; probus obtemperat 
+            <lb ed="#P" n="2"/>menti. Atqui verum est illud quod de studioso dicitur: complura inquam ipsum agere, &amp; 
+            ami<lb ed="#P" n="3" break="no"/>corum &amp; patriae gratia: &amp; si opus fuerit mortem obire, &amp; pecunias enim &amp; honores abiiciet, &amp; 
+            <lb ed="#P" n="4"/>ea bona omnino de quibus homines decertant, sibi vendicans honestatem. Expetet enim potius 
+            <lb ed="#P" n="5"/>voluptatem breui tempore vehementem, quam longo leuem, &amp; vitam honestam vno anno, quam quanuis 
+            <lb ed="#P" n="6"/>multis. &amp; vnum actum honestum, magnumque: quam multos &amp; paruos. Atque iis qui pro amicis, qui pro 
+            <lb ed="#P" n="7"/>patria mortem obeunt: hoc forsitan accidit. Magnam igitur sibiipsis eligunt honestatem. 
+            <lb ed="#P" n="8"/>abiiciuntque pecunias vt amici capiant plures: hinc enim amicus facultates, ipse consequitur 
+            <lb ed="#P" n="9"/>honestatem, atque sibi maius tribuit bonum. Eundem &amp; circa honores modum magistratusque seruabit. 
+            <lb ed="#P" n="10"/>Nam haec omnia amico suo concedet: est enim hoc honestum ipsi ac laudabile. Merito igitur 
+            <lb ed="#P" n="11"/>studiosus esse videtur, anteponens omnibus honestatem. Fit etiam &amp; vt res agendas concedat 
+            <lb ed="#P" n="12"/>amico, sitque honestius seipsum fuisse causam vt agant illas amicus, quam si ipsemet agat. In 
+            vni<lb ed="#P" n="13" break="no"/>uersis igitur laudabilibus ipse studiosus plus honestatis tribuere sibi ipsi videtur. Sic igitur sui 
+            <lb ed="#P" n="14"/>ipsius (vti diximus) amatorem esse oportet, vt ipsi autem multi sunt, non oportet.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e398-Dd1e909"><!-- arist-l9c9 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e912">Caput 9</head>
+          <p xml:id="ArNeTH-d1e398-d1e915" ana="#heading">
+            <lb ed="#P" n="45"/>Tract. II. Cap. II. &amp; Lib. IX. Cap. <sic>XI<!-- should actually be IX, or 9 --></sic>. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e924">
+            <lb ed="#P" n="46"/>ESt autem controuersia &amp; de ipso foelice, vtrum indigeat amicis necne. 
+            <lb ed="#P" n="47"/>Non esse enim (inquiunt) ipsis beatis &amp; ex sese sufficientibus opus amicis. 
+            <lb ed="#P" n="48"/>Insunt enim ipsis omnia bona. Cum igitur ex sese sint sibi sufficientes. 
+            <lb ed="#P" n="49"/>nullius indigent rei. Amicum autem inquiunt, cum sit alter ipse, ea afferre amico: 
+            <lb ed="#P" n="50"/>quae ipse per se amicus consequi nequit. Vnde &amp; hanc sententiam dicunt. 
+            <lb ed="#P" n="51"/>Fortuna cum bona est, amicis cur opus? 
+            <lb ed="#P" n="52"/>At absurdo simile est: vniuersa bona tribuentes foelici, amicos ipsi non tribuere: quod  
+            <lb ed="#P" n="53"/>externorum bonorum maximum esse videtur. Quod si ad amicum conferre potius quam accipere 
+            <lb ed="#P" n="54"/>beneficia spectat, atque ad virum bonum, virtutemque dare beneficia pertinet, magisque honestum 
+            <lb ed="#P" n="55"/>est amicis quam alienis largiri, beneficiaque conferre: vir studiosus inis indigebit profecto, qui 
+            <lb ed="#P" n="56"/>largitionis beneficia sunt accepturi. Quapropter &amp; quaeritur vtrum prosperis in rebus, an 
+            <lb ed="#P" n="57"/>in aduersis opus sit magis amicis, vtpote cum &amp; is qui mala fortuna vtitur, iis indigeat qui 
+            <lb ed="#P" n="58"/>beneficia conferent: &amp; iis qui prospera fortuna fruuntur, iis sit opus, apud quos beneficia 
+            collo<lb ed="#P" n="59" break="no"/>cabunt. Est etiam forsitan absurdum, beatum ipsum solitarium facere. Nemo enim expetet per se bona 
+            <lb ed="#P" n="60"/>cuncta habere. Nam homo, ciuile animal est: &amp; cum aliis aptum vna viuere. Hoc igitur competit &amp; 
+            <!--316.xml-->
+            <pb ed="#P" n="148-r"/>
+            <lb ed="#P" n="1"/>foelici: habet cnim ea omnia, quae natura sunt bona. Constat autem melius esse cum amicis, probisque:? 
+            <lb ed="#P" n="2"/>quam cum extraneis, ipsum &amp; quibusuis conuersari. Amicis ergo beato est opus. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e968">
+            Quid igitur illi 
+            <lb ed="#P" n="3"/>primi dicunt, &amp; qua parte vera loquuntur? An quia vulgus eos amicos esse putat qui vtiles sunti 
+            <lb ed="#P" n="4"/>Talibus igitur non indiget ipse beatus: quippe cum ipsi omnia bona insint. Nec etiam iis qui ob vo 
+            <lb ed="#P" n="5"/>luptatem amantur aut pparum. Nam cum sit ipsius vita iucunda aduentitia non indiget voluptate, atque 
+            <lb ed="#P" n="6"/>cum amicis talibus haud indigeat, non videtur indigere amicis.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e979">
+            Hoc autem non est forsitan verum 
+            <lb ed="#P" n="7"/>Nam in principio dictum est foelicitatem operationem essem quandam. Constat autem operationem ipsam 
+            <lb ed="#P" n="8"/>fieri: &amp; non vt quandam rem esse, quae possidetur. Qa si foelicem esse in viuendo ac operando consistit: 
+            <lb ed="#P" n="9"/>boni autem operatio studiosa &amp; iucunda per se, vt initio diximus resque propria ex iis est qua 
+            <lb ed="#P" n="10"/>delectant, atque magis propinquos quam nosipsos, &amp; actus illorum quam nostros possumus 
+            contemplari<lb ed="#P" n="11" break="no"/>Studiosorumque hominum actus si sint amici, iucundi sunt ipsis bonis Chabent enim ambo ea qua 
+            <lb ed="#P" n="12"/>sunt natura iucunda) beatus profecto talibus indigebit amicis, si expetit actus bonos &amp; 
+            pro<lb ed="#P" n="13" break="no"/>prios contemplari, talesque sunt ipsius boni, si sit amicus. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e998">
+            Arbitrantur autem homines foelicem 
+            iucun<lb ed="#P" n="14" break="no"/>de viuere oportere. Solitario igitur, difficilis est vita. Non est enim facile per seipsum 
+            conti<lb ed="#P" n="15" break="no"/>nue operari, cum aliis vero atque ad alios facile est. Erit igitur operatio continua magis, cum situ 
+            <lb ed="#P" n="16"/>per seipsam iucunda: quod quidem esse circa beatum ipsum oporteat. Studiosus enim hoc ipso 
+            <lb ed="#P" n="17"/>quo studiosus est, gaudet quidem iis actibus, qui a virtute proficiscuntur: moleste autem fert 
+            <lb ed="#P" n="18"/>eos, qui a vitiis prodeunt: perinde atque musicus delectatur quidem eleganti cantu, offenditur 
+            <lb ed="#P" n="19"/>autem prauo. Fuerit etiam &amp; quaedam virtutis exercitatio ex convictu bonorum, vt &amp; Theognidi 
+            <lb ed="#P" n="20"/>placet. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1016">
+            Naturalius autem considerantibus, studiosus amicus expetibilis esse natura studioso 
+            vi<lb ed="#P" n="21" break="no"/>detur. Diximus enim id quod est bonum natura studioso bonum, &amp; iucundum, esse per se. Diffiniunt 
+            <lb ed="#P" n="22"/>autem ipsum viuere, animalium quidem potentia sensus, hominum autem sensus, vel intellectionis: 
+            <lb ed="#P" n="23"/>potentia vero ad operationem reducitur, &amp; ipsum praecipuum in operatione consistit. Ipsum autem 
+            <lb ed="#P" n="24"/>viuere videtur proprie esse ipsum sentire, vel intelligere. At ipsum viuere de iis est, quae sunt 
+            <lb ed="#P" n="25"/>per se bona atque iucunda. Est enim definitum: definitum autem natura est bonum. Quod vero natura 
+            <lb ed="#P" n="26"/>est bonum, id &amp; bono est bonum. Quapropter hominibus iucundum esse videtur. Non oportet aute 
+            <lb ed="#P" n="27"/>vitam sumere prauam atque corruptam: neque in doloribus constitutam. Indefinita namque est talis, quem 
+            <lb ed="#P" n="28"/>admodum ea quae insunt ipsi. Eritque hoc manifestum magis in sequentibus de dolore. Si vero ipsum 
+            <lb ed="#P" n="29"/>viuere bonum est, &amp; iucundum etiam est quod vel ex eo videtur, quia omnes appetunt ipsum, &amp; maxi 
+            <lb ed="#P" n="30"/>me boni atque beati: his enim viuere maxime est expetibile: &amp; horum vita est beatissima. Qui 
+            <lb ed="#P" n="31"/>autem videt videre sentit: &amp; qui audit, audire: &amp; qui ambulat, ambulare: &amp; in caeteris similiter 
+            <lb ed="#P" n="32"/>est aliquid sentiens nos operari: sentire vero nos sentire, &amp; intelligere nos intelligere 
+            possu<lb ed="#P" n="33" break="no"/>mus. Quod quidem est nos esse: esse enim, sentire vel intelligere. Sentire autem se, viuere: de iis 
+            <lb ed="#P" n="34"/>est quae per se sunt iucunda. Vita namque natura est bonum. Bonum autem sibi quempiam inesse sentire, 
+            <lb ed="#P" n="35"/>voluptate afficit: Ipsum vero viuere expetibile est, &amp; maxime bonis: propterea quod esse bonum 
+            <lb ed="#P" n="36"/>est ipsis, atque iucundum: sentientes enim id quod est per se bonum, voluptate afficiuntur. At 
+            studio<lb ed="#P" n="37" break="no"/>sus vt erga seipsum, sic sese habet &amp; ad amicum. Amicus enim est alter ipse. Vt igitur seipsum. 
+            <lb ed="#P" n="38"/>esse est vnicuique expetibile: sic &amp; suum amicum esse, vel similiter. Esse autem ideo est expetibile, quia 
+            <lb ed="#P" n="39"/>sibi bonum esse ipsum sentit: at talis sensus inucundus per seipsum est: sentiat ergo &amp; ipsum 
+            ami<lb ed="#P" n="40" break="no"/>cum esse oportet: hoc autem fieri potest, cum ipso simul viuendo, &amp; verba mentemque commutando. Sic 
+            <lb ed="#P" n="41"/>enim in hominibus dici videtur, simul viuere: &amp; non (vt in pecoribus) eodem in loco pasci.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1064">
+            <lb ed="#P" n="42"/>Si igitur ipsum esse per se esse expetibile viro beato: cum natura sit bonum atque iucundum, 
+            <lb ed="#P" n="43"/>simile autem est &amp; amici ipsius esse: amicus etiam ex iis est profecto quae expetibilia sunt 
+            <lb ed="#P" n="44"/>beato. At quod est expetibile beato, id assit ipsi oportet vel egens erit hac parte. Opus est 
+            <lb ed="#P" n="45"/>igitur ei qui foelix futurus sit, studiosus amicis.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e398-Dd1e1076"><!-- arist-l9c10 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e1079">Caput 10</head>
+          <p xml:id="ArNeTH-d1e398-d1e1082" ana="#heading">
+            <lb ed="#P" n="10"/>Tractatus. III. Cap. I.  Et Lib. IX. Cap. X 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1087">
+            <lb ed="#P" n="11"/>SVnt ne igitur quamplurimi faciendi amici, an vt de hospitalitate dictum 
+            con<lb ed="#P" n="12" break="no"/>cinne fuisse videtur. 
+            <lb ed="#P" n="13"/>Hospite ne careas, hospes neque pluribus 
+            esto<lb ed="#P" n="14" break="no"/>Sic &amp; ad amicitiam accommodabitur, neque sine amicis esse, neque rursus nimium 
+            <lb ed="#P" n="15"/>multos habere amicos. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1100">
+            Ad eas igitur amicitias quae sunt ob vtilitatem, &amp; 
+            <lb ed="#P" n="16"/>valde id quod dictum est accommodatum esse videbitur. Multis enim 
+            vi<lb ed="#P" n="17" break="no"/>cissim subministrare, laboriosum est, neque ad hoc agendum facultates ipsae sufficiunt. Plures 
+            <lb ed="#P" n="18"/>igitur iis qui sunt ad facultates proprias satis, superuacanei sunt, atque ad bene viuendum 
+            im<lb ed="#P" n="19" break="no"/>pedimento: non ergo opus est ipsis. li quoque qui comparantur ob voluptatem, sufficiunt pau 
+            <lb ed="#P" n="20"/>ci: vt in epulis condimentum. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1113">
+            At sunt ne studiosi plurimi comparandi? An &amp; multitudinis 
+            <lb ed="#P" n="21"/>amicorum est quidam numerus, perinde ac ciuitatis. Nec enim decem ex hominibus 
+            ciui<lb ed="#P" n="22" break="no"/>tas constare potest, nec etiam est ex centum milibus adhuc ciuitas. Sed quantitas non est 
+            for<lb ed="#P" n="23" break="no"/>sitan vna quaedam determinata, sed omnis ea quae est media inter quasdam multitudines defini 
+            <lb ed="#P" n="24"/>tas. Et amicorum igitur multitudo quaedam est definita. Atque ii fortasse sunt plurimi, cum 
+            qui<lb ed="#P" n="25" break="no"/>bus quispiam viuere potest, hoc enim ad amicitiam pertinere maxime videbatur. Fieri autem non 
+            <lb ed="#P" n="26"/>posse vt vna cum multis quispiam viuat, seque multis impertiat, non est obscurum. Praeterea illos 
+            <lb ed="#P" n="27"/>etiam intet sese amicos esse oportet, si simul omnes victuri sunt, hoc autem difficile est in multis. Est 
+            <lb ed="#P" n="28"/>etiam perdifficile gaudere familiariter cum multis, atque dolere. concurrere enim haec simul possunt 
+            <lb ed="#P" n="29"/>cum vno inquam dolere, &amp; cum altero gaudere. Forsitan igitur bene est, non quaerere quam plurimos ami 
+            <lb ed="#P" n="30"/>cos habere, sed quot ad communem vitam habendam sufficiunt.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1138">
+            <pc type="pilcrow">¶</pc> Neque enim posse videtur, multis ve 
+            <lb ed="#P" n="31"/>hementer amicum esse. Quapropter neque adamare plures, exuperatio enim quaedam amicitiae est 
+            <lb ed="#P" n="32"/>hoc autem est ad vnum. Et vehementer igitur amare, ad paucos erit. Hoc &amp; in ipsis rebus ita se 
+            <lb ed="#P" n="33"/>habere videtur. Amicitia namque sodalitia non fiunt multi amici, &amp; quae fama celebrantur 
+            in<lb ed="#P" n="34" break="no"/>ter duos fuisse dicuntur. Qui vero multos amicos habet, &amp; omnibus sese familiariter offe 
+            <lb ed="#P" n="35"/>runt, ii nemini amici esse videntur, nisi ciuiliter, quos &amp; placidos appellant. Fit igitur vt 
+            ciuili<lb ed="#P" n="36" break="no"/>ter multis sit quispiam amicus. etiam si non sit placidus, sed vere vir probus. Sed ob virtutem &amp; 
+            <lb ed="#P" n="37"/>seipsos amicitia, non est ad multos, amabile autem est, &amp; paucos inuenire tales.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e398-Dd1e1161"><!-- arist-l9c11 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e1164">Caput 11</head>
+          <p xml:id="ArNeTH-d1e398-d1e1167" ana="#heading">
+            <lb ed="#P" n="49"/>Tractatus. III. Cap. II. Et Lib. IX. Cap. XI.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1172">
+            <lb ed="#P" n="50"/>AT vtra in fortuna magis opus est amicis, vtrum in prospera an in aduersa(In 
+            <lb ed="#P" n="51"/>vtraque namque quaeruntur. Nam &amp; qui fortunam habent aduersam, indigent ope: &amp; 
+            <lb ed="#P" n="52"/>qui sunt in rerum prosperitate eorum indigent quibuscum viuent, &amp; in quos beneficia 
+            con<lb ed="#P" n="53" break="no"/>ferent, volunt enim largiri, bane ficiaque conferre. Amicos igitur habere necessarium qui 
+            <lb ed="#P" n="54"/>dem est: magisque in aduersa fortuna. Quapropter hic vtilibus amicis est opus, 
+            <lb ed="#P" n="55"/>honestis autem in prosperitate fortunae. ldcirco &amp; bonos quaerunt in hos enim be 
+            <lb ed="#P" n="56"/>neficia conferre atque cum his vna degere magis est expetibile. Est enim &amp; ipsa praesentia amicorum 
+            <lb ed="#P" n="57"/>iucunda in vtraque fortuna, nam leuantur ipsi dolentes condolentibus ipsis amicis. Quapropter &amp; 
+            du<lb ed="#P" n="58" break="no"/>bitauerit quispiam vtrum doloris, vt oneris amici participes fiunt. An hoc quid est non fit, ipsorum 
+            <lb ed="#P" n="59"/>autem praesentia cum sit iucunda, condolendique sensus minuit ipsum dolorem. Verum an ob haec, vtrum ob 
+            <lb ed="#P" n="60"/>aliquid aliud leuantur, missum faciamus. ld quod dictum est, euenire sane videtur.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1198">
+            Ipsorum autem praesentia 
+            <lb ed="#P" n="61"/>immixta quaedam esse videtur. Nam aspicere quidem amicos iucundum est, praesertim ei qui calamitatibus 
+            <lb ed="#P" n="62"/>premitur, fertque praesidium aliquod aduersus dolores. Consolationem enim ipse amicus &amp; aspectu, &amp; ver¬ 
+            <!--322.xml-->
+            <pb ed="#P" n="151-r"/>
+            <lb ed="#P" n="1"/>bis afferre poest, modo sit dexter. Scit namque mores, ex quibus gaudet atque dolet. At sentire suas ob 
+            <lb ed="#P" n="2"/>aerunnas dolere amicum, affert dolorem. Nam omnes fugiunt se causam doloris esse amicis, quapropter 
+            <lb ed="#P" n="3"/>viriles quidem natura cauent, ne amici secum condoleant &amp; si non exuperent indolentia, dolorem quo illi 
+            <lb ed="#P" n="4"/>afficiuntur non ferunt. Atque omnino simul plorantes moerentesque, non admittunt, quia nec ipsi sunt propensi ad 
+            <lb ed="#P" n="5"/>luctus. Mulierculae vero &amp; hmodi viri gaudent iis qui vna cum ipsis gemunt, &amp; amant eos tanquam 
+            ami<lb ed="#P" n="6" break="no"/>cos &amp; condolentes. Oportet autem omnibus in rebus praestabiliorem imitari. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1222">
+            At amicorum prosperis in rebus 
+            <lb ed="#P" n="7"/>praesentia &amp; voluptatem affert omni in actu, &amp; cogitatione delectat, quod in ipsius bonis laetantur. Qua 
+            <lb ed="#P" n="8"/>propter videbitur oportere in prosperitatibus quidem propte vocare amicos. Est enim honestum 
+            be<lb ed="#P" n="9" break="no"/>neficum esse. In aduersitatibus autem pigre. Minime namque facere participes malorum ipsos 
+            opor<lb ed="#P" n="10" break="no"/>tet. Vnde &amp; illud dicitur. Sat est grauis tristisque, sine me fors premat. 
+            <lb ed="#P" n="11"/>Maxime tamen vocandi sunt tunc amici, cum parua suscepta molestia multum prodesse possunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1236">
+            Con 
+            <lb ed="#P" n="12"/>tra autem fortasse congruum est, ad calamitosos quidem ire non vocatum, &amp; propte, est enim amici bene 
+            <lb ed="#P" n="13"/>ficia conferre, praesertim in eos qui indigent, &amp; antea quam illi requirant: vtrisque namque honestius, atque 
+            iu<lb ed="#P" n="14" break="no"/>cundius est. Ad fortunatos autem propte quidem accedere ad operandum vna cum illis. (Est enim ad haec 
+            <lb ed="#P" n="15"/>opus amicis) lente autem puer beneficiis consequendis. Non est enim honestum vtilitatis suae causa 
+            pro<lb ed="#P" n="16" break="no"/>perare. Cauenda autem est forsitan opinio iniucunditatis in repellendo, accidit enim nonnumquam.
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1249">
+            <lb ed="#P" n="17"/>Praesentia igitur amicorum in vniuersis expetibilis esse videtur.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e398-Dd1e1255"><!-- arist-l9c12 -->
+          <head xml:id="ArNeTH-d1e398-Hd1e1258">Caput 12</head>
+          <p xml:id="ArNeTH-d1e398-d1e1261" ana="#heading">
+            <!--324.xml-->
+            <pb ed="#P" n="152-r"/>
+            <lb ed="#P" n="1"/>Tractatus. III. Cap. III. Et Lib. IX. Cap. XII. 
+          </p>
+          <p xml:id="ArNeTH-d1e398-d1e1270">
+            <lb ed="#P" n="2"/>AT est ne, vt adamantibus amabilissimum est ipse aspectus, magisque hunc 
+            sen<lb ed="#P" n="3" break="no"/>sum quam caeteros expetunt, propterea quod per hunc maxime est, atque oritur amor 
+            <lb ed="#P" n="4"/>sit &amp; amicis maxime expetibile conuersari, simulque viuere? Amicitia nanque 
+            <lb ed="#P" n="5"/>communicatio est. Et vt ad seipsum quisque, sic sese habet &amp; ad amicum. 
+            Sen<lb ed="#P" n="6" break="no"/>sus autem vnicuique circa seipsum est expetibilis, &amp; circa igitur amicum. At 
+            <lb ed="#P" n="7"/>operatio ipsis in simul viuendo fit. Quare non immerito viuere simul 
+            affe<lb ed="#P" n="8" break="no"/>ctant. Atque quod tandem est singulis esse, vel gratia cuius viuere expetunt, in eo cum 
+            ami<lb ed="#P" n="9" break="no"/>cis versari, degereque volunt. Quocirca alii compotant, alii talorum ludo simul incumbunt, 
+            <lb ed="#P" n="10"/>alii simul sese exercent, &amp; vna venantur aut philosophantur singuli totos dies id simul agen 
+            <lb ed="#P" n="11"/>tes quod maxime amant. Viuere enim simul cum amicis volentes haec faciunt &amp; ea cum 
+            <lb ed="#P" n="12"/>his communicant, quibuscum vna viuere expetunt, quae maxime ipsos in vita delectant. Fit 
+            <lb ed="#P" n="13"/>igitur vt amicitia quidem improborum sit flagitiosa. Communicant enim praua, suntque in 
+            <lb ed="#P" n="14"/>stabiles, &amp; peiores etiam fiunt moribus similes euadentes. Proborum autem proba, 
+            congres<lb ed="#P" n="15" break="no"/>sionibus suscipiens incrementa. Videntur etiam tales &amp; praestabiliores euadere, tam agendo 
+            <lb ed="#P" n="16"/>quam se mutuo emendando: eliciunt enim ex sese mutuo ea quae placent. Vnde illud dicitur recte. 
+            <lb ed="#P" n="17"/>Disces ex studiosis nimirum optima semper. 
+            <lb ed="#P" n="18"/>Sed hactenus de amicitia. Deinceps de voluptate dicamus.
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>

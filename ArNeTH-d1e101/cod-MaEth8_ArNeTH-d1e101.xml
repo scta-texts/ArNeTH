@@ -1,0 +1,742 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Liber 1</title>
+        <author ref="#Aristotle">Aristotle</author>
+        <respStmt>
+          <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+          <resp>Transcription Editor</resp>
+          <resp>TEI Encoder</resp>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition n="0.0.0-dev">
+          <title>Liber 1</title>
+          <date when="2021-05-08">May 08, 2021</date>
+        </edition>
+      </editionStmt>
+      <publicationStmt>
+        <authority>SCTA</authority>
+        <availability status="free">
+          <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+          </p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <listWit>
+          <witness xml:id="P" n="cod-MaEth8">Paris 1530</witness>
+        </listWit>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+      <editorialDecl>
+        <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+          guidelines for a diplomatic edition.</p>
+      </editorialDecl>
+    </encodingDesc>
+    <revisionDesc status="draft">
+      <listChange>
+        <change when="2021-05-08" status="draft" n="0.0.0">
+          <p>Created file for the first time.</p>
+        </change>
+      </listChange>
+    </revisionDesc>
+  </teiHeader>
+  <text xml:lang="la">
+    <front>
+      <div xml:id="starts-on">
+        <pb ed="#P" n="1-r"/>
+      </div>
+    </front>
+    <body>
+      <div xml:id="ArNeTH-d1e101"><!-- arist-l1 -->
+        <head xml:id="ArNeTH-d1e101-Hd1e106">Liber 1</head>
+        <div xml:id="ArNeTH-d1e101-Dd1e109"><!-- arist-l1c1 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e112">Caput 1</head>
+          <p xml:id="ArNeTH-d1e101-d1e115" ana="#heading">
+            <!--16.xml-->
+            <pb ed="#P" n="1-r"/>
+            <lb ed="#P" n="1"/>ARISTOTELIS ETHICA 
+            <lb ed="#P" n="2"/>.i. opus de moribus, ad Nicomachum filium, ab Ioanne Argyropylo Bizantio 
+            <lb ed="#P" n="3"/>traductum, &amp; ab Ioanne Maiore Hadingtonano elucidatum: Cuius est 
+            <lb ed="#P" n="4"/>Prologi &amp; Lib. I. Cap. I.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e131">
+            <lb ed="#P" n="5"/>OMnis ars omnisque doctrina atque actus itidem &amp; electio, bonum 
+            <lb ed="#P" n="6"/>quoddam appetere videtur. Quapropter bene veteres bonum ipsum 
+            <lb ed="#P" n="7"/>id esse dixerunt, quod omnia appetunt. Finium autem differentia 
+            <lb ed="#P" n="8"/>quaedam esse videtur. Quidam enim sunt operationes, quidam 
+            <lb ed="#P" n="9"/>praeter has ipsas, opera quaedam. Atque in quibus praeter operationes 
+            <lb ed="#P" n="10"/>alii quidam sunt fines: in iis ipsa opera sunt operationibus 
+            prae<lb ed="#P" n="11" break="no"/>stabiliora. Cum vero complures sint actus, &amp; artes, atque scientiae: 
+            <lb ed="#P" n="12"/>fit vt multi sint etiam fines. Medicinae namque finis est sanitas: artis 
+            <lb ed="#P" n="13"/>extruendarum nauium, nauis: facultatis rei militaris, victoria: &amp; 
+            <lb ed="#P" n="14"/>familiaris rei gubernandae, diuitiae. Quae autem talium sub aliqua 
+            <lb ed="#P" n="15"/>vna potentia sunt: vt ars conficiendorum frenorum, caeteraeque omnes instrumentorum 
+            eque<lb ed="#P" n="16" break="no"/>strium effectrices, sese habent ad facultatem equestrem: &amp; haec cum illis, omnisque actio bellica 
+            <lb ed="#P" n="17"/>ad militarem facultatem: &amp; ad alias aliae simili modo. In iis omnibus fines earum quae 
+            ra<lb ed="#P" n="18" break="no"/>tionem architecturae subeunt, magis sunt expetibiles, quam omnes fines inferiorum: Et illi enim 
+            <lb ed="#P" n="19"/>horum gratia expetuntur. Atque nihil interest siue fines actuum ipsae sint operationes, siue 
+            <lb ed="#P" n="20"/>praeter ipsas aliquid aliud, vt in dictis facultatibus intueri licet. 
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e169"><!-- arist-l1c2 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e172">Caput 2</head>
+          <p xml:id="ArNeTH-d1e101-d1e175" ana="#heading">
+            <lb ed="#P" n="56"/>⁋ Secundum caput Prologi docet in rebus humanis esse aliquem finem vlitimum: &amp; quod cognitio 
+            <lb ed="#P" n="57"/>finis vltimi est ad humanae vitae directionem oppido accommoda, &amp; huiuscemodi consideratio 
+            <lb ed="#P" n="58"/>ad scientiam politicam potissimum attinet, ea propter est praecipua.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e184">
+            <lb ed="#P" n="59"/>Si igitur quispiam rerum agendarum est finis, quem nos propter seipsum, caetera autem 
+            <lb ed="#P" n="60"/>propter hunc volumus: neque fit vt omnia propter aliud expetamus (esset enim 
+            <lb ed="#P" n="61"/>hoc modo sine vllo fine semper abitio, atque hinc noster appetitus inanis 
+            va<lb ed="#P" n="62" break="no"/>nusque resultaret) constat hunc talem finem summum bonum: ipsum optimum esse. 
+            <lb ed="#P" n="63"/>Et ad humanam igitur vitam, magnam huiusce cognitio opem affert. Nam vt 
+            <!--19.xml-->
+            <pb ed="#P" n="2-v"/>
+            <lb ed="#P" n="1"/>sagittarii, signum habentes, magis id quod oportet attingere possumus. Quod si ita sit, 
+            eni<lb ed="#P" n="2" break="no"/>tendum est hunc ipsum figura quidnam sit comprehendere, &amp; cuius sit scientiae vel facultatis 
+            <lb ed="#P" n="3"/>percipere.
+            
+            Videbitur autem eius esse quae maxime dominatur: maximeque rationem subit 
+            archi<lb ed="#P" n="4" break="no"/>tecturae. Talem autem sese offert ipsa ciuilis facultas. Haec enim &amp; quas scientias in 
+            ciuitati<lb ed="#P" n="5" break="no"/>bus esse, &amp; quales quemque discere, &amp; quousque oportet, instituere solet. Eas praeterea facultates, 
+            <lb ed="#P" n="6"/>quae summis afficiuntur honoribus, vt rei militaris, reique familiaris facultatem, ac oratoriam 
+            <lb ed="#P" n="7"/>artem, huic subesse facultati videmus. Cum igitur caeteris actiuis scientiis haec vtatur: &amp; leges 
+            <lb ed="#P" n="8"/>ferat atque instituat quid quisque agere &amp; a quibus abstinere debeat: huius finis, caeterarum 
+            <lb ed="#P" n="9"/>omnium facultatum continet fines. Quo fit vt hic finis sit bonum ipsum humanum. Qquam enim 
+            <lb ed="#P" n="10"/>vnius hominis idem &amp; ciuitatis est bonum, ciuitatis tamen comparare conseruareque bonum maius 
+            <lb ed="#P" n="11"/>atque perfectius esse videtur. Nam amabile est, &amp; si vni soli: maius autem atque diuinius est si 
+            <lb ed="#P" n="12"/>genti ciuitatibusve acquisitum, partumque conseruetur. Haec igitur appetit haec doctrina, cum 
+            <lb ed="#P" n="13"/>sit facultas quaedam ciuilis.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e231"><!-- arist-l1c3 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e234">Caput 3</head>
+          <p xml:id="ArNeTH-d1e101-d1e237" ana="#heading">
+            <!--21.xml-->
+            <pb ed="#P" n="3-v"/>
+            <lb ed="#P" n="1"/>Prologi. CAP III.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e246">
+            <lb ed="#P" n="2"/>DIcetur autem satis, si declarabitur perinde atque subiecta materia postulat. 
+            <lb ed="#P" n="3"/>Ipsum enim exactum non est in omnibus simili modo rationibus 
+            flagi<lb ed="#P" n="4" break="no"/>tandum: sicut nec in iisce quae per artem conficiuntur. Honesta autem &amp; 
+            <lb ed="#P" n="5"/>iusta de quibus ciuilis considerat, tantam differentiam erroremque habent, 
+            <lb ed="#P" n="6"/>ivt lege tantum esse videantur, &amp; non natura. Talem etiam quendam 
+            er<lb ed="#P" n="7" break="no"/>rorem habent &amp; ipsa bona, quia compluribus ex ipsis accidunt detrimenta. 
+            <lb ed="#P" n="8"/>lam enim quidam ob diuitias, quidam ob fortitudinem periere. Amabile igitur est de 
+            ta<lb ed="#P" n="9" break="no"/>libus atque ex talibus dicentes, grosso modo figuraque, verum ipsum ostendere: &amp; de iis quae  
+            <lb ed="#P" n="10"/>sunt plerumque, atque ex talibus dicentes talia &amp; concludere. Eodem modo &amp; vnumquemque 
+            audito<lb ed="#P" n="11" break="no"/>rem ea quae dicuntur acceptare oportet. Est enim eruditi exactum ipsum eatenus in vnoquoque 
+            <lb ed="#P" n="12"/>genere flagitare, quatenus fert ipsius rei natura. Simile namque videtur esse mathematicum 
+            sua<lb ed="#P" n="13" break="no"/>dentem probare, &amp; ab oratore demonstrationes exigere. Atque bene quisque iudicat ea quae  
+            <lb ed="#P" n="14"/>cognoscit, &amp; ipsorum bonus est iudex.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e277">
+            Is ergo in vnaquaque re bene iudicat, qui in illa est 
+            <lb ed="#P" n="15"/>eruditus. Absolute autem qui est in omnibus eruditus. Quapropter iuuenis ciuilis disciplinae 
+            <lb ed="#P" n="16"/>non est idoneus auditor. Est enim rudis actuum vitae. Ex his autem, &amp; de his ipsae rationes 
+            <lb ed="#P" n="17"/>efficiuntur. Praeterea cum perturbationes sequatur: vane, sineque vtilitate audiet: quippe cum 
+            <lb ed="#P" n="18"/>finis non cognitio sit, sed actio. Interest autem nihil iuuenis sit aetate, an moribus iuuenis 
+            <lb ed="#P" n="19"/>similis. Non enim defectio est ob tempus: sed quia viuit &amp; persequitur singula cum 
+            pertur<lb ed="#P" n="20" break="no"/>batione. Talibus enim inutilis fit ipsa cognitio: perinde atque incontinentibus ipsis. lis autem 
+            <lb ed="#P" n="21"/>qui suas rationi subiiciunt appetitiones, cum rationeque agunt, magnam afferre potest 
+            vtili<lb ed="#P" n="22" break="no"/>tatem.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e297">
+            De auditore igitur &amp; quonam modo rationes sunt acceptandae, quidque 
+            proponi<lb ed="#P" n="23" break="no"/>mus: tot exordii loco sint dicta.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e303"><!-- arist-l1c4 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e306">Caput 4</head>
+          <p xml:id="ArNeTH-d1e101-d1e309" ana="#heading"><!-- aristotle -->
+            <lb ed="#P" n="29"/>Tractatus Primus. Cap. I. &amp; LIR. I. Cap. IIII.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e315">
+            <lb ed="#P" n="30"/>NVnc autem repetentes dicamus: cum omnis cognitio atque electio bonum 
+            <lb ed="#P" n="31"/>quoddam affectet, quidnam fit id quod ciuilem appetere dicimus 
+            facul<lb ed="#P" n="32" break="no"/>tatem: &amp; quid omnium rerum agendanrum supremum sit bonum. Nomine 
+            <lb ed="#P" n="33"/>igitur omnes fere de ipso consentiunt. Nam &amp; vulgus &amp; elegantes 
+            foeli<lb ed="#P" n="34" break="no"/>licitatem inquiunt esse. Atque bene viuere, bene agere, &amp; foelicem esse: eadem 
+            <lb ed="#P" n="35"/>Resse putant. De foelicitate autem quaenam sit dissentiunt: &amp; non similiter 
+            <lb ed="#P" n="36"/>gus, ac sapientes eam assignant. Quidam enim vnum quid eorum quae clara, manifestaque 
+            <lb ed="#P" n="37"/>sunt, ipsam esse putant: vt voluptatem, aut diuitias, aut honorem. Quidam aliquid aliud: 
+            <lb ed="#P" n="38"/>persaepe etiam vnus, idemque, diuersum. Nam cum aegrotat, sanitatem: cum pauper est, 
+            diui<lb ed="#P" n="39" break="no"/>tias. Ignorationis vero conscii suae eos admirantur qui magnum aliquid &amp; vltra vires 
+            ipso<lb ed="#P" n="40" break="no"/>rum dicunt. Quidam autem praeter haec plura bona: aliud quoddam per se esse putabant, 
+            <lb ed="#P" n="41"/>quod quidem &amp; his vniuersis vt sint bona censuere causam esse. Omnes igitur opiniones 
+            <lb ed="#P" n="42"/>scrutari superuacaneum est fortasse. Satis autem erit, si eas scrutabimur quae maximae 
+            ex<lb ed="#P" n="43" break="no"/>tant: aut rationem aliquam habere videntur.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e348">
+            Atenim ne lateat nos eas inter sese rationes 
+            <lb ed="#P" n="44"/>differre quae a principiis proficiscuntur: &amp; quae ad principia pergunt. Recte enim &amp; Plato 
+            <lb ed="#P" n="45"/>dubitabat atque quaerebat: vtrum a principiis, an ad principia sit ipsa via: vt in stadio ad 
+            cal<lb ed="#P" n="46" break="no"/>cem exiisse qui praemia ponunt: an contra. Enimuero semper est a notis incipiendum. Haec 
+            <lb ed="#P" n="47"/>autem duobus modis talia sunt. Alia namque sunt nobis, alia simpliciter nota. Nobis igitur 
+            <lb ed="#P" n="48"/>forsitan ex iis incipiendum est, quae nobis sunt nota. Quo bene circa institutum moribus 
+            <lb ed="#P" n="49"/>eum esse oportet, qui de honestis &amp; iustis &amp; omni ciuili ratione est sufficienter auditurus. 
+            <lb ed="#P" n="50"/>Est enim principium esse. Atque si hoc satis constet, non opus erit ipso cur est. Talis autem 
+            <lb ed="#P" n="51"/>aut habet principia, aut accipere facile potest: cui vero neutrum horum inest, is Hesiodi 
+            <lb ed="#P" n="52"/>sententiam audiat hisce carminibus explicatam. 
+            <lb ed="#P" n="53"/>
+            <quote xml:id="ArNeTH-d1e101-Qd1e371">Optimus ille quidem est, ex sese qui omnia nouit: 
+              <lb ed="#P" n="54"/>Perceptis quae post &amp; semper sunt meliora. 
+              <lb ed="#P" n="55"/>Is rursum bonus est, paret qui recta monenti. 
+              <lb ed="#P" n="56"/>At qui ex se nescit: nec cuiquam porrigit aures 
+              <lb ed="#P" n="57"/>Vt bona percipiat: demens &amp; inutilis ille est.</quote>
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e385"><!-- arist-l1c5 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e388">Caput 5</head>
+          <p xml:id="ArNeTH-d1e101-d1e391" ana="#heading">
+            <!--26.xml-->
+            <pb ed="#P" n="6-r"/>
+            <lb ed="#P" n="1"/>Tract. I. Cap. II. Et Lib. I. Cap. V
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e400">
+            <lb ed="#P" n="2"/>SEd nos eo redeamus vnde digressi sumus. Summum enim bonum foelici 
+            <lb ed="#P" n="3"/>tatemque non sine ratione ex viuendi modo videntur existimare: vulgus 
+            qui<lb ed="#P" n="4" break="no"/>dem &amp; importunissimi, voluptatem. Quapropter &amp; deditam voluptatibus 
+            <lb ed="#P" n="5"/>vitam amant. Tres enim sunt maxime quae praecellunt: ea quae nunc dicta est, 
+            <lb ed="#P" n="6"/>&amp; ciuilis, &amp; contemplatiua tertia. Vulgus igitur mancipii simile penitus 
+            <lb ed="#P" n="7"/>esse videtur: pecorum vitam diligendo. Habet autem rationem, quod complures 
+            eo<lb ed="#P" n="8" break="no"/>rum qui sunt in potestatibus constituti, perinde atque Sardanapalus viuunt. Elegantes autem 
+            <lb ed="#P" n="9"/>&amp; ad agendum idonei: honorem. Honos enim finis fere ciuilis est vitae. Videtur autem ab eo dista 
+            <lb ed="#P" n="10"/>re quod quaerimus. Nam tam in iis qui afficiunt, quam in iis qui afficiuntur honoribus: esse videtur. 
+            <lb ed="#P" n="11"/>Summum autem bonum proprium quid taleque esse vaticinamur: vt auferri facile nequeat. Praeterea 
+            <lb ed="#P" n="12"/>honorem persequi videntur: vt seipsos bonos esse credant. Itaque a prudentibus, &amp; apud eos qui 
+            <lb ed="#P" n="13"/>ipsos cognoscunt, &amp; ob virtutem honoribus affici quaerunt. Constat igitur secundum hos ipsos 
+            <lb ed="#P" n="14"/>honore praestabiliorem esse virtutem. Atque forsitam &amp; finem quispiam ciuilis vitae magis hanc 
+            <lb ed="#P" n="15"/>esse putauerit. Verum &amp; ipsa videtur imperfectior esse. Videtur enim posse virtutem haben 
+            <lb ed="#P" n="16"/>tem, &amp; dormire: aut non agere quicquam per vitam &amp; insuper in maximis malis atque 
+            aduersita<lb ed="#P" n="17" break="no"/>tibus fortunae positum esse. Eum vero qui ita se habet: nemo foelicem dixerit: nisi qui positio 
+            <lb ed="#P" n="18"/>nem obseruat. Sed haec hactenus. Satis enim de his est &amp; in conuersionibus dictum. De con 
+            <lb ed="#P" n="19"/>templatrice autem vita: quam tertiam diximus: in sequentibus considerationem faciemus. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e442">
+            <lb ed="#P" n="20"/>Ea vero quae pecuniis incumbit, violenta quaedam est vita: ipsaeque diuitiae non sunt id quod  
+            <lb ed="#P" n="21"/>quaerimus, bonum. Vtiles enim sunt &amp; ob aliud. Quapropter ea quae prius sunt dicta: 
+            poti<lb ed="#P" n="22" break="no"/>us quispiam fines esse existimauerit: quippe cum propter se expetantur. At neque etiam illa vi 
+            <lb ed="#P" n="23"/>dentur: quamquam ad ipsa complures inactae sunt rationes. Haec igitur missa faciamus.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e454"><!-- arist-l1c6 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e457">Caput 6</head>
+          <p xml:id="ArNeTH-d1e101-d1e460" ana="#heading">
+            <lb ed="#P" n="9"/>Tract. I. CAb. III. &amp; LIR. I. CAb. VI.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e465">
+            <lb ed="#P" n="10"/>REstat autem fortasse de vniuersali bono considerare, &amp; quonam modo 
+            di<lb ed="#P" n="11" break="no"/>llcitur dubitare, quamquam haec quaestio perardua nobis est: propterea quod amici sunt 
+            <lb ed="#P" n="12"/>qui formas ipsas introduxerunt. Verum melius forsitan &amp; oportere 
+            vi<lb ed="#P" n="13" break="no"/>ldebitur sua quoque praesertim philosophos, pro veritatis salute refellere. Nan 
+            <lb ed="#P" n="14"/>lcum ambo sint amici, sanctum est honori veritatem praeferre.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e478">
+            Qui igitur 
+            <lb ed="#P" n="15"/>&amp; xhanc attulerunt opinionem in iisce non faciebant ideas: in quibus prius 
+            <lb ed="#P" n="16"/>&amp; posterius esse dicebant. Idcirco neque numerorum ideam conficiebant. At bonum &amp; in 
+            sub<lb ed="#P" n="17" break="no"/>stantia dicitur, &amp; in quali, &amp; in eo quod est ad aliquid. Atque id quod est per se substantia ve. 
+            <lb ed="#P" n="18"/>prius est eo natura quod est ad aliquid. Est enim hoc propagini &amp; accidenti eius quod est si 
+            <lb ed="#P" n="19"/>mile. Quibus efficitur, vt non sit in omnibus communis quaedam idea. Praeterea cum bonum aeque 
+            <lb ed="#P" n="20"/>atque id quod est dicatur: (Nam in substantia dicitur bonum, vt mens &amp; deus: &amp; in quali, 
+            vir<lb ed="#P" n="21" break="no"/>tus: &amp; in quanto, mediocre: &amp; in relatione, vtile: &amp; in tempore, occasio: &amp; in loco, mora: &amp; alia 
+            <lb ed="#P" n="22"/>istiusmodi) constat non esse commune quicquam vniuersale ac vnum. Non enim in omnibus 
+            prae<lb ed="#P" n="23" break="no"/>dicamentis: sed in vno tantummodo diceretur. Praeterea cum eorum quae vnam habent idaeam: 
+            <lb ed="#P" n="24"/>vna sit &amp; scientia, bonorum etiam omnium vna scientia quaedam esset. Nunc autem plures sunt 
+            <lb ed="#P" n="25"/>&amp; eorum quae sub eodem praedicamento sunt collocata: vt temporis. in bello quidem militaris 
+            fa<lb ed="#P" n="26" break="no"/>cultas. In aegritudine autem ars medendi. Et mediocris in alimento quidem medicina. In laboribus 
+            <lb ed="#P" n="27"/>autem ars corporis exercendi. Dubitauerit autem quispiam quidnam &amp; velint dicere ipsum, quodque  
+            <lb ed="#P" n="28"/>si vna &amp; eadem hominis est ratio: &amp; in ipso homine &amp; in homine. Nam quo vterque est 
+            homo<lb ed="#P" n="29" break="no"/>hoc differentiam inter sese nullam habebunt: quod si ita est, neque quo vtrunque est bonum. At vero 
+            <lb ed="#P" n="30"/>naeque quia perpetuum est, ideo magis erit bonum: siquidem neque diuturnum album magis est album, quam 
+            <lb ed="#P" n="31"/>vnius album diei. Probabilius autem de ipso videntur dicere Pythagorici: ipsum vnum in bonorum 
+            <lb ed="#P" n="32"/>serie collocantes, quos secutus videtur &amp; Speusippus. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e520">
+            Sed de his quidem alius erit sermo. In iis 
+            <lb ed="#P" n="33"/>autem quae dicta sunt controuersia quaedam videtur, quod rationes non de omni bono sunt dictae Dicum 
+            <lb ed="#P" n="34"/>tur autem vna specie bona, ea quae amantur per se. Ea vero quae haec efficiunt, aut aliquo modo conser 
+            <lb ed="#P" n="35"/>uant, aut contraria prohibent: propter haec ipsa, modoque alio, bona dicuntur. Constat igitur bona 
+            <lb ed="#P" n="36"/>bifariam dici: alia per se, alia propter illa. Seiunctis igitur per se bonis, a bonis vtilibus: 
+            conside<lb ed="#P" n="37" break="no"/>remus si ea quae sunt per se, vna idea bona dicantur. At quaenam quispiam posuerit per se bona? An 
+            <lb ed="#P" n="38"/>ea quae &amp; sine aliis persequimur: quale est sapere, &amp; videre, &amp; voluptates nonnullae atque honores? 
+            <lb ed="#P" n="39"/>Haec enim tametsi propter aliud quippiam persequimur: tamen ex iis esse posuerit quispiam quae 
+            <lb ed="#P" n="40"/>sunt per se bona. An nihil aliud praeter ideam ponendum est? Quare forma res quaedam erit inanis. 
+            <lb ed="#P" n="41"/>Quod si haec quoque per se sunt bona, eandem in his omnibus ipsius boni rationem inesse oportebit: 
+            <lb ed="#P" n="42"/>perinde atque albedinis ratio eadem est in niue atque cerussa. At honoris, &amp; prudentiae, &amp; 
+            volupta<lb ed="#P" n="43" break="no"/>tis hoc ipso quo bona sunt, diuersae sunt rationes ac differentes: ipsum ergo bonum non est quid  
+            <lb ed="#P" n="44"/>commune vna idea.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e550">
+            At quonam modo dicuntur? Non enim iisce similia sunt quae nomine eodem 
+            fortui<lb ed="#P" n="45" break="no"/>to nuncupantur. Dicuntur ne igitur: quia sunt ab vno, aut ad vnum omnia conferuntur? An comparatione 
+            <lb ed="#P" n="46"/>potius rationum: Etenim vt est in corpore visus: sic est in aia mens: &amp; aliud item in alio. Sed haec 
+            <lb ed="#P" n="47"/>in praesenti forsitan omittenda sunt. Nam exacte ipsa discutere: ad aliam magis spectat 
+            philoso<lb ed="#P" n="48" break="no"/>phiam. Et de idea similiter. Constat enim &amp; si est aliquod vnum bonum quod communiter praedicatur: aut  
+            <lb ed="#P" n="49"/>separatum quid ipsum per se: non tamen aut agi, aut acquiri ab homine posse. Nunc autem tale 
+            <lb ed="#P" n="50"/>quaeritur. Fortasse autem cuipiam melius esse videbitur cognoscere ipsum ad ea bonorum quae pos 
+            <lb ed="#P" n="51"/>sideri ac agi possunt. Nam velut exemplar id habentes magis ea quae nobis sunt bona sciemus. Et 
+            <lb ed="#P" n="52"/>si scierimus: assequemur. Haec igitur ratio habet quidem quandam probabilitatem. Ascientiis autem 
+            <lb ed="#P" n="53"/>discrepare videtur. Vniuersae namque bonum affectantes quoddam: idque quod deest perquirentes, 
+            hu<lb ed="#P" n="54" break="no"/>ius praetermittunt cognitionem. Tantam tamen opem vniuersos artifices ignorare, &amp; non perquirere 
+            <lb ed="#P" n="55"/>non est consentaneum rationi. Dubium autem est &amp; quidnam ad suam artem, aut textori confert aut fabro: 
+            <!--28.xml-->
+            <pb ed="#P" n="7-r"/>
+            <lb ed="#P" n="1"/>si ipsum scierit bonum, aut quonam pacto vel medicus vel dux euadet peritior, qui ideam 
+            <lb ed="#P" n="2"/>ipsam aspexerit. Neque enim valetudinem hoc modo medicus, sed hominis: immo vero huius 
+            <lb ed="#P" n="3"/>fortasse considerare videtur: quippe cum singulis hominibus medeatur. Sed de his hactenus. 
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e588"><!-- arist-l1c7 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e591">Caput 7</head>
+          <p xml:id="ArNeTH-d1e101-d1e594" ana="#heading">
+            <lb ed="#P" n="18"/>Tract.I. Cap. IIII. Et Lib. I. Cap. VII.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e599">
+            <lb ed="#P" n="19"/>NVnc rursus redeamus ad id quod quaerimus bonum, &amp; quid tandem 
+            <lb ed="#P" n="20"/>sit ipsum inuestigemus. Esse enim aliud in alia actione, arteque videtur. Aliud 
+            <lb ed="#P" n="21"/>T est enim in medicina, &amp; in re militari, &amp; in caeteris simili modo. Quid igi 
+            <lb ed="#P" n="22"/>tur vnicuique bonum est? An non id gratia cuius caetera aguntur: hoc 
+            au<lb ed="#P" n="23" break="no"/>tem in medicina quidem est sanitas. In rei vero militaris facultate 
+            victo<lb ed="#P" n="24" break="no"/>ria: &amp; in extruendarum aedium arte domus: &amp; in alia aliud. In actione 
+            eti<lb ed="#P" n="25" break="no"/>am omni electione ve id quod est finis. Huius enim gratia caetera omnes agunt. Quare 
+            si<lb ed="#P" n="26" break="no"/>quis omnium rerum agendarum sit finis: is ipsum bonum agendum erit. Sinautem vero 
+            plu<lb ed="#P" n="27" break="no"/>res: hi ipsi. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e621">
+            Oratio igitur migrando ad idem accessit. Enitendum autem est magis hoc decla 
+            <lb ed="#P" n="28"/>rare. Cum itaque plures esse videantur fines: &amp; horum quosdam ob alios expectamus: vt diui 
+            <lb ed="#P" n="29"/>tias, fistulas, instrumentaque, omnino perspicuum est non omnes fines esse perfectos. At finis 
+            <lb ed="#P" n="30"/>optimus, perfectum quiddam esse videtur. Quare si tantum vnus perfectus sit finis, is hic erit 
+            <lb ed="#P" n="31"/>qui quaeritur. Sin plures: is qui horum est perfectissimus. Eum autem qui per se est expetibi 
+            <lb ed="#P" n="32"/>lis perfectiorem eo dicimus esse: qui est propter alium expetendus. Et eum qui nunquam ob 
+            ali<lb ed="#P" n="33" break="no"/>um expetitur, iis vniuersis qui per se &amp; propter illum etiam expetuntur. Et eum igitur 
+            per<lb ed="#P" n="34" break="no"/>fectum simpliciter: qui per se semper est &amp; nunquam ob alium expetendus.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e639">
+            Talis autem finis ipsa 
+            <lb ed="#P" n="35"/>foelicitas maxime esse videtur. Hanc enim propter se ipsam semper, &amp; nunquam ob aliud quicquam 
+            <lb ed="#P" n="36"/>expetimus. Honorem autem, voluptatem, mentem, virtutem denique omnem, &amp; propter se ex 
+            <lb ed="#P" n="37"/>petimus (quippe cum ipsorum quodque expeteremus: si nihil inde etiam proueniret) &amp; 
+            foe<lb ed="#P" n="38" break="no"/>licitatis etiam gratia per haec ipsa foelices fore nos arbitrantes. Sed illorum gratia 
+            foelicita<lb ed="#P" n="39" break="no"/>tem: aut ob aliud prorsus expetit nemo.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e653">
+            Idem &amp; ex sufficientia videtur accidere. Perfectum 
+            <lb ed="#P" n="40"/>nanque bonum per se sufficiens esse videtur. Sufficiens autem dicimus: non ipsi soli qui vitam 
+            <lb ed="#P" n="41"/>solitatiam agit: sed &amp; parentibus, &amp; natis, &amp; vxori, &amp; amicis omnino, ac ciuibus: quandoqui 
+            <lb ed="#P" n="42"/>dem homo natura ciuilis est. Atque sumendus est in hisce terminus quidam. Nam si ad paren 
+            <lb ed="#P" n="43"/>tes hoc ipsum &amp; natorum natos &amp; amicorum amicos extenderis: in infinitum fiet abitio. 
+            <lb ed="#P" n="44"/>Sed de hoc considerandum est postea. Id autem sufficiens esse ponimus: quod solum a 
+            caete<lb ed="#P" n="45" break="no"/>ris segregatum, expetibilem vitam facit: reique nullius indigentem. Talem autem foelicitatem 
+            <lb ed="#P" n="46"/>ipsam esse existimamus. Et insuper cum non numeratur cum caeteris maxime omnium 
+            ex<lb ed="#P" n="47" break="no"/>petibilem, numeratur: cum magis expetibilem cum minimo bonorum esse putamus. Excessus 
+            <lb ed="#P" n="48"/>enim bonorum fit id quod adiungitur. Id autem semper magis est expetibile quod maius 
+            <lb ed="#P" n="49"/>est bonum. Perfectum igitur quoddam &amp; sufficiens videtur esse foelicitas: cum sit rerum agen 
+            <lb ed="#P" n="50"/>darum omnium finis.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e679">
+            <pc type="pilcrow">¶</pc> Sed forsitan foelicitatem quidem summum esse bonum dicere ab 
+            vni<lb ed="#P" n="51" break="no"/>uersis conceditur: desideratur autem vt dilucidius quidnam sit ipsa dicatur. Hoc igitur for 
+            <lb ed="#P" n="52"/>tasse fuerit, si opus hominis caperetur. Vt enim modulatoris, statuarii, caeterorumque 
+            artifi<lb ed="#P" n="53" break="no"/>cum, &amp; eorum omnium omnino quorum est opus aliquod actione bonum: &amp; id quod bene 
+            <lb ed="#P" n="54"/>sese habet, in ipso opere videtur consistere: sic &amp; hominis bonum in opere ipsius esse vide¬ 
+            <!--32.xml-->
+            <pb ed="#P" n="9-r"/>
+            <lb ed="#P" n="1"/>bitur: si sit ipsius aliquod opus. Eabri ne igitur &amp; sutoris opera sunt quaedam actionesve: 
+            <lb ed="#P" n="2"/>hominis autem nullum est opus sed est ociosus? An vt oculi, manus, pedis, &amp; cuiusque 
+            omni<lb ed="#P" n="3" break="no"/>no partis aliquod opus esse videtur: sic &amp; hominis praeter haec omnia quispiam aliquod 
+            po<lb ed="#P" n="4" break="no"/>suerit opus? Quid igitur id fuerit tandem? Viuere enim homini commune videtur esse cum 
+            <lb ed="#P" n="5"/>plantis. Opus autem proprium quaeritur. Segreganda est ergo nutriendi augendique vita. hanc 
+            <lb ed="#P" n="6"/>sentiendi sequitur vita. At ipsam etiam homini cum equo, ac boue, omnique animali constat 
+            <lb ed="#P" n="7"/>esse communem. Restat igitur actiua quaedam rationem habentis. Huius autem aliud est vt 
+            <lb ed="#P" n="8"/>obediens rationi, aliud vt eam habens atque intelligens. Sed cum haec etiam bifariam 
+            dica<lb ed="#P" n="9" break="no"/>tur: ea ponenda est quae est actu: haec enim magis proprie dici videtur. Est igitur opus homi 
+            <lb ed="#P" n="10"/>nis, operatio animae per rationem: aut non sine ratione. At vero opus huius, ac studiosi 
+            hu<lb ed="#P" n="11" break="no"/>ius, idem esse genere dicimus vt citharoedi: studiosique citharoedi. Et hoc in omnibus absolute. 
+            <lb ed="#P" n="12"/>excessu qui est a virtute ad ipsum opus adiuncto. Citharoedi namque opus est citharam 
+            pulsa<lb ed="#P" n="13" break="no"/>re, studiosi vero bene pulsare. Eodem modo cum hominis opus vitam quandam esse 
+            pona<lb ed="#P" n="14" break="no"/>mus &amp; hanc ipsam operationem animae, atque actus cum ratione: studiosi profecto viri haec ip 
+            <lb ed="#P" n="15"/>sa sunt: cum bene, recteque fiunt. Singula autem bene, per propriam virtutem efficiuntur. Quae 
+            <lb ed="#P" n="16"/>cum ita sint: fit vt bonum humanum animae sit operatio per virtutem: &amp; si plures sint virtutes, 
+            <lb ed="#P" n="17"/>per optimam nimirum &amp; perfectissimam:
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e734">
+            Et insuper in vita perfecta, Ver enim nec vna 
+            fa<lb ed="#P" n="18" break="no"/>cithirundo, nec vnus dies. Et beatum eodem modo, foelicemve, nec vnus dies, nec breue 
+            effi<lb ed="#P" n="19" break="no"/>cit tempus,
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e741">
+            summum igitur bonum hoc circunscriptum sit modo. primum nanque forsitam vt 
+            <lb ed="#P" n="20"/>figuram quandam describere, postea depingere ipsum oportet. Videtur autem cuiuslibet 
+            <lb ed="#P" n="21"/>esse ea quae bene sunt circumscripta producere &amp; explicare atque exponere. Tempusque talium 
+            in<lb ed="#P" n="22" break="no"/>uentor esse atque adiutor bonus: vnde &amp; artium facta sunt incrementa. Est enim cuiuslibet 
+            <lb ed="#P" n="23"/>id quod deest supplere ac addere. Oportet autem &amp; ea quae supradiximus in memoria 
+            habe<lb ed="#P" n="24" break="no"/>re: &amp; ipsum exactum non in omnibus eodem modo, sed in singulis vt patitur subiecta 
+            mate<lb ed="#P" n="25" break="no"/>ries: &amp; eousque quousque ad doctrinam attinet, flagitare. Nam faber &amp; geometra diuerso modo  
+            <lb ed="#P" n="26"/>angulum rectum inquitunt. Alter enim quantum vtilis est ad opus? Alter quidnam sit, &amp; 
+            qua<lb ed="#P" n="27" break="no"/>le quidem ipsum inquirit. Contemplator enim est veritatis. Idem modus &amp; in caeteris est 
+            ser<lb ed="#P" n="28" break="no"/>uandus: ne iisce quae instituimus agere plura fiant ea quae fines illorum egrediuntur. Nec in  
+            <lb ed="#P" n="29"/>omnibus simili modo causa postulanda est. Sed sat est in quibusdam si bene demonstrata fue 
+            <lb ed="#P" n="30"/>rint esse: quod quidem &amp; in ipsis principiis fit. Atque hic modus primus est &amp; principium 
+            <lb ed="#P" n="31"/>Principiorum autem alia inductione, alia sensu, alia assuetudine quadam, alia alio modo 
+            per<lb ed="#P" n="32" break="no"/>spiciuntur. Enitendum est autem singula pertractare vt suapte natura percipi possunt: &amp; 
+            ad<lb ed="#P" n="33" break="no"/>hibenda est diligentia vt bene diffiniantur. Nam magnam ad ea quae sequuntur afferunt 
+            <lb ed="#P" n="34"/>opem. Principium enim plusquam dimidium totius esse videtur: &amp; eorum quae quaeruntur 
+            con<lb ed="#P" n="35" break="no"/>plura per ipsum manifesta fieri solent.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e779"><!-- arist-l1c8 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e782">Caput 8</head>
+          <p xml:id="ArNeTH-d1e101-d1e785" ana="#heading"><!-- Arist -->
+            <lb ed="#P" n="5"/>Tractatus. I. Cap. V. &amp; Lib. I. Cap. VIII.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e791">
+            <lb ed="#P" n="6"/>COnsiderandum est igitur de ipso non ex conclusione solum, &amp; iis ex 
+            qui<lb ed="#P" n="7" break="no"/>bus est ipsa ratio: sed ex iis etiam quae de ipso dicuntur. Vero namque omnia quae  
+            <lb ed="#P" n="8"/>competunt consona sunt. Afalso autem cito ipsum discrepat verum. Cum 
+            <lb ed="#P" n="9"/>igitur bona in tria sint diuisa: &amp; alia externa, alia circa animam, alia circa 
+            <lb ed="#P" n="10"/>corpus bona dicantur: ea quae sunt circa animam, propriissime maximeque di 
+            <lb ed="#P" n="11"/>⁋Acimus bona. At actus &amp; operationes animae circa animam esse ponimus. 
+            <lb ed="#P" n="12"/>Quare hac opinione cum antiqua, tum a philosophantibus concessa: bene dicitur finem 
+            <lb ed="#P" n="13"/>ipsum actus quosdam &amp; operationes esse. Sic enim fit, vt sit ex ipsis animae bonis, &amp; non ex 
+            <lb ed="#P" n="14"/>bonis externis. Consonum est etiam ipsi rationi, &amp; id quod dicitur: foelicem inquam bene 
+            vi<lb ed="#P" n="15" break="no"/>uere beneque agere, fere enim bona quaedam vita, bonaque actio dictus est. Cuncta praeterea quae 
+            <lb ed="#P" n="16"/>circa felicitatem quaeruntur, ei quod dictum est, inesse videntur. Aliis nanque virtus, aliis 
+            pru<lb ed="#P" n="17" break="no"/>dentia, aliis sapientia quaedam, aliis haec aut horum aliquod cum voluptate, aut non sine 
+            vo<lb ed="#P" n="18" break="no"/>luptate foelicitas esse videtur. Sunt &amp; qui externam etiam affluentiam simul accipiunt. Atque 
+            <lb ed="#P" n="19"/>haec partim multi &amp; antiqui, partim pauci, virique dicunt praeclari: quorum neutros tota via 
+            <lb ed="#P" n="20"/>aberrare, sed aliquid ex parte &amp; in plurimis verum attingere consentaneum est rationi.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e826">
+            Eo<lb ed="#P" n="21" break="no"/>rum igitur sententiae: qui vel omnem vel aliquam virtutem foelicitatem asserunt esse, ipsa ra l 
+            <lb ed="#P" n="22"/>tio consona est. Huius est enim ea operatio, quae per ipsum efficitur. Interest autem fortasse 
+            <lb ed="#P" n="23"/>non parum, in possessione, an in vsu, ac in habitu, an in operatione summum consistere bonum 
+            <lb ed="#P" n="24"/>putare. Fieri enim potest vt habitus, &amp; si quidem inest, nullum efficiat bonum: vt in 
+            dormien<lb ed="#P" n="25" break="no"/>te: vel etiam alio modo quodam ocioso facto. Vt operatio autem nihil efficiat boni, fieri ne 
+            <lb ed="#P" n="26"/>quit. Qui nanque operatur, aget vtique necessario: &amp; bene etiam aget. Atque vt in olympia, non 
+            <lb ed="#P" n="27"/>ii qui sunt elegantissimi forma praestantissimique robore: sed ii qui decertant, coronis 
+            afficiun<lb ed="#P" n="28" break="no"/>tur (ipsorum enim aliqui vincunt) sic &amp; qui bene agunt, eorum quae sunt in vita pulchra 
+            bo<lb ed="#P" n="29" break="no"/>naque compotes fiunt.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e848">
+            Est autem &amp; vita ipsorum per se iucunda. Nam voluptate quidem 
+            <lb ed="#P" n="30"/>affici, ex iis est quae ad animam pertinent. ld autem est cuique voluptati, cuius amator 
+            dici<lb ed="#P" n="31" break="no"/>tur quisque: vt equus equorum amatori: &amp; spectaculum spectaculorum identidem amatori: 
+            <lb ed="#P" n="32"/>eodem modo &amp; amatori iustorum iusta: &amp; omnino virtutum amatori, ea quae per virtutem 
+            <lb ed="#P" n="33"/>efficiuntur. Quae igitur voluptati sunt vulgo, ea repugnantia sunt: propterea quod non natura 
+            <lb ed="#P" n="34"/>talia sunt, sed amatoribus honestatis ea sunt voluptati, quae sunt natura iucunda. Tales 
+            au<lb ed="#P" n="35" break="no"/>tem eae sunt actiones quae a virtute emanant. Quare &amp; his ipsae sunt voluptati, atque per 
+            se<lb ed="#P" n="36" break="no"/>ipsas iucundae. Ipsorum igitur vita non indiget voluptate, tanquam aliqua foris 
+            adiungenda<lb ed="#P" n="37" break="no"/>sed habet in seipsa voluptatem. Praeter enim ea quae dicta sunt, neque bonus is est qui honis 
+            <lb ed="#P" n="38"/>actionibus non delectatur. Nam neque iustum eum quisquam dixerit, qui iustis non gaudet: neque 
+            <lb ed="#P" n="39"/>liberalem eum, qui liberalibus actionibus non delectatur. Et in caeteris eodem modo. Qa si 
+            <lb ed="#P" n="40"/>haec ita sint actionum, eae quae a virtute proficiscuntur, per seipsas sunt voluptati atque iucundae. 
+            <lb ed="#P" n="41"/>At vero bonae quoque sunt, &amp; etiam pulchrae: atque horum vnumquoque maxime ipsis competit. 
+            <lb ed="#P" n="42"/>si recte de his ipse iudicat studiosus. ludicat autem vt est dictum. Optimum ergo &amp; pulcher 
+            <lb ed="#P" n="43"/>rimum &amp; iucundissimum est ipsa foelicitas: &amp; non seiunguntur haec perinde atque in illo 
+            <lb ed="#P" n="44"/>deliaco carmine separantur. 
+            <lb ed="#P" n="45"/>
+            <quote xml:id="ArNeTH-d1e101-Qd1e884">Summe est pulchrum, ex astrea quod gignitur alma. 
+              <lb ed="#P" n="46"/>Optima si valeas res est, quod quilibet optat, 
+              <lb ed="#P" n="47"/>Summe est iucundum si re potiaris amata.</quote> 
+            <lb ed="#P" n="48"/>Haec enim operationibus omnia competunt. Has autem ipsas, aut vnam ipsarum quae sit opti¬ L 
+            <lb ed="#P" n="49"/>ma, foelicitatem ipsam dicimus esse,
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e898">
+            
+            Videtur tamen &amp; externis indigere bonis, vt diximus, 
+            <lb ed="#P" n="50"/>Fieri enim non potest aut non facile fit: vt is res agat praeclaras, cui facultates desunt. Mul 
+            <lb ed="#P" n="51"/>ta nanque per amicos, per diuitias, per ciuilem potentiam, tanquam per instrumenta aguntur. 
+            Qui<lb ed="#P" n="52" break="no"/>busdam autem carentes, vt nobilitate, bona prole, pulchritudine, beatitudinem maculant. Non 
+            <lb ed="#P" n="53"/>enim satis ad foelicitatem idoneus est, qui penitus est deformis, aut ignobilis, aut solitarius sine 
+            <!--37.xml-->
+            <pb ed="#P" n="11-v"/>
+            <lb ed="#P" n="1"/>prole. Et minus etiam fortasse: si cui perpraui sint filii, vel amici, aut boni mortui sint. Vt 
+            <lb ed="#P" n="2"/>igitur diximus, videtur foelicitas &amp; talis indigere prosperitatis. Vnde quidam 
+            prosperita<lb ed="#P" n="3" break="no"/>tem fortunam, quidam virtutem foelicitatem esse dicunt.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e921"><!-- arist-l1c9 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e924">Caput 9</head>
+          <p xml:id="ArNeTH-d1e101-d1e927" ana="#heading"><!-- arist -->
+            <lb ed="#P" n="31"/>Tractatus. II. Cap. I. &amp;. Lib. I. Cap. IX.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e933">
+            <lb ed="#P" n="32"/>VNde &amp; dubitatur: vtrum disciplina, an assuerudine, an alio quodam modo 
+            <lb ed="#P" n="33"/>per exercitium acquiri possit: an aliqua diuina sorte: an &amp; ob fortunam 
+            pro<lb ed="#P" n="34" break="no"/>ueniat. Si igitur &amp; aliquid aliud deorum est munus hominibus, 
+            consen<lb ed="#P" n="35" break="no"/>taneum est rationi &amp; foelicitatem a diis ipsis dari: &amp; eo magis, quo 
+            caete<lb ed="#P" n="36" break="no"/>ris humanis bonis est praestabilius. Verum hoc ad aliam magis considera 
+            <lb ed="#P" n="37"/>tionem forsitan pertinet. Videtur tamen &amp; si non a diis immortalibus 
+            <lb ed="#P" n="38"/>mittitur, sed virtute disciplinave quadam vel exercitio comparatur: diuinissimum esse. 
+            Prae<lb ed="#P" n="39" break="no"/>mium enim finisque virtutis, optimum &amp; diuinum quiddam ac beatum esse videtur: 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e953">
+            fuerit etiam 
+            <lb ed="#P" n="40"/>&amp; multum commune. Fieri namque potest vt disciplina quadam ac diligentia ab vniuersis iis 
+            <lb ed="#P" n="41"/>comparetur, qui nullo principio labefactato, idonei sunt ad consequendam virtutem: quod 
+            <lb ed="#P" n="42"/>si melius hoc modo quam ob fortunam foelicem esse, rem ita sese habere consentaneum est 
+            ratio<lb ed="#P" n="43" break="no"/>ni. Siquidem ea quae sunt secundum naturam, vt quam optime sese habere possunt sic se habent 
+            <lb ed="#P" n="44"/>suapte natura: &amp; ea similiter quae per artem conficiuntur, atque a quacumque proueniunt causa: 
+            <lb ed="#P" n="45"/>&amp; ea maxime quae apraestabilissima proficiscuntur: id autem quod maximum atque 
+            pulcherri<lb ed="#P" n="46" break="no"/>mum est fortunae tribuere: valde erroneum est. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e971">
+            Patet etiam ex ipsa ratione quod quaeritur. 
+            <lb ed="#P" n="47"/>Dicta est enim operatio animae per virtutem. Caeterorum autem bonorum alia inesse 
+            neces<lb ed="#P" n="48" break="no"/>sarium est: alia adiuuant, suntque vtilia: vt instrumenta haec &amp; iis consona sunt quae in 
+            prin<lb ed="#P" n="49" break="no"/>cipio diximus. ipsum enim finem facultatis ciuilis optimum ponebamus. haec autem magnam 
+            <lb ed="#P" n="50"/>adhibet diligentiam: vt ciues ipsos disponat, bonosque faciat: &amp; ad honestas res agendas 
+            ido<lb ed="#P" n="51" break="no"/>neos reddat.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e985">
+            Merito igitur nec bouem: nec equum: nec aliud quicquam animantium diximus 
+            foe<lb ed="#P" n="52" break="no"/>lix, quippe cum fieri nequeat vt ipsorum quicquam talis sit particeps operationis. Hanc autem 
+            <lb ed="#P" n="53"/>ob causam neque puer est foelix, nondum enim est idoneus ad res tales agendas propter aetatem 
+            <lb ed="#P" n="54"/>qui dicuntur foelices: ob spem dicuntur: est enim opus (vt diximus) &amp; perfecta virture &amp; 
+            perfe<lb ed="#P" n="55" break="no"/>cta etiam vita. Multae namque mutationes in vita fiunt: variaeque fortunae: atque fieri potest vt is 
+            <lb ed="#P" n="56"/>qui maxime bonis abundat: in magnas incidat in senecture calamitates: vt in heroicis de 
+            Pria<lb ed="#P" n="57" break="no"/>mo dicitur, eum autem qui tali fortuna est vsus: &amp; miserabiliter obiit: nemo foelicem dicet.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e1002"><!-- arist-l1c10 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e1005">Caput 10</head>
+          <p xml:id="ArNeTH-d1e101-d1e1008" ana="#heading"><!-- aristot I, c. 10 -->
+            <lb ed="#P" n="16"/>Tractatus. II. Cap. II. &amp; Lib. I. Cap. X.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1014">
+            <lb ed="#P" n="17"/>ESt ne igitur nec vllus hominum foelix quam diu viuit dicendus: sed Solonis 
+            <lb ed="#P" n="18"/>sententia finem spectare oportet? Quod si &amp; ita ponendum est: tum ne felix 
+            <lb ed="#P" n="19"/>Aest cum e vita discesserit: an id absurdum est penitus nobisipsis praesertim 
+            <lb ed="#P" n="20"/>qui foelicitatem operationem quandam dicimus esse? Qa si mortuum 
+            foe<lb ed="#P" n="21" break="no"/>licem non dicimus: neque Solon id vult, sed tunc dici beatum hominem, 
+            tu<lb ed="#P" n="22" break="no"/>to posse: quia iam est extra omnia mala calamitatesque. Habet quidem &amp; hoc 
+            <lb ed="#P" n="23"/>controuersiam quandam. Mortuo nanque bonum &amp; malum videtur aliquid esse: siquidem &amp; 
+            <lb ed="#P" n="24"/>viuenti: non autem sentienti: vt honores, infamia, &amp; filiorum, posterorumque omnium 
+            prospe<lb ed="#P" n="25" break="no"/>ritates, atque aduersitates. Dubitationem autem &amp; haec afferunt. Ei nanque qui ad senectutem 
+            <lb ed="#P" n="26"/>vsque beate vixit: secundumque rationem decessit: multas circa posteros accidere mutationes con 
+            <lb ed="#P" n="27"/>tingit: &amp; alios ipsorum esse bonos, vitamque consecutos esse pro dignitate, alios contra: constat 
+            <lb ed="#P" n="28"/>autem &amp; distantiis ad parentes, multis variisque modis ipsos sese habere posse. Absurdum igi 
+            <lb ed="#P" n="29"/>tur est, si defunctus simul etiam mutaretur: &amp; nunc foelix fieret, nunc miser. Absurdum est 
+            <lb ed="#P" n="30"/>etiam, &amp; minime nec aliquod ad tempus, posterorum ad parentes res pertinere.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1047">
+            Sed 
+            redeun<lb ed="#P" n="31" break="no"/>dum est ad id quod prius est dubitatum Ex illo namque &amp; id quod nunc quaeritur fortasse 
+            per<lb ed="#P" n="32" break="no"/>spicietur. Si igitur finem spectare oporteat: &amp; tunc beatum dicere quenquam: non quia beatus tunc 
+            <lb ed="#P" n="33"/>est, sed quod prius erat: quo pacto non est absurdum, si cum est foelix, non vere de ipso dicetur 
+            <lb ed="#P" n="34"/>quod inest. Quia viuentes dicere beatos ob mutationes nolumus: &amp; quia foelicitatem quidem 
+            <lb ed="#P" n="35"/>stabile quiddam nulloque modo facile mutabile esse putamus, fortunam autem in iisdem saepe 
+            <lb ed="#P" n="36"/>reuolui: nam si fortunam sequamur, saepe numero foelicem ac miserum eundem dicemus: Cha 
+            <lb ed="#P" n="37"/>meleontem quendam ostendentes ipsum foelicem esse ac debiliter collocatum. An fortunam 
+            <lb ed="#P" n="38"/>sequi nullo modo est rectum? Non est enim in ipsa bene vel male viuere situm: sed indiget 
+            <lb ed="#P" n="39"/>humana vita ipsius vt diximus. Operationum autem eae quidem quae a virtute 
+            proficiscun<lb ed="#P" n="40" break="no"/>tur, foelicitatis: eae vero quae sunt, contrariae: contrarii dominae sunt. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1071">
+            Attestatur huic 
+            senten<lb ed="#P" n="41" break="no"/>tiae &amp; id quod nunc dubitauimus. Etenim nullis in operibus humanis tanta est firmitas 
+            quan<lb ed="#P" n="42" break="no"/>ta est in operationibus iisce quae a virtute proficiscuntur: hae nanque stabiliores &amp; scientiis 
+            ip<lb ed="#P" n="43" break="no"/>sis esse videntur. Harum autem ipsarum, eae quae caeteris antecellunt maxime stabiles sunt, 
+            <lb ed="#P" n="44"/>propterea quod in his ipsi beati, &amp; maxime &amp; continuatissime viuunt. Hoc enim simile est 
+            cau<lb ed="#P" n="45" break="no"/>sae, vt ipsarum non fiat obliuio. Id igitur quod quaeritur, competet ipsi foelici: &amp; erit talis per 
+            <lb ed="#P" n="46"/>vitam. Nam semper aut maxime ea aget &amp; contemplabitur quae prodeunt a virtute: 
+            fortu<lb ed="#P" n="47" break="no"/>namque feret pulcherrime: &amp; omni ex parte concinne ac aequabiliter: quippe qui vere bonus atque 
+            <lb ed="#P" n="48"/>quadratus est sine vituperatione.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1092">
+            <pc type="pilcrow">¶</pc> Cum autem a fortuna multa eueniant. &amp; magnitudine. 
+            <lb ed="#P" n="49"/>paruitateque differant, parua quidem siue sint secunda siue aduersa, constat non facere vitae 
+            <lb ed="#P" n="50"/>momentum: grandia vero ac multa si secunda sint, beatiorem vitam efficiunt: quippe cum 
+            <lb ed="#P" n="51"/>ad decorandum sint apta, &amp; vsus ipsorum pulcher studiosusque fiat. Sin aduersa, premunt 
+            lae<lb ed="#P" n="52" break="no"/>duntque vitam beatam: afferunt enim dolores &amp; multas operationes impediunt: attamen &amp; in  
+            <lb ed="#P" n="53"/>iis ipsis perlucet ipsa honestas cum multas quispiam ac magnas aduersitates facile perfert: 
+            <lb ed="#P" n="54"/>non ob insensibilitatem, sed quia generosus est atque magnanimus. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1111">
+            Quod si operationes do¬  
+            <!--42.xml-->
+            <pb ed="#P" n="14-r"/>
+            <lb ed="#P" n="1" break="no"/>mine sunt, vt diximus, vitae: nemo beatorum fuerit miser. Nunquam enim odiosum quicquam atque 
+            <lb ed="#P" n="2"/>improbum aget. Eum enim qui vere bonus atque prudens est fortunam omnem decore 
+            perferre<lb ed="#P" n="3" break="no"/>pro facultateque rerum semper res pulcherrimas agere, vt &amp; ducem bonum praesentibus vt 
+            <lb ed="#P" n="4"/>castris ad optime gerendum bellum: &amp; bonum item sutorem ex sibi datis pellibus 
+            pulcher<lb ed="#P" n="5" break="no"/>rimum conficere calceum, caeterosque omnes identidem artifices arbitramur: quae cum ita sint, 
+            <lb ed="#P" n="6"/>miser quidem nunquam fuerit ipse foelix. Beatus tamen non erit, si in Priami calamitates 
+            incide<lb ed="#P" n="7" break="no"/>rit,
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1133">
+            nec igitur varius facileque mutabilis erit: neque enim foelicitate facile aut a quibusuis, sed ab e 
+            <lb ed="#P" n="8"/>ingentibus &amp; multis aduersitatibus dimouebitur: &amp; ex talibus non in paruo sed in longo  
+            <lb ed="#P" n="9"/>quodam perfectove tempore rursus fuerit foelix, magnas in eo res praeclarasque nactus. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1140">
+            Quid 
+            <lb ed="#P" n="10"/>igitur obstat eum foelicem dicere: qui per virtutem operatur perfectam: &amp; bonis externis 
+            sa<lb ed="#P" n="11" break="no"/>tis abundat: non quouis in tempore: sed in vita perfecta? An est addendum: &amp; ita est 
+            victu<lb ed="#P" n="12" break="no"/>rus &amp; secundum rationem moriturus: quippe cum futurum quidem incertum fit nobis: 
+            foe<lb ed="#P" n="13" break="no"/>licitatem autem finem, &amp; omnino perfectam omni ex parte ponamus? Quod si ita fit, 
+            viuen<lb ed="#P" n="14" break="no"/>tium eos quibus ea quae diximus &amp; insunt &amp; inerunt beatos dicemus, beatos autem 
+            homi<lb ed="#P" n="15" break="no"/>nes. Sed de his quidem eousque sit diffinitum.
+          </p>
+        </div>
+        <div xml:id="ArNeTH-d1e101-Dd1e1158"><!-- arist-l1c11 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e1161">Caput 11</head>
+          <p xml:id="ArNeTH-d1e101-d1e1164" ana="#heading">
+            <!--45.xml-->
+            <pb ed="#P" n="15-v"/>
+            <lb ed="#P" n="1"/>Tractatus. II. Cap. III. &amp;. Lib. I. Cap. XI.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1173">
+            <lb ed="#P" n="2"/>FOrtunam autem posterorum amicorumque omnium nihil conferre, 
+            lon<lb ed="#P" n="3" break="no"/>ge ab amicitiae finibus discedere &amp; opinionibus contrarium esse 
+            vide<lb ed="#P" n="4" break="no"/>tur. Cum vero multa sint ea quae eueniunt, variasque differentias habeant, 
+            <lb ed="#P" n="5"/>&amp; alia magis alia minus conferant: in singula quidem ipsa diuidere 
+            pro<lb ed="#P" n="6" break="no"/>lixum &amp; infinitum esse videtur, sat autem erit fortasse, si de his ipsis 
+            vni<lb ed="#P" n="7" break="no"/>uersaliter, figuraque dicetur. Vt igitur aduersitatum earum quae beatis 
+            <lb ed="#P" n="8"/>eueniunt aliae pondus aliquod momentumque habent ad vitam, aliae sunt 
+            <lb ed="#P" n="9"/>uiores: sic sese habent &amp; ea quae circa amicos accidunt omnes. Viuentibus autem, an 
+            mor<lb ed="#P" n="10" break="no"/>tuis calamitas accidat, multo magis refert: quam res nefandae grauesque agantur: an in 
+            tragoe<lb ed="#P" n="11" break="no"/>diis recitentur. Animaduertenda est igitur differentia hoc etiam pacto: immo vero 
+            consi<lb ed="#P" n="12" break="no"/>derandum forsitan est, si cuiuspiam boni vel mali participes sint defuncti. Videtur igitur 
+            <lb ed="#P" n="13"/>etiam si quippiam ex his ad ipsos perueniat siue bonum siue contrarium, exile quid ac 
+            par<lb ed="#P" n="14" break="no"/>uum, aut simpliciter aut illis esse: si quidem tantum ac tale vt neque beatos eos efficiat qui 
+            <lb ed="#P" n="15"/>beati non sunt: neque beatitudinem auferat a beatis. Videntur igitur tam prosperitates quam 
+            <lb ed="#P" n="16"/>aduersitates amicorum aliquid defunctis afferre: tale autem ac tantum, vt nec foelices haud 
+            <lb ed="#P" n="17"/>foelices, nec aliud quicquam huiuscemodi faciat.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e1211"><!-- arist-l1c12 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e1214">Caput 12</head>
+          <p xml:id="ArNeTH-d1e101-d1e1217" ana="#heading">
+            <lb ed="#P" n="18"/>Tractatus Tertii. Cap. I. Quod Lib. I. Cap. XII.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1222">
+            <lb ed="#P" n="19"/>HIs autem determinatis: de felicitate consideremus, vtrum laudabile 
+            quid<lb ed="#P" n="20" break="no"/>dam sit an potius honorabile. Constat enim potentiam non esse. omne 
+            au<lb ed="#P" n="21" break="no"/>tem laudabile ex eo laudari videtur, quia est affectum aliqua qualitate &amp; 
+            <lb ed="#P" n="22"/>aliquo modo sese habet ad aliquid: lustum enim &amp; fortem &amp; bonum 
+            o<lb ed="#P" n="23" break="no"/>mino virum: atque virtutem ob opera laudamus ac actiones: robustum etiam 
+            <lb ed="#P" n="24"/>adidoneumque ad cursum hominem &amp; caeterorum quemque similiter laudamus, 
+            <lb ed="#P" n="25"/>quod affectus est aliqua qualitate: &amp; ad bonum aliquod studiosumque refertur. ld ita esse patet &amp; 
+            <lb ed="#P" n="26"/>ex deorum laudibus: nam cum ad nos referuntur: ridiculae sanae videntur. Qua quidem ex eo 
+            <lb ed="#P" n="27"/>fit quia laudes (vt diximus) per relationem efficiuntur. Quod si laus talium est, constat opti 
+            <lb ed="#P" n="28"/>morum non esse laudem: sed maius aliquid praestabiliusve: quemadmodum &amp; videtur. Nam 
+            <lb ed="#P" n="29"/>&amp; deos beatos foelicesque dicimus: &amp; virorum etiam eos qui maxime sunt diuini: &amp; rerum bo 
+            <lb ed="#P" n="30"/>narum simili modo. Nemo nanque foelicitatem laudat: vt iustitiam: sed vt diuinius quiddam 
+            <lb ed="#P" n="31"/>praestabiliusve: rem dicit esse beatam.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1253">
+            Videtur autem &amp; <name xml:id="ArNeTH-d1e101-Nd1e1255">Eudoxus</name> recte voluptati primas 
+            de<lb ed="#P" n="32" break="no"/>fendisse partes: id enim (voluptatem inquam quae quidem est bonum) non laudari: indicare 
+            <lb ed="#P" n="33"/>putabat praestabiliorem ipsam esse rebus laudabilibus vniuersis. Talem autem deum &amp; sum 
+            <lb ed="#P" n="34"/>mum bonum esse dicebat. Ad haec enim caetera vniuersa referri: etenim laus quidem 
+            virtu<lb ed="#P" n="35" break="no"/>tis est. Hac enim ad res honestas agendas idonei fiunt: commendationes autem operum sunt 
+            <lb ed="#P" n="36"/>simili modo: tam corporis quam etiam animae. Verum haec quidem exacte discutere: magis ad 
+            <lb ed="#P" n="37"/>eos forsitan pertinet qui circa commendationes versantur. Nobis autem perspicuum ex iis 
+            <lb ed="#P" n="38"/>quae diximus fuerit: foelicitatem ex iis esse quae honorabilia sunt &amp; perfecta. Videtur autem 
+            <lb ed="#P" n="39"/>ex eo sic se habere quia principium est: caetera enim gratia eius agimus omnes: principium 
+            <lb ed="#P" n="40"/>vero causamque bonorum honorabile quiddam &amp; diuinum dicimus esse.
+          </p>
+        </div>
+        
+        <div xml:id="ArNeTH-d1e101-Dd1e1279"><!-- arist-l1c13 -->
+          <head xml:id="ArNeTH-d1e101-Hd1e1282">Caput 13</head>
+          <p xml:id="ArNeTH-d1e101-d1e1285" ana="#heading">
+            <lb ed="#P" n="41"/>Tractatus tertii. Cap. II. &amp; Lib. I. Cap. XIII.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1290">
+            <lb ed="#P" n="42"/>CVm autem foelicitas animae quaedam per virtutem perfec am sit operatio. 
+            <lb ed="#P" n="43"/>de virtute consideremus oportet. Hoc enim pacto melius fortasse de 
+            foeli<lb ed="#P" n="44" break="no"/>citate etiam contemplabimur. Videtur autem &amp; is qui vere ciuilis est cir 
+            <lb ed="#P" n="45"/>ca hanc maxime elaborare: vult enim ipsos ciues bonos efficere legibusque 
+            <lb ed="#P" n="46"/>OIobtemperantes. Atque horum exemplum legum latores tum Cretensium. 
+            <lb ed="#P" n="47"/>RRSSEatum lacedaemoniorum habemus &amp; si qui alii tales fuere. Qa si haec 
+            consi<lb ed="#P" n="48" break="no"/>deratio ciuilis est facultatis, constat inquisitionem hanc perinde vt ab initio proposuimus 
+            <lb ed="#P" n="49"/>ac instituimus fore. De virtute autem humana considerandum est. Bonum enim humanum 
+            <lb ed="#P" n="50"/>ac foelicitatem quaerebamus humanam. Virtutem vero humanam dicimus non eam quae cor 
+            <lb ed="#P" n="51"/>poris est: sed eam quae animae. &amp; foelicitatem enim operationem animae dicimus. Quae cum 
+            <lb ed="#P" n="52"/>ita sint: patet ipsum ciuilem aliqua ex parte de anima scire oportere: quemadmodum &amp; eum 
+            <lb ed="#P" n="53"/>qui curaturus est oculos totumque corpus: de ipsis scire oportet. Et eo magis: quo facultas ci 
+            <lb ed="#P" n="54"/>uilis honorabilior est atque praest abilior medicina. Elegantes etiam medici multa plane 
+            cir<lb ed="#P" n="55" break="no"/>ca cognitionem corporis tractant: &amp; ciuilis igitur ipse de anima contempletur oportet. 
+            ho<lb ed="#P" n="56" break="no"/>rum autem gratia &amp; quo ad satis est ad ea quae hic quaeruntur: nam vlterius exactiusve 
+            con<lb ed="#P" n="57" break="no"/>siderare: maius est opus difficiliusve fortasse quam ea quae proponuntur. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1327">
+            Dicuntur autem &amp; in  
+            <lb ed="#P" n="58"/>externis sermonibus aliqua de ipsa sufficienter: &amp; vtendum est ipsis. Vt partium eius aliam 
+            <lb ed="#P" n="59"/>ratione vacare: aliam rationem habere: atque nihil in praesenti refert distinctae sint hae 
+            per<lb ed="#P" n="60" break="no"/>inde atque corporis partes &amp; omne partibile: an ratione quidem sint duae, re vero seiungi non 
+            <!--48.xml-->
+            <pb ed="#P" n="17-r"/>
+            <lb ed="#P" n="1"/>possint: vt in circunferentia sese habent concauum &amp; conuexum. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1343">
+            Partis autem ratione 
+            va<lb ed="#P" n="2" break="no"/>cantis alia quidem communis est &amp; vegetatiua. Loquor autem de ea quae causa est: vt id 
+            <lb ed="#P" n="3"/>quod ipsam habet nutriatur incrementaque suscipiat: talem enim animae potentiam in vniuer 
+            <lb ed="#P" n="4"/>sis quae nutriuntur quispiam posuerit, &amp; in foetibus, &amp; hanc eandem etiam in perfectis. Est 
+            <lb ed="#P" n="5"/>enim magis consonum rationi hanc eandem quam aliquam aliam ponere. Huius igitur virtus 
+            <lb ed="#P" n="6"/>communis quaedam &amp; non humana videtur. Nam haec pars &amp; potentia in somnis videtur 
+            <lb ed="#P" n="7"/>maxime operari. Bonus autem &amp; malus minime in somno discernitur. Quapropter 
+            inqui<lb ed="#P" n="8" break="no"/>unt a miseris foelices in dimidio vitae nihil differre. Hoc autem recte accidit. Somnus enim 
+            <lb ed="#P" n="9"/>ocium est animae tam studiosae quam viciosae: nisi parumper motuum perueniant aliqui: atque ita 
+            <lb ed="#P" n="10"/>modestorum meliora: quam quorumuis visa fiant. Sed de his quidem hactenus, &amp; nutriendi 
+            po<lb ed="#P" n="11" break="no"/>tentia, cum expers sit humanae virtutis, omittenda est.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1368">
+            Videtur autem &amp; alia quaedam esse 
+            <lb ed="#P" n="12"/>natura animae vacans ratione aliqua, tamen ex parte particeps rationis. Continentis enim 
+            <lb ed="#P" n="13"/>&amp; incontinentis rationem, idque animae quod rationem habet, laudare solemus. Recte namque 
+            <lb ed="#P" n="14"/>&amp; ad optimas res inuitat. In ipsis autem &amp; aliud quid praeter rationem inesse videtur: quod  
+            <lb ed="#P" n="15"/>quidem repugnat resistitque rationi. Nam vt dissolutae corporis partes si ad dexteram eas mo 
+            <lb ed="#P" n="16"/>uere velis, in sinistram feruntur: sic plane fit &amp; in anima. ad contraria enim incontinentium 
+            <lb ed="#P" n="17"/>appetitiones feruntur, verum in corporibus quidem cernimus ea quae ad contratiam 
+            par<lb ed="#P" n="18" break="no"/>tem feruntur: in anima vero non cernimus. Fortasse autem non minus &amp; in anima 
+            putan<lb ed="#P" n="19" break="no"/>dum est esse aliquid praeter rationem, quod huic aduersatur, &amp; obuiat: dicere vero quo 
+            mo<lb ed="#P" n="20" break="no"/>do est diuersum nihil refert. Videtur autem &amp; hoc rationis (vti diximus) particeps esse. Pa 
+            <lb ed="#P" n="21"/>ret enim in ipso continente rationi, &amp; in temperante ac forti magis forsitan eidem 
+            obtem<lb ed="#P" n="22" break="no"/>perat: omnia enim in illis sunt consona rationi. 
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1394">
+            Pars igitur animae ratione vacans, duplex 
+            <lb ed="#P" n="23"/>esse videtur. Vegetatiua nanque nullo modo rationis est particeps: sed cupiendi vis, &amp; 
+            omni<lb ed="#P" n="24" break="no"/>no appetendi, rationis est quodammodo particeps, ea ratione qua obedit ipsi atque 
+            obtempe<lb ed="#P" n="25" break="no"/>rat, sic &amp; patris &amp; amicorum, &amp; non vt rerum mathematicarum: dicimus rationem 
+            babe<lb ed="#P" n="26" break="no"/>re, hanc autem partem ratione vacantem rationi obtemperare: admonitiones &amp; 
+            increpatio<lb ed="#P" n="27" break="no"/>nes &amp; cohortationes etiam indicant. Qa si oporteat hanc quoque partem dicere rationem ha 
+            <lb ed="#P" n="28"/>bere: duplex &amp; ea pars erit quae rationem habet, &amp; vna quidem proprie &amp; in seipsa: altera ve 
+            <lb ed="#P" n="29"/>ro, vt is qui obtemperat patri.
+          </p>
+          <p xml:id="ArNeTH-d1e101-d1e1412">
+            Diuiditur autem &amp; virtus hac differentia. Virtutum enim 
+            <lb ed="#P" n="30"/>alias intellectiuas, alias morales dicimus esse: sapientiam quidem &amp; prudentiam &amp; sagacita¬ u 
+            <lb ed="#P" n="31"/>tem intellectiuas: liberalitatem autem &amp; temperantiam, morales. Nam cum de moribus 
+            cu<lb ed="#P" n="32" break="no"/>iuspiam loquimur: non sapientem illum aut sagacem, sed mitem aut temperantem dicimus 
+            <lb ed="#P" n="33"/>esse. Laudamus autem &amp; sapientem ob habitum, ac habituum eos qui laudabiles sunt, 
+            vir<lb ed="#P" n="34" break="no"/>tures appellare solemus. 
+          </p>
+        </div>
+      </div>
+    </body>
+  </text>
+</TEI>
