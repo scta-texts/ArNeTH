@@ -234,7 +234,8 @@
         <div xml:id="ArNeTH-d1e101-Dd1e454"><!-- arist-l1c6 -->
           <head xml:id="ArNeTH-d1e101-Hd1e457">Caput 6</head>
           <p xml:id="ArNeTH-d1e101-d1e460" ana="#heading">
-            <lb ed="#P" n="9" type="fixed=6v"/>Tract. I. CAb. III. &amp; LIR. I. CAb. VI.
+            <pb ed="#P" n="6-v" type="starts-on"/>
+            <lb ed="#P" n="9"/>Tract. I. CAb. III. &amp; LIR. I. CAb. VI.
           </p>
           <p xml:id="ArNeTH-d1e101-d1e465">
             <lb ed="#P" n="10"/>REstat autem fortasse de vniuersali bono considerare, &amp; quonam modo 
